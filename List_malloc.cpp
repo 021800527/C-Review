@@ -2,7 +2,7 @@
 #include <stdlib.h>
 using namespace std;
 int InitSize = 10;
-typedef struct{
+typedef struct {
     int *data;
     int MaxSize;
     int length;

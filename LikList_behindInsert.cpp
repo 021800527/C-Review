@@ -23,6 +23,22 @@ bool ListInsert(LinkList &L,int i , int e){
     p->next = s;
     return true;
 }
+bool InsertNextNode(LNode *p,int e){
+    if(p==NULL)
+        return false;
+    LNode *s = (LNode *)malloc(sizeof(LNode));
+    if(s==NULL)
+        return false;
+    s->data = e ;
+    s->next = p ->next;
+    p->next = s;
+    return true;
+}
+bool InsertPriorNode(LNode *p,int e){
+    if(p ==NULL)
+        return false;
+
+}
 int main(){
 
 }

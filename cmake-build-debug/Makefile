@@ -60,17 +60,6 @@ CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache\fast: rebuild_cache
-
-.PHONY : rebuild_cache\fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -81,6 +70,17 @@ edit_cache:
 edit_cache\fast: edit_cache
 
 .PHONY : edit_cache\fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	echo >nul && "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache\fast: rebuild_cache
+
+.PHONY : rebuild_cache\fast
 
 # The main all target
 all: cmake_check_build_system
@@ -154,6 +154,19 @@ List_delete\fast:
 .PHONY : List_delete\fast
 
 #=============================================================================
+# Target rules for targets named LikList_behindInsert
+
+# Build rule for target.
+LikList_behindInsert: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LikList_behindInsert
+.PHONY : LikList_behindInsert
+
+# fast build rule for target.
+LikList_behindInsert\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LikList_behindInsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LikList_behindInsert.dir\build
+.PHONY : LikList_behindInsert\fast
+
+#=============================================================================
 # Target rules for targets named List_GetElem
 
 # Build rule for target.
@@ -167,6 +180,19 @@ List_GetElem\fast:
 .PHONY : List_GetElem\fast
 
 #=============================================================================
+# Target rules for targets named LinkList_insert
+
+# Build rule for target.
+LinkList_insert: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LinkList_insert
+.PHONY : LinkList_insert
+
+# fast build rule for target.
+LinkList_insert\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_insert.dir\build
+.PHONY : LinkList_insert\fast
+
+#=============================================================================
 # Target rules for targets named List_LocateElem
 
 # Build rule for target.
@@ -178,6 +204,60 @@ List_LocateElem: cmake_check_build_system
 List_LocateElem\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\build
 .PHONY : List_LocateElem\fast
+
+LikList_behindInsert.obj: LikList_behindInsert.cpp.obj
+
+.PHONY : LikList_behindInsert.obj
+
+# target to build an object file
+LikList_behindInsert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LikList_behindInsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LikList_behindInsert.dir\LikList_behindInsert.cpp.obj
+.PHONY : LikList_behindInsert.cpp.obj
+
+LikList_behindInsert.i: LikList_behindInsert.cpp.i
+
+.PHONY : LikList_behindInsert.i
+
+# target to preprocess a source file
+LikList_behindInsert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LikList_behindInsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LikList_behindInsert.dir\LikList_behindInsert.cpp.i
+.PHONY : LikList_behindInsert.cpp.i
+
+LikList_behindInsert.s: LikList_behindInsert.cpp.s
+
+.PHONY : LikList_behindInsert.s
+
+# target to generate assembly for a file
+LikList_behindInsert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LikList_behindInsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LikList_behindInsert.dir\LikList_behindInsert.cpp.s
+.PHONY : LikList_behindInsert.cpp.s
+
+LinkList_insert.obj: LinkList_insert.cpp.obj
+
+.PHONY : LinkList_insert.obj
+
+# target to build an object file
+LinkList_insert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_insert.dir\LinkList_insert.cpp.obj
+.PHONY : LinkList_insert.cpp.obj
+
+LinkList_insert.i: LinkList_insert.cpp.i
+
+.PHONY : LinkList_insert.i
+
+# target to preprocess a source file
+LinkList_insert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_insert.dir\LinkList_insert.cpp.i
+.PHONY : LinkList_insert.cpp.i
+
+LinkList_insert.s: LinkList_insert.cpp.s
+
+.PHONY : LinkList_insert.s
+
+# target to generate assembly for a file
+LinkList_insert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_insert.dir\LinkList_insert.cpp.s
+.PHONY : LinkList_insert.cpp.s
 
 List_GetElem.obj: List_GetElem.cpp.obj
 
@@ -323,10 +403,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C
+	@echo ... LikList_behindInsert
+	@echo ... LinkList_insert
 	@echo ... List_GetElem
 	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
+	@echo ... LikList_behindInsert.obj
+	@echo ... LikList_behindInsert.i
+	@echo ... LikList_behindInsert.s
+	@echo ... LinkList_insert.obj
+	@echo ... LinkList_insert.i
+	@echo ... LinkList_insert.s
 	@echo ... List_GetElem.obj
 	@echo ... List_GetElem.i
 	@echo ... List_GetElem.s
