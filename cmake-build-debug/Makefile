@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\C-Review
+CMAKE_SOURCE_DIR = E:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ edit_cache\fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,6 +152,86 @@ List_delete: cmake_check_build_system
 List_delete\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_delete.dir\build
 .PHONY : List_delete\fast
+
+#=============================================================================
+# Target rules for targets named List_GetElem
+
+# Build rule for target.
+List_GetElem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) List_GetElem
+.PHONY : List_GetElem
+
+# fast build rule for target.
+List_GetElem\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_GetElem.dir\build
+.PHONY : List_GetElem\fast
+
+#=============================================================================
+# Target rules for targets named List_LocateElem
+
+# Build rule for target.
+List_LocateElem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) List_LocateElem
+.PHONY : List_LocateElem
+
+# fast build rule for target.
+List_LocateElem\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\build
+.PHONY : List_LocateElem\fast
+
+List_GetElem.obj: List_GetElem.cpp.obj
+
+.PHONY : List_GetElem.obj
+
+# target to build an object file
+List_GetElem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_GetElem.dir\List_GetElem.cpp.obj
+.PHONY : List_GetElem.cpp.obj
+
+List_GetElem.i: List_GetElem.cpp.i
+
+.PHONY : List_GetElem.i
+
+# target to preprocess a source file
+List_GetElem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_GetElem.dir\List_GetElem.cpp.i
+.PHONY : List_GetElem.cpp.i
+
+List_GetElem.s: List_GetElem.cpp.s
+
+.PHONY : List_GetElem.s
+
+# target to generate assembly for a file
+List_GetElem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_GetElem.dir\List_GetElem.cpp.s
+.PHONY : List_GetElem.cpp.s
+
+List_LocateElem.obj: List_LocateElem.cpp.obj
+
+.PHONY : List_LocateElem.obj
+
+# target to build an object file
+List_LocateElem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\List_LocateElem.cpp.obj
+.PHONY : List_LocateElem.cpp.obj
+
+List_LocateElem.i: List_LocateElem.cpp.i
+
+.PHONY : List_LocateElem.i
+
+# target to preprocess a source file
+List_LocateElem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\List_LocateElem.cpp.i
+.PHONY : List_LocateElem.cpp.i
+
+List_LocateElem.s: List_LocateElem.cpp.s
+
+.PHONY : List_LocateElem.s
+
+# target to generate assembly for a file
+List_LocateElem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\List_LocateElem.cpp.s
+.PHONY : List_LocateElem.cpp.s
 
 List_delete.obj: List_delete.cpp.obj
 
@@ -243,8 +323,16 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C
+	@echo ... List_GetElem
+	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
+	@echo ... List_GetElem.obj
+	@echo ... List_GetElem.i
+	@echo ... List_GetElem.s
+	@echo ... List_LocateElem.obj
+	@echo ... List_LocateElem.i
+	@echo ... List_LocateElem.s
 	@echo ... List_delete.obj
 	@echo ... List_delete.i
 	@echo ... List_delete.s
