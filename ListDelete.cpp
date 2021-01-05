@@ -41,6 +41,15 @@ bool ListDelete(LinkList &L,int i,int &e){
     free(q);
     return true;
 }
+bool DeleteNode(LNode *p){
+    if (p==NULL)
+        return false;
+    LNode *q = p->next;
+    p->data = q->next->data;
+    p->next = q->next;
+    free(q);
+    return true;
+}
 int main(){
 
 }
