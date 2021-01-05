@@ -231,6 +231,58 @@ LinkLList_frontinsert\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\build
 .PHONY : LinkLList_frontinsert\fast
 
+#=============================================================================
+# Target rules for targets named LinkList_GetElem
+
+# Build rule for target.
+LinkList_GetElem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LinkList_GetElem
+.PHONY : LinkList_GetElem
+
+# fast build rule for target.
+LinkList_GetElem\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_GetElem.dir\build
+.PHONY : LinkList_GetElem\fast
+
+#=============================================================================
+# Target rules for targets named LinkList_LocateElem
+
+# Build rule for target.
+LinkList_LocateElem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LinkList_LocateElem
+.PHONY : LinkList_LocateElem
+
+# fast build rule for target.
+LinkList_LocateElem\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_LocateElem.dir\build
+.PHONY : LinkList_LocateElem\fast
+
+#=============================================================================
+# Target rules for targets named LinkList_length
+
+# Build rule for target.
+LinkList_length: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LinkList_length
+.PHONY : LinkList_length
+
+# fast build rule for target.
+LinkList_length\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_length.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_length.dir\build
+.PHONY : LinkList_length\fast
+
+#=============================================================================
+# Target rules for targets named LinkList_Taillnsert
+
+# Build rule for target.
+LinkList_Taillnsert: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LinkList_Taillnsert
+.PHONY : LinkList_Taillnsert
+
+# fast build rule for target.
+LinkList_Taillnsert\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_Taillnsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_Taillnsert.dir\build
+.PHONY : LinkList_Taillnsert\fast
+
 LikList_behindInsert.obj: LikList_behindInsert.cpp.obj
 
 .PHONY : LikList_behindInsert.obj
@@ -285,6 +337,87 @@ LinkLList_frontinsert.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\LinkLList_frontinsert.cpp.s
 .PHONY : LinkLList_frontinsert.cpp.s
 
+LinkList_GetElem.obj: LinkList_GetElem.cpp.obj
+
+.PHONY : LinkList_GetElem.obj
+
+# target to build an object file
+LinkList_GetElem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_GetElem.dir\LinkList_GetElem.cpp.obj
+.PHONY : LinkList_GetElem.cpp.obj
+
+LinkList_GetElem.i: LinkList_GetElem.cpp.i
+
+.PHONY : LinkList_GetElem.i
+
+# target to preprocess a source file
+LinkList_GetElem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_GetElem.dir\LinkList_GetElem.cpp.i
+.PHONY : LinkList_GetElem.cpp.i
+
+LinkList_GetElem.s: LinkList_GetElem.cpp.s
+
+.PHONY : LinkList_GetElem.s
+
+# target to generate assembly for a file
+LinkList_GetElem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_GetElem.dir\LinkList_GetElem.cpp.s
+.PHONY : LinkList_GetElem.cpp.s
+
+LinkList_LocateElem.obj: LinkList_LocateElem.cpp.obj
+
+.PHONY : LinkList_LocateElem.obj
+
+# target to build an object file
+LinkList_LocateElem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_LocateElem.dir\LinkList_LocateElem.cpp.obj
+.PHONY : LinkList_LocateElem.cpp.obj
+
+LinkList_LocateElem.i: LinkList_LocateElem.cpp.i
+
+.PHONY : LinkList_LocateElem.i
+
+# target to preprocess a source file
+LinkList_LocateElem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_LocateElem.dir\LinkList_LocateElem.cpp.i
+.PHONY : LinkList_LocateElem.cpp.i
+
+LinkList_LocateElem.s: LinkList_LocateElem.cpp.s
+
+.PHONY : LinkList_LocateElem.s
+
+# target to generate assembly for a file
+LinkList_LocateElem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_LocateElem.dir\LinkList_LocateElem.cpp.s
+.PHONY : LinkList_LocateElem.cpp.s
+
+LinkList_Taillnsert.obj: LinkList_Taillnsert.cpp.obj
+
+.PHONY : LinkList_Taillnsert.obj
+
+# target to build an object file
+LinkList_Taillnsert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_Taillnsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_Taillnsert.dir\LinkList_Taillnsert.cpp.obj
+.PHONY : LinkList_Taillnsert.cpp.obj
+
+LinkList_Taillnsert.i: LinkList_Taillnsert.cpp.i
+
+.PHONY : LinkList_Taillnsert.i
+
+# target to preprocess a source file
+LinkList_Taillnsert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_Taillnsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_Taillnsert.dir\LinkList_Taillnsert.cpp.i
+.PHONY : LinkList_Taillnsert.cpp.i
+
+LinkList_Taillnsert.s: LinkList_Taillnsert.cpp.s
+
+.PHONY : LinkList_Taillnsert.s
+
+# target to generate assembly for a file
+LinkList_Taillnsert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_Taillnsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_Taillnsert.dir\LinkList_Taillnsert.cpp.s
+.PHONY : LinkList_Taillnsert.cpp.s
+
 LinkList_insert.obj: LinkList_insert.cpp.obj
 
 .PHONY : LinkList_insert.obj
@@ -311,6 +444,33 @@ LinkList_insert.s: LinkList_insert.cpp.s
 LinkList_insert.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_insert.dir\LinkList_insert.cpp.s
 .PHONY : LinkList_insert.cpp.s
+
+LinkList_length.obj: LinkList_length.cpp.obj
+
+.PHONY : LinkList_length.obj
+
+# target to build an object file
+LinkList_length.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_length.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_length.dir\LinkList_length.cpp.obj
+.PHONY : LinkList_length.cpp.obj
+
+LinkList_length.i: LinkList_length.cpp.i
+
+.PHONY : LinkList_length.i
+
+# target to preprocess a source file
+LinkList_length.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_length.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_length.dir\LinkList_length.cpp.i
+.PHONY : LinkList_length.cpp.i
+
+LinkList_length.s: LinkList_length.cpp.s
+
+.PHONY : LinkList_length.s
+
+# target to generate assembly for a file
+LinkList_length.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_length.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_length.dir\LinkList_length.cpp.s
+.PHONY : LinkList_length.cpp.s
 
 ListDelete.obj: ListDelete.cpp.obj
 
@@ -485,7 +645,11 @@ help:
 	@echo ... C
 	@echo ... LikList_behindInsert
 	@echo ... LinkLList_frontinsert
+	@echo ... LinkList_GetElem
+	@echo ... LinkList_LocateElem
+	@echo ... LinkList_Taillnsert
 	@echo ... LinkList_insert
+	@echo ... LinkList_length
 	@echo ... ListDelete
 	@echo ... List_GetElem
 	@echo ... List_LocateElem
@@ -497,9 +661,21 @@ help:
 	@echo ... LinkLList_frontinsert.obj
 	@echo ... LinkLList_frontinsert.i
 	@echo ... LinkLList_frontinsert.s
+	@echo ... LinkList_GetElem.obj
+	@echo ... LinkList_GetElem.i
+	@echo ... LinkList_GetElem.s
+	@echo ... LinkList_LocateElem.obj
+	@echo ... LinkList_LocateElem.i
+	@echo ... LinkList_LocateElem.s
+	@echo ... LinkList_Taillnsert.obj
+	@echo ... LinkList_Taillnsert.i
+	@echo ... LinkList_Taillnsert.s
 	@echo ... LinkList_insert.obj
 	@echo ... LinkList_insert.i
 	@echo ... LinkList_insert.s
+	@echo ... LinkList_length.obj
+	@echo ... LinkList_length.i
+	@echo ... LinkList_length.s
 	@echo ... ListDelete.obj
 	@echo ... ListDelete.i
 	@echo ... ListDelete.s
