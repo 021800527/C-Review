@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\C-Review
+CMAKE_SOURCE_DIR = F:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -205,6 +205,32 @@ List_LocateElem\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\build
 .PHONY : List_LocateElem\fast
 
+#=============================================================================
+# Target rules for targets named ListDelete
+
+# Build rule for target.
+ListDelete: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ListDelete
+.PHONY : ListDelete
+
+# fast build rule for target.
+ListDelete\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListDelete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ListDelete.dir\build
+.PHONY : ListDelete\fast
+
+#=============================================================================
+# Target rules for targets named LinkLList_frontinsert
+
+# Build rule for target.
+LinkLList_frontinsert: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LinkLList_frontinsert
+.PHONY : LinkLList_frontinsert
+
+# fast build rule for target.
+LinkLList_frontinsert\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\build
+.PHONY : LinkLList_frontinsert\fast
+
 LikList_behindInsert.obj: LikList_behindInsert.cpp.obj
 
 .PHONY : LikList_behindInsert.obj
@@ -232,6 +258,33 @@ LikList_behindInsert.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LikList_behindInsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LikList_behindInsert.dir\LikList_behindInsert.cpp.s
 .PHONY : LikList_behindInsert.cpp.s
 
+LinkLList_frontinsert.obj: LinkLList_frontinsert.cpp.obj
+
+.PHONY : LinkLList_frontinsert.obj
+
+# target to build an object file
+LinkLList_frontinsert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\LinkLList_frontinsert.cpp.obj
+.PHONY : LinkLList_frontinsert.cpp.obj
+
+LinkLList_frontinsert.i: LinkLList_frontinsert.cpp.i
+
+.PHONY : LinkLList_frontinsert.i
+
+# target to preprocess a source file
+LinkLList_frontinsert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\LinkLList_frontinsert.cpp.i
+.PHONY : LinkLList_frontinsert.cpp.i
+
+LinkLList_frontinsert.s: LinkLList_frontinsert.cpp.s
+
+.PHONY : LinkLList_frontinsert.s
+
+# target to generate assembly for a file
+LinkLList_frontinsert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\LinkLList_frontinsert.cpp.s
+.PHONY : LinkLList_frontinsert.cpp.s
+
 LinkList_insert.obj: LinkList_insert.cpp.obj
 
 .PHONY : LinkList_insert.obj
@@ -258,6 +311,33 @@ LinkList_insert.s: LinkList_insert.cpp.s
 LinkList_insert.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_insert.dir\LinkList_insert.cpp.s
 .PHONY : LinkList_insert.cpp.s
+
+ListDelete.obj: ListDelete.cpp.obj
+
+.PHONY : ListDelete.obj
+
+# target to build an object file
+ListDelete.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListDelete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ListDelete.dir\ListDelete.cpp.obj
+.PHONY : ListDelete.cpp.obj
+
+ListDelete.i: ListDelete.cpp.i
+
+.PHONY : ListDelete.i
+
+# target to preprocess a source file
+ListDelete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListDelete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ListDelete.dir\ListDelete.cpp.i
+.PHONY : ListDelete.cpp.i
+
+ListDelete.s: ListDelete.cpp.s
+
+.PHONY : ListDelete.s
+
+# target to generate assembly for a file
+ListDelete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListDelete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ListDelete.dir\ListDelete.cpp.s
+.PHONY : ListDelete.cpp.s
 
 List_GetElem.obj: List_GetElem.cpp.obj
 
@@ -404,7 +484,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... C
 	@echo ... LikList_behindInsert
+	@echo ... LinkLList_frontinsert
 	@echo ... LinkList_insert
+	@echo ... ListDelete
 	@echo ... List_GetElem
 	@echo ... List_LocateElem
 	@echo ... List_delete
@@ -412,9 +494,15 @@ help:
 	@echo ... LikList_behindInsert.obj
 	@echo ... LikList_behindInsert.i
 	@echo ... LikList_behindInsert.s
+	@echo ... LinkLList_frontinsert.obj
+	@echo ... LinkLList_frontinsert.i
+	@echo ... LinkLList_frontinsert.s
 	@echo ... LinkList_insert.obj
 	@echo ... LinkList_insert.i
 	@echo ... LinkList_insert.s
+	@echo ... ListDelete.obj
+	@echo ... ListDelete.i
+	@echo ... ListDelete.s
 	@echo ... List_GetElem.obj
 	@echo ... List_GetElem.i
 	@echo ... List_GetElem.s

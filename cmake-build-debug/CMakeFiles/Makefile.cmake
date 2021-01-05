@@ -54,4 +54,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/List_GetElem.dir/DependInfo.cmake"
   "CMakeFiles/LinkList_insert.dir/DependInfo.cmake"
   "CMakeFiles/List_LocateElem.dir/DependInfo.cmake"
+  "CMakeFiles/ListDelete.dir/DependInfo.cmake"
+  "CMakeFiles/LinkLList_frontinsert.dir/DependInfo.cmake"
   )

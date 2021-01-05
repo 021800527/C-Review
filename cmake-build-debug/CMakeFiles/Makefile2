@@ -48,10 +48,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\C-Review
+CMAKE_SOURCE_DIR = F:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -64,6 +64,8 @@ all: CMakeFiles\LikList_behindInsert.dir\all
 all: CMakeFiles\List_GetElem.dir\all
 all: CMakeFiles\LinkList_insert.dir\all
 all: CMakeFiles\List_LocateElem.dir\all
+all: CMakeFiles\ListDelete.dir\all
+all: CMakeFiles\LinkLList_frontinsert.dir\all
 
 .PHONY : all
 
@@ -80,6 +82,8 @@ clean: CMakeFiles\LikList_behindInsert.dir\clean
 clean: CMakeFiles\List_GetElem.dir\clean
 clean: CMakeFiles\LinkList_insert.dir\clean
 clean: CMakeFiles\List_LocateElem.dir\clean
+clean: CMakeFiles\ListDelete.dir\clean
+clean: CMakeFiles\LinkLList_frontinsert.dir\clean
 
 .PHONY : clean
 
@@ -90,14 +94,14 @@ clean: CMakeFiles\List_LocateElem.dir\clean
 CMakeFiles\C.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C-Review\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target C"
 .PHONY : CMakeFiles\C.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\C.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\C.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\C.dir\rule
 
 # Convenience name for target.
@@ -117,14 +121,14 @@ CMakeFiles\C.dir\clean:
 CMakeFiles\List_insert.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_insert.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_insert.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C-Review\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target List_insert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target List_insert"
 .PHONY : CMakeFiles\List_insert.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\List_insert.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\List_insert.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\List_insert.dir\rule
 
 # Convenience name for target.
@@ -144,14 +148,14 @@ CMakeFiles\List_insert.dir\clean:
 CMakeFiles\List_delete.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_delete.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_delete.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C-Review\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target List_delete"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target List_delete"
 .PHONY : CMakeFiles\List_delete.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\List_delete.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\List_delete.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\List_delete.dir\rule
 
 # Convenience name for target.
@@ -171,14 +175,14 @@ CMakeFiles\List_delete.dir\clean:
 CMakeFiles\LikList_behindInsert.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LikList_behindInsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LikList_behindInsert.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LikList_behindInsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LikList_behindInsert.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C-Review\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target LikList_behindInsert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target LikList_behindInsert"
 .PHONY : CMakeFiles\LikList_behindInsert.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\LikList_behindInsert.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\LikList_behindInsert.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\LikList_behindInsert.dir\rule
 
 # Convenience name for target.
@@ -198,14 +202,14 @@ CMakeFiles\LikList_behindInsert.dir\clean:
 CMakeFiles\List_GetElem.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_GetElem.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_GetElem.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C-Review\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target List_GetElem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target List_GetElem"
 .PHONY : CMakeFiles\List_GetElem.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\List_GetElem.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\List_GetElem.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\List_GetElem.dir\rule
 
 # Convenience name for target.
@@ -225,14 +229,14 @@ CMakeFiles\List_GetElem.dir\clean:
 CMakeFiles\LinkList_insert.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_insert.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_insert.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C-Review\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target LinkList_insert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target LinkList_insert"
 .PHONY : CMakeFiles\LinkList_insert.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\LinkList_insert.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_insert.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\LinkList_insert.dir\rule
 
 # Convenience name for target.
@@ -252,14 +256,14 @@ CMakeFiles\LinkList_insert.dir\clean:
 CMakeFiles\List_LocateElem.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C-Review\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target List_LocateElem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target List_LocateElem"
 .PHONY : CMakeFiles\List_LocateElem.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\List_LocateElem.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\List_LocateElem.dir\rule
 
 # Convenience name for target.
@@ -271,6 +275,60 @@ List_LocateElem: CMakeFiles\List_LocateElem.dir\rule
 CMakeFiles\List_LocateElem.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\clean
 .PHONY : CMakeFiles\List_LocateElem.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ListDelete.dir
+
+# All Build rule for target.
+CMakeFiles\ListDelete.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListDelete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ListDelete.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListDelete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ListDelete.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target ListDelete"
+.PHONY : CMakeFiles\ListDelete.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\ListDelete.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\ListDelete.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\ListDelete.dir\rule
+
+# Convenience name for target.
+ListDelete: CMakeFiles\ListDelete.dir\rule
+
+.PHONY : ListDelete
+
+# clean rule for target.
+CMakeFiles\ListDelete.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListDelete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ListDelete.dir\clean
+.PHONY : CMakeFiles\ListDelete.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/LinkLList_frontinsert.dir
+
+# All Build rule for target.
+CMakeFiles\LinkLList_frontinsert.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target LinkLList_frontinsert"
+.PHONY : CMakeFiles\LinkLList_frontinsert.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\LinkLList_frontinsert.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\LinkLList_frontinsert.dir\rule
+
+# Convenience name for target.
+LinkLList_frontinsert: CMakeFiles\LinkLList_frontinsert.dir\rule
+
+.PHONY : LinkLList_frontinsert
+
+# clean rule for target.
+CMakeFiles\LinkLList_frontinsert.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\clean
+.PHONY : CMakeFiles\LinkLList_frontinsert.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
