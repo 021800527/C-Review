@@ -232,6 +232,19 @@ LinkLList_frontinsert\fast:
 .PHONY : LinkLList_frontinsert\fast
 
 #=============================================================================
+# Target rules for targets named DLinkList_Init.cpp
+
+# Build rule for target.
+DLinkList_Init.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DLinkList_Init.cpp
+.PHONY : DLinkList_Init.cpp
+
+# fast build rule for target.
+DLinkList_Init.cpp\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.cpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.cpp.dir\build
+.PHONY : DLinkList_Init.cpp\fast
+
+#=============================================================================
 # Target rules for targets named LinkList_GetElem
 
 # Build rule for target.
@@ -282,6 +295,89 @@ LinkList_Taillnsert: cmake_check_build_system
 LinkList_Taillnsert\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_Taillnsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_Taillnsert.dir\build
 .PHONY : LinkList_Taillnsert\fast
+
+#=============================================================================
+# Target rules for targets named DLink_delete
+
+# Build rule for target.
+DLink_delete: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DLink_delete
+.PHONY : DLink_delete
+
+# fast build rule for target.
+DLink_delete\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_delete.dir\build
+.PHONY : DLink_delete\fast
+
+#=============================================================================
+# Target rules for targets named DLinkList_Init
+
+# Build rule for target.
+DLinkList_Init: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DLinkList_Init
+.PHONY : DLinkList_Init
+
+# fast build rule for target.
+DLinkList_Init\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.dir\build
+.PHONY : DLinkList_Init\fast
+
+DLinkList_Init.obj: DLinkList_Init.cpp.obj
+
+.PHONY : DLinkList_Init.obj
+
+# target to build an object file
+DLinkList_Init.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.cpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.cpp.dir\DLinkList_Init.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.dir\DLinkList_Init.cpp.obj
+.PHONY : DLinkList_Init.cpp.obj
+
+DLinkList_Init.i: DLinkList_Init.cpp.i
+
+.PHONY : DLinkList_Init.i
+
+# target to preprocess a source file
+DLinkList_Init.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.cpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.cpp.dir\DLinkList_Init.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.dir\DLinkList_Init.cpp.i
+.PHONY : DLinkList_Init.cpp.i
+
+DLinkList_Init.s: DLinkList_Init.cpp.s
+
+.PHONY : DLinkList_Init.s
+
+# target to generate assembly for a file
+DLinkList_Init.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.cpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.cpp.dir\DLinkList_Init.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.dir\DLinkList_Init.cpp.s
+.PHONY : DLinkList_Init.cpp.s
+
+DLink_delete.obj: DLink_delete.cpp.obj
+
+.PHONY : DLink_delete.obj
+
+# target to build an object file
+DLink_delete.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_delete.dir\DLink_delete.cpp.obj
+.PHONY : DLink_delete.cpp.obj
+
+DLink_delete.i: DLink_delete.cpp.i
+
+.PHONY : DLink_delete.i
+
+# target to preprocess a source file
+DLink_delete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_delete.dir\DLink_delete.cpp.i
+.PHONY : DLink_delete.cpp.i
+
+DLink_delete.s: DLink_delete.cpp.s
+
+.PHONY : DLink_delete.s
+
+# target to generate assembly for a file
+DLink_delete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_delete.dir\DLink_delete.cpp.s
+.PHONY : DLink_delete.cpp.s
 
 LikList_behindInsert.obj: LikList_behindInsert.cpp.obj
 
@@ -643,6 +739,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C
+	@echo ... DLinkList_Init
+	@echo ... DLinkList_Init.cpp
+	@echo ... DLink_delete
 	@echo ... LikList_behindInsert
 	@echo ... LinkLList_frontinsert
 	@echo ... LinkList_GetElem
@@ -655,6 +754,12 @@ help:
 	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
+	@echo ... DLinkList_Init.obj
+	@echo ... DLinkList_Init.i
+	@echo ... DLinkList_Init.s
+	@echo ... DLink_delete.obj
+	@echo ... DLink_delete.i
+	@echo ... DLink_delete.s
 	@echo ... LikList_behindInsert.obj
 	@echo ... LikList_behindInsert.i
 	@echo ... LikList_behindInsert.s

@@ -56,8 +56,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/List_LocateElem.dir/DependInfo.cmake"
   "CMakeFiles/ListDelete.dir/DependInfo.cmake"
   "CMakeFiles/LinkLList_frontinsert.dir/DependInfo.cmake"
+  "CMakeFiles/DLinkList_Init.cpp.dir/DependInfo.cmake"
   "CMakeFiles/LinkList_GetElem.dir/DependInfo.cmake"
   "CMakeFiles/LinkList_LocateElem.dir/DependInfo.cmake"
   "CMakeFiles/LinkList_length.dir/DependInfo.cmake"
   "CMakeFiles/LinkList_Taillnsert.dir/DependInfo.cmake"
+  "CMakeFiles/DLink_delete.dir/DependInfo.cmake"
+  "CMakeFiles/DLinkList_Init.dir/DependInfo.cmake"
   )
