@@ -8,15 +8,18 @@ using namespace std;
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
- struct ListNode(){
+struct ListNode{
      int val;
      struct ListNode *next;
- }
+};
 class Solution {
 public:
     ListNode* deleteNode(ListNode* head, int val) {
         while(head!=NULL){
-            if(head)
+            if(head->val == val)
+            {
+
+            }
         }
     }
 };
