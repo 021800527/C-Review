@@ -74,7 +74,8 @@ all: CMakeFiles\LinkList_Taillnsert.dir\all
 all: CMakeFiles\DLink_delete.dir\all
 all: CMakeFiles\DLinkList_Init.dir\all
 all: CMakeFiles\DLink_DestoryList.dir\all
-all: CMakeFiles\main.dir\all
+all: CMakeFiles\Offer24.dir\all
+all: CMakeFiles\Offer24-Solution.dir\all
 
 .PHONY : all
 
@@ -101,7 +102,8 @@ clean: CMakeFiles\LinkList_Taillnsert.dir\clean
 clean: CMakeFiles\DLink_delete.dir\clean
 clean: CMakeFiles\DLinkList_Init.dir\clean
 clean: CMakeFiles\DLink_DestoryList.dir\clean
-clean: CMakeFiles\main.dir\clean
+clean: CMakeFiles\Offer24.dir\clean
+clean: CMakeFiles\Offer24-Solution.dir\clean
 
 .PHONY : clean
 
@@ -565,31 +567,58 @@ CMakeFiles\DLink_DestoryList.dir\clean:
 .PHONY : CMakeFiles\DLink_DestoryList.dir\clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/Offer24.dir
 
 # All Build rule for target.
-CMakeFiles\main.dir\all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target main"
-.PHONY : CMakeFiles\main.dir\all
+CMakeFiles\Offer24.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target Offer24"
+.PHONY : CMakeFiles\Offer24.dir\all
 
 # Build rule for subdir invocation for target.
-CMakeFiles\main.dir\rule: cmake_check_build_system
+CMakeFiles\Offer24.dir\rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles\main.dir\rule
+.PHONY : CMakeFiles\Offer24.dir\rule
 
 # Convenience name for target.
-main: CMakeFiles\main.dir\rule
+Offer24: CMakeFiles\Offer24.dir\rule
 
-.PHONY : main
+.PHONY : Offer24
 
 # clean rule for target.
-CMakeFiles\main.dir\clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\clean
-.PHONY : CMakeFiles\main.dir\clean
+CMakeFiles\Offer24.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\clean
+.PHONY : CMakeFiles\Offer24.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Offer24-Solution.dir
+
+# All Build rule for target.
+CMakeFiles\Offer24-Solution.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target Offer24-Solution"
+.PHONY : CMakeFiles\Offer24-Solution.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Offer24-Solution.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Offer24-Solution.dir\rule
+
+# Convenience name for target.
+Offer24-Solution: CMakeFiles\Offer24-Solution.dir\rule
+
+.PHONY : Offer24-Solution
+
+# clean rule for target.
+CMakeFiles\Offer24-Solution.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\clean
+.PHONY : CMakeFiles\Offer24-Solution.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

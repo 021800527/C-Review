@@ -15,6 +15,7 @@ F:/C-Review/cmake-build-debug/CMakeFiles/LinkList_Taillnsert.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/DLink_delete.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/DLinkList_Init.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/DLink_DestoryList.dir
+F:/C-Review/cmake-build-debug/CMakeFiles/Offer24.dir
+F:/C-Review/cmake-build-debug/CMakeFiles/Offer24-Solution.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/C-Review/cmake-build-debug/CMakeFiles/main.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/rebuild_cache.dir

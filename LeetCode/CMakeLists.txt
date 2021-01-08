@@ -3,4 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(LeetCode "剑指Offer 24反转链表.cpp")
+add_executable(LeetCode "Offer24.cpp")

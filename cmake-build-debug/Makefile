@@ -336,17 +336,30 @@ DLink_DestoryList\fast:
 .PHONY : DLink_DestoryList\fast
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named Offer24
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main
-.PHONY : main
+Offer24: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer24
+.PHONY : Offer24
 
 # fast build rule for target.
-main\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\build
-.PHONY : main\fast
+Offer24\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\build
+.PHONY : Offer24\fast
+
+#=============================================================================
+# Target rules for targets named Offer24-Solution
+
+# Build rule for target.
+Offer24-Solution: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer24-Solution
+.PHONY : Offer24-Solution
+
+# fast build rule for target.
+Offer24-Solution\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\build
+.PHONY : Offer24-Solution\fast
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -432,32 +445,59 @@ DLink_delete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_delete.dir\DLink_delete.cpp.s
 .PHONY : DLink_delete.cpp.s
 
-LeetCode\剑指Offer_24反转链表.obj: LeetCode\剑指Offer_24反转链表.cpp.obj
+LeetCode\Offer24-Solution.obj: LeetCode\Offer24-Solution.cpp.obj
 
-.PHONY : LeetCode\剑指Offer_24反转链表.obj
+.PHONY : LeetCode\Offer24-Solution.obj
 
 # target to build an object file
-LeetCode\剑指Offer_24反转链表.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\LeetCode\剑指Offer_24反转链表.cpp.obj
-.PHONY : LeetCode\剑指Offer_24反转链表.cpp.obj
+LeetCode\Offer24-Solution.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\LeetCode\Offer24-Solution.cpp.obj
+.PHONY : LeetCode\Offer24-Solution.cpp.obj
 
-LeetCode\剑指Offer_24反转链表.i: LeetCode\剑指Offer_24反转链表.cpp.i
+LeetCode\Offer24-Solution.i: LeetCode\Offer24-Solution.cpp.i
 
-.PHONY : LeetCode\剑指Offer_24反转链表.i
+.PHONY : LeetCode\Offer24-Solution.i
 
 # target to preprocess a source file
-LeetCode\剑指Offer_24反转链表.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\LeetCode\剑指Offer_24反转链表.cpp.i
-.PHONY : LeetCode\剑指Offer_24反转链表.cpp.i
+LeetCode\Offer24-Solution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\LeetCode\Offer24-Solution.cpp.i
+.PHONY : LeetCode\Offer24-Solution.cpp.i
 
-LeetCode\剑指Offer_24反转链表.s: LeetCode\剑指Offer_24反转链表.cpp.s
+LeetCode\Offer24-Solution.s: LeetCode\Offer24-Solution.cpp.s
 
-.PHONY : LeetCode\剑指Offer_24反转链表.s
+.PHONY : LeetCode\Offer24-Solution.s
 
 # target to generate assembly for a file
-LeetCode\剑指Offer_24反转链表.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\LeetCode\剑指Offer_24反转链表.cpp.s
-.PHONY : LeetCode\剑指Offer_24反转链表.cpp.s
+LeetCode\Offer24-Solution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\LeetCode\Offer24-Solution.cpp.s
+.PHONY : LeetCode\Offer24-Solution.cpp.s
+
+LeetCode\Offer24.obj: LeetCode\Offer24.cpp.obj
+
+.PHONY : LeetCode\Offer24.obj
+
+# target to build an object file
+LeetCode\Offer24.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\LeetCode\Offer24.cpp.obj
+.PHONY : LeetCode\Offer24.cpp.obj
+
+LeetCode\Offer24.i: LeetCode\Offer24.cpp.i
+
+.PHONY : LeetCode\Offer24.i
+
+# target to preprocess a source file
+LeetCode\Offer24.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\LeetCode\Offer24.cpp.i
+.PHONY : LeetCode\Offer24.cpp.i
+
+LeetCode\Offer24.s: LeetCode\Offer24.cpp.s
+
+.PHONY : LeetCode\Offer24.s
+
+# target to generate assembly for a file
+LeetCode\Offer24.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\LeetCode\Offer24.cpp.s
+.PHONY : LeetCode\Offer24.cpp.s
 
 LikList_behindInsert.obj: LikList_behindInsert.cpp.obj
 
@@ -835,7 +875,8 @@ help:
 	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
-	@echo ... main
+	@echo ... Offer24
+	@echo ... Offer24-Solution
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
@@ -845,9 +886,12 @@ help:
 	@echo ... DLink_delete.obj
 	@echo ... DLink_delete.i
 	@echo ... DLink_delete.s
-	@echo ... LeetCode/剑指Offer_24反转链表.obj
-	@echo ... LeetCode/剑指Offer_24反转链表.i
-	@echo ... LeetCode/剑指Offer_24反转链表.s
+	@echo ... LeetCode/Offer24-Solution.obj
+	@echo ... LeetCode/Offer24-Solution.i
+	@echo ... LeetCode/Offer24-Solution.s
+	@echo ... LeetCode/Offer24.obj
+	@echo ... LeetCode/Offer24.i
+	@echo ... LeetCode/Offer24.s
 	@echo ... LikList_behindInsert.obj
 	@echo ... LikList_behindInsert.i
 	@echo ... LikList_behindInsert.s

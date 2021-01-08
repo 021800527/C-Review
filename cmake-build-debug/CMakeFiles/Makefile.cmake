@@ -64,5 +64,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/DLink_delete.dir/DependInfo.cmake"
   "CMakeFiles/DLinkList_Init.dir/DependInfo.cmake"
   "CMakeFiles/DLink_DestoryList.dir/DependInfo.cmake"
-  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/Offer24.dir/DependInfo.cmake"
+  "CMakeFiles/Offer24-Solution.dir/DependInfo.cmake"
   )
