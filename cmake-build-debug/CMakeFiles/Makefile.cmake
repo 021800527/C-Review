@@ -47,6 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Offer18_deleteNode.dir/DependInfo.cmake"
   "CMakeFiles/C.dir/DependInfo.cmake"
   "CMakeFiles/List_insert.dir/DependInfo.cmake"
   "CMakeFiles/List_delete.dir/DependInfo.cmake"

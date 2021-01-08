@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\C-Review
+CMAKE_SOURCE_DIR = E:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -113,6 +113,19 @@ preinstall\fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named Offer18_deleteNode
+
+# Build rule for target.
+Offer18_deleteNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer18_deleteNode
+.PHONY : Offer18_deleteNode
+
+# fast build rule for target.
+Offer18_deleteNode\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer18_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer18_deleteNode.dir\build
+.PHONY : Offer18_deleteNode\fast
 
 #=============================================================================
 # Target rules for targets named C
@@ -444,6 +457,33 @@ DLink_delete.s: DLink_delete.cpp.s
 DLink_delete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_delete.dir\DLink_delete.cpp.s
 .PHONY : DLink_delete.cpp.s
+
+LeetCode\Offer18_deleteNode.obj: LeetCode\Offer18_deleteNode.cpp.obj
+
+.PHONY : LeetCode\Offer18_deleteNode.obj
+
+# target to build an object file
+LeetCode\Offer18_deleteNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer18_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer18_deleteNode.dir\LeetCode\Offer18_deleteNode.cpp.obj
+.PHONY : LeetCode\Offer18_deleteNode.cpp.obj
+
+LeetCode\Offer18_deleteNode.i: LeetCode\Offer18_deleteNode.cpp.i
+
+.PHONY : LeetCode\Offer18_deleteNode.i
+
+# target to preprocess a source file
+LeetCode\Offer18_deleteNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer18_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer18_deleteNode.dir\LeetCode\Offer18_deleteNode.cpp.i
+.PHONY : LeetCode\Offer18_deleteNode.cpp.i
+
+LeetCode\Offer18_deleteNode.s: LeetCode\Offer18_deleteNode.cpp.s
+
+.PHONY : LeetCode\Offer18_deleteNode.s
+
+# target to generate assembly for a file
+LeetCode\Offer18_deleteNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer18_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer18_deleteNode.dir\LeetCode\Offer18_deleteNode.cpp.s
+.PHONY : LeetCode\Offer18_deleteNode.cpp.s
 
 LeetCode\Offer24-Solution.obj: LeetCode\Offer24-Solution.cpp.obj
 
@@ -875,6 +915,7 @@ help:
 	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
+	@echo ... Offer18_deleteNode
 	@echo ... Offer24
 	@echo ... Offer24-Solution
 	@echo ... DLinkList_Init.obj
@@ -886,6 +927,9 @@ help:
 	@echo ... DLink_delete.obj
 	@echo ... DLink_delete.i
 	@echo ... DLink_delete.s
+	@echo ... LeetCode/Offer18_deleteNode.obj
+	@echo ... LeetCode/Offer18_deleteNode.i
+	@echo ... LeetCode/Offer18_deleteNode.s
 	@echo ... LeetCode/Offer24-Solution.obj
 	@echo ... LeetCode/Offer24-Solution.i
 	@echo ... LeetCode/Offer24-Solution.s
