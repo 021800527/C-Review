@@ -13,13 +13,20 @@ struct ListNode{
      struct ListNode *next;
 };
 class Solution {
-public:
-    ListNode* deleteNode(ListNode* head, int val) {
-        while(head!=NULL){
-            if(head->val == val)
-            {
-
+    public:
+        ListNode* deleteNode(ListNode* head, int val) {
+            ListNode *curr = head;
+            if (head==NULL)
+                return head;
+            while (head->next!=NULL){
+                if(head->next->val==val){
+                    if (head->next->next!=NULL)
+                        head->next = head->next->next;
+                    else
+                        head->next = NULL;
+                }
             }
+            head = curr;
+            return head;
         }
-    }
 };
