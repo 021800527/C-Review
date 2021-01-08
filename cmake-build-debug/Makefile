@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\C-Review
+CMAKE_SOURCE_DIR = F:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -335,6 +335,19 @@ DLink_DestoryList\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_DestoryList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_DestoryList.dir\build
 .PHONY : DLink_DestoryList\fast
 
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main
+.PHONY : main
+
+# fast build rule for target.
+main\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\build
+.PHONY : main\fast
+
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
 .PHONY : DLinkList_Init.obj
@@ -418,6 +431,33 @@ DLink_delete.s: DLink_delete.cpp.s
 DLink_delete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_delete.dir\DLink_delete.cpp.s
 .PHONY : DLink_delete.cpp.s
+
+LeetCode\剑指Offer_24反转链表.obj: LeetCode\剑指Offer_24反转链表.cpp.obj
+
+.PHONY : LeetCode\剑指Offer_24反转链表.obj
+
+# target to build an object file
+LeetCode\剑指Offer_24反转链表.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\LeetCode\剑指Offer_24反转链表.cpp.obj
+.PHONY : LeetCode\剑指Offer_24反转链表.cpp.obj
+
+LeetCode\剑指Offer_24反转链表.i: LeetCode\剑指Offer_24反转链表.cpp.i
+
+.PHONY : LeetCode\剑指Offer_24反转链表.i
+
+# target to preprocess a source file
+LeetCode\剑指Offer_24反转链表.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\LeetCode\剑指Offer_24反转链表.cpp.i
+.PHONY : LeetCode\剑指Offer_24反转链表.cpp.i
+
+LeetCode\剑指Offer_24反转链表.s: LeetCode\剑指Offer_24反转链表.cpp.s
+
+.PHONY : LeetCode\剑指Offer_24反转链表.s
+
+# target to generate assembly for a file
+LeetCode\剑指Offer_24反转链表.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\LeetCode\剑指Offer_24反转链表.cpp.s
+.PHONY : LeetCode\剑指Offer_24反转链表.cpp.s
 
 LikList_behindInsert.obj: LikList_behindInsert.cpp.obj
 
@@ -795,6 +835,7 @@ help:
 	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
+	@echo ... main
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
@@ -804,6 +845,9 @@ help:
 	@echo ... DLink_delete.obj
 	@echo ... DLink_delete.i
 	@echo ... DLink_delete.s
+	@echo ... LeetCode/剑指Offer_24反转链表.obj
+	@echo ... LeetCode/剑指Offer_24反转链表.i
+	@echo ... LeetCode/剑指Offer_24反转链表.s
 	@echo ... LikList_behindInsert.obj
 	@echo ... LikList_behindInsert.i
 	@echo ... LikList_behindInsert.s
