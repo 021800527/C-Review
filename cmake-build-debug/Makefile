@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\C-Review
+CMAKE_SOURCE_DIR = E:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -322,6 +322,19 @@ DLinkList_Init\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.dir\build
 .PHONY : DLinkList_Init\fast
 
+#=============================================================================
+# Target rules for targets named DLink_DestoryList
+
+# Build rule for target.
+DLink_DestoryList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DLink_DestoryList
+.PHONY : DLink_DestoryList
+
+# fast build rule for target.
+DLink_DestoryList\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_DestoryList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_DestoryList.dir\build
+.PHONY : DLink_DestoryList\fast
+
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
 .PHONY : DLinkList_Init.obj
@@ -351,6 +364,33 @@ DLinkList_Init.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.cpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.cpp.dir\DLinkList_Init.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.dir\DLinkList_Init.cpp.s
 .PHONY : DLinkList_Init.cpp.s
+
+DLink_DestoryList.obj: DLink_DestoryList.cpp.obj
+
+.PHONY : DLink_DestoryList.obj
+
+# target to build an object file
+DLink_DestoryList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_DestoryList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_DestoryList.dir\DLink_DestoryList.cpp.obj
+.PHONY : DLink_DestoryList.cpp.obj
+
+DLink_DestoryList.i: DLink_DestoryList.cpp.i
+
+.PHONY : DLink_DestoryList.i
+
+# target to preprocess a source file
+DLink_DestoryList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_DestoryList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_DestoryList.dir\DLink_DestoryList.cpp.i
+.PHONY : DLink_DestoryList.cpp.i
+
+DLink_DestoryList.s: DLink_DestoryList.cpp.s
+
+.PHONY : DLink_DestoryList.s
+
+# target to generate assembly for a file
+DLink_DestoryList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_DestoryList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_DestoryList.dir\DLink_DestoryList.cpp.s
+.PHONY : DLink_DestoryList.cpp.s
 
 DLink_delete.obj: DLink_delete.cpp.obj
 
@@ -741,6 +781,7 @@ help:
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
+	@echo ... DLink_DestoryList
 	@echo ... DLink_delete
 	@echo ... LikList_behindInsert
 	@echo ... LinkLList_frontinsert
@@ -757,6 +798,9 @@ help:
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
+	@echo ... DLink_DestoryList.obj
+	@echo ... DLink_DestoryList.i
+	@echo ... DLink_DestoryList.s
 	@echo ... DLink_delete.obj
 	@echo ... DLink_delete.i
 	@echo ... DLink_delete.s

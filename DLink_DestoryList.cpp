@@ -34,7 +34,13 @@ bool DeleteNextDNode(DNode *p){
     if(q->next!=NULL)
         q->next->prior=p;
     free(q);
-        return true;
+    return true;
+}
+void DestoryList(DLinkList &L){
+    while(L->next!=NULL)
+        DeleteNextDNode(L);
+    free(L);
+    L=NULL;
 }
 int main(){
 
