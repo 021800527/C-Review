@@ -22,6 +22,35 @@ struct ListNode{
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+        ListNode *res  = new(ListNode);
+        ListNode *old = res;
+        if(l1==NULL)
+            return l2;
+        if(l2==NULL)
+            return l1;
+        while(l1!=NULL && l2!=NULL)
+        {
+            if(l1->val<=l2->val){
+                res->next = l1;
+                l1 = l1->next;
+                res = res->next;
+            }
+            else{
+                res->next = l2;
+                l2 = l2->next;
+                res = res->next;
+            }
+            if(l1==NULL){
+                res->next = l2;
+                cout<<res->val;
+                break;
+            }
+            if(l2==NULL){
+                res->next = l1;
+                break;
+            }
+        }
+        return old->next;
     }
 };
 int main(){
