@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/C-Review/List_delete.cpp" "E:/C-Review/cmake-build-debug/CMakeFiles/List_delete.dir/List_delete.cpp.obj"
+  "F:/C-Review/List_delete.cpp" "F:/C-Review/cmake-build-debug/CMakeFiles/List_delete.dir/List_delete.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

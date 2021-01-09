@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\C-Review
+CMAKE_SOURCE_DIR = F:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -400,6 +400,19 @@ Offer25_mergeTwoLists\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer25_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\build
 .PHONY : Offer25_mergeTwoLists\fast
 
+#=============================================================================
+# Target rules for targets named Offer22_getKthFromEnd
+
+# Build rule for target.
+Offer22_getKthFromEnd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer22_getKthFromEnd
+.PHONY : Offer22_getKthFromEnd
+
+# fast build rule for target.
+Offer22_getKthFromEnd\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer22_getKthFromEnd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer22_getKthFromEnd.dir\build
+.PHONY : Offer22_getKthFromEnd\fast
+
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
 .PHONY : DLinkList_Init.obj
@@ -537,6 +550,33 @@ LeetCode\Offer18_deleteNode.s: LeetCode\Offer18_deleteNode.cpp.s
 LeetCode\Offer18_deleteNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer18_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer18_deleteNode.dir\LeetCode\Offer18_deleteNode.cpp.s
 .PHONY : LeetCode\Offer18_deleteNode.cpp.s
+
+LeetCode\Offer22_getKthFromEnd.obj: LeetCode\Offer22_getKthFromEnd.cpp.obj
+
+.PHONY : LeetCode\Offer22_getKthFromEnd.obj
+
+# target to build an object file
+LeetCode\Offer22_getKthFromEnd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer22_getKthFromEnd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer22_getKthFromEnd.dir\LeetCode\Offer22_getKthFromEnd.cpp.obj
+.PHONY : LeetCode\Offer22_getKthFromEnd.cpp.obj
+
+LeetCode\Offer22_getKthFromEnd.i: LeetCode\Offer22_getKthFromEnd.cpp.i
+
+.PHONY : LeetCode\Offer22_getKthFromEnd.i
+
+# target to preprocess a source file
+LeetCode\Offer22_getKthFromEnd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer22_getKthFromEnd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer22_getKthFromEnd.dir\LeetCode\Offer22_getKthFromEnd.cpp.i
+.PHONY : LeetCode\Offer22_getKthFromEnd.cpp.i
+
+LeetCode\Offer22_getKthFromEnd.s: LeetCode\Offer22_getKthFromEnd.cpp.s
+
+.PHONY : LeetCode\Offer22_getKthFromEnd.s
+
+# target to generate assembly for a file
+LeetCode\Offer22_getKthFromEnd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer22_getKthFromEnd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer22_getKthFromEnd.dir\LeetCode\Offer22_getKthFromEnd.cpp.s
+.PHONY : LeetCode\Offer22_getKthFromEnd.cpp.s
 
 LeetCode\Offer24-Solution.obj: LeetCode\Offer24-Solution.cpp.obj
 
@@ -997,6 +1037,7 @@ help:
 	@echo ... List_insert
 	@echo ... Offer06_reversePrint
 	@echo ... Offer18_deleteNode
+	@echo ... Offer22_getKthFromEnd
 	@echo ... Offer24
 	@echo ... Offer24-Solution
 	@echo ... Offer25_mergeTwoLists
@@ -1015,6 +1056,9 @@ help:
 	@echo ... LeetCode/Offer18_deleteNode.obj
 	@echo ... LeetCode/Offer18_deleteNode.i
 	@echo ... LeetCode/Offer18_deleteNode.s
+	@echo ... LeetCode/Offer22_getKthFromEnd.obj
+	@echo ... LeetCode/Offer22_getKthFromEnd.i
+	@echo ... LeetCode/Offer22_getKthFromEnd.s
 	@echo ... LeetCode/Offer24-Solution.obj
 	@echo ... LeetCode/Offer24-Solution.i
 	@echo ... LeetCode/Offer24-Solution.s
