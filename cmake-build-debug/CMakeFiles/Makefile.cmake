@@ -70,4 +70,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Offer24-Solution.dir/DependInfo.cmake"
   "CMakeFiles/Offer25_mergeTwoLists.dir/DependInfo.cmake"
   "CMakeFiles/Offer22_getKthFromEnd.dir/DependInfo.cmake"
+  "CMakeFiles/Offer52_getIntersectionNode.dir/DependInfo.cmake"
   )

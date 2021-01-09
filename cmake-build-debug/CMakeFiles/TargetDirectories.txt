@@ -21,5 +21,6 @@ F:/C-Review/cmake-build-debug/CMakeFiles/Offer24.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/Offer24-Solution.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/Offer25_mergeTwoLists.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/Offer22_getKthFromEnd.dir
+F:/C-Review/cmake-build-debug/CMakeFiles/Offer52_getIntersectionNode.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/edit_cache.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/rebuild_cache.dir

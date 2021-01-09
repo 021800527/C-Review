@@ -80,6 +80,7 @@ all: CMakeFiles\Offer24.dir\all
 all: CMakeFiles\Offer24-Solution.dir\all
 all: CMakeFiles\Offer25_mergeTwoLists.dir\all
 all: CMakeFiles\Offer22_getKthFromEnd.dir\all
+all: CMakeFiles\Offer52_getIntersectionNode.dir\all
 
 .PHONY : all
 
@@ -112,6 +113,7 @@ clean: CMakeFiles\Offer24.dir\clean
 clean: CMakeFiles\Offer24-Solution.dir\clean
 clean: CMakeFiles\Offer25_mergeTwoLists.dir\clean
 clean: CMakeFiles\Offer22_getKthFromEnd.dir\clean
+clean: CMakeFiles\Offer52_getIntersectionNode.dir\clean
 
 .PHONY : clean
 
@@ -735,6 +737,33 @@ Offer22_getKthFromEnd: CMakeFiles\Offer22_getKthFromEnd.dir\rule
 CMakeFiles\Offer22_getKthFromEnd.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer22_getKthFromEnd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer22_getKthFromEnd.dir\clean
 .PHONY : CMakeFiles\Offer22_getKthFromEnd.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Offer52_getIntersectionNode.dir
+
+# All Build rule for target.
+CMakeFiles\Offer52_getIntersectionNode.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target Offer52_getIntersectionNode"
+.PHONY : CMakeFiles\Offer52_getIntersectionNode.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Offer52_getIntersectionNode.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Offer52_getIntersectionNode.dir\rule
+
+# Convenience name for target.
+Offer52_getIntersectionNode: CMakeFiles\Offer52_getIntersectionNode.dir\rule
+
+.PHONY : Offer52_getIntersectionNode
+
+# clean rule for target.
+CMakeFiles\Offer52_getIntersectionNode.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\clean
+.PHONY : CMakeFiles\Offer52_getIntersectionNode.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

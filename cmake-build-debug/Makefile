@@ -413,6 +413,19 @@ Offer22_getKthFromEnd\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer22_getKthFromEnd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer22_getKthFromEnd.dir\build
 .PHONY : Offer22_getKthFromEnd\fast
 
+#=============================================================================
+# Target rules for targets named Offer52_getIntersectionNode
+
+# Build rule for target.
+Offer52_getIntersectionNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer52_getIntersectionNode
+.PHONY : Offer52_getIntersectionNode
+
+# fast build rule for target.
+Offer52_getIntersectionNode\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\build
+.PHONY : Offer52_getIntersectionNode\fast
+
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
 .PHONY : DLinkList_Init.obj
@@ -658,6 +671,33 @@ LeetCode\Offer25_mergeTwoLists.s: LeetCode\Offer25_mergeTwoLists.cpp.s
 LeetCode\Offer25_mergeTwoLists.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer25_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\LeetCode\Offer25_mergeTwoLists.cpp.s
 .PHONY : LeetCode\Offer25_mergeTwoLists.cpp.s
+
+LeetCode\Offer52_getIntersectionNode.obj: LeetCode\Offer52_getIntersectionNode.cpp.obj
+
+.PHONY : LeetCode\Offer52_getIntersectionNode.obj
+
+# target to build an object file
+LeetCode\Offer52_getIntersectionNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\LeetCode\Offer52_getIntersectionNode.cpp.obj
+.PHONY : LeetCode\Offer52_getIntersectionNode.cpp.obj
+
+LeetCode\Offer52_getIntersectionNode.i: LeetCode\Offer52_getIntersectionNode.cpp.i
+
+.PHONY : LeetCode\Offer52_getIntersectionNode.i
+
+# target to preprocess a source file
+LeetCode\Offer52_getIntersectionNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\LeetCode\Offer52_getIntersectionNode.cpp.i
+.PHONY : LeetCode\Offer52_getIntersectionNode.cpp.i
+
+LeetCode\Offer52_getIntersectionNode.s: LeetCode\Offer52_getIntersectionNode.cpp.s
+
+.PHONY : LeetCode\Offer52_getIntersectionNode.s
+
+# target to generate assembly for a file
+LeetCode\Offer52_getIntersectionNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\LeetCode\Offer52_getIntersectionNode.cpp.s
+.PHONY : LeetCode\Offer52_getIntersectionNode.cpp.s
 
 LikList_behindInsert.obj: LikList_behindInsert.cpp.obj
 
@@ -1041,6 +1081,7 @@ help:
 	@echo ... Offer24
 	@echo ... Offer24-Solution
 	@echo ... Offer25_mergeTwoLists
+	@echo ... Offer52_getIntersectionNode
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
@@ -1068,6 +1109,9 @@ help:
 	@echo ... LeetCode/Offer25_mergeTwoLists.obj
 	@echo ... LeetCode/Offer25_mergeTwoLists.i
 	@echo ... LeetCode/Offer25_mergeTwoLists.s
+	@echo ... LeetCode/Offer52_getIntersectionNode.obj
+	@echo ... LeetCode/Offer52_getIntersectionNode.i
+	@echo ... LeetCode/Offer52_getIntersectionNode.s
 	@echo ... LikList_behindInsert.obj
 	@echo ... LikList_behindInsert.i
 	@echo ... LikList_behindInsert.s
