@@ -26,6 +26,19 @@ struct ListNode{
 class Solution {
 public:
     vector<int> reversePrint(ListNode* head) {
-
+        int length;
+        length = 0;
+        ListNode *curr = head;
+        while(head!=NULL){
+            length++;
+            head = head->next;
+        }
+        vector<int> res(0);
+        head = curr;
+        while(head!=NULL){
+            res.insert(res.begin(),head->val);
+            head = head->next;
+        }
+        return res;
     }
 };

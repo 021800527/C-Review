@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\C-Review
+CMAKE_SOURCE_DIR = E:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -387,6 +387,19 @@ Offer24-Solution\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\build
 .PHONY : Offer24-Solution\fast
 
+#=============================================================================
+# Target rules for targets named Offer25_mergeTwoLists
+
+# Build rule for target.
+Offer25_mergeTwoLists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer25_mergeTwoLists
+.PHONY : Offer25_mergeTwoLists
+
+# fast build rule for target.
+Offer25_mergeTwoLists\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer25_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\build
+.PHONY : Offer25_mergeTwoLists\fast
+
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
 .PHONY : DLinkList_Init.obj
@@ -578,6 +591,33 @@ LeetCode\Offer24.s: LeetCode\Offer24.cpp.s
 LeetCode\Offer24.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\LeetCode\Offer24.cpp.s
 .PHONY : LeetCode\Offer24.cpp.s
+
+LeetCode\Offer25_mergeTwoLists.obj: LeetCode\Offer25_mergeTwoLists.cpp.obj
+
+.PHONY : LeetCode\Offer25_mergeTwoLists.obj
+
+# target to build an object file
+LeetCode\Offer25_mergeTwoLists.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer25_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\LeetCode\Offer25_mergeTwoLists.cpp.obj
+.PHONY : LeetCode\Offer25_mergeTwoLists.cpp.obj
+
+LeetCode\Offer25_mergeTwoLists.i: LeetCode\Offer25_mergeTwoLists.cpp.i
+
+.PHONY : LeetCode\Offer25_mergeTwoLists.i
+
+# target to preprocess a source file
+LeetCode\Offer25_mergeTwoLists.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer25_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\LeetCode\Offer25_mergeTwoLists.cpp.i
+.PHONY : LeetCode\Offer25_mergeTwoLists.cpp.i
+
+LeetCode\Offer25_mergeTwoLists.s: LeetCode\Offer25_mergeTwoLists.cpp.s
+
+.PHONY : LeetCode\Offer25_mergeTwoLists.s
+
+# target to generate assembly for a file
+LeetCode\Offer25_mergeTwoLists.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer25_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\LeetCode\Offer25_mergeTwoLists.cpp.s
+.PHONY : LeetCode\Offer25_mergeTwoLists.cpp.s
 
 LikList_behindInsert.obj: LikList_behindInsert.cpp.obj
 
@@ -959,6 +999,7 @@ help:
 	@echo ... Offer18_deleteNode
 	@echo ... Offer24
 	@echo ... Offer24-Solution
+	@echo ... Offer25_mergeTwoLists
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
@@ -980,6 +1021,9 @@ help:
 	@echo ... LeetCode/Offer24.obj
 	@echo ... LeetCode/Offer24.i
 	@echo ... LeetCode/Offer24.s
+	@echo ... LeetCode/Offer25_mergeTwoLists.obj
+	@echo ... LeetCode/Offer25_mergeTwoLists.i
+	@echo ... LeetCode/Offer25_mergeTwoLists.s
 	@echo ... LikList_behindInsert.obj
 	@echo ... LikList_behindInsert.i
 	@echo ... LikList_behindInsert.s
