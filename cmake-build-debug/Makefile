@@ -154,6 +154,19 @@ List_insert\fast:
 .PHONY : List_insert\fast
 
 #=============================================================================
+# Target rules for targets named Offer06_reversePrint
+
+# Build rule for target.
+Offer06_reversePrint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer06_reversePrint
+.PHONY : Offer06_reversePrint
+
+# fast build rule for target.
+Offer06_reversePrint\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\build
+.PHONY : Offer06_reversePrint\fast
+
+#=============================================================================
 # Target rules for targets named List_delete
 
 # Build rule for target.
@@ -457,6 +470,33 @@ DLink_delete.s: DLink_delete.cpp.s
 DLink_delete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_delete.dir\DLink_delete.cpp.s
 .PHONY : DLink_delete.cpp.s
+
+LeetCode\Offer06_reversePrint.obj: LeetCode\Offer06_reversePrint.cpp.obj
+
+.PHONY : LeetCode\Offer06_reversePrint.obj
+
+# target to build an object file
+LeetCode\Offer06_reversePrint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\LeetCode\Offer06_reversePrint.cpp.obj
+.PHONY : LeetCode\Offer06_reversePrint.cpp.obj
+
+LeetCode\Offer06_reversePrint.i: LeetCode\Offer06_reversePrint.cpp.i
+
+.PHONY : LeetCode\Offer06_reversePrint.i
+
+# target to preprocess a source file
+LeetCode\Offer06_reversePrint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\LeetCode\Offer06_reversePrint.cpp.i
+.PHONY : LeetCode\Offer06_reversePrint.cpp.i
+
+LeetCode\Offer06_reversePrint.s: LeetCode\Offer06_reversePrint.cpp.s
+
+.PHONY : LeetCode\Offer06_reversePrint.s
+
+# target to generate assembly for a file
+LeetCode\Offer06_reversePrint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\LeetCode\Offer06_reversePrint.cpp.s
+.PHONY : LeetCode\Offer06_reversePrint.cpp.s
 
 LeetCode\Offer18_deleteNode.obj: LeetCode\Offer18_deleteNode.cpp.obj
 
@@ -915,6 +955,7 @@ help:
 	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
+	@echo ... Offer06_reversePrint
 	@echo ... Offer18_deleteNode
 	@echo ... Offer24
 	@echo ... Offer24-Solution
@@ -927,6 +968,9 @@ help:
 	@echo ... DLink_delete.obj
 	@echo ... DLink_delete.i
 	@echo ... DLink_delete.s
+	@echo ... LeetCode/Offer06_reversePrint.obj
+	@echo ... LeetCode/Offer06_reversePrint.i
+	@echo ... LeetCode/Offer06_reversePrint.s
 	@echo ... LeetCode/Offer18_deleteNode.obj
 	@echo ... LeetCode/Offer18_deleteNode.i
 	@echo ... LeetCode/Offer18_deleteNode.s

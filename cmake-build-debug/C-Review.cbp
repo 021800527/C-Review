@@ -143,6 +143,48 @@
 					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Offer06_reversePrint">
+				<Option output="F:/C-Review/cmake-build-debug/Offer06_reversePrint.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer06_reversePrint"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Offer06_reversePrint/fast">
+				<Option output="F:/C-Review/cmake-build-debug/Offer06_reversePrint.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer06_reversePrint/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="List_delete">
 				<Option output="F:/C-Review/cmake-build-debug/List_delete.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/C-Review/cmake-build-debug"/>
@@ -887,6 +929,9 @@
 		</Unit>
 		<Unit filename="F:/C-Review/DLink_delete.cpp">
 			<Option target="DLink_delete"/>
+		</Unit>
+		<Unit filename="F:/C-Review/LeetCode/Offer06_reversePrint.cpp">
+			<Option target="Offer06_reversePrint"/>
 		</Unit>
 		<Unit filename="F:/C-Review/LeetCode/Offer18_deleteNode.cpp">
 			<Option target="Offer18_deleteNode"/>

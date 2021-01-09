@@ -60,6 +60,7 @@ CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
 all: CMakeFiles\Offer18_deleteNode.dir\all
 all: CMakeFiles\C.dir\all
 all: CMakeFiles\List_insert.dir\all
+all: CMakeFiles\Offer06_reversePrint.dir\all
 all: CMakeFiles\List_delete.dir\all
 all: CMakeFiles\LikList_behindInsert.dir\all
 all: CMakeFiles\List_GetElem.dir\all
@@ -89,6 +90,7 @@ preinstall:
 clean: CMakeFiles\Offer18_deleteNode.dir\clean
 clean: CMakeFiles\C.dir\clean
 clean: CMakeFiles\List_insert.dir\clean
+clean: CMakeFiles\Offer06_reversePrint.dir\clean
 clean: CMakeFiles\List_delete.dir\clean
 clean: CMakeFiles\LikList_behindInsert.dir\clean
 clean: CMakeFiles\List_GetElem.dir\clean
@@ -116,7 +118,7 @@ clean: CMakeFiles\Offer24-Solution.dir\clean
 CMakeFiles\Offer18_deleteNode.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer18_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer18_deleteNode.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer18_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer18_deleteNode.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target Offer18_deleteNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target Offer18_deleteNode"
 .PHONY : CMakeFiles\Offer18_deleteNode.dir\all
 
 # Build rule for subdir invocation for target.
@@ -189,6 +191,33 @@ List_insert: CMakeFiles\List_insert.dir\rule
 CMakeFiles\List_insert.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_insert.dir\clean
 .PHONY : CMakeFiles\List_insert.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Offer06_reversePrint.dir
+
+# All Build rule for target.
+CMakeFiles\Offer06_reversePrint.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target Offer06_reversePrint"
+.PHONY : CMakeFiles\Offer06_reversePrint.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Offer06_reversePrint.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Offer06_reversePrint.dir\rule
+
+# Convenience name for target.
+Offer06_reversePrint: CMakeFiles\Offer06_reversePrint.dir\rule
+
+.PHONY : Offer06_reversePrint
+
+# clean rule for target.
+CMakeFiles\Offer06_reversePrint.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\clean
+.PHONY : CMakeFiles\Offer06_reversePrint.dir\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/List_delete.dir
@@ -602,7 +631,7 @@ CMakeFiles\DLink_DestoryList.dir\clean:
 CMakeFiles\Offer24.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target Offer24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target Offer24"
 .PHONY : CMakeFiles\Offer24.dir\all
 
 # Build rule for subdir invocation for target.
@@ -629,7 +658,7 @@ CMakeFiles\Offer24.dir\clean:
 CMakeFiles\Offer24-Solution.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target Offer24-Solution"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target Offer24-Solution"
 .PHONY : CMakeFiles\Offer24-Solution.dir\all
 
 # Build rule for subdir invocation for target.

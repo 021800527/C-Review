@@ -12,21 +12,25 @@ struct ListNode{
      int val;
      struct ListNode *next;
 };
+/*不要迷信head*/
 class Solution {
     public:
         ListNode* deleteNode(ListNode* head, int val) {
-            ListNode *curr = head;
-            if (head==NULL)
-                return head;
-            while (head->next!=NULL){
-                if(head->next->val==val){
-                    if (head->next->next!=NULL)
-                        head->next = head->next->next;
-                    else
-                        head->next = NULL;
+            ListNode *curr =new(ListNode);
+            curr = head;
+            ListNode *pre = new (ListNode);
+            pre->next = head;
+            ListNode *res = pre;
+            while(curr!=NULL)
+            {
+                if(curr->val==val)
+                {
+                    pre->next = curr->next;
+                    break;
                 }
+                pre = curr;
+                curr = curr->next;
             }
-            head = curr;
-            return head;
+            return res->next;
         }
 };

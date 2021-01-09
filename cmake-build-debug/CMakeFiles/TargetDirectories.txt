@@ -1,6 +1,7 @@
 F:/C-Review/cmake-build-debug/CMakeFiles/Offer18_deleteNode.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/C.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/List_insert.dir
+F:/C-Review/cmake-build-debug/CMakeFiles/Offer06_reversePrint.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/List_delete.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/LikList_behindInsert.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/List_GetElem.dir
