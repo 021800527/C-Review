@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\C-Review
+CMAKE_SOURCE_DIR = E:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -401,6 +401,19 @@ Offer25_mergeTwoLists\fast:
 .PHONY : Offer25_mergeTwoLists\fast
 
 #=============================================================================
+# Target rules for targets named Num876_middleNode
+
+# Build rule for target.
+Num876_middleNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num876_middleNode
+.PHONY : Num876_middleNode
+
+# fast build rule for target.
+Num876_middleNode\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num876_middleNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num876_middleNode.dir\build
+.PHONY : Num876_middleNode\fast
+
+#=============================================================================
 # Target rules for targets named Offer22_getKthFromEnd
 
 # Build rule for target.
@@ -425,6 +438,19 @@ Offer52_getIntersectionNode: cmake_check_build_system
 Offer52_getIntersectionNode\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\build
 .PHONY : Offer52_getIntersectionNode\fast
+
+#=============================================================================
+# Target rules for targets named Num237_deleteNode
+
+# Build rule for target.
+Num237_deleteNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num237_deleteNode
+.PHONY : Num237_deleteNode
+
+# fast build rule for target.
+Num237_deleteNode\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num237_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num237_deleteNode.dir\build
+.PHONY : Num237_deleteNode\fast
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -509,6 +535,60 @@ DLink_delete.s: DLink_delete.cpp.s
 DLink_delete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_delete.dir\DLink_delete.cpp.s
 .PHONY : DLink_delete.cpp.s
+
+LeetCode\Num237_deleteNode.obj: LeetCode\Num237_deleteNode.cpp.obj
+
+.PHONY : LeetCode\Num237_deleteNode.obj
+
+# target to build an object file
+LeetCode\Num237_deleteNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num237_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num237_deleteNode.dir\LeetCode\Num237_deleteNode.cpp.obj
+.PHONY : LeetCode\Num237_deleteNode.cpp.obj
+
+LeetCode\Num237_deleteNode.i: LeetCode\Num237_deleteNode.cpp.i
+
+.PHONY : LeetCode\Num237_deleteNode.i
+
+# target to preprocess a source file
+LeetCode\Num237_deleteNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num237_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num237_deleteNode.dir\LeetCode\Num237_deleteNode.cpp.i
+.PHONY : LeetCode\Num237_deleteNode.cpp.i
+
+LeetCode\Num237_deleteNode.s: LeetCode\Num237_deleteNode.cpp.s
+
+.PHONY : LeetCode\Num237_deleteNode.s
+
+# target to generate assembly for a file
+LeetCode\Num237_deleteNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num237_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num237_deleteNode.dir\LeetCode\Num237_deleteNode.cpp.s
+.PHONY : LeetCode\Num237_deleteNode.cpp.s
+
+LeetCode\Num876_middleNode.obj: LeetCode\Num876_middleNode.cpp.obj
+
+.PHONY : LeetCode\Num876_middleNode.obj
+
+# target to build an object file
+LeetCode\Num876_middleNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num876_middleNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num876_middleNode.dir\LeetCode\Num876_middleNode.cpp.obj
+.PHONY : LeetCode\Num876_middleNode.cpp.obj
+
+LeetCode\Num876_middleNode.i: LeetCode\Num876_middleNode.cpp.i
+
+.PHONY : LeetCode\Num876_middleNode.i
+
+# target to preprocess a source file
+LeetCode\Num876_middleNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num876_middleNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num876_middleNode.dir\LeetCode\Num876_middleNode.cpp.i
+.PHONY : LeetCode\Num876_middleNode.cpp.i
+
+LeetCode\Num876_middleNode.s: LeetCode\Num876_middleNode.cpp.s
+
+.PHONY : LeetCode\Num876_middleNode.s
+
+# target to generate assembly for a file
+LeetCode\Num876_middleNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num876_middleNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num876_middleNode.dir\LeetCode\Num876_middleNode.cpp.s
+.PHONY : LeetCode\Num876_middleNode.cpp.s
 
 LeetCode\Offer06_reversePrint.obj: LeetCode\Offer06_reversePrint.cpp.obj
 
@@ -1075,6 +1155,8 @@ help:
 	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
+	@echo ... Num237_deleteNode
+	@echo ... Num876_middleNode
 	@echo ... Offer06_reversePrint
 	@echo ... Offer18_deleteNode
 	@echo ... Offer22_getKthFromEnd
@@ -1091,6 +1173,12 @@ help:
 	@echo ... DLink_delete.obj
 	@echo ... DLink_delete.i
 	@echo ... DLink_delete.s
+	@echo ... LeetCode/Num237_deleteNode.obj
+	@echo ... LeetCode/Num237_deleteNode.i
+	@echo ... LeetCode/Num237_deleteNode.s
+	@echo ... LeetCode/Num876_middleNode.obj
+	@echo ... LeetCode/Num876_middleNode.i
+	@echo ... LeetCode/Num876_middleNode.s
 	@echo ... LeetCode/Offer06_reversePrint.obj
 	@echo ... LeetCode/Offer06_reversePrint.i
 	@echo ... LeetCode/Offer06_reversePrint.s
