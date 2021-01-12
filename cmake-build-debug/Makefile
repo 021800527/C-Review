@@ -452,6 +452,19 @@ Num237_deleteNode\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num237_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num237_deleteNode.dir\build
 .PHONY : Num237_deleteNode\fast
 
+#=============================================================================
+# Target rules for targets named Num21_mergeTwoLists
+
+# Build rule for target.
+Num21_mergeTwoLists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num21_mergeTwoLists
+.PHONY : Num21_mergeTwoLists
+
+# fast build rule for target.
+Num21_mergeTwoLists\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num21_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num21_mergeTwoLists.dir\build
+.PHONY : Num21_mergeTwoLists\fast
+
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
 .PHONY : DLinkList_Init.obj
@@ -535,6 +548,33 @@ DLink_delete.s: DLink_delete.cpp.s
 DLink_delete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_delete.dir\DLink_delete.cpp.s
 .PHONY : DLink_delete.cpp.s
+
+LeetCode\Num21_mergeTwoLists.obj: LeetCode\Num21_mergeTwoLists.cpp.obj
+
+.PHONY : LeetCode\Num21_mergeTwoLists.obj
+
+# target to build an object file
+LeetCode\Num21_mergeTwoLists.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num21_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num21_mergeTwoLists.dir\LeetCode\Num21_mergeTwoLists.cpp.obj
+.PHONY : LeetCode\Num21_mergeTwoLists.cpp.obj
+
+LeetCode\Num21_mergeTwoLists.i: LeetCode\Num21_mergeTwoLists.cpp.i
+
+.PHONY : LeetCode\Num21_mergeTwoLists.i
+
+# target to preprocess a source file
+LeetCode\Num21_mergeTwoLists.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num21_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num21_mergeTwoLists.dir\LeetCode\Num21_mergeTwoLists.cpp.i
+.PHONY : LeetCode\Num21_mergeTwoLists.cpp.i
+
+LeetCode\Num21_mergeTwoLists.s: LeetCode\Num21_mergeTwoLists.cpp.s
+
+.PHONY : LeetCode\Num21_mergeTwoLists.s
+
+# target to generate assembly for a file
+LeetCode\Num21_mergeTwoLists.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num21_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num21_mergeTwoLists.dir\LeetCode\Num21_mergeTwoLists.cpp.s
+.PHONY : LeetCode\Num21_mergeTwoLists.cpp.s
 
 LeetCode\Num237_deleteNode.obj: LeetCode\Num237_deleteNode.cpp.obj
 
@@ -1155,6 +1195,7 @@ help:
 	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
+	@echo ... Num21_mergeTwoLists
 	@echo ... Num237_deleteNode
 	@echo ... Num876_middleNode
 	@echo ... Offer06_reversePrint
@@ -1173,6 +1214,9 @@ help:
 	@echo ... DLink_delete.obj
 	@echo ... DLink_delete.i
 	@echo ... DLink_delete.s
+	@echo ... LeetCode/Num21_mergeTwoLists.obj
+	@echo ... LeetCode/Num21_mergeTwoLists.i
+	@echo ... LeetCode/Num21_mergeTwoLists.s
 	@echo ... LeetCode/Num237_deleteNode.obj
 	@echo ... LeetCode/Num237_deleteNode.i
 	@echo ... LeetCode/Num237_deleteNode.s

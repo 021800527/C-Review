@@ -1109,6 +1109,48 @@
 					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Num21_mergeTwoLists">
+				<Option output="E:/C-Review/cmake-build-debug/Num21_mergeTwoLists.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num21_mergeTwoLists"/>
+					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Num21_mergeTwoLists/fast">
+				<Option output="E:/C-Review/cmake-build-debug/Num21_mergeTwoLists.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num21_mergeTwoLists/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/C-Review/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1139,6 +1181,9 @@
 		</Unit>
 		<Unit filename="E:/C-Review/DLink_delete.cpp">
 			<Option target="DLink_delete"/>
+		</Unit>
+		<Unit filename="E:/C-Review/LeetCode/Num21_mergeTwoLists.cpp">
+			<Option target="Num21_mergeTwoLists"/>
 		</Unit>
 		<Unit filename="E:/C-Review/LeetCode/Num237_deleteNode.cpp">
 			<Option target="Num237_deleteNode"/>
