@@ -395,6 +395,48 @@
 					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Num234_isPalindrome">
+				<Option output="F:/C-Review/cmake-build-debug/Num234_isPalindrome.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num234_isPalindrome"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Num234_isPalindrome/fast">
+				<Option output="F:/C-Review/cmake-build-debug/Num234_isPalindrome.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num234_isPalindrome/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ListDelete">
 				<Option output="F:/C-Review/cmake-build-debug/ListDelete.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/C-Review/cmake-build-debug"/>
@@ -768,6 +810,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLinkList_Init/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Num141_hasCycle">
+				<Option output="F:/C-Review/cmake-build-debug/Num141_hasCycle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num141_hasCycle"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Num141_hasCycle/fast">
+				<Option output="F:/C-Review/cmake-build-debug/Num141_hasCycle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num141_hasCycle/fast"/>
 					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
@@ -1235,6 +1319,48 @@
 					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Num1290_getDecimalValue">
+				<Option output="F:/C-Review/cmake-build-debug/Num1290_getDecimalValue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num1290_getDecimalValue"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Num1290_getDecimalValue/fast">
+				<Option output="F:/C-Review/cmake-build-debug/Num1290_getDecimalValue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num1290_getDecimalValue/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1269,11 +1395,20 @@
 		<Unit filename="F:/C-Review/LeetCode/Facial02.05_addTwoNumbers.cpp">
 			<Option target="Facial02.05_addTwoNumbers"/>
 		</Unit>
+		<Unit filename="F:/C-Review/LeetCode/Num1290_getDecimalValue.cpp">
+			<Option target="Num1290_getDecimalValue"/>
+		</Unit>
+		<Unit filename="F:/C-Review/LeetCode/Num141_hasCycle.cpp">
+			<Option target="Num141_hasCycle"/>
+		</Unit>
 		<Unit filename="F:/C-Review/LeetCode/Num203_removeElements.cpp">
 			<Option target="Num203_removeElements"/>
 		</Unit>
 		<Unit filename="F:/C-Review/LeetCode/Num21_mergeTwoLists.cpp">
 			<Option target="Num21_mergeTwoLists"/>
+		</Unit>
+		<Unit filename="F:/C-Review/LeetCode/Num234_isPalindrome.cpp">
+			<Option target="Num234_isPalindrome"/>
 		</Unit>
 		<Unit filename="F:/C-Review/LeetCode/Num237_deleteNode.cpp">
 			<Option target="Num237_deleteNode"/>

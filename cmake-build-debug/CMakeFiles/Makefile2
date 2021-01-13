@@ -66,6 +66,7 @@ all: CMakeFiles\LikList_behindInsert.dir\all
 all: CMakeFiles\List_GetElem.dir\all
 all: CMakeFiles\LinkList_insert.dir\all
 all: CMakeFiles\List_LocateElem.dir\all
+all: CMakeFiles\Num234_isPalindrome.dir\all
 all: CMakeFiles\ListDelete.dir\all
 all: CMakeFiles\LinkLList_frontinsert.dir\all
 all: CMakeFiles\DLinkList_Init.cpp.dir\all
@@ -75,6 +76,7 @@ all: CMakeFiles\LinkList_length.dir\all
 all: CMakeFiles\LinkList_Taillnsert.dir\all
 all: CMakeFiles\DLink_delete.dir\all
 all: CMakeFiles\DLinkList_Init.dir\all
+all: CMakeFiles\Num141_hasCycle.dir\all
 all: CMakeFiles\DLink_DestoryList.dir\all
 all: CMakeFiles\Offer24.dir\all
 all: CMakeFiles\Offer24-Solution.dir\all
@@ -86,6 +88,7 @@ all: CMakeFiles\Facial02.05_addTwoNumbers.dir\all
 all: CMakeFiles\Num237_deleteNode.dir\all
 all: CMakeFiles\Num21_mergeTwoLists.dir\all
 all: CMakeFiles\Num203_removeElements.dir\all
+all: CMakeFiles\Num1290_getDecimalValue.dir\all
 
 .PHONY : all
 
@@ -104,6 +107,7 @@ clean: CMakeFiles\LikList_behindInsert.dir\clean
 clean: CMakeFiles\List_GetElem.dir\clean
 clean: CMakeFiles\LinkList_insert.dir\clean
 clean: CMakeFiles\List_LocateElem.dir\clean
+clean: CMakeFiles\Num234_isPalindrome.dir\clean
 clean: CMakeFiles\ListDelete.dir\clean
 clean: CMakeFiles\LinkLList_frontinsert.dir\clean
 clean: CMakeFiles\DLinkList_Init.cpp.dir\clean
@@ -113,6 +117,7 @@ clean: CMakeFiles\LinkList_length.dir\clean
 clean: CMakeFiles\LinkList_Taillnsert.dir\clean
 clean: CMakeFiles\DLink_delete.dir\clean
 clean: CMakeFiles\DLinkList_Init.dir\clean
+clean: CMakeFiles\Num141_hasCycle.dir\clean
 clean: CMakeFiles\DLink_DestoryList.dir\clean
 clean: CMakeFiles\Offer24.dir\clean
 clean: CMakeFiles\Offer24-Solution.dir\clean
@@ -124,6 +129,7 @@ clean: CMakeFiles\Facial02.05_addTwoNumbers.dir\clean
 clean: CMakeFiles\Num237_deleteNode.dir\clean
 clean: CMakeFiles\Num21_mergeTwoLists.dir\clean
 clean: CMakeFiles\Num203_removeElements.dir\clean
+clean: CMakeFiles\Num1290_getDecimalValue.dir\clean
 
 .PHONY : clean
 
@@ -134,7 +140,7 @@ clean: CMakeFiles\Num203_removeElements.dir\clean
 CMakeFiles\Offer18_deleteNode.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer18_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer18_deleteNode.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer18_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer18_deleteNode.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target Offer18_deleteNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target Offer18_deleteNode"
 .PHONY : CMakeFiles\Offer18_deleteNode.dir\all
 
 # Build rule for subdir invocation for target.
@@ -215,7 +221,7 @@ CMakeFiles\List_insert.dir\clean:
 CMakeFiles\Offer06_reversePrint.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target Offer06_reversePrint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target Offer06_reversePrint"
 .PHONY : CMakeFiles\Offer06_reversePrint.dir\all
 
 # Build rule for subdir invocation for target.
@@ -369,6 +375,33 @@ List_LocateElem: CMakeFiles\List_LocateElem.dir\rule
 CMakeFiles\List_LocateElem.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\clean
 .PHONY : CMakeFiles\List_LocateElem.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Num234_isPalindrome.dir
+
+# All Build rule for target.
+CMakeFiles\Num234_isPalindrome.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num234_isPalindrome.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num234_isPalindrome.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num234_isPalindrome.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num234_isPalindrome.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target Num234_isPalindrome"
+.PHONY : CMakeFiles\Num234_isPalindrome.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Num234_isPalindrome.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Num234_isPalindrome.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Num234_isPalindrome.dir\rule
+
+# Convenience name for target.
+Num234_isPalindrome: CMakeFiles\Num234_isPalindrome.dir\rule
+
+.PHONY : Num234_isPalindrome
+
+# clean rule for target.
+CMakeFiles\Num234_isPalindrome.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num234_isPalindrome.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num234_isPalindrome.dir\clean
+.PHONY : CMakeFiles\Num234_isPalindrome.dir\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ListDelete.dir
@@ -614,6 +647,33 @@ CMakeFiles\DLinkList_Init.dir\clean:
 .PHONY : CMakeFiles\DLinkList_Init.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Num141_hasCycle.dir
+
+# All Build rule for target.
+CMakeFiles\Num141_hasCycle.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num141_hasCycle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num141_hasCycle.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num141_hasCycle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num141_hasCycle.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target Num141_hasCycle"
+.PHONY : CMakeFiles\Num141_hasCycle.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Num141_hasCycle.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Num141_hasCycle.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Num141_hasCycle.dir\rule
+
+# Convenience name for target.
+Num141_hasCycle: CMakeFiles\Num141_hasCycle.dir\rule
+
+.PHONY : Num141_hasCycle
+
+# clean rule for target.
+CMakeFiles\Num141_hasCycle.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num141_hasCycle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num141_hasCycle.dir\clean
+.PHONY : CMakeFiles\Num141_hasCycle.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/DLink_DestoryList.dir
 
 # All Build rule for target.
@@ -647,7 +707,7 @@ CMakeFiles\DLink_DestoryList.dir\clean:
 CMakeFiles\Offer24.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target Offer24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target Offer24"
 .PHONY : CMakeFiles\Offer24.dir\all
 
 # Build rule for subdir invocation for target.
@@ -674,7 +734,7 @@ CMakeFiles\Offer24.dir\clean:
 CMakeFiles\Offer24-Solution.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target Offer24-Solution"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target Offer24-Solution"
 .PHONY : CMakeFiles\Offer24-Solution.dir\all
 
 # Build rule for subdir invocation for target.
@@ -701,7 +761,7 @@ CMakeFiles\Offer24-Solution.dir\clean:
 CMakeFiles\Offer25_mergeTwoLists.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer25_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer25_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target Offer25_mergeTwoLists"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target Offer25_mergeTwoLists"
 .PHONY : CMakeFiles\Offer25_mergeTwoLists.dir\all
 
 # Build rule for subdir invocation for target.
@@ -728,7 +788,7 @@ CMakeFiles\Offer25_mergeTwoLists.dir\clean:
 CMakeFiles\Num876_middleNode.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num876_middleNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num876_middleNode.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num876_middleNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num876_middleNode.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target Num876_middleNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target Num876_middleNode"
 .PHONY : CMakeFiles\Num876_middleNode.dir\all
 
 # Build rule for subdir invocation for target.
@@ -755,7 +815,7 @@ CMakeFiles\Num876_middleNode.dir\clean:
 CMakeFiles\Offer22_getKthFromEnd.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer22_getKthFromEnd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer22_getKthFromEnd.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer22_getKthFromEnd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer22_getKthFromEnd.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target Offer22_getKthFromEnd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target Offer22_getKthFromEnd"
 .PHONY : CMakeFiles\Offer22_getKthFromEnd.dir\all
 
 # Build rule for subdir invocation for target.
@@ -782,7 +842,7 @@ CMakeFiles\Offer22_getKthFromEnd.dir\clean:
 CMakeFiles\Offer52_getIntersectionNode.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target Offer52_getIntersectionNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target Offer52_getIntersectionNode"
 .PHONY : CMakeFiles\Offer52_getIntersectionNode.dir\all
 
 # Build rule for subdir invocation for target.
@@ -836,7 +896,7 @@ CMakeFiles\Facial02.05_addTwoNumbers.dir\clean:
 CMakeFiles\Num237_deleteNode.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num237_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num237_deleteNode.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num237_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num237_deleteNode.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target Num237_deleteNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target Num237_deleteNode"
 .PHONY : CMakeFiles\Num237_deleteNode.dir\all
 
 # Build rule for subdir invocation for target.
@@ -863,7 +923,7 @@ CMakeFiles\Num237_deleteNode.dir\clean:
 CMakeFiles\Num21_mergeTwoLists.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num21_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num21_mergeTwoLists.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num21_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num21_mergeTwoLists.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target Num21_mergeTwoLists"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target Num21_mergeTwoLists"
 .PHONY : CMakeFiles\Num21_mergeTwoLists.dir\all
 
 # Build rule for subdir invocation for target.
@@ -890,7 +950,7 @@ CMakeFiles\Num21_mergeTwoLists.dir\clean:
 CMakeFiles\Num203_removeElements.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num203_removeElements.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num203_removeElements.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num203_removeElements.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num203_removeElements.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target Num203_removeElements"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target Num203_removeElements"
 .PHONY : CMakeFiles\Num203_removeElements.dir\all
 
 # Build rule for subdir invocation for target.
@@ -909,6 +969,33 @@ Num203_removeElements: CMakeFiles\Num203_removeElements.dir\rule
 CMakeFiles\Num203_removeElements.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num203_removeElements.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num203_removeElements.dir\clean
 .PHONY : CMakeFiles\Num203_removeElements.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Num1290_getDecimalValue.dir
+
+# All Build rule for target.
+CMakeFiles\Num1290_getDecimalValue.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1290_getDecimalValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1290_getDecimalValue.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1290_getDecimalValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1290_getDecimalValue.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target Num1290_getDecimalValue"
+.PHONY : CMakeFiles\Num1290_getDecimalValue.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Num1290_getDecimalValue.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Num1290_getDecimalValue.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Num1290_getDecimalValue.dir\rule
+
+# Convenience name for target.
+Num1290_getDecimalValue: CMakeFiles\Num1290_getDecimalValue.dir\rule
+
+.PHONY : Num1290_getDecimalValue
+
+# clean rule for target.
+CMakeFiles\Num1290_getDecimalValue.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1290_getDecimalValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1290_getDecimalValue.dir\clean
+.PHONY : CMakeFiles\Num1290_getDecimalValue.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

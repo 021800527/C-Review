@@ -232,6 +232,19 @@ List_LocateElem\fast:
 .PHONY : List_LocateElem\fast
 
 #=============================================================================
+# Target rules for targets named Num234_isPalindrome
+
+# Build rule for target.
+Num234_isPalindrome: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num234_isPalindrome
+.PHONY : Num234_isPalindrome
+
+# fast build rule for target.
+Num234_isPalindrome\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num234_isPalindrome.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num234_isPalindrome.dir\build
+.PHONY : Num234_isPalindrome\fast
+
+#=============================================================================
 # Target rules for targets named ListDelete
 
 # Build rule for target.
@@ -347,6 +360,19 @@ DLinkList_Init: cmake_check_build_system
 DLinkList_Init\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.dir\build
 .PHONY : DLinkList_Init\fast
+
+#=============================================================================
+# Target rules for targets named Num141_hasCycle
+
+# Build rule for target.
+Num141_hasCycle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num141_hasCycle
+.PHONY : Num141_hasCycle
+
+# fast build rule for target.
+Num141_hasCycle\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num141_hasCycle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num141_hasCycle.dir\build
+.PHONY : Num141_hasCycle\fast
 
 #=============================================================================
 # Target rules for targets named DLink_DestoryList
@@ -491,6 +517,19 @@ Num203_removeElements\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num203_removeElements.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num203_removeElements.dir\build
 .PHONY : Num203_removeElements\fast
 
+#=============================================================================
+# Target rules for targets named Num1290_getDecimalValue
+
+# Build rule for target.
+Num1290_getDecimalValue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num1290_getDecimalValue
+.PHONY : Num1290_getDecimalValue
+
+# fast build rule for target.
+Num1290_getDecimalValue\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1290_getDecimalValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1290_getDecimalValue.dir\build
+.PHONY : Num1290_getDecimalValue\fast
+
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
 .PHONY : DLinkList_Init.obj
@@ -602,6 +641,60 @@ LeetCode\Facial02.05_addTwoNumbers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial02.05_addTwoNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial02.05_addTwoNumbers.dir\LeetCode\Facial02.05_addTwoNumbers.cpp.s
 .PHONY : LeetCode\Facial02.05_addTwoNumbers.cpp.s
 
+LeetCode\Num1290_getDecimalValue.obj: LeetCode\Num1290_getDecimalValue.cpp.obj
+
+.PHONY : LeetCode\Num1290_getDecimalValue.obj
+
+# target to build an object file
+LeetCode\Num1290_getDecimalValue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1290_getDecimalValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1290_getDecimalValue.dir\LeetCode\Num1290_getDecimalValue.cpp.obj
+.PHONY : LeetCode\Num1290_getDecimalValue.cpp.obj
+
+LeetCode\Num1290_getDecimalValue.i: LeetCode\Num1290_getDecimalValue.cpp.i
+
+.PHONY : LeetCode\Num1290_getDecimalValue.i
+
+# target to preprocess a source file
+LeetCode\Num1290_getDecimalValue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1290_getDecimalValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1290_getDecimalValue.dir\LeetCode\Num1290_getDecimalValue.cpp.i
+.PHONY : LeetCode\Num1290_getDecimalValue.cpp.i
+
+LeetCode\Num1290_getDecimalValue.s: LeetCode\Num1290_getDecimalValue.cpp.s
+
+.PHONY : LeetCode\Num1290_getDecimalValue.s
+
+# target to generate assembly for a file
+LeetCode\Num1290_getDecimalValue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1290_getDecimalValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1290_getDecimalValue.dir\LeetCode\Num1290_getDecimalValue.cpp.s
+.PHONY : LeetCode\Num1290_getDecimalValue.cpp.s
+
+LeetCode\Num141_hasCycle.obj: LeetCode\Num141_hasCycle.cpp.obj
+
+.PHONY : LeetCode\Num141_hasCycle.obj
+
+# target to build an object file
+LeetCode\Num141_hasCycle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num141_hasCycle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num141_hasCycle.dir\LeetCode\Num141_hasCycle.cpp.obj
+.PHONY : LeetCode\Num141_hasCycle.cpp.obj
+
+LeetCode\Num141_hasCycle.i: LeetCode\Num141_hasCycle.cpp.i
+
+.PHONY : LeetCode\Num141_hasCycle.i
+
+# target to preprocess a source file
+LeetCode\Num141_hasCycle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num141_hasCycle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num141_hasCycle.dir\LeetCode\Num141_hasCycle.cpp.i
+.PHONY : LeetCode\Num141_hasCycle.cpp.i
+
+LeetCode\Num141_hasCycle.s: LeetCode\Num141_hasCycle.cpp.s
+
+.PHONY : LeetCode\Num141_hasCycle.s
+
+# target to generate assembly for a file
+LeetCode\Num141_hasCycle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num141_hasCycle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num141_hasCycle.dir\LeetCode\Num141_hasCycle.cpp.s
+.PHONY : LeetCode\Num141_hasCycle.cpp.s
+
 LeetCode\Num203_removeElements.obj: LeetCode\Num203_removeElements.cpp.obj
 
 .PHONY : LeetCode\Num203_removeElements.obj
@@ -655,6 +748,33 @@ LeetCode\Num21_mergeTwoLists.s: LeetCode\Num21_mergeTwoLists.cpp.s
 LeetCode\Num21_mergeTwoLists.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num21_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num21_mergeTwoLists.dir\LeetCode\Num21_mergeTwoLists.cpp.s
 .PHONY : LeetCode\Num21_mergeTwoLists.cpp.s
+
+LeetCode\Num234_isPalindrome.obj: LeetCode\Num234_isPalindrome.cpp.obj
+
+.PHONY : LeetCode\Num234_isPalindrome.obj
+
+# target to build an object file
+LeetCode\Num234_isPalindrome.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num234_isPalindrome.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num234_isPalindrome.dir\LeetCode\Num234_isPalindrome.cpp.obj
+.PHONY : LeetCode\Num234_isPalindrome.cpp.obj
+
+LeetCode\Num234_isPalindrome.i: LeetCode\Num234_isPalindrome.cpp.i
+
+.PHONY : LeetCode\Num234_isPalindrome.i
+
+# target to preprocess a source file
+LeetCode\Num234_isPalindrome.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num234_isPalindrome.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num234_isPalindrome.dir\LeetCode\Num234_isPalindrome.cpp.i
+.PHONY : LeetCode\Num234_isPalindrome.cpp.i
+
+LeetCode\Num234_isPalindrome.s: LeetCode\Num234_isPalindrome.cpp.s
+
+.PHONY : LeetCode\Num234_isPalindrome.s
+
+# target to generate assembly for a file
+LeetCode\Num234_isPalindrome.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num234_isPalindrome.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num234_isPalindrome.dir\LeetCode\Num234_isPalindrome.cpp.s
+.PHONY : LeetCode\Num234_isPalindrome.cpp.s
 
 LeetCode\Num237_deleteNode.obj: LeetCode\Num237_deleteNode.cpp.obj
 
@@ -1276,8 +1396,11 @@ help:
 	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
+	@echo ... Num1290_getDecimalValue
+	@echo ... Num141_hasCycle
 	@echo ... Num203_removeElements
 	@echo ... Num21_mergeTwoLists
+	@echo ... Num234_isPalindrome
 	@echo ... Num237_deleteNode
 	@echo ... Num876_middleNode
 	@echo ... Offer06_reversePrint
@@ -1299,12 +1422,21 @@ help:
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.obj
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.i
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.s
+	@echo ... LeetCode/Num1290_getDecimalValue.obj
+	@echo ... LeetCode/Num1290_getDecimalValue.i
+	@echo ... LeetCode/Num1290_getDecimalValue.s
+	@echo ... LeetCode/Num141_hasCycle.obj
+	@echo ... LeetCode/Num141_hasCycle.i
+	@echo ... LeetCode/Num141_hasCycle.s
 	@echo ... LeetCode/Num203_removeElements.obj
 	@echo ... LeetCode/Num203_removeElements.i
 	@echo ... LeetCode/Num203_removeElements.s
 	@echo ... LeetCode/Num21_mergeTwoLists.obj
 	@echo ... LeetCode/Num21_mergeTwoLists.i
 	@echo ... LeetCode/Num21_mergeTwoLists.s
+	@echo ... LeetCode/Num234_isPalindrome.obj
+	@echo ... LeetCode/Num234_isPalindrome.i
+	@echo ... LeetCode/Num234_isPalindrome.s
 	@echo ... LeetCode/Num237_deleteNode.obj
 	@echo ... LeetCode/Num237_deleteNode.i
 	@echo ... LeetCode/Num237_deleteNode.s

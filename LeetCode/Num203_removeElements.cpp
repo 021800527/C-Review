@@ -15,16 +15,20 @@ struct ListNode{
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
-        ListNode *res = new ListNode();
-        res->next = head;
-        ListNode *old = res;
-        while(res->next!=NULL){
-            if (res->next->val == val){
-                res->next = res->next->next;
-            }
-            if (res->next!=NULL)
-                res =res->next;
+    ListNode *cur = head;
+    ListNode *prev = new ListNode();
+    prev ->next = head;
+    ListNode *res = prev;
+    while(cur!=NULL){
+        if(cur->val == val){
+            prev ->next = cur->next;
+            cur = cur->next;
         }
+        else{
+            prev = cur;
+            cur = cur->next;
+        }
+    }
         return res->next;
     }
 };
