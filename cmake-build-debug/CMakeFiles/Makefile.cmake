@@ -47,6 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/OddDlinkList.dir/DependInfo.cmake"
   "CMakeFiles/Offer18_deleteNode.dir/DependInfo.cmake"
   "CMakeFiles/C.dir/DependInfo.cmake"
   "CMakeFiles/List_insert.dir/DependInfo.cmake"
@@ -79,4 +80,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Num21_mergeTwoLists.dir/DependInfo.cmake"
   "CMakeFiles/Num203_removeElements.dir/DependInfo.cmake"
   "CMakeFiles/Num1290_getDecimalValue.dir/DependInfo.cmake"
+  "CMakeFiles/OddList.dir/DependInfo.cmake"
+  "CMakeFiles/StaticLinkList.dir/DependInfo.cmake"
   )

@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\C-Review
+CMAKE_SOURCE_DIR = E:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -113,6 +113,19 @@ preinstall\fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named OddDlinkList
+
+# Build rule for target.
+OddDlinkList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) OddDlinkList
+.PHONY : OddDlinkList
+
+# fast build rule for target.
+OddDlinkList\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddDlinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OddDlinkList.dir\build
+.PHONY : OddDlinkList\fast
 
 #=============================================================================
 # Target rules for targets named Offer18_deleteNode
@@ -529,6 +542,32 @@ Num1290_getDecimalValue: cmake_check_build_system
 Num1290_getDecimalValue\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1290_getDecimalValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1290_getDecimalValue.dir\build
 .PHONY : Num1290_getDecimalValue\fast
+
+#=============================================================================
+# Target rules for targets named OddList
+
+# Build rule for target.
+OddList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) OddList
+.PHONY : OddList
+
+# fast build rule for target.
+OddList\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OddList.dir\build
+.PHONY : OddList\fast
+
+#=============================================================================
+# Target rules for targets named StaticLinkList
+
+# Build rule for target.
+StaticLinkList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) StaticLinkList
+.PHONY : StaticLinkList
+
+# fast build rule for target.
+StaticLinkList\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLinkList.dir\build
+.PHONY : StaticLinkList\fast
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -1370,6 +1409,87 @@ List_malloc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C.dir\List_malloc.cpp.s
 .PHONY : List_malloc.cpp.s
 
+OddDlinkList.obj: OddDlinkList.cpp.obj
+
+.PHONY : OddDlinkList.obj
+
+# target to build an object file
+OddDlinkList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddDlinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OddDlinkList.dir\OddDlinkList.cpp.obj
+.PHONY : OddDlinkList.cpp.obj
+
+OddDlinkList.i: OddDlinkList.cpp.i
+
+.PHONY : OddDlinkList.i
+
+# target to preprocess a source file
+OddDlinkList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddDlinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OddDlinkList.dir\OddDlinkList.cpp.i
+.PHONY : OddDlinkList.cpp.i
+
+OddDlinkList.s: OddDlinkList.cpp.s
+
+.PHONY : OddDlinkList.s
+
+# target to generate assembly for a file
+OddDlinkList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddDlinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OddDlinkList.dir\OddDlinkList.cpp.s
+.PHONY : OddDlinkList.cpp.s
+
+OddList.obj: OddList.cpp.obj
+
+.PHONY : OddList.obj
+
+# target to build an object file
+OddList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OddList.dir\OddList.cpp.obj
+.PHONY : OddList.cpp.obj
+
+OddList.i: OddList.cpp.i
+
+.PHONY : OddList.i
+
+# target to preprocess a source file
+OddList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OddList.dir\OddList.cpp.i
+.PHONY : OddList.cpp.i
+
+OddList.s: OddList.cpp.s
+
+.PHONY : OddList.s
+
+# target to generate assembly for a file
+OddList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OddList.dir\OddList.cpp.s
+.PHONY : OddList.cpp.s
+
+StaticLinkList.obj: StaticLinkList.cpp.obj
+
+.PHONY : StaticLinkList.obj
+
+# target to build an object file
+StaticLinkList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLinkList.dir\StaticLinkList.cpp.obj
+.PHONY : StaticLinkList.cpp.obj
+
+StaticLinkList.i: StaticLinkList.cpp.i
+
+.PHONY : StaticLinkList.i
+
+# target to preprocess a source file
+StaticLinkList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLinkList.dir\StaticLinkList.cpp.i
+.PHONY : StaticLinkList.cpp.i
+
+StaticLinkList.s: StaticLinkList.cpp.s
+
+.PHONY : StaticLinkList.s
+
+# target to generate assembly for a file
+StaticLinkList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLinkList.dir\StaticLinkList.cpp.s
+.PHONY : StaticLinkList.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1403,6 +1523,8 @@ help:
 	@echo ... Num234_isPalindrome
 	@echo ... Num237_deleteNode
 	@echo ... Num876_middleNode
+	@echo ... OddDlinkList
+	@echo ... OddList
 	@echo ... Offer06_reversePrint
 	@echo ... Offer18_deleteNode
 	@echo ... Offer22_getKthFromEnd
@@ -1410,6 +1532,7 @@ help:
 	@echo ... Offer24-Solution
 	@echo ... Offer25_mergeTwoLists
 	@echo ... Offer52_getIntersectionNode
+	@echo ... StaticLinkList
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
@@ -1503,6 +1626,15 @@ help:
 	@echo ... List_malloc.obj
 	@echo ... List_malloc.i
 	@echo ... List_malloc.s
+	@echo ... OddDlinkList.obj
+	@echo ... OddDlinkList.i
+	@echo ... OddDlinkList.s
+	@echo ... OddList.obj
+	@echo ... OddList.i
+	@echo ... OddList.s
+	@echo ... StaticLinkList.obj
+	@echo ... StaticLinkList.i
+	@echo ... StaticLinkList.s
 .PHONY : help
 
 
