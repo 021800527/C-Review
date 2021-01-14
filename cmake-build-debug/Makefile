@@ -154,6 +154,19 @@ C\fast:
 .PHONY : C\fast
 
 #=============================================================================
+# Target rules for targets named 3.2.2_Squeue
+
+# Build rule for target.
+3.2.2_Squeue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3.2.2_Squeue
+.PHONY : 3.2.2_Squeue
+
+# fast build rule for target.
+3.2.2_Squeue\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.2.2_Squeue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.2.2_Squeue.dir\build
+.PHONY : 3.2.2_Squeue\fast
+
+#=============================================================================
 # Target rules for targets named List_insert
 
 # Build rule for target.
@@ -191,6 +204,19 @@ List_delete: cmake_check_build_system
 List_delete\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_delete.dir\build
 .PHONY : List_delete\fast
+
+#=============================================================================
+# Target rules for targets named 3.1.2_ShStack
+
+# Build rule for target.
+3.1.2_ShStack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3.1.2_ShStack
+.PHONY : 3.1.2_ShStack
+
+# fast build rule for target.
+3.1.2_ShStack\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.1.2_ShStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.1.2_ShStack.dir\build
+.PHONY : 3.1.2_ShStack\fast
 
 #=============================================================================
 # Target rules for targets named LikList_behindInsert
@@ -568,6 +594,100 @@ StaticLinkList: cmake_check_build_system
 StaticLinkList\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLinkList.dir\build
 .PHONY : StaticLinkList\fast
+
+#=============================================================================
+# Target rules for targets named 3.1.2_Sqstack
+
+# Build rule for target.
+3.1.2_Sqstack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3.1.2_Sqstack
+.PHONY : 3.1.2_Sqstack
+
+# fast build rule for target.
+3.1.2_Sqstack\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.1.2_Sqstack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.1.2_Sqstack.dir\build
+.PHONY : 3.1.2_Sqstack\fast
+
+3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
+
+.PHONY : 3.1.2_ShStack.obj
+
+# target to build an object file
+3.1.2_ShStack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.1.2_ShStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.1.2_ShStack.dir\3.1.2_ShStack.cpp.obj
+.PHONY : 3.1.2_ShStack.cpp.obj
+
+3.1.2_ShStack.i: 3.1.2_ShStack.cpp.i
+
+.PHONY : 3.1.2_ShStack.i
+
+# target to preprocess a source file
+3.1.2_ShStack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.1.2_ShStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.1.2_ShStack.dir\3.1.2_ShStack.cpp.i
+.PHONY : 3.1.2_ShStack.cpp.i
+
+3.1.2_ShStack.s: 3.1.2_ShStack.cpp.s
+
+.PHONY : 3.1.2_ShStack.s
+
+# target to generate assembly for a file
+3.1.2_ShStack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.1.2_ShStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.1.2_ShStack.dir\3.1.2_ShStack.cpp.s
+.PHONY : 3.1.2_ShStack.cpp.s
+
+3.1.2_Sqstack.obj: 3.1.2_Sqstack.cpp.obj
+
+.PHONY : 3.1.2_Sqstack.obj
+
+# target to build an object file
+3.1.2_Sqstack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.1.2_Sqstack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.1.2_Sqstack.dir\3.1.2_Sqstack.cpp.obj
+.PHONY : 3.1.2_Sqstack.cpp.obj
+
+3.1.2_Sqstack.i: 3.1.2_Sqstack.cpp.i
+
+.PHONY : 3.1.2_Sqstack.i
+
+# target to preprocess a source file
+3.1.2_Sqstack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.1.2_Sqstack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.1.2_Sqstack.dir\3.1.2_Sqstack.cpp.i
+.PHONY : 3.1.2_Sqstack.cpp.i
+
+3.1.2_Sqstack.s: 3.1.2_Sqstack.cpp.s
+
+.PHONY : 3.1.2_Sqstack.s
+
+# target to generate assembly for a file
+3.1.2_Sqstack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.1.2_Sqstack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.1.2_Sqstack.dir\3.1.2_Sqstack.cpp.s
+.PHONY : 3.1.2_Sqstack.cpp.s
+
+3.2.2_Squeue.obj: 3.2.2_Squeue.cpp.obj
+
+.PHONY : 3.2.2_Squeue.obj
+
+# target to build an object file
+3.2.2_Squeue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.2.2_Squeue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.2.2_Squeue.dir\3.2.2_Squeue.cpp.obj
+.PHONY : 3.2.2_Squeue.cpp.obj
+
+3.2.2_Squeue.i: 3.2.2_Squeue.cpp.i
+
+.PHONY : 3.2.2_Squeue.i
+
+# target to preprocess a source file
+3.2.2_Squeue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.2.2_Squeue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.2.2_Squeue.dir\3.2.2_Squeue.cpp.i
+.PHONY : 3.2.2_Squeue.cpp.i
+
+3.2.2_Squeue.s: 3.2.2_Squeue.cpp.s
+
+.PHONY : 3.2.2_Squeue.s
+
+# target to generate assembly for a file
+3.2.2_Squeue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.2.2_Squeue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.2.2_Squeue.dir\3.2.2_Squeue.cpp.s
+.PHONY : 3.2.2_Squeue.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -1498,6 +1618,9 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 3.1.2_ShStack
+	@echo ... 3.1.2_Sqstack
+	@echo ... 3.2.2_Squeue
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -1533,6 +1656,15 @@ help:
 	@echo ... Offer25_mergeTwoLists
 	@echo ... Offer52_getIntersectionNode
 	@echo ... StaticLinkList
+	@echo ... 3.1.2_ShStack.obj
+	@echo ... 3.1.2_ShStack.i
+	@echo ... 3.1.2_ShStack.s
+	@echo ... 3.1.2_Sqstack.obj
+	@echo ... 3.1.2_Sqstack.i
+	@echo ... 3.1.2_Sqstack.s
+	@echo ... 3.2.2_Squeue.obj
+	@echo ... 3.2.2_Squeue.i
+	@echo ... 3.2.2_Squeue.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s

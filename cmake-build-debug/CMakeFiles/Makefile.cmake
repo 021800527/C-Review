@@ -50,9 +50,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OddDlinkList.dir/DependInfo.cmake"
   "CMakeFiles/Offer18_deleteNode.dir/DependInfo.cmake"
   "CMakeFiles/C.dir/DependInfo.cmake"
+  "CMakeFiles/3.2.2_Squeue.dir/DependInfo.cmake"
   "CMakeFiles/List_insert.dir/DependInfo.cmake"
   "CMakeFiles/Offer06_reversePrint.dir/DependInfo.cmake"
   "CMakeFiles/List_delete.dir/DependInfo.cmake"
+  "CMakeFiles/3.1.2_ShStack.dir/DependInfo.cmake"
   "CMakeFiles/LikList_behindInsert.dir/DependInfo.cmake"
   "CMakeFiles/List_GetElem.dir/DependInfo.cmake"
   "CMakeFiles/LinkList_insert.dir/DependInfo.cmake"
@@ -82,4 +84,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Num1290_getDecimalValue.dir/DependInfo.cmake"
   "CMakeFiles/OddList.dir/DependInfo.cmake"
   "CMakeFiles/StaticLinkList.dir/DependInfo.cmake"
+  "CMakeFiles/3.1.2_Sqstack.dir/DependInfo.cmake"
   )
