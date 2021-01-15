@@ -9,6 +9,7 @@ E:/C-Review/cmake-build-debug/CMakeFiles/3.1.2_ShStack.dir
 E:/C-Review/cmake-build-debug/CMakeFiles/LikList_behindInsert.dir
 E:/C-Review/cmake-build-debug/CMakeFiles/List_GetElem.dir
 E:/C-Review/cmake-build-debug/CMakeFiles/LinkList_insert.dir
+E:/C-Review/cmake-build-debug/CMakeFiles/Offer30_MinStack.dir
 E:/C-Review/cmake-build-debug/CMakeFiles/List_LocateElem.dir
 E:/C-Review/cmake-build-debug/CMakeFiles/Num234_isPalindrome.dir
 E:/C-Review/cmake-build-debug/CMakeFiles/ListDelete.dir

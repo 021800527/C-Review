@@ -258,6 +258,19 @@ LinkList_insert\fast:
 .PHONY : LinkList_insert\fast
 
 #=============================================================================
+# Target rules for targets named Offer30_MinStack
+
+# Build rule for target.
+Offer30_MinStack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer30_MinStack
+.PHONY : Offer30_MinStack
+
+# fast build rule for target.
+Offer30_MinStack\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer30_MinStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer30_MinStack.dir\build
+.PHONY : Offer30_MinStack\fast
+
+#=============================================================================
 # Target rules for targets named List_LocateElem
 
 # Build rule for target.
@@ -1151,6 +1164,33 @@ LeetCode\Offer25_mergeTwoLists.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer25_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\LeetCode\Offer25_mergeTwoLists.cpp.s
 .PHONY : LeetCode\Offer25_mergeTwoLists.cpp.s
 
+LeetCode\Offer30_MinStack.obj: LeetCode\Offer30_MinStack.cpp.obj
+
+.PHONY : LeetCode\Offer30_MinStack.obj
+
+# target to build an object file
+LeetCode\Offer30_MinStack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer30_MinStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer30_MinStack.dir\LeetCode\Offer30_MinStack.cpp.obj
+.PHONY : LeetCode\Offer30_MinStack.cpp.obj
+
+LeetCode\Offer30_MinStack.i: LeetCode\Offer30_MinStack.cpp.i
+
+.PHONY : LeetCode\Offer30_MinStack.i
+
+# target to preprocess a source file
+LeetCode\Offer30_MinStack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer30_MinStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer30_MinStack.dir\LeetCode\Offer30_MinStack.cpp.i
+.PHONY : LeetCode\Offer30_MinStack.cpp.i
+
+LeetCode\Offer30_MinStack.s: LeetCode\Offer30_MinStack.cpp.s
+
+.PHONY : LeetCode\Offer30_MinStack.s
+
+# target to generate assembly for a file
+LeetCode\Offer30_MinStack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer30_MinStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer30_MinStack.dir\LeetCode\Offer30_MinStack.cpp.s
+.PHONY : LeetCode\Offer30_MinStack.cpp.s
+
 LeetCode\Offer52_getIntersectionNode.obj: LeetCode\Offer52_getIntersectionNode.cpp.obj
 
 .PHONY : LeetCode\Offer52_getIntersectionNode.obj
@@ -1654,6 +1694,7 @@ help:
 	@echo ... Offer24
 	@echo ... Offer24-Solution
 	@echo ... Offer25_mergeTwoLists
+	@echo ... Offer30_MinStack
 	@echo ... Offer52_getIntersectionNode
 	@echo ... StaticLinkList
 	@echo ... 3.1.2_ShStack.obj
@@ -1716,6 +1757,9 @@ help:
 	@echo ... LeetCode/Offer25_mergeTwoLists.obj
 	@echo ... LeetCode/Offer25_mergeTwoLists.i
 	@echo ... LeetCode/Offer25_mergeTwoLists.s
+	@echo ... LeetCode/Offer30_MinStack.obj
+	@echo ... LeetCode/Offer30_MinStack.i
+	@echo ... LeetCode/Offer30_MinStack.s
 	@echo ... LeetCode/Offer52_getIntersectionNode.obj
 	@echo ... LeetCode/Offer52_getIntersectionNode.i
 	@echo ... LeetCode/Offer52_getIntersectionNode.s

@@ -68,6 +68,7 @@ all: CMakeFiles\3.1.2_ShStack.dir\all
 all: CMakeFiles\LikList_behindInsert.dir\all
 all: CMakeFiles\List_GetElem.dir\all
 all: CMakeFiles\LinkList_insert.dir\all
+all: CMakeFiles\Offer30_MinStack.dir\all
 all: CMakeFiles\List_LocateElem.dir\all
 all: CMakeFiles\Num234_isPalindrome.dir\all
 all: CMakeFiles\ListDelete.dir\all
@@ -115,6 +116,7 @@ clean: CMakeFiles\3.1.2_ShStack.dir\clean
 clean: CMakeFiles\LikList_behindInsert.dir\clean
 clean: CMakeFiles\List_GetElem.dir\clean
 clean: CMakeFiles\LinkList_insert.dir\clean
+clean: CMakeFiles\Offer30_MinStack.dir\clean
 clean: CMakeFiles\List_LocateElem.dir\clean
 clean: CMakeFiles\Num234_isPalindrome.dir\clean
 clean: CMakeFiles\ListDelete.dir\clean
@@ -441,6 +443,33 @@ LinkList_insert: CMakeFiles\LinkList_insert.dir\rule
 CMakeFiles\LinkList_insert.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_insert.dir\clean
 .PHONY : CMakeFiles\LinkList_insert.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Offer30_MinStack.dir
+
+# All Build rule for target.
+CMakeFiles\Offer30_MinStack.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer30_MinStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer30_MinStack.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer30_MinStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer30_MinStack.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C-Review\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target Offer30_MinStack"
+.PHONY : CMakeFiles\Offer30_MinStack.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Offer30_MinStack.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Offer30_MinStack.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\Offer30_MinStack.dir\rule
+
+# Convenience name for target.
+Offer30_MinStack: CMakeFiles\Offer30_MinStack.dir\rule
+
+.PHONY : Offer30_MinStack
+
+# clean rule for target.
+CMakeFiles\Offer30_MinStack.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer30_MinStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer30_MinStack.dir\clean
+.PHONY : CMakeFiles\Offer30_MinStack.dir\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/List_LocateElem.dir
@@ -935,7 +964,7 @@ CMakeFiles\Offer22_getKthFromEnd.dir\clean:
 CMakeFiles\Offer52_getIntersectionNode.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C-Review\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target Offer52_getIntersectionNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C-Review\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target Offer52_getIntersectionNode"
 .PHONY : CMakeFiles\Offer52_getIntersectionNode.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1124,7 +1153,7 @@ CMakeFiles\OddList.dir\clean:
 CMakeFiles\StaticLinkList.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLinkList.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLinkList.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C-Review\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target StaticLinkList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C-Review\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target StaticLinkList"
 .PHONY : CMakeFiles\StaticLinkList.dir\all
 
 # Build rule for subdir invocation for target.
