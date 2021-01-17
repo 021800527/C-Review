@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\C-Review
+CMAKE_SOURCE_DIR = F:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -531,6 +531,19 @@ Facial02.05_addTwoNumbers\fast:
 .PHONY : Facial02.05_addTwoNumbers\fast
 
 #=============================================================================
+# Target rules for targets named 3.2.3_LinkQueue
+
+# Build rule for target.
+3.2.3_LinkQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3.2.3_LinkQueue
+.PHONY : 3.2.3_LinkQueue
+
+# fast build rule for target.
+3.2.3_LinkQueue\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.2.3_LinkQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.2.3_LinkQueue.dir\build
+.PHONY : 3.2.3_LinkQueue\fast
+
+#=============================================================================
 # Target rules for targets named Num237_deleteNode
 
 # Build rule for target.
@@ -701,6 +714,33 @@ StaticLinkList\fast:
 3.2.2_Squeue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.2.2_Squeue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.2.2_Squeue.dir\3.2.2_Squeue.cpp.s
 .PHONY : 3.2.2_Squeue.cpp.s
+
+3.2.3_LinkQueue.obj: 3.2.3_LinkQueue.cpp.obj
+
+.PHONY : 3.2.3_LinkQueue.obj
+
+# target to build an object file
+3.2.3_LinkQueue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.2.3_LinkQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.2.3_LinkQueue.dir\3.2.3_LinkQueue.cpp.obj
+.PHONY : 3.2.3_LinkQueue.cpp.obj
+
+3.2.3_LinkQueue.i: 3.2.3_LinkQueue.cpp.i
+
+.PHONY : 3.2.3_LinkQueue.i
+
+# target to preprocess a source file
+3.2.3_LinkQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.2.3_LinkQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.2.3_LinkQueue.dir\3.2.3_LinkQueue.cpp.i
+.PHONY : 3.2.3_LinkQueue.cpp.i
+
+3.2.3_LinkQueue.s: 3.2.3_LinkQueue.cpp.s
+
+.PHONY : 3.2.3_LinkQueue.s
+
+# target to generate assembly for a file
+3.2.3_LinkQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.2.3_LinkQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.2.3_LinkQueue.dir\3.2.3_LinkQueue.cpp.s
+.PHONY : 3.2.3_LinkQueue.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -1661,6 +1701,7 @@ help:
 	@echo ... 3.1.2_ShStack
 	@echo ... 3.1.2_Sqstack
 	@echo ... 3.2.2_Squeue
+	@echo ... 3.2.3_LinkQueue
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -1706,6 +1747,9 @@ help:
 	@echo ... 3.2.2_Squeue.obj
 	@echo ... 3.2.2_Squeue.i
 	@echo ... 3.2.2_Squeue.s
+	@echo ... 3.2.3_LinkQueue.obj
+	@echo ... 3.2.3_LinkQueue.i
+	@echo ... 3.2.3_LinkQueue.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s

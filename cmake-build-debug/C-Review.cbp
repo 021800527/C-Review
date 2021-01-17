@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OddDlinkList">
-				<Option output="E:/C-Review/cmake-build-debug/OddDlinkList.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/OddDlinkList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -32,15 +32,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 OddDlinkList"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 OddDlinkList"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OddDlinkList/fast">
-				<Option output="E:/C-Review/cmake-build-debug/OddDlinkList.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/OddDlinkList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -53,15 +53,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 OddDlinkList/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 OddDlinkList/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer18_deleteNode">
-				<Option output="E:/C-Review/cmake-build-debug/Offer18_deleteNode.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer18_deleteNode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -74,15 +74,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer18_deleteNode"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer18_deleteNode"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer18_deleteNode/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Offer18_deleteNode.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer18_deleteNode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -95,15 +95,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer18_deleteNode/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer18_deleteNode/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C">
-				<Option output="E:/C-Review/cmake-build-debug/C.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -116,15 +116,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 C"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 C"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="C/fast">
-				<Option output="E:/C-Review/cmake-build-debug/C.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -137,15 +137,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 C/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 C/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="3.2.2_Squeue">
-				<Option output="E:/C-Review/cmake-build-debug/3.2.2_Squeue.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/3.2.2_Squeue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -158,15 +158,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.2.2_Squeue"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.2.2_Squeue"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="3.2.2_Squeue/fast">
-				<Option output="E:/C-Review/cmake-build-debug/3.2.2_Squeue.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/3.2.2_Squeue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -179,15 +179,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.2.2_Squeue/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.2.2_Squeue/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="List_insert">
-				<Option output="E:/C-Review/cmake-build-debug/List_insert.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/List_insert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -200,15 +200,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_insert"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_insert"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="List_insert/fast">
-				<Option output="E:/C-Review/cmake-build-debug/List_insert.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/List_insert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -221,15 +221,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_insert/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_insert/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer06_reversePrint">
-				<Option output="E:/C-Review/cmake-build-debug/Offer06_reversePrint.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer06_reversePrint.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -242,15 +242,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer06_reversePrint"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer06_reversePrint"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer06_reversePrint/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Offer06_reversePrint.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer06_reversePrint.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -263,15 +263,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer06_reversePrint/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer06_reversePrint/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="List_delete">
-				<Option output="E:/C-Review/cmake-build-debug/List_delete.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/List_delete.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -284,15 +284,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_delete"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_delete"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="List_delete/fast">
-				<Option output="E:/C-Review/cmake-build-debug/List_delete.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/List_delete.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -305,15 +305,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_delete/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_delete/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="3.1.2_ShStack">
-				<Option output="E:/C-Review/cmake-build-debug/3.1.2_ShStack.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/3.1.2_ShStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -326,15 +326,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.1.2_ShStack"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.1.2_ShStack"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="3.1.2_ShStack/fast">
-				<Option output="E:/C-Review/cmake-build-debug/3.1.2_ShStack.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/3.1.2_ShStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -347,15 +347,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.1.2_ShStack/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.1.2_ShStack/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LikList_behindInsert">
-				<Option output="E:/C-Review/cmake-build-debug/LikList_behindInsert.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LikList_behindInsert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -368,15 +368,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LikList_behindInsert"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LikList_behindInsert"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LikList_behindInsert/fast">
-				<Option output="E:/C-Review/cmake-build-debug/LikList_behindInsert.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LikList_behindInsert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -389,15 +389,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LikList_behindInsert/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LikList_behindInsert/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="List_GetElem">
-				<Option output="E:/C-Review/cmake-build-debug/List_GetElem.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/List_GetElem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -410,15 +410,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_GetElem"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_GetElem"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="List_GetElem/fast">
-				<Option output="E:/C-Review/cmake-build-debug/List_GetElem.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/List_GetElem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -431,15 +431,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_GetElem/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_GetElem/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinkList_insert">
-				<Option output="E:/C-Review/cmake-build-debug/LinkList_insert.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LinkList_insert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -452,15 +452,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_insert"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_insert"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinkList_insert/fast">
-				<Option output="E:/C-Review/cmake-build-debug/LinkList_insert.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LinkList_insert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -473,15 +473,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_insert/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_insert/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer30_MinStack">
-				<Option output="E:/C-Review/cmake-build-debug/Offer30_MinStack.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer30_MinStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -494,15 +494,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer30_MinStack"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer30_MinStack"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer30_MinStack/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Offer30_MinStack.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer30_MinStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -515,15 +515,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer30_MinStack/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer30_MinStack/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="List_LocateElem">
-				<Option output="E:/C-Review/cmake-build-debug/List_LocateElem.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/List_LocateElem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -536,15 +536,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_LocateElem"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_LocateElem"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="List_LocateElem/fast">
-				<Option output="E:/C-Review/cmake-build-debug/List_LocateElem.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/List_LocateElem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -557,15 +557,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_LocateElem/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 List_LocateElem/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num234_isPalindrome">
-				<Option output="E:/C-Review/cmake-build-debug/Num234_isPalindrome.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num234_isPalindrome.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -578,15 +578,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num234_isPalindrome"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num234_isPalindrome"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num234_isPalindrome/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Num234_isPalindrome.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num234_isPalindrome.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -599,15 +599,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num234_isPalindrome/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num234_isPalindrome/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ListDelete">
-				<Option output="E:/C-Review/cmake-build-debug/ListDelete.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/ListDelete.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -620,15 +620,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 ListDelete"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 ListDelete"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ListDelete/fast">
-				<Option output="E:/C-Review/cmake-build-debug/ListDelete.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/ListDelete.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -641,15 +641,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 ListDelete/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 ListDelete/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinkLList_frontinsert">
-				<Option output="E:/C-Review/cmake-build-debug/LinkLList_frontinsert.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LinkLList_frontinsert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -662,15 +662,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkLList_frontinsert"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkLList_frontinsert"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinkLList_frontinsert/fast">
-				<Option output="E:/C-Review/cmake-build-debug/LinkLList_frontinsert.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LinkLList_frontinsert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -683,15 +683,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkLList_frontinsert/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkLList_frontinsert/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DLinkList_Init.cpp">
-				<Option output="E:/C-Review/cmake-build-debug/DLinkList_Init.cpp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/DLinkList_Init.cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -704,15 +704,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLinkList_Init.cpp"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLinkList_Init.cpp"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DLinkList_Init.cpp/fast">
-				<Option output="E:/C-Review/cmake-build-debug/DLinkList_Init.cpp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/DLinkList_Init.cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -725,15 +725,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLinkList_Init.cpp/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLinkList_Init.cpp/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinkList_GetElem">
-				<Option output="E:/C-Review/cmake-build-debug/LinkList_GetElem.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LinkList_GetElem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -746,15 +746,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_GetElem"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_GetElem"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinkList_GetElem/fast">
-				<Option output="E:/C-Review/cmake-build-debug/LinkList_GetElem.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LinkList_GetElem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -767,15 +767,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_GetElem/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_GetElem/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinkList_LocateElem">
-				<Option output="E:/C-Review/cmake-build-debug/LinkList_LocateElem.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LinkList_LocateElem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -788,15 +788,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_LocateElem"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_LocateElem"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinkList_LocateElem/fast">
-				<Option output="E:/C-Review/cmake-build-debug/LinkList_LocateElem.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LinkList_LocateElem.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -809,15 +809,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_LocateElem/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_LocateElem/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinkList_length">
-				<Option output="E:/C-Review/cmake-build-debug/LinkList_length.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LinkList_length.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -830,15 +830,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_length"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_length"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinkList_length/fast">
-				<Option output="E:/C-Review/cmake-build-debug/LinkList_length.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LinkList_length.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -851,15 +851,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_length/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_length/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinkList_Taillnsert">
-				<Option output="E:/C-Review/cmake-build-debug/LinkList_Taillnsert.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LinkList_Taillnsert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -872,15 +872,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_Taillnsert"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_Taillnsert"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LinkList_Taillnsert/fast">
-				<Option output="E:/C-Review/cmake-build-debug/LinkList_Taillnsert.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/LinkList_Taillnsert.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -893,15 +893,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_Taillnsert/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 LinkList_Taillnsert/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DLink_delete">
-				<Option output="E:/C-Review/cmake-build-debug/DLink_delete.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/DLink_delete.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -914,15 +914,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLink_delete"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLink_delete"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DLink_delete/fast">
-				<Option output="E:/C-Review/cmake-build-debug/DLink_delete.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/DLink_delete.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -935,15 +935,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLink_delete/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLink_delete/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DLinkList_Init">
-				<Option output="E:/C-Review/cmake-build-debug/DLinkList_Init.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/DLinkList_Init.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -956,15 +956,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLinkList_Init"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLinkList_Init"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DLinkList_Init/fast">
-				<Option output="E:/C-Review/cmake-build-debug/DLinkList_Init.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/DLinkList_Init.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -977,15 +977,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLinkList_Init/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLinkList_Init/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num141_hasCycle">
-				<Option output="E:/C-Review/cmake-build-debug/Num141_hasCycle.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num141_hasCycle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -998,15 +998,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num141_hasCycle"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num141_hasCycle"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num141_hasCycle/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Num141_hasCycle.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num141_hasCycle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1019,15 +1019,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num141_hasCycle/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num141_hasCycle/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DLink_DestoryList">
-				<Option output="E:/C-Review/cmake-build-debug/DLink_DestoryList.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/DLink_DestoryList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1040,15 +1040,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLink_DestoryList"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLink_DestoryList"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DLink_DestoryList/fast">
-				<Option output="E:/C-Review/cmake-build-debug/DLink_DestoryList.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/DLink_DestoryList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1061,15 +1061,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLink_DestoryList/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 DLink_DestoryList/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer24">
-				<Option output="E:/C-Review/cmake-build-debug/Offer24.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer24.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1082,15 +1082,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer24"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer24"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer24/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Offer24.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer24.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1103,15 +1103,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer24/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer24/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer24-Solution">
-				<Option output="E:/C-Review/cmake-build-debug/Offer24-Solution.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer24-Solution.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1124,15 +1124,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer24-Solution"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer24-Solution"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer24-Solution/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Offer24-Solution.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer24-Solution.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1145,15 +1145,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer24-Solution/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer24-Solution/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer25_mergeTwoLists">
-				<Option output="E:/C-Review/cmake-build-debug/Offer25_mergeTwoLists.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer25_mergeTwoLists.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1166,15 +1166,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer25_mergeTwoLists"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer25_mergeTwoLists"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer25_mergeTwoLists/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Offer25_mergeTwoLists.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer25_mergeTwoLists.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1187,15 +1187,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer25_mergeTwoLists/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer25_mergeTwoLists/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num876_middleNode">
-				<Option output="E:/C-Review/cmake-build-debug/Num876_middleNode.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num876_middleNode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1208,15 +1208,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num876_middleNode"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num876_middleNode"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num876_middleNode/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Num876_middleNode.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num876_middleNode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1229,15 +1229,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num876_middleNode/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num876_middleNode/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer22_getKthFromEnd">
-				<Option output="E:/C-Review/cmake-build-debug/Offer22_getKthFromEnd.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer22_getKthFromEnd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1250,15 +1250,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer22_getKthFromEnd"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer22_getKthFromEnd"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer22_getKthFromEnd/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Offer22_getKthFromEnd.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer22_getKthFromEnd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1271,15 +1271,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer22_getKthFromEnd/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer22_getKthFromEnd/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer52_getIntersectionNode">
-				<Option output="E:/C-Review/cmake-build-debug/Offer52_getIntersectionNode.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer52_getIntersectionNode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1292,15 +1292,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer52_getIntersectionNode"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer52_getIntersectionNode"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Offer52_getIntersectionNode/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Offer52_getIntersectionNode.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Offer52_getIntersectionNode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1313,15 +1313,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer52_getIntersectionNode/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer52_getIntersectionNode/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Facial02.05_addTwoNumbers">
-				<Option output="E:/C-Review/cmake-build-debug/Facial02.05_addTwoNumbers.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Facial02.05_addTwoNumbers.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1334,15 +1334,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Facial02.05_addTwoNumbers"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Facial02.05_addTwoNumbers"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Facial02.05_addTwoNumbers/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Facial02.05_addTwoNumbers.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Facial02.05_addTwoNumbers.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1355,15 +1355,57 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Facial02.05_addTwoNumbers/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Facial02.05_addTwoNumbers/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.2.3_LinkQueue">
+				<Option output="F:/C-Review/cmake-build-debug/3.2.3_LinkQueue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.2.3_LinkQueue"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3.2.3_LinkQueue/fast">
+				<Option output="F:/C-Review/cmake-build-debug/3.2.3_LinkQueue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.2.3_LinkQueue/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num237_deleteNode">
-				<Option output="E:/C-Review/cmake-build-debug/Num237_deleteNode.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num237_deleteNode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1376,15 +1418,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num237_deleteNode"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num237_deleteNode"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num237_deleteNode/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Num237_deleteNode.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num237_deleteNode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1397,15 +1439,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num237_deleteNode/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num237_deleteNode/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num21_mergeTwoLists">
-				<Option output="E:/C-Review/cmake-build-debug/Num21_mergeTwoLists.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num21_mergeTwoLists.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1418,15 +1460,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num21_mergeTwoLists"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num21_mergeTwoLists"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num21_mergeTwoLists/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Num21_mergeTwoLists.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num21_mergeTwoLists.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1439,15 +1481,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num21_mergeTwoLists/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num21_mergeTwoLists/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num203_removeElements">
-				<Option output="E:/C-Review/cmake-build-debug/Num203_removeElements.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num203_removeElements.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1460,15 +1502,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num203_removeElements"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num203_removeElements"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num203_removeElements/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Num203_removeElements.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num203_removeElements.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1481,15 +1523,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num203_removeElements/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num203_removeElements/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num1290_getDecimalValue">
-				<Option output="E:/C-Review/cmake-build-debug/Num1290_getDecimalValue.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num1290_getDecimalValue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1502,15 +1544,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num1290_getDecimalValue"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num1290_getDecimalValue"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Num1290_getDecimalValue/fast">
-				<Option output="E:/C-Review/cmake-build-debug/Num1290_getDecimalValue.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/Num1290_getDecimalValue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1523,15 +1565,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num1290_getDecimalValue/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num1290_getDecimalValue/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OddList">
-				<Option output="E:/C-Review/cmake-build-debug/OddList.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/OddList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1544,15 +1586,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 OddList"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 OddList"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OddList/fast">
-				<Option output="E:/C-Review/cmake-build-debug/OddList.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/OddList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1565,15 +1607,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 OddList/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 OddList/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="StaticLinkList">
-				<Option output="E:/C-Review/cmake-build-debug/StaticLinkList.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/StaticLinkList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1586,15 +1628,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 StaticLinkList"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 StaticLinkList"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="StaticLinkList/fast">
-				<Option output="E:/C-Review/cmake-build-debug/StaticLinkList.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/StaticLinkList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1607,15 +1649,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 StaticLinkList/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 StaticLinkList/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="3.1.2_Sqstack">
-				<Option output="E:/C-Review/cmake-build-debug/3.1.2_Sqstack.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/3.1.2_Sqstack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1628,15 +1670,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.1.2_Sqstack"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.1.2_Sqstack"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="3.1.2_Sqstack/fast">
-				<Option output="E:/C-Review/cmake-build-debug/3.1.2_Sqstack.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option output="F:/C-Review/cmake-build-debug/3.1.2_Sqstack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -1649,149 +1691,152 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.1.2_Sqstack/fast"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 3.1.2_Sqstack/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/C-Review/3.1.2_ShStack.cpp">
+		<Unit filename="F:/C-Review/3.1.2_ShStack.cpp">
 			<Option target="3.1.2_ShStack"/>
 		</Unit>
-		<Unit filename="E:/C-Review/3.1.2_Sqstack.cpp">
+		<Unit filename="F:/C-Review/3.1.2_Sqstack.cpp">
 			<Option target="3.1.2_Sqstack"/>
 		</Unit>
-		<Unit filename="E:/C-Review/3.2.2_Squeue.cpp">
+		<Unit filename="F:/C-Review/3.2.2_Squeue.cpp">
 			<Option target="3.2.2_Squeue"/>
 		</Unit>
-		<Unit filename="E:/C-Review/DLinkList_Init.cpp">
+		<Unit filename="F:/C-Review/3.2.3_LinkQueue.cpp">
+			<Option target="3.2.3_LinkQueue"/>
+		</Unit>
+		<Unit filename="F:/C-Review/DLinkList_Init.cpp">
 			<Option target="DLinkList_Init.cpp"/>
 			<Option target="DLinkList_Init"/>
 		</Unit>
-		<Unit filename="E:/C-Review/DLink_DestoryList.cpp">
+		<Unit filename="F:/C-Review/DLink_DestoryList.cpp">
 			<Option target="DLink_DestoryList"/>
 		</Unit>
-		<Unit filename="E:/C-Review/DLink_delete.cpp">
+		<Unit filename="F:/C-Review/DLink_delete.cpp">
 			<Option target="DLink_delete"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Facial02.05_addTwoNumbers.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Facial02.05_addTwoNumbers.cpp">
 			<Option target="Facial02.05_addTwoNumbers"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Num1290_getDecimalValue.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Num1290_getDecimalValue.cpp">
 			<Option target="Num1290_getDecimalValue"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Num141_hasCycle.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Num141_hasCycle.cpp">
 			<Option target="Num141_hasCycle"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Num203_removeElements.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Num203_removeElements.cpp">
 			<Option target="Num203_removeElements"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Num21_mergeTwoLists.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Num21_mergeTwoLists.cpp">
 			<Option target="Num21_mergeTwoLists"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Num234_isPalindrome.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Num234_isPalindrome.cpp">
 			<Option target="Num234_isPalindrome"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Num237_deleteNode.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Num237_deleteNode.cpp">
 			<Option target="Num237_deleteNode"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Num876_middleNode.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Num876_middleNode.cpp">
 			<Option target="Num876_middleNode"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Offer06_reversePrint.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Offer06_reversePrint.cpp">
 			<Option target="Offer06_reversePrint"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Offer18_deleteNode.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Offer18_deleteNode.cpp">
 			<Option target="Offer18_deleteNode"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Offer22_getKthFromEnd.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Offer22_getKthFromEnd.cpp">
 			<Option target="Offer22_getKthFromEnd"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Offer24-Solution.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Offer24-Solution.cpp">
 			<Option target="Offer24-Solution"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Offer24.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Offer24.cpp">
 			<Option target="Offer24"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Offer25_mergeTwoLists.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Offer25_mergeTwoLists.cpp">
 			<Option target="Offer25_mergeTwoLists"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Offer30_MinStack.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Offer30_MinStack.cpp">
 			<Option target="Offer30_MinStack"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LeetCode/Offer52_getIntersectionNode.cpp">
+		<Unit filename="F:/C-Review/LeetCode/Offer52_getIntersectionNode.cpp">
 			<Option target="Offer52_getIntersectionNode"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LikList_behindInsert.cpp">
+		<Unit filename="F:/C-Review/LikList_behindInsert.cpp">
 			<Option target="LikList_behindInsert"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LinkLList_frontinsert.cpp">
+		<Unit filename="F:/C-Review/LinkLList_frontinsert.cpp">
 			<Option target="LinkLList_frontinsert"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LinkList_GetElem.cpp">
+		<Unit filename="F:/C-Review/LinkList_GetElem.cpp">
 			<Option target="LinkList_GetElem"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LinkList_LocateElem.cpp">
+		<Unit filename="F:/C-Review/LinkList_LocateElem.cpp">
 			<Option target="LinkList_LocateElem"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LinkList_Taillnsert.cpp">
+		<Unit filename="F:/C-Review/LinkList_Taillnsert.cpp">
 			<Option target="LinkList_Taillnsert"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LinkList_insert.cpp">
+		<Unit filename="F:/C-Review/LinkList_insert.cpp">
 			<Option target="LinkList_insert"/>
 		</Unit>
-		<Unit filename="E:/C-Review/LinkList_length.cpp">
+		<Unit filename="F:/C-Review/LinkList_length.cpp">
 			<Option target="LinkList_length"/>
 		</Unit>
-		<Unit filename="E:/C-Review/ListDelete.cpp">
+		<Unit filename="F:/C-Review/ListDelete.cpp">
 			<Option target="ListDelete"/>
 		</Unit>
-		<Unit filename="E:/C-Review/List_GetElem.cpp">
+		<Unit filename="F:/C-Review/List_GetElem.cpp">
 			<Option target="List_GetElem"/>
 		</Unit>
-		<Unit filename="E:/C-Review/List_LocateElem.cpp">
+		<Unit filename="F:/C-Review/List_LocateElem.cpp">
 			<Option target="List_LocateElem"/>
 		</Unit>
-		<Unit filename="E:/C-Review/List_delete.cpp">
+		<Unit filename="F:/C-Review/List_delete.cpp">
 			<Option target="List_delete"/>
 		</Unit>
-		<Unit filename="E:/C-Review/List_insert.cpp">
+		<Unit filename="F:/C-Review/List_insert.cpp">
 			<Option target="List_insert"/>
 		</Unit>
-		<Unit filename="E:/C-Review/List_malloc.cpp">
+		<Unit filename="F:/C-Review/List_malloc.cpp">
 			<Option target="C"/>
 		</Unit>
-		<Unit filename="E:/C-Review/OddDlinkList.cpp">
+		<Unit filename="F:/C-Review/OddDlinkList.cpp">
 			<Option target="OddDlinkList"/>
 		</Unit>
-		<Unit filename="E:/C-Review/OddList.cpp">
+		<Unit filename="F:/C-Review/OddList.cpp">
 			<Option target="OddList"/>
 		</Unit>
-		<Unit filename="E:/C-Review/StaticLinkList.cpp">
+		<Unit filename="F:/C-Review/StaticLinkList.cpp">
 			<Option target="StaticLinkList"/>
 		</Unit>
-		<Unit filename="E:/C-Review/CMakeLists.txt">
+		<Unit filename="F:/C-Review/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
