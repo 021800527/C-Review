@@ -323,6 +323,19 @@ LinkLList_frontinsert\fast:
 .PHONY : LinkLList_frontinsert\fast
 
 #=============================================================================
+# Target rules for targets named P2181
+
+# Build rule for target.
+P2181: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P2181
+.PHONY : P2181
+
+# fast build rule for target.
+P2181\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2181.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P2181.dir\build
+.PHONY : P2181\fast
+
+#=============================================================================
 # Target rules for targets named DLinkList_Init.cpp
 
 # Build rule for target.
@@ -583,6 +596,19 @@ Num203_removeElements\fast:
 .PHONY : Num203_removeElements\fast
 
 #=============================================================================
+# Target rules for targets named P5703
+
+# Build rule for target.
+P5703: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P5703
+.PHONY : P5703
+
+# fast build rule for target.
+P5703\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5703.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5703.dir\build
+.PHONY : P5703\fast
+
+#=============================================================================
 # Target rules for targets named Num1290_getDecimalValue
 
 # Build rule for target.
@@ -633,6 +659,19 @@ StaticLinkList\fast:
 3.1.2_Sqstack\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.1.2_Sqstack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.1.2_Sqstack.dir\build
 .PHONY : 3.1.2_Sqstack\fast
+
+#=============================================================================
+# Target rules for targets named P5704
+
+# Build rule for target.
+P5704: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P5704
+.PHONY : P5704
+
+# fast build rule for target.
+P5704\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5704.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5704.dir\build
+.PHONY : P5704\fast
 
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
@@ -1690,6 +1729,87 @@ StaticLinkList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLinkList.dir\StaticLinkList.cpp.s
 .PHONY : StaticLinkList.cpp.s
 
+luogu\P2181.obj: luogu\P2181.cpp.obj
+
+.PHONY : luogu\P2181.obj
+
+# target to build an object file
+luogu\P2181.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2181.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P2181.dir\luogu\P2181.cpp.obj
+.PHONY : luogu\P2181.cpp.obj
+
+luogu\P2181.i: luogu\P2181.cpp.i
+
+.PHONY : luogu\P2181.i
+
+# target to preprocess a source file
+luogu\P2181.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2181.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P2181.dir\luogu\P2181.cpp.i
+.PHONY : luogu\P2181.cpp.i
+
+luogu\P2181.s: luogu\P2181.cpp.s
+
+.PHONY : luogu\P2181.s
+
+# target to generate assembly for a file
+luogu\P2181.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2181.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P2181.dir\luogu\P2181.cpp.s
+.PHONY : luogu\P2181.cpp.s
+
+luogu\P5703_.obj: luogu\P5703_.cpp.obj
+
+.PHONY : luogu\P5703_.obj
+
+# target to build an object file
+luogu\P5703_.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5703.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5703.dir\luogu\P5703_.cpp.obj
+.PHONY : luogu\P5703_.cpp.obj
+
+luogu\P5703_.i: luogu\P5703_.cpp.i
+
+.PHONY : luogu\P5703_.i
+
+# target to preprocess a source file
+luogu\P5703_.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5703.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5703.dir\luogu\P5703_.cpp.i
+.PHONY : luogu\P5703_.cpp.i
+
+luogu\P5703_.s: luogu\P5703_.cpp.s
+
+.PHONY : luogu\P5703_.s
+
+# target to generate assembly for a file
+luogu\P5703_.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5703.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5703.dir\luogu\P5703_.cpp.s
+.PHONY : luogu\P5703_.cpp.s
+
+luogu\P5704_.obj: luogu\P5704_.cpp.obj
+
+.PHONY : luogu\P5704_.obj
+
+# target to build an object file
+luogu\P5704_.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5704.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5704.dir\luogu\P5704_.cpp.obj
+.PHONY : luogu\P5704_.cpp.obj
+
+luogu\P5704_.i: luogu\P5704_.cpp.i
+
+.PHONY : luogu\P5704_.i
+
+# target to preprocess a source file
+luogu\P5704_.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5704.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5704.dir\luogu\P5704_.cpp.i
+.PHONY : luogu\P5704_.cpp.i
+
+luogu\P5704_.s: luogu\P5704_.cpp.s
+
+.PHONY : luogu\P5704_.s
+
+# target to generate assembly for a file
+luogu\P5704_.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5704.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5704.dir\luogu\P5704_.cpp.s
+.PHONY : luogu\P5704_.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1737,6 +1857,9 @@ help:
 	@echo ... Offer25_mergeTwoLists
 	@echo ... Offer30_MinStack
 	@echo ... Offer52_getIntersectionNode
+	@echo ... P2181
+	@echo ... P5703
+	@echo ... P5704
 	@echo ... StaticLinkList
 	@echo ... 3.1.2_ShStack.obj
 	@echo ... 3.1.2_ShStack.i
@@ -1855,6 +1978,15 @@ help:
 	@echo ... StaticLinkList.obj
 	@echo ... StaticLinkList.i
 	@echo ... StaticLinkList.s
+	@echo ... luogu/P2181.obj
+	@echo ... luogu/P2181.i
+	@echo ... luogu/P2181.s
+	@echo ... luogu/P5703_.obj
+	@echo ... luogu/P5703_.i
+	@echo ... luogu/P5703_.s
+	@echo ... luogu/P5704_.obj
+	@echo ... luogu/P5704_.i
+	@echo ... luogu/P5704_.s
 .PHONY : help
 
 
