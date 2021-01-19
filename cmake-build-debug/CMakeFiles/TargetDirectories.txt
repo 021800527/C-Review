@@ -3,6 +3,7 @@ F:/C-Review/cmake-build-debug/CMakeFiles/Offer18_deleteNode.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/C.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/3.2.2_Squeue.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/List_insert.dir
+F:/C-Review/cmake-build-debug/CMakeFiles/P5706.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/Offer06_reversePrint.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/List_delete.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/3.1.2_ShStack.dir
@@ -26,6 +27,7 @@ F:/C-Review/cmake-build-debug/CMakeFiles/Num141_hasCycle.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/DLink_DestoryList.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/Offer24.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/Offer24-Solution.dir
+F:/C-Review/cmake-build-debug/CMakeFiles/P5705.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/Offer25_mergeTwoLists.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/Num876_middleNode.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/Offer22_getKthFromEnd.dir

@@ -62,6 +62,7 @@ all: CMakeFiles\Offer18_deleteNode.dir\all
 all: CMakeFiles\C.dir\all
 all: CMakeFiles\3.2.2_Squeue.dir\all
 all: CMakeFiles\List_insert.dir\all
+all: CMakeFiles\P5706.dir\all
 all: CMakeFiles\Offer06_reversePrint.dir\all
 all: CMakeFiles\List_delete.dir\all
 all: CMakeFiles\3.1.2_ShStack.dir\all
@@ -85,6 +86,7 @@ all: CMakeFiles\Num141_hasCycle.dir\all
 all: CMakeFiles\DLink_DestoryList.dir\all
 all: CMakeFiles\Offer24.dir\all
 all: CMakeFiles\Offer24-Solution.dir\all
+all: CMakeFiles\P5705.dir\all
 all: CMakeFiles\Offer25_mergeTwoLists.dir\all
 all: CMakeFiles\Num876_middleNode.dir\all
 all: CMakeFiles\Offer22_getKthFromEnd.dir\all
@@ -114,6 +116,7 @@ clean: CMakeFiles\Offer18_deleteNode.dir\clean
 clean: CMakeFiles\C.dir\clean
 clean: CMakeFiles\3.2.2_Squeue.dir\clean
 clean: CMakeFiles\List_insert.dir\clean
+clean: CMakeFiles\P5706.dir\clean
 clean: CMakeFiles\Offer06_reversePrint.dir\clean
 clean: CMakeFiles\List_delete.dir\clean
 clean: CMakeFiles\3.1.2_ShStack.dir\clean
@@ -137,6 +140,7 @@ clean: CMakeFiles\Num141_hasCycle.dir\clean
 clean: CMakeFiles\DLink_DestoryList.dir\clean
 clean: CMakeFiles\Offer24.dir\clean
 clean: CMakeFiles\Offer24-Solution.dir\clean
+clean: CMakeFiles\P5705.dir\clean
 clean: CMakeFiles\Offer25_mergeTwoLists.dir\clean
 clean: CMakeFiles\Num876_middleNode.dir\clean
 clean: CMakeFiles\Offer22_getKthFromEnd.dir\clean
@@ -289,6 +293,33 @@ List_insert: CMakeFiles\List_insert.dir\rule
 CMakeFiles\List_insert.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_insert.dir\clean
 .PHONY : CMakeFiles\List_insert.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P5706.dir
+
+# All Build rule for target.
+CMakeFiles\P5706.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5706.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5706.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5706.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5706.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=87,88 "Built target P5706"
+.PHONY : CMakeFiles\P5706.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\P5706.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P5706.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\P5706.dir\rule
+
+# Convenience name for target.
+P5706: CMakeFiles\P5706.dir\rule
+
+.PHONY : P5706
+
+# clean rule for target.
+CMakeFiles\P5706.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5706.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5706.dir\clean
+.PHONY : CMakeFiles\P5706.dir\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Offer06_reversePrint.dir
@@ -912,6 +943,33 @@ CMakeFiles\Offer24-Solution.dir\clean:
 .PHONY : CMakeFiles\Offer24-Solution.dir\clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/P5705.dir
+
+# All Build rule for target.
+CMakeFiles\P5705.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5705.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5705.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5705.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5705.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target P5705"
+.PHONY : CMakeFiles\P5705.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\P5705.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P5705.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\P5705.dir\rule
+
+# Convenience name for target.
+P5705: CMakeFiles\P5705.dir\rule
+
+.PHONY : P5705
+
+# clean rule for target.
+CMakeFiles\P5705.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5705.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5705.dir\clean
+.PHONY : CMakeFiles\P5705.dir\clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Offer25_mergeTwoLists.dir
 
 # All Build rule for target.
@@ -1242,7 +1300,7 @@ CMakeFiles\OddList.dir\clean:
 CMakeFiles\StaticLinkList.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLinkList.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLinkList.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target StaticLinkList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=89,90 "Built target StaticLinkList"
 .PHONY : CMakeFiles\StaticLinkList.dir\all
 
 # Build rule for subdir invocation for target.

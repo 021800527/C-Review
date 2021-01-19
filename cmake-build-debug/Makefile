@@ -180,6 +180,19 @@ List_insert\fast:
 .PHONY : List_insert\fast
 
 #=============================================================================
+# Target rules for targets named P5706
+
+# Build rule for target.
+P5706: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P5706
+.PHONY : P5706
+
+# fast build rule for target.
+P5706\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5706.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5706.dir\build
+.PHONY : P5706\fast
+
+#=============================================================================
 # Target rules for targets named Offer06_reversePrint
 
 # Build rule for target.
@@ -477,6 +490,19 @@ Offer24-Solution: cmake_check_build_system
 Offer24-Solution\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer24-Solution.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer24-Solution.dir\build
 .PHONY : Offer24-Solution\fast
+
+#=============================================================================
+# Target rules for targets named P5705
+
+# Build rule for target.
+P5705: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P5705
+.PHONY : P5705
+
+# fast build rule for target.
+P5705\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5705.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5705.dir\build
+.PHONY : P5705\fast
 
 #=============================================================================
 # Target rules for targets named Offer25_mergeTwoLists
@@ -1810,6 +1836,60 @@ luogu\P5704_.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5704.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5704.dir\luogu\P5704_.cpp.s
 .PHONY : luogu\P5704_.cpp.s
 
+luogu\P5705.obj: luogu\P5705.cpp.obj
+
+.PHONY : luogu\P5705.obj
+
+# target to build an object file
+luogu\P5705.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5705.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5705.dir\luogu\P5705.cpp.obj
+.PHONY : luogu\P5705.cpp.obj
+
+luogu\P5705.i: luogu\P5705.cpp.i
+
+.PHONY : luogu\P5705.i
+
+# target to preprocess a source file
+luogu\P5705.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5705.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5705.dir\luogu\P5705.cpp.i
+.PHONY : luogu\P5705.cpp.i
+
+luogu\P5705.s: luogu\P5705.cpp.s
+
+.PHONY : luogu\P5705.s
+
+# target to generate assembly for a file
+luogu\P5705.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5705.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5705.dir\luogu\P5705.cpp.s
+.PHONY : luogu\P5705.cpp.s
+
+luogu\P5706.obj: luogu\P5706.cpp.obj
+
+.PHONY : luogu\P5706.obj
+
+# target to build an object file
+luogu\P5706.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5706.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5706.dir\luogu\P5706.cpp.obj
+.PHONY : luogu\P5706.cpp.obj
+
+luogu\P5706.i: luogu\P5706.cpp.i
+
+.PHONY : luogu\P5706.i
+
+# target to preprocess a source file
+luogu\P5706.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5706.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5706.dir\luogu\P5706.cpp.i
+.PHONY : luogu\P5706.cpp.i
+
+luogu\P5706.s: luogu\P5706.cpp.s
+
+.PHONY : luogu\P5706.s
+
+# target to generate assembly for a file
+luogu\P5706.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5706.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5706.dir\luogu\P5706.cpp.s
+.PHONY : luogu\P5706.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1860,6 +1940,8 @@ help:
 	@echo ... P2181
 	@echo ... P5703
 	@echo ... P5704
+	@echo ... P5705
+	@echo ... P5706
 	@echo ... StaticLinkList
 	@echo ... 3.1.2_ShStack.obj
 	@echo ... 3.1.2_ShStack.i
@@ -1987,6 +2069,12 @@ help:
 	@echo ... luogu/P5704_.obj
 	@echo ... luogu/P5704_.i
 	@echo ... luogu/P5704_.s
+	@echo ... luogu/P5705.obj
+	@echo ... luogu/P5705.i
+	@echo ... luogu/P5705.s
+	@echo ... luogu/P5706.obj
+	@echo ... luogu/P5706.i
+	@echo ... luogu/P5706.s
 .PHONY : help
 
 
