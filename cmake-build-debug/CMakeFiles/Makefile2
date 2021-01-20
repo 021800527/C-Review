@@ -102,6 +102,7 @@ all: CMakeFiles\OddList.dir\all
 all: CMakeFiles\StaticLinkList.dir\all
 all: CMakeFiles\3.1.2_Sqstack.dir\all
 all: CMakeFiles\P5704.dir\all
+all: CMakeFiles\P3156.dir\all
 
 .PHONY : all
 
@@ -156,6 +157,7 @@ clean: CMakeFiles\OddList.dir\clean
 clean: CMakeFiles\StaticLinkList.dir\clean
 clean: CMakeFiles\3.1.2_Sqstack.dir\clean
 clean: CMakeFiles\P5704.dir\clean
+clean: CMakeFiles\P3156.dir\clean
 
 .PHONY : clean
 
@@ -301,7 +303,7 @@ CMakeFiles\List_insert.dir\clean:
 CMakeFiles\P5706.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5706.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5706.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5706.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5706.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=87,88 "Built target P5706"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=89,90 "Built target P5706"
 .PHONY : CMakeFiles\P5706.dir\all
 
 # Build rule for subdir invocation for target.
@@ -949,7 +951,7 @@ CMakeFiles\Offer24-Solution.dir\clean:
 CMakeFiles\P5705.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5705.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5705.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5705.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5705.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target P5705"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=87,88 "Built target P5705"
 .PHONY : CMakeFiles\P5705.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1219,7 +1221,7 @@ CMakeFiles\Num203_removeElements.dir\clean:
 CMakeFiles\P5703.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5703.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5703.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5703.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5703.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target P5703"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target P5703"
 .PHONY : CMakeFiles\P5703.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1300,7 +1302,7 @@ CMakeFiles\OddList.dir\clean:
 CMakeFiles\StaticLinkList.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLinkList.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StaticLinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\StaticLinkList.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=89,90 "Built target StaticLinkList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=91,92 "Built target StaticLinkList"
 .PHONY : CMakeFiles\StaticLinkList.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1354,7 +1356,7 @@ CMakeFiles\3.1.2_Sqstack.dir\clean:
 CMakeFiles\P5704.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5704.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5704.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5704.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5704.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target P5704"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target P5704"
 .PHONY : CMakeFiles\P5704.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1373,6 +1375,33 @@ P5704: CMakeFiles\P5704.dir\rule
 CMakeFiles\P5704.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5704.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5704.dir\clean
 .PHONY : CMakeFiles\P5704.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/P3156.dir
+
+# All Build rule for target.
+CMakeFiles\P3156.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3156.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3156.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target P3156"
+.PHONY : CMakeFiles\P3156.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\P3156.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\P3156.dir\rule
+
+# Convenience name for target.
+P3156: CMakeFiles\P3156.dir\rule
+
+.PHONY : P3156
+
+# clean rule for target.
+CMakeFiles\P3156.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3156.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\clean
+.PHONY : CMakeFiles\P3156.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

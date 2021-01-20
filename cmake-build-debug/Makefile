@@ -699,6 +699,19 @@ P5704\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5704.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5704.dir\build
 .PHONY : P5704\fast
 
+#=============================================================================
+# Target rules for targets named P3156
+
+# Build rule for target.
+P3156: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P3156
+.PHONY : P3156
+
+# fast build rule for target.
+P3156\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3156.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\build
+.PHONY : P3156\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1782,6 +1795,33 @@ luogu\P2181.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P2181.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P2181.dir\luogu\P2181.cpp.s
 .PHONY : luogu\P2181.cpp.s
 
+luogu\P3156.obj: luogu\P3156.cpp.obj
+
+.PHONY : luogu\P3156.obj
+
+# target to build an object file
+luogu\P3156.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3156.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\luogu\P3156.cpp.obj
+.PHONY : luogu\P3156.cpp.obj
+
+luogu\P3156.i: luogu\P3156.cpp.i
+
+.PHONY : luogu\P3156.i
+
+# target to preprocess a source file
+luogu\P3156.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3156.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\luogu\P3156.cpp.i
+.PHONY : luogu\P3156.cpp.i
+
+luogu\P3156.s: luogu\P3156.cpp.s
+
+.PHONY : luogu\P3156.s
+
+# target to generate assembly for a file
+luogu\P3156.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3156.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\luogu\P3156.cpp.s
+.PHONY : luogu\P3156.cpp.s
+
 luogu\P5703_.obj: luogu\P5703_.cpp.obj
 
 .PHONY : luogu\P5703_.obj
@@ -1938,6 +1978,7 @@ help:
 	@echo ... Offer30_MinStack
 	@echo ... Offer52_getIntersectionNode
 	@echo ... P2181
+	@echo ... P3156
 	@echo ... P5703
 	@echo ... P5704
 	@echo ... P5705
@@ -2063,6 +2104,9 @@ help:
 	@echo ... luogu/P2181.obj
 	@echo ... luogu/P2181.i
 	@echo ... luogu/P2181.s
+	@echo ... luogu/P3156.obj
+	@echo ... luogu/P3156.i
+	@echo ... luogu/P3156.s
 	@echo ... luogu/P5703_.obj
 	@echo ... luogu/P5703_.i
 	@echo ... luogu/P5703_.s
