@@ -712,6 +712,32 @@ P3156\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3156.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\build
 .PHONY : P3156\fast
 
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main
+.PHONY : main
+
+# fast build rule for target.
+main\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\build
+.PHONY : main\fast
+
+#=============================================================================
+# Target rules for targets named P19_2.1
+
+# Build rule for target.
+P19_2.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P19_2.1
+.PHONY : P19_2.1
+
+# fast build rule for target.
+P19_2.1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.1.dir\build
+.PHONY : P19_2.1\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1930,6 +1956,36 @@ luogu\P5706.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5706.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5706.dir\luogu\P5706.cpp.s
 .PHONY : luogu\P5706.cpp.s
 
+wangdao\P19_2.1.obj: wangdao\P19_2.1.cpp.obj
+
+.PHONY : wangdao\P19_2.1.obj
+
+# target to build an object file
+wangdao\P19_2.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\wangdao\P19_2.1.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.1.dir\wangdao\P19_2.1.cpp.obj
+.PHONY : wangdao\P19_2.1.cpp.obj
+
+wangdao\P19_2.1.i: wangdao\P19_2.1.cpp.i
+
+.PHONY : wangdao\P19_2.1.i
+
+# target to preprocess a source file
+wangdao\P19_2.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\wangdao\P19_2.1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.1.dir\wangdao\P19_2.1.cpp.i
+.PHONY : wangdao\P19_2.1.cpp.i
+
+wangdao\P19_2.1.s: wangdao\P19_2.1.cpp.s
+
+.PHONY : wangdao\P19_2.1.s
+
+# target to generate assembly for a file
+wangdao\P19_2.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\wangdao\P19_2.1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.1.dir\wangdao\P19_2.1.cpp.s
+.PHONY : wangdao\P19_2.1.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1977,6 +2033,7 @@ help:
 	@echo ... Offer25_mergeTwoLists
 	@echo ... Offer30_MinStack
 	@echo ... Offer52_getIntersectionNode
+	@echo ... P19_2.1
 	@echo ... P2181
 	@echo ... P3156
 	@echo ... P5703
@@ -1984,6 +2041,7 @@ help:
 	@echo ... P5705
 	@echo ... P5706
 	@echo ... StaticLinkList
+	@echo ... main
 	@echo ... 3.1.2_ShStack.obj
 	@echo ... 3.1.2_ShStack.i
 	@echo ... 3.1.2_ShStack.s
@@ -2119,6 +2177,9 @@ help:
 	@echo ... luogu/P5706.obj
 	@echo ... luogu/P5706.i
 	@echo ... luogu/P5706.s
+	@echo ... wangdao/P19_2.1.obj
+	@echo ... wangdao/P19_2.1.i
+	@echo ... wangdao/P19_2.1.s
 .PHONY : help
 
 
