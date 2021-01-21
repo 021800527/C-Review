@@ -3,4 +3,4 @@ project(wangdao)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(wangdao P19_2.1.cpp)
+add_executable(P19_2.1 wangdao/P19_2.1.cpp)

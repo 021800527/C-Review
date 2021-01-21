@@ -103,7 +103,6 @@ all: CMakeFiles\StaticLinkList.dir\all
 all: CMakeFiles\3.1.2_Sqstack.dir\all
 all: CMakeFiles\P5704.dir\all
 all: CMakeFiles\P3156.dir\all
-all: CMakeFiles\main.dir\all
 all: CMakeFiles\P19_2.1.dir\all
 
 .PHONY : all
@@ -160,7 +159,6 @@ clean: CMakeFiles\StaticLinkList.dir\clean
 clean: CMakeFiles\3.1.2_Sqstack.dir\clean
 clean: CMakeFiles\P5704.dir\clean
 clean: CMakeFiles\P3156.dir\clean
-clean: CMakeFiles\main.dir\clean
 clean: CMakeFiles\P19_2.1.dir\clean
 
 .PHONY : clean
@@ -1406,33 +1404,6 @@ P3156: CMakeFiles\P3156.dir\rule
 CMakeFiles\P3156.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3156.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\clean
 .PHONY : CMakeFiles\P3156.dir\clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/main.dir
-
-# All Build rule for target.
-CMakeFiles\main.dir\all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=95,96 "Built target main"
-.PHONY : CMakeFiles\main.dir\all
-
-# Build rule for subdir invocation for target.
-CMakeFiles\main.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles\main.dir\rule
-
-# Convenience name for target.
-main: CMakeFiles\main.dir\rule
-
-.PHONY : main
-
-# clean rule for target.
-CMakeFiles\main.dir\clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\clean
-.PHONY : CMakeFiles\main.dir\clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/P19_2.1.dir

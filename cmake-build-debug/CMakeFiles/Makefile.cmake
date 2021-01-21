@@ -93,6 +93,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/3.1.2_Sqstack.dir/DependInfo.cmake"
   "CMakeFiles/P5704.dir/DependInfo.cmake"
   "CMakeFiles/P3156.dir/DependInfo.cmake"
-  "CMakeFiles/main.dir/DependInfo.cmake"
   "CMakeFiles/P19_2.1.dir/DependInfo.cmake"
   )

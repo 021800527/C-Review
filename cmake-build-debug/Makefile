@@ -713,19 +713,6 @@ P3156\fast:
 .PHONY : P3156\fast
 
 #=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main
-.PHONY : main
-
-# fast build rule for target.
-main\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\build
-.PHONY : main\fast
-
-#=============================================================================
 # Target rules for targets named P19_2.1
 
 # Build rule for target.
@@ -1962,7 +1949,6 @@ wangdao\P19_2.1.obj: wangdao\P19_2.1.cpp.obj
 
 # target to build an object file
 wangdao\P19_2.1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\wangdao\P19_2.1.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.1.dir\wangdao\P19_2.1.cpp.obj
 .PHONY : wangdao\P19_2.1.cpp.obj
 
@@ -1972,7 +1958,6 @@ wangdao\P19_2.1.i: wangdao\P19_2.1.cpp.i
 
 # target to preprocess a source file
 wangdao\P19_2.1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\wangdao\P19_2.1.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.1.dir\wangdao\P19_2.1.cpp.i
 .PHONY : wangdao\P19_2.1.cpp.i
 
@@ -1982,7 +1967,6 @@ wangdao\P19_2.1.s: wangdao\P19_2.1.cpp.s
 
 # target to generate assembly for a file
 wangdao\P19_2.1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\main.dir\wangdao\P19_2.1.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.1.dir\wangdao\P19_2.1.cpp.s
 .PHONY : wangdao\P19_2.1.cpp.s
 
@@ -2041,7 +2025,6 @@ help:
 	@echo ... P5705
 	@echo ... P5706
 	@echo ... StaticLinkList
-	@echo ... main
 	@echo ... 3.1.2_ShStack.obj
 	@echo ... 3.1.2_ShStack.i
 	@echo ... 3.1.2_ShStack.s
