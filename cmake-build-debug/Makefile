@@ -297,6 +297,19 @@ List_LocateElem\fast:
 .PHONY : List_LocateElem\fast
 
 #=============================================================================
+# Target rules for targets named P19_2.8
+
+# Build rule for target.
+P19_2.8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P19_2.8
+.PHONY : P19_2.8
+
+# fast build rule for target.
+P19_2.8\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.8.dir\build
+.PHONY : P19_2.8\fast
+
+#=============================================================================
 # Target rules for targets named Num234_isPalindrome
 
 # Build rule for target.
@@ -401,6 +414,19 @@ LinkList_length\fast:
 .PHONY : LinkList_length\fast
 
 #=============================================================================
+# Target rules for targets named P19_2.2
+
+# Build rule for target.
+P19_2.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P19_2.2
+.PHONY : P19_2.2
+
+# fast build rule for target.
+P19_2.2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.2.dir\build
+.PHONY : P19_2.2\fast
+
+#=============================================================================
 # Target rules for targets named LinkList_Taillnsert
 
 # Build rule for target.
@@ -412,6 +438,19 @@ LinkList_Taillnsert: cmake_check_build_system
 LinkList_Taillnsert\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_Taillnsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_Taillnsert.dir\build
 .PHONY : LinkList_Taillnsert\fast
+
+#=============================================================================
+# Target rules for targets named P19_2.10
+
+# Build rule for target.
+P19_2.10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P19_2.10
+.PHONY : P19_2.10
+
+# fast build rule for target.
+P19_2.10\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.10.dir\build
+.PHONY : P19_2.10\fast
 
 #=============================================================================
 # Target rules for targets named DLink_delete
@@ -674,6 +713,19 @@ StaticLinkList\fast:
 .PHONY : StaticLinkList\fast
 
 #=============================================================================
+# Target rules for targets named P19_2.6
+
+# Build rule for target.
+P19_2.6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P19_2.6
+.PHONY : P19_2.6
+
+# fast build rule for target.
+P19_2.6\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.6.dir\build
+.PHONY : P19_2.6\fast
+
+#=============================================================================
 # Target rules for targets named 3.1.2_Sqstack
 
 # Build rule for target.
@@ -724,6 +776,58 @@ P19_2.1: cmake_check_build_system
 P19_2.1\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.1.dir\build
 .PHONY : P19_2.1\fast
+
+#=============================================================================
+# Target rules for targets named P19_2.3
+
+# Build rule for target.
+P19_2.3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P19_2.3
+.PHONY : P19_2.3
+
+# fast build rule for target.
+P19_2.3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.3.dir\build
+.PHONY : P19_2.3\fast
+
+#=============================================================================
+# Target rules for targets named P19_2.4
+
+# Build rule for target.
+P19_2.4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P19_2.4
+.PHONY : P19_2.4
+
+# fast build rule for target.
+P19_2.4\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.4.dir\build
+.PHONY : P19_2.4\fast
+
+#=============================================================================
+# Target rules for targets named P19_2.5
+
+# Build rule for target.
+P19_2.5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P19_2.5
+.PHONY : P19_2.5
+
+# fast build rule for target.
+P19_2.5\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.5.dir\build
+.PHONY : P19_2.5\fast
+
+#=============================================================================
+# Target rules for targets named P19_2.7
+
+# Build rule for target.
+P19_2.7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P19_2.7
+.PHONY : P19_2.7
+
+# fast build rule for target.
+P19_2.7\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.7.dir\build
+.PHONY : P19_2.7\fast
 
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
@@ -1970,6 +2074,222 @@ wangdao\P19_2.1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.1.dir\wangdao\P19_2.1.cpp.s
 .PHONY : wangdao\P19_2.1.cpp.s
 
+wangdao\P19_2.10.obj: wangdao\P19_2.10.cpp.obj
+
+.PHONY : wangdao\P19_2.10.obj
+
+# target to build an object file
+wangdao\P19_2.10.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.10.dir\wangdao\P19_2.10.cpp.obj
+.PHONY : wangdao\P19_2.10.cpp.obj
+
+wangdao\P19_2.10.i: wangdao\P19_2.10.cpp.i
+
+.PHONY : wangdao\P19_2.10.i
+
+# target to preprocess a source file
+wangdao\P19_2.10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.10.dir\wangdao\P19_2.10.cpp.i
+.PHONY : wangdao\P19_2.10.cpp.i
+
+wangdao\P19_2.10.s: wangdao\P19_2.10.cpp.s
+
+.PHONY : wangdao\P19_2.10.s
+
+# target to generate assembly for a file
+wangdao\P19_2.10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.10.dir\wangdao\P19_2.10.cpp.s
+.PHONY : wangdao\P19_2.10.cpp.s
+
+wangdao\P19_2.2.obj: wangdao\P19_2.2.cpp.obj
+
+.PHONY : wangdao\P19_2.2.obj
+
+# target to build an object file
+wangdao\P19_2.2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.2.dir\wangdao\P19_2.2.cpp.obj
+.PHONY : wangdao\P19_2.2.cpp.obj
+
+wangdao\P19_2.2.i: wangdao\P19_2.2.cpp.i
+
+.PHONY : wangdao\P19_2.2.i
+
+# target to preprocess a source file
+wangdao\P19_2.2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.2.dir\wangdao\P19_2.2.cpp.i
+.PHONY : wangdao\P19_2.2.cpp.i
+
+wangdao\P19_2.2.s: wangdao\P19_2.2.cpp.s
+
+.PHONY : wangdao\P19_2.2.s
+
+# target to generate assembly for a file
+wangdao\P19_2.2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.2.dir\wangdao\P19_2.2.cpp.s
+.PHONY : wangdao\P19_2.2.cpp.s
+
+wangdao\P19_2.3.obj: wangdao\P19_2.3.cpp.obj
+
+.PHONY : wangdao\P19_2.3.obj
+
+# target to build an object file
+wangdao\P19_2.3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.3.dir\wangdao\P19_2.3.cpp.obj
+.PHONY : wangdao\P19_2.3.cpp.obj
+
+wangdao\P19_2.3.i: wangdao\P19_2.3.cpp.i
+
+.PHONY : wangdao\P19_2.3.i
+
+# target to preprocess a source file
+wangdao\P19_2.3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.3.dir\wangdao\P19_2.3.cpp.i
+.PHONY : wangdao\P19_2.3.cpp.i
+
+wangdao\P19_2.3.s: wangdao\P19_2.3.cpp.s
+
+.PHONY : wangdao\P19_2.3.s
+
+# target to generate assembly for a file
+wangdao\P19_2.3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.3.dir\wangdao\P19_2.3.cpp.s
+.PHONY : wangdao\P19_2.3.cpp.s
+
+wangdao\P19_2.4.obj: wangdao\P19_2.4.cpp.obj
+
+.PHONY : wangdao\P19_2.4.obj
+
+# target to build an object file
+wangdao\P19_2.4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.4.dir\wangdao\P19_2.4.cpp.obj
+.PHONY : wangdao\P19_2.4.cpp.obj
+
+wangdao\P19_2.4.i: wangdao\P19_2.4.cpp.i
+
+.PHONY : wangdao\P19_2.4.i
+
+# target to preprocess a source file
+wangdao\P19_2.4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.4.dir\wangdao\P19_2.4.cpp.i
+.PHONY : wangdao\P19_2.4.cpp.i
+
+wangdao\P19_2.4.s: wangdao\P19_2.4.cpp.s
+
+.PHONY : wangdao\P19_2.4.s
+
+# target to generate assembly for a file
+wangdao\P19_2.4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.4.dir\wangdao\P19_2.4.cpp.s
+.PHONY : wangdao\P19_2.4.cpp.s
+
+wangdao\P19_2.5.obj: wangdao\P19_2.5.cpp.obj
+
+.PHONY : wangdao\P19_2.5.obj
+
+# target to build an object file
+wangdao\P19_2.5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.5.dir\wangdao\P19_2.5.cpp.obj
+.PHONY : wangdao\P19_2.5.cpp.obj
+
+wangdao\P19_2.5.i: wangdao\P19_2.5.cpp.i
+
+.PHONY : wangdao\P19_2.5.i
+
+# target to preprocess a source file
+wangdao\P19_2.5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.5.dir\wangdao\P19_2.5.cpp.i
+.PHONY : wangdao\P19_2.5.cpp.i
+
+wangdao\P19_2.5.s: wangdao\P19_2.5.cpp.s
+
+.PHONY : wangdao\P19_2.5.s
+
+# target to generate assembly for a file
+wangdao\P19_2.5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.5.dir\wangdao\P19_2.5.cpp.s
+.PHONY : wangdao\P19_2.5.cpp.s
+
+wangdao\P19_2.6.obj: wangdao\P19_2.6.cpp.obj
+
+.PHONY : wangdao\P19_2.6.obj
+
+# target to build an object file
+wangdao\P19_2.6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.6.dir\wangdao\P19_2.6.cpp.obj
+.PHONY : wangdao\P19_2.6.cpp.obj
+
+wangdao\P19_2.6.i: wangdao\P19_2.6.cpp.i
+
+.PHONY : wangdao\P19_2.6.i
+
+# target to preprocess a source file
+wangdao\P19_2.6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.6.dir\wangdao\P19_2.6.cpp.i
+.PHONY : wangdao\P19_2.6.cpp.i
+
+wangdao\P19_2.6.s: wangdao\P19_2.6.cpp.s
+
+.PHONY : wangdao\P19_2.6.s
+
+# target to generate assembly for a file
+wangdao\P19_2.6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.6.dir\wangdao\P19_2.6.cpp.s
+.PHONY : wangdao\P19_2.6.cpp.s
+
+wangdao\P19_2.7.obj: wangdao\P19_2.7.cpp.obj
+
+.PHONY : wangdao\P19_2.7.obj
+
+# target to build an object file
+wangdao\P19_2.7.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.7.dir\wangdao\P19_2.7.cpp.obj
+.PHONY : wangdao\P19_2.7.cpp.obj
+
+wangdao\P19_2.7.i: wangdao\P19_2.7.cpp.i
+
+.PHONY : wangdao\P19_2.7.i
+
+# target to preprocess a source file
+wangdao\P19_2.7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.7.dir\wangdao\P19_2.7.cpp.i
+.PHONY : wangdao\P19_2.7.cpp.i
+
+wangdao\P19_2.7.s: wangdao\P19_2.7.cpp.s
+
+.PHONY : wangdao\P19_2.7.s
+
+# target to generate assembly for a file
+wangdao\P19_2.7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.7.dir\wangdao\P19_2.7.cpp.s
+.PHONY : wangdao\P19_2.7.cpp.s
+
+wangdao\P19_2.8.obj: wangdao\P19_2.8.cpp.obj
+
+.PHONY : wangdao\P19_2.8.obj
+
+# target to build an object file
+wangdao\P19_2.8.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.8.dir\wangdao\P19_2.8.cpp.obj
+.PHONY : wangdao\P19_2.8.cpp.obj
+
+wangdao\P19_2.8.i: wangdao\P19_2.8.cpp.i
+
+.PHONY : wangdao\P19_2.8.i
+
+# target to preprocess a source file
+wangdao\P19_2.8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.8.dir\wangdao\P19_2.8.cpp.i
+.PHONY : wangdao\P19_2.8.cpp.i
+
+wangdao\P19_2.8.s: wangdao\P19_2.8.cpp.s
+
+.PHONY : wangdao\P19_2.8.s
+
+# target to generate assembly for a file
+wangdao\P19_2.8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.8.dir\wangdao\P19_2.8.cpp.s
+.PHONY : wangdao\P19_2.8.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2018,6 +2338,14 @@ help:
 	@echo ... Offer30_MinStack
 	@echo ... Offer52_getIntersectionNode
 	@echo ... P19_2.1
+	@echo ... P19_2.10
+	@echo ... P19_2.2
+	@echo ... P19_2.3
+	@echo ... P19_2.4
+	@echo ... P19_2.5
+	@echo ... P19_2.6
+	@echo ... P19_2.7
+	@echo ... P19_2.8
 	@echo ... P2181
 	@echo ... P3156
 	@echo ... P5703
@@ -2163,6 +2491,30 @@ help:
 	@echo ... wangdao/P19_2.1.obj
 	@echo ... wangdao/P19_2.1.i
 	@echo ... wangdao/P19_2.1.s
+	@echo ... wangdao/P19_2.10.obj
+	@echo ... wangdao/P19_2.10.i
+	@echo ... wangdao/P19_2.10.s
+	@echo ... wangdao/P19_2.2.obj
+	@echo ... wangdao/P19_2.2.i
+	@echo ... wangdao/P19_2.2.s
+	@echo ... wangdao/P19_2.3.obj
+	@echo ... wangdao/P19_2.3.i
+	@echo ... wangdao/P19_2.3.s
+	@echo ... wangdao/P19_2.4.obj
+	@echo ... wangdao/P19_2.4.i
+	@echo ... wangdao/P19_2.4.s
+	@echo ... wangdao/P19_2.5.obj
+	@echo ... wangdao/P19_2.5.i
+	@echo ... wangdao/P19_2.5.s
+	@echo ... wangdao/P19_2.6.obj
+	@echo ... wangdao/P19_2.6.i
+	@echo ... wangdao/P19_2.6.s
+	@echo ... wangdao/P19_2.7.obj
+	@echo ... wangdao/P19_2.7.i
+	@echo ... wangdao/P19_2.7.s
+	@echo ... wangdao/P19_2.8.obj
+	@echo ... wangdao/P19_2.8.i
+	@echo ... wangdao/P19_2.8.s
 .PHONY : help
 
 

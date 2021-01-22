@@ -9,7 +9,7 @@ typedef struct {
 }sqList;
 bool Del_Min(sqList &L,int &value){
     /*
-     * 删除顺序表L中的最小值元素结点，并通过饮用型参数value返回其值
+     * 删除顺序表L中的最小值元素结点，并通过引用型参数value返回其值
      * 若删除成功，则返回true，否则返回false
      */
     /*

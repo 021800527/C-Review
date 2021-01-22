@@ -22,7 +22,7 @@ struct ListNode{
 };
 class Solution {
 public:
-    ListNode* getKthFromEnd(ListNode* head, int k) {
+    struct ListNode* getKthFromEnd(struct ListNode* head, int k) {
         ListNode *curr = head;
         int length;
         length = 0;
