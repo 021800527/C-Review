@@ -297,6 +297,19 @@ List_LocateElem\fast:
 .PHONY : List_LocateElem\fast
 
 #=============================================================================
+# Target rules for targets named P19_2.13
+
+# Build rule for target.
+P19_2.13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P19_2.13
+.PHONY : P19_2.13
+
+# fast build rule for target.
+P19_2.13\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.13.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.13.dir\build
+.PHONY : P19_2.13\fast
+
+#=============================================================================
 # Target rules for targets named P19_2.8
 
 # Build rule for target.
@@ -2181,6 +2194,33 @@ wangdao\P19_2.12.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.12.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.12.dir\wangdao\P19_2.12.cpp.s
 .PHONY : wangdao\P19_2.12.cpp.s
 
+wangdao\P19_2.13.obj: wangdao\P19_2.13.cpp.obj
+
+.PHONY : wangdao\P19_2.13.obj
+
+# target to build an object file
+wangdao\P19_2.13.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.13.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.13.dir\wangdao\P19_2.13.cpp.obj
+.PHONY : wangdao\P19_2.13.cpp.obj
+
+wangdao\P19_2.13.i: wangdao\P19_2.13.cpp.i
+
+.PHONY : wangdao\P19_2.13.i
+
+# target to preprocess a source file
+wangdao\P19_2.13.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.13.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.13.dir\wangdao\P19_2.13.cpp.i
+.PHONY : wangdao\P19_2.13.cpp.i
+
+wangdao\P19_2.13.s: wangdao\P19_2.13.cpp.s
+
+.PHONY : wangdao\P19_2.13.s
+
+# target to generate assembly for a file
+wangdao\P19_2.13.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.13.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.13.dir\wangdao\P19_2.13.cpp.s
+.PHONY : wangdao\P19_2.13.cpp.s
+
 wangdao\P19_2.2.obj: wangdao\P19_2.2.cpp.obj
 
 .PHONY : wangdao\P19_2.2.obj
@@ -2421,6 +2461,7 @@ help:
 	@echo ... P19_2.10
 	@echo ... P19_2.11
 	@echo ... P19_2.12
+	@echo ... P19_2.13
 	@echo ... P19_2.2
 	@echo ... P19_2.3
 	@echo ... P19_2.4
@@ -2582,6 +2623,9 @@ help:
 	@echo ... wangdao/P19_2.12.obj
 	@echo ... wangdao/P19_2.12.i
 	@echo ... wangdao/P19_2.12.s
+	@echo ... wangdao/P19_2.13.obj
+	@echo ... wangdao/P19_2.13.i
+	@echo ... wangdao/P19_2.13.s
 	@echo ... wangdao/P19_2.2.obj
 	@echo ... wangdao/P19_2.2.i
 	@echo ... wangdao/P19_2.2.s

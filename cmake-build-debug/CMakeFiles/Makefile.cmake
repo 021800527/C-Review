@@ -61,6 +61,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LinkList_insert.dir/DependInfo.cmake"
   "CMakeFiles/Offer30_MinStack.dir/DependInfo.cmake"
   "CMakeFiles/List_LocateElem.dir/DependInfo.cmake"
+  "CMakeFiles/P19_2.13.dir/DependInfo.cmake"
   "CMakeFiles/P19_2.8.dir/DependInfo.cmake"
   "CMakeFiles/Num234_isPalindrome.dir/DependInfo.cmake"
   "CMakeFiles/ListDelete.dir/DependInfo.cmake"
