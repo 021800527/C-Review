@@ -1,5 +1,5 @@
 /*
- * 设计一个递归算法，删除不带头结点的单链表L中所有值为x的节点
+ * 在带头结点的单链表L中，删除所有值为x的结点，并释放其空间，假设值为x的结点不唯一，试编写算法以实现上述操作。
  */
 #include <iostream>
 using namespace std;
@@ -48,8 +48,8 @@ int main(){
     while (p!=NULL){
         cout<<p->data<<endl;
         p = p->next;
-        }
-    Del_x_3(L,3);
+    }
+    Del_x_3(L,2);
     p = L;
     while (p!=NULL){
         cout<<p->data<<endl;
