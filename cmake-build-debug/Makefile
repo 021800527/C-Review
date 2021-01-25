@@ -868,6 +868,19 @@ P19_2.12\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.12.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.12.dir\build
 .PHONY : P19_2.12\fast
 
+#=============================================================================
+# Target rules for targets named P40_2.1
+
+# Build rule for target.
+P40_2.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P40_2.1
+.PHONY : P40_2.1
+
+# fast build rule for target.
+P40_2.1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.1.dir\build
+.PHONY : P40_2.1\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -2410,6 +2423,33 @@ wangdao\P19_2.8.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.8.dir\wangdao\P19_2.8.cpp.s
 .PHONY : wangdao\P19_2.8.cpp.s
 
+wangdao\P40_2.1.obj: wangdao\P40_2.1.cpp.obj
+
+.PHONY : wangdao\P40_2.1.obj
+
+# target to build an object file
+wangdao\P40_2.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.1.dir\wangdao\P40_2.1.cpp.obj
+.PHONY : wangdao\P40_2.1.cpp.obj
+
+wangdao\P40_2.1.i: wangdao\P40_2.1.cpp.i
+
+.PHONY : wangdao\P40_2.1.i
+
+# target to preprocess a source file
+wangdao\P40_2.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.1.dir\wangdao\P40_2.1.cpp.i
+.PHONY : wangdao\P40_2.1.cpp.i
+
+wangdao\P40_2.1.s: wangdao\P40_2.1.cpp.s
+
+.PHONY : wangdao\P40_2.1.s
+
+# target to generate assembly for a file
+wangdao\P40_2.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.1.dir\wangdao\P40_2.1.cpp.s
+.PHONY : wangdao\P40_2.1.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2471,6 +2511,7 @@ help:
 	@echo ... P19_2.8
 	@echo ... P2181
 	@echo ... P3156
+	@echo ... P40_2.1
 	@echo ... P5703
 	@echo ... P5704
 	@echo ... P5705
@@ -2647,6 +2688,9 @@ help:
 	@echo ... wangdao/P19_2.8.obj
 	@echo ... wangdao/P19_2.8.i
 	@echo ... wangdao/P19_2.8.s
+	@echo ... wangdao/P40_2.1.obj
+	@echo ... wangdao/P40_2.1.i
+	@echo ... wangdao/P40_2.1.s
 .PHONY : help
 
 
