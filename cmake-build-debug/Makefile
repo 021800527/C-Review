@@ -310,6 +310,19 @@ P19_2.13\fast:
 .PHONY : P19_2.13\fast
 
 #=============================================================================
+# Target rules for targets named LinkLList_frontinsert
+
+# Build rule for target.
+LinkLList_frontinsert: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LinkLList_frontinsert
+.PHONY : LinkLList_frontinsert
+
+# fast build rule for target.
+LinkLList_frontinsert\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\build
+.PHONY : LinkLList_frontinsert\fast
+
+#=============================================================================
 # Target rules for targets named P19_2.8
 
 # Build rule for target.
@@ -349,19 +362,6 @@ ListDelete\fast:
 .PHONY : ListDelete\fast
 
 #=============================================================================
-# Target rules for targets named LinkLList_frontinsert
-
-# Build rule for target.
-LinkLList_frontinsert: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LinkLList_frontinsert
-.PHONY : LinkLList_frontinsert
-
-# fast build rule for target.
-LinkLList_frontinsert\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\build
-.PHONY : LinkLList_frontinsert\fast
-
-#=============================================================================
 # Target rules for targets named P2181
 
 # Build rule for target.
@@ -375,19 +375,6 @@ P2181\fast:
 .PHONY : P2181\fast
 
 #=============================================================================
-# Target rules for targets named DLinkList_Init.cpp
-
-# Build rule for target.
-DLinkList_Init.cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DLinkList_Init.cpp
-.PHONY : DLinkList_Init.cpp
-
-# fast build rule for target.
-DLinkList_Init.cpp\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.cpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.cpp.dir\build
-.PHONY : DLinkList_Init.cpp\fast
-
-#=============================================================================
 # Target rules for targets named LinkList_GetElem
 
 # Build rule for target.
@@ -399,6 +386,19 @@ LinkList_GetElem: cmake_check_build_system
 LinkList_GetElem\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_GetElem.dir\build
 .PHONY : LinkList_GetElem\fast
+
+#=============================================================================
+# Target rules for targets named DLinkList_Init.cpp
+
+# Build rule for target.
+DLinkList_Init.cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DLinkList_Init.cpp
+.PHONY : DLinkList_Init.cpp
+
+# fast build rule for target.
+DLinkList_Init.cpp\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.cpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.cpp.dir\build
+.PHONY : DLinkList_Init.cpp\fast
 
 #=============================================================================
 # Target rules for targets named LinkList_LocateElem
@@ -570,6 +570,19 @@ Offer25_mergeTwoLists\fast:
 .PHONY : Offer25_mergeTwoLists\fast
 
 #=============================================================================
+# Target rules for targets named Offer22_getKthFromEnd
+
+# Build rule for target.
+Offer22_getKthFromEnd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer22_getKthFromEnd
+.PHONY : Offer22_getKthFromEnd
+
+# fast build rule for target.
+Offer22_getKthFromEnd\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer22_getKthFromEnd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer22_getKthFromEnd.dir\build
+.PHONY : Offer22_getKthFromEnd\fast
+
+#=============================================================================
 # Target rules for targets named P40_2.4
 
 # Build rule for target.
@@ -594,19 +607,6 @@ Num876_middleNode: cmake_check_build_system
 Num876_middleNode\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num876_middleNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num876_middleNode.dir\build
 .PHONY : Num876_middleNode\fast
-
-#=============================================================================
-# Target rules for targets named Offer22_getKthFromEnd
-
-# Build rule for target.
-Offer22_getKthFromEnd: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer22_getKthFromEnd
-.PHONY : Offer22_getKthFromEnd
-
-# fast build rule for target.
-Offer22_getKthFromEnd\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer22_getKthFromEnd.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer22_getKthFromEnd.dir\build
-.PHONY : Offer22_getKthFromEnd\fast
 
 #=============================================================================
 # Target rules for targets named Offer52_getIntersectionNode
@@ -919,6 +919,19 @@ P40_2.3: cmake_check_build_system
 P40_2.3\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.3.dir\build
 .PHONY : P40_2.3\fast
+
+#=============================================================================
+# Target rules for targets named P40_2.5
+
+# Build rule for target.
+P40_2.5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P40_2.5
+.PHONY : P40_2.5
+
+# fast build rule for target.
+P40_2.5\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.5.dir\build
+.PHONY : P40_2.5\fast
 
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
@@ -2570,6 +2583,33 @@ wangdao\P40_2.4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.4.dir\wangdao\P40_2.4.cpp.s
 .PHONY : wangdao\P40_2.4.cpp.s
 
+wangdao\P40_2.5.obj: wangdao\P40_2.5.cpp.obj
+
+.PHONY : wangdao\P40_2.5.obj
+
+# target to build an object file
+wangdao\P40_2.5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.5.dir\wangdao\P40_2.5.cpp.obj
+.PHONY : wangdao\P40_2.5.cpp.obj
+
+wangdao\P40_2.5.i: wangdao\P40_2.5.cpp.i
+
+.PHONY : wangdao\P40_2.5.i
+
+# target to preprocess a source file
+wangdao\P40_2.5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.5.dir\wangdao\P40_2.5.cpp.i
+.PHONY : wangdao\P40_2.5.cpp.i
+
+wangdao\P40_2.5.s: wangdao\P40_2.5.cpp.s
+
+.PHONY : wangdao\P40_2.5.s
+
+# target to generate assembly for a file
+wangdao\P40_2.5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.5.dir\wangdao\P40_2.5.cpp.s
+.PHONY : wangdao\P40_2.5.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2635,6 +2675,7 @@ help:
 	@echo ... P40_2.2
 	@echo ... P40_2.3
 	@echo ... P40_2.4
+	@echo ... P40_2.5
 	@echo ... P5703
 	@echo ... P5704
 	@echo ... P5705
@@ -2823,6 +2864,9 @@ help:
 	@echo ... wangdao/P40_2.4.obj
 	@echo ... wangdao/P40_2.4.i
 	@echo ... wangdao/P40_2.4.s
+	@echo ... wangdao/P40_2.5.obj
+	@echo ... wangdao/P40_2.5.i
+	@echo ... wangdao/P40_2.5.s
 .PHONY : help
 
 
