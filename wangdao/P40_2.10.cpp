@@ -6,7 +6,7 @@
 using namespace std;
 typedef struct LNode{
     int data;
-    struct LNode *next
+    struct LNode *next;
 }LNode,*LinkList;
 /*
  * 将表A中结点按序号的奇偶性分解到表A或表B中
