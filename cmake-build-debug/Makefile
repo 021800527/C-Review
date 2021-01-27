@@ -1206,6 +1206,19 @@ P40_2.25\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.25.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.25.dir\build
 .PHONY : P40_2.25\fast
 
+#=============================================================================
+# Target rules for targets named P4387
+
+# Build rule for target.
+P4387: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P4387
+.PHONY : P4387
+
+# fast build rule for target.
+P4387\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P4387.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P4387.dir\build
+.PHONY : P4387\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -2315,6 +2328,33 @@ luogu\P3156.s: luogu\P3156.cpp.s
 luogu\P3156.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3156.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\luogu\P3156.cpp.s
 .PHONY : luogu\P3156.cpp.s
+
+luogu\P4387.obj: luogu\P4387.cpp.obj
+
+.PHONY : luogu\P4387.obj
+
+# target to build an object file
+luogu\P4387.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P4387.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P4387.dir\luogu\P4387.cpp.obj
+.PHONY : luogu\P4387.cpp.obj
+
+luogu\P4387.i: luogu\P4387.cpp.i
+
+.PHONY : luogu\P4387.i
+
+# target to preprocess a source file
+luogu\P4387.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P4387.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P4387.dir\luogu\P4387.cpp.i
+.PHONY : luogu\P4387.cpp.i
+
+luogu\P4387.s: luogu\P4387.cpp.s
+
+.PHONY : luogu\P4387.s
+
+# target to generate assembly for a file
+luogu\P4387.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P4387.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P4387.dir\luogu\P4387.cpp.s
+.PHONY : luogu\P4387.cpp.s
 
 luogu\P5703_.obj: luogu\P5703_.cpp.obj
 
@@ -3536,6 +3576,7 @@ help:
 	@echo ... P40_2.7
 	@echo ... P40_2.8
 	@echo ... P40_2.9
+	@echo ... P4387
 	@echo ... P5703
 	@echo ... P5704
 	@echo ... P5705
@@ -3665,6 +3706,9 @@ help:
 	@echo ... luogu/P3156.obj
 	@echo ... luogu/P3156.i
 	@echo ... luogu/P3156.s
+	@echo ... luogu/P4387.obj
+	@echo ... luogu/P4387.i
+	@echo ... luogu/P4387.s
 	@echo ... luogu/P5703_.obj
 	@echo ... luogu/P5703_.i
 	@echo ... luogu/P5703_.s
