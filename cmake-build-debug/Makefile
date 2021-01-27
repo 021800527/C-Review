@@ -1063,6 +1063,19 @@ P40_2.15\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.15.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.15.dir\build
 .PHONY : P40_2.15\fast
 
+#=============================================================================
+# Target rules for targets named P40_2.16
+
+# Build rule for target.
+P40_2.16: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P40_2.16
+.PHONY : P40_2.16
+
+# fast build rule for target.
+P40_2.16\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.16.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.16.dir\build
+.PHONY : P40_2.16\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -2794,6 +2807,33 @@ wangdao\P40_2.15.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.15.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.15.dir\wangdao\P40_2.15.cpp.s
 .PHONY : wangdao\P40_2.15.cpp.s
 
+wangdao\P40_2.16.obj: wangdao\P40_2.16.cpp.obj
+
+.PHONY : wangdao\P40_2.16.obj
+
+# target to build an object file
+wangdao\P40_2.16.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.16.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.16.dir\wangdao\P40_2.16.cpp.obj
+.PHONY : wangdao\P40_2.16.cpp.obj
+
+wangdao\P40_2.16.i: wangdao\P40_2.16.cpp.i
+
+.PHONY : wangdao\P40_2.16.i
+
+# target to preprocess a source file
+wangdao\P40_2.16.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.16.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.16.dir\wangdao\P40_2.16.cpp.i
+.PHONY : wangdao\P40_2.16.cpp.i
+
+wangdao\P40_2.16.s: wangdao\P40_2.16.cpp.s
+
+.PHONY : wangdao\P40_2.16.s
+
+# target to generate assembly for a file
+wangdao\P40_2.16.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.16.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.16.dir\wangdao\P40_2.16.cpp.s
+.PHONY : wangdao\P40_2.16.cpp.s
+
 wangdao\P40_2.2.obj: wangdao\P40_2.2.cpp.obj
 
 .PHONY : wangdao\P40_2.2.obj
@@ -3078,6 +3118,7 @@ help:
 	@echo ... P40_2.13
 	@echo ... P40_2.14
 	@echo ... P40_2.15
+	@echo ... P40_2.16
 	@echo ... P40_2.2
 	@echo ... P40_2.3
 	@echo ... P40_2.4
@@ -3283,6 +3324,9 @@ help:
 	@echo ... wangdao/P40_2.15.obj
 	@echo ... wangdao/P40_2.15.i
 	@echo ... wangdao/P40_2.15.s
+	@echo ... wangdao/P40_2.16.obj
+	@echo ... wangdao/P40_2.16.i
+	@echo ... wangdao/P40_2.16.s
 	@echo ... wangdao/P40_2.2.obj
 	@echo ... wangdao/P40_2.2.i
 	@echo ... wangdao/P40_2.2.s
