@@ -934,6 +934,19 @@ P40_2.3\fast:
 .PHONY : P40_2.3\fast
 
 #=============================================================================
+# Target rules for targets named P5788
+
+# Build rule for target.
+P5788: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P5788
+.PHONY : P5788
+
+# fast build rule for target.
+P5788\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5788.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5788.dir\build
+.PHONY : P5788\fast
+
+#=============================================================================
 # Target rules for targets named P40_2.5
 
 # Build rule for target.
@@ -2411,6 +2424,33 @@ luogu\P5706.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5706.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5706.dir\luogu\P5706.cpp.s
 .PHONY : luogu\P5706.cpp.s
 
+luogu\P5788.obj: luogu\P5788.cpp.obj
+
+.PHONY : luogu\P5788.obj
+
+# target to build an object file
+luogu\P5788.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5788.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5788.dir\luogu\P5788.cpp.obj
+.PHONY : luogu\P5788.cpp.obj
+
+luogu\P5788.i: luogu\P5788.cpp.i
+
+.PHONY : luogu\P5788.i
+
+# target to preprocess a source file
+luogu\P5788.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5788.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5788.dir\luogu\P5788.cpp.i
+.PHONY : luogu\P5788.cpp.i
+
+luogu\P5788.s: luogu\P5788.cpp.s
+
+.PHONY : luogu\P5788.s
+
+# target to generate assembly for a file
+luogu\P5788.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5788.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5788.dir\luogu\P5788.cpp.s
+.PHONY : luogu\P5788.cpp.s
+
 wangdao\P19_2.1.obj: wangdao\P19_2.1.cpp.obj
 
 .PHONY : wangdao\P19_2.1.obj
@@ -3500,6 +3540,7 @@ help:
 	@echo ... P5704
 	@echo ... P5705
 	@echo ... P5706
+	@echo ... P5788
 	@echo ... StaticLinkList
 	@echo ... 3.1.2_ShStack.obj
 	@echo ... 3.1.2_ShStack.i
@@ -3636,6 +3677,9 @@ help:
 	@echo ... luogu/P5706.obj
 	@echo ... luogu/P5706.i
 	@echo ... luogu/P5706.s
+	@echo ... luogu/P5788.obj
+	@echo ... luogu/P5788.i
+	@echo ... luogu/P5788.s
 	@echo ... wangdao/P19_2.1.obj
 	@echo ... wangdao/P19_2.1.i
 	@echo ... wangdao/P19_2.1.s
