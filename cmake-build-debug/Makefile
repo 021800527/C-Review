@@ -1219,6 +1219,19 @@ P4387\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P4387.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P4387.dir\build
 .PHONY : P4387\fast
 
+#=============================================================================
+# Target rules for targets named 3.3.1_Bracket_Stack
+
+# Build rule for target.
+3.3.1_Bracket_Stack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3.3.1_Bracket_Stack
+.PHONY : 3.3.1_Bracket_Stack
+
+# fast build rule for target.
+3.3.1_Bracket_Stack\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.3.1_Bracket_Stack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.3.1_Bracket_Stack.dir\build
+.PHONY : 3.3.1_Bracket_Stack\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1326,6 +1339,33 @@ P4387\fast:
 3.2.3_LinkQueue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.2.3_LinkQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.2.3_LinkQueue.dir\3.2.3_LinkQueue.cpp.s
 .PHONY : 3.2.3_LinkQueue.cpp.s
+
+3.3.1_Bracket_Stack.obj: 3.3.1_Bracket_Stack.cpp.obj
+
+.PHONY : 3.3.1_Bracket_Stack.obj
+
+# target to build an object file
+3.3.1_Bracket_Stack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.3.1_Bracket_Stack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.3.1_Bracket_Stack.dir\3.3.1_Bracket_Stack.cpp.obj
+.PHONY : 3.3.1_Bracket_Stack.cpp.obj
+
+3.3.1_Bracket_Stack.i: 3.3.1_Bracket_Stack.cpp.i
+
+.PHONY : 3.3.1_Bracket_Stack.i
+
+# target to preprocess a source file
+3.3.1_Bracket_Stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.3.1_Bracket_Stack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.3.1_Bracket_Stack.dir\3.3.1_Bracket_Stack.cpp.i
+.PHONY : 3.3.1_Bracket_Stack.cpp.i
+
+3.3.1_Bracket_Stack.s: 3.3.1_Bracket_Stack.cpp.s
+
+.PHONY : 3.3.1_Bracket_Stack.s
+
+# target to generate assembly for a file
+3.3.1_Bracket_Stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.3.1_Bracket_Stack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.3.1_Bracket_Stack.dir\3.3.1_Bracket_Stack.cpp.s
+.PHONY : 3.3.1_Bracket_Stack.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -3502,6 +3542,7 @@ help:
 	@echo ... 3.1.2_Sqstack
 	@echo ... 3.2.2_Squeue
 	@echo ... 3.2.3_LinkQueue
+	@echo ... 3.3.1_Bracket_Stack
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -3595,6 +3636,9 @@ help:
 	@echo ... 3.2.3_LinkQueue.obj
 	@echo ... 3.2.3_LinkQueue.i
 	@echo ... 3.2.3_LinkQueue.s
+	@echo ... 3.3.1_Bracket_Stack.obj
+	@echo ... 3.3.1_Bracket_Stack.i
+	@echo ... 3.3.1_Bracket_Stack.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
