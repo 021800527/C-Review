@@ -133,4 +133,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/P40_2.25.dir/DependInfo.cmake"
   "CMakeFiles/P4387.dir/DependInfo.cmake"
   "CMakeFiles/3.3.1_Bracket_Stack.dir/DependInfo.cmake"
+  "CMakeFiles/3.3.3_Clion.dir/DependInfo.cmake"
   )

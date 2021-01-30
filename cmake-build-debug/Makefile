@@ -1232,6 +1232,19 @@ P4387\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.3.1_Bracket_Stack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.3.1_Bracket_Stack.dir\build
 .PHONY : 3.3.1_Bracket_Stack\fast
 
+#=============================================================================
+# Target rules for targets named 3.3.3_Clion
+
+# Build rule for target.
+3.3.3_Clion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 3.3.3_Clion
+.PHONY : 3.3.3_Clion
+
+# fast build rule for target.
+3.3.3_Clion\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.3.3_Clion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.3.3_Clion.dir\build
+.PHONY : 3.3.3_Clion\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1366,6 +1379,33 @@ P4387\fast:
 3.3.1_Bracket_Stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.3.1_Bracket_Stack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.3.1_Bracket_Stack.dir\3.3.1_Bracket_Stack.cpp.s
 .PHONY : 3.3.1_Bracket_Stack.cpp.s
+
+3.3.3_Clion.obj: 3.3.3_Clion.cpp.obj
+
+.PHONY : 3.3.3_Clion.obj
+
+# target to build an object file
+3.3.3_Clion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.3.3_Clion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.3.3_Clion.dir\3.3.3_Clion.cpp.obj
+.PHONY : 3.3.3_Clion.cpp.obj
+
+3.3.3_Clion.i: 3.3.3_Clion.cpp.i
+
+.PHONY : 3.3.3_Clion.i
+
+# target to preprocess a source file
+3.3.3_Clion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.3.3_Clion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.3.3_Clion.dir\3.3.3_Clion.cpp.i
+.PHONY : 3.3.3_Clion.cpp.i
+
+3.3.3_Clion.s: 3.3.3_Clion.cpp.s
+
+.PHONY : 3.3.3_Clion.s
+
+# target to generate assembly for a file
+3.3.3_Clion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.3.3_Clion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.3.3_Clion.dir\3.3.3_Clion.cpp.s
+.PHONY : 3.3.3_Clion.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -3543,6 +3583,7 @@ help:
 	@echo ... 3.2.2_Squeue
 	@echo ... 3.2.3_LinkQueue
 	@echo ... 3.3.1_Bracket_Stack
+	@echo ... 3.3.3_Clion
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -3639,6 +3680,9 @@ help:
 	@echo ... 3.3.1_Bracket_Stack.obj
 	@echo ... 3.3.1_Bracket_Stack.i
 	@echo ... 3.3.1_Bracket_Stack.s
+	@echo ... 3.3.3_Clion.obj
+	@echo ... 3.3.3_Clion.i
+	@echo ... 3.3.3_Clion.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
