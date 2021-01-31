@@ -1245,6 +1245,19 @@ P4387\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.3.3_Clion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.3.3_Clion.dir\build
 .PHONY : 3.3.3_Clion\fast
 
+#=============================================================================
+# Target rules for targets named 4.1.2_StringNode
+
+# Build rule for target.
+4.1.2_StringNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 4.1.2_StringNode
+.PHONY : 4.1.2_StringNode
+
+# fast build rule for target.
+4.1.2_StringNode\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.1.2_StringNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.1.2_StringNode.dir\build
+.PHONY : 4.1.2_StringNode\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1406,6 +1419,33 @@ P4387\fast:
 3.3.3_Clion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.3.3_Clion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\3.3.3_Clion.dir\3.3.3_Clion.cpp.s
 .PHONY : 3.3.3_Clion.cpp.s
+
+4.1.2_StringNode.obj: 4.1.2_StringNode.cpp.obj
+
+.PHONY : 4.1.2_StringNode.obj
+
+# target to build an object file
+4.1.2_StringNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.1.2_StringNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.1.2_StringNode.dir\4.1.2_StringNode.cpp.obj
+.PHONY : 4.1.2_StringNode.cpp.obj
+
+4.1.2_StringNode.i: 4.1.2_StringNode.cpp.i
+
+.PHONY : 4.1.2_StringNode.i
+
+# target to preprocess a source file
+4.1.2_StringNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.1.2_StringNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.1.2_StringNode.dir\4.1.2_StringNode.cpp.i
+.PHONY : 4.1.2_StringNode.cpp.i
+
+4.1.2_StringNode.s: 4.1.2_StringNode.cpp.s
+
+.PHONY : 4.1.2_StringNode.s
+
+# target to generate assembly for a file
+4.1.2_StringNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.1.2_StringNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.1.2_StringNode.dir\4.1.2_StringNode.cpp.s
+.PHONY : 4.1.2_StringNode.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -3584,6 +3624,7 @@ help:
 	@echo ... 3.2.3_LinkQueue
 	@echo ... 3.3.1_Bracket_Stack
 	@echo ... 3.3.3_Clion
+	@echo ... 4.1.2_StringNode
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -3683,6 +3724,9 @@ help:
 	@echo ... 3.3.3_Clion.obj
 	@echo ... 3.3.3_Clion.i
 	@echo ... 3.3.3_Clion.s
+	@echo ... 4.1.2_StringNode.obj
+	@echo ... 4.1.2_StringNode.i
+	@echo ... 4.1.2_StringNode.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
