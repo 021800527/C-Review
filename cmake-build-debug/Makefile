@@ -1258,6 +1258,19 @@ P4387\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.1.2_StringNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.1.2_StringNode.dir\build
 .PHONY : 4.1.2_StringNode\fast
 
+#=============================================================================
+# Target rules for targets named 4.2.1_Index
+
+# Build rule for target.
+4.2.1_Index: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 4.2.1_Index
+.PHONY : 4.2.1_Index
+
+# fast build rule for target.
+4.2.1_Index\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.1_Index.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.1_Index.dir\build
+.PHONY : 4.2.1_Index\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1446,6 +1459,33 @@ P4387\fast:
 4.1.2_StringNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.1.2_StringNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.1.2_StringNode.dir\4.1.2_StringNode.cpp.s
 .PHONY : 4.1.2_StringNode.cpp.s
+
+4.2.1_Index.obj: 4.2.1_Index.cpp.obj
+
+.PHONY : 4.2.1_Index.obj
+
+# target to build an object file
+4.2.1_Index.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.1_Index.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.1_Index.dir\4.2.1_Index.cpp.obj
+.PHONY : 4.2.1_Index.cpp.obj
+
+4.2.1_Index.i: 4.2.1_Index.cpp.i
+
+.PHONY : 4.2.1_Index.i
+
+# target to preprocess a source file
+4.2.1_Index.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.1_Index.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.1_Index.dir\4.2.1_Index.cpp.i
+.PHONY : 4.2.1_Index.cpp.i
+
+4.2.1_Index.s: 4.2.1_Index.cpp.s
+
+.PHONY : 4.2.1_Index.s
+
+# target to generate assembly for a file
+4.2.1_Index.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.1_Index.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.1_Index.dir\4.2.1_Index.cpp.s
+.PHONY : 4.2.1_Index.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -3625,6 +3665,7 @@ help:
 	@echo ... 3.3.1_Bracket_Stack
 	@echo ... 3.3.3_Clion
 	@echo ... 4.1.2_StringNode
+	@echo ... 4.2.1_Index
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -3727,6 +3768,9 @@ help:
 	@echo ... 4.1.2_StringNode.obj
 	@echo ... 4.1.2_StringNode.i
 	@echo ... 4.1.2_StringNode.s
+	@echo ... 4.2.1_Index.obj
+	@echo ... 4.2.1_Index.i
+	@echo ... 4.2.1_Index.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
