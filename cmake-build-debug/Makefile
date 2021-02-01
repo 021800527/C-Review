@@ -1271,6 +1271,19 @@ P4387\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.1_Index.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.1_Index.dir\build
 .PHONY : 4.2.1_Index\fast
 
+#=============================================================================
+# Target rules for targets named 4.2.3_Index_KMP
+
+# Build rule for target.
+4.2.3_Index_KMP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 4.2.3_Index_KMP
+.PHONY : 4.2.3_Index_KMP
+
+# fast build rule for target.
+4.2.3_Index_KMP\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.3_Index_KMP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.3_Index_KMP.dir\build
+.PHONY : 4.2.3_Index_KMP\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1486,6 +1499,33 @@ P4387\fast:
 4.2.1_Index.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.1_Index.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.1_Index.dir\4.2.1_Index.cpp.s
 .PHONY : 4.2.1_Index.cpp.s
+
+4.2.3_Index_KMP.obj: 4.2.3_Index_KMP.cpp.obj
+
+.PHONY : 4.2.3_Index_KMP.obj
+
+# target to build an object file
+4.2.3_Index_KMP.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.3_Index_KMP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.3_Index_KMP.dir\4.2.3_Index_KMP.cpp.obj
+.PHONY : 4.2.3_Index_KMP.cpp.obj
+
+4.2.3_Index_KMP.i: 4.2.3_Index_KMP.cpp.i
+
+.PHONY : 4.2.3_Index_KMP.i
+
+# target to preprocess a source file
+4.2.3_Index_KMP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.3_Index_KMP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.3_Index_KMP.dir\4.2.3_Index_KMP.cpp.i
+.PHONY : 4.2.3_Index_KMP.cpp.i
+
+4.2.3_Index_KMP.s: 4.2.3_Index_KMP.cpp.s
+
+.PHONY : 4.2.3_Index_KMP.s
+
+# target to generate assembly for a file
+4.2.3_Index_KMP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.3_Index_KMP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.3_Index_KMP.dir\4.2.3_Index_KMP.cpp.s
+.PHONY : 4.2.3_Index_KMP.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -3666,6 +3706,7 @@ help:
 	@echo ... 3.3.3_Clion
 	@echo ... 4.1.2_StringNode
 	@echo ... 4.2.1_Index
+	@echo ... 4.2.3_Index_KMP
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -3771,6 +3812,9 @@ help:
 	@echo ... 4.2.1_Index.obj
 	@echo ... 4.2.1_Index.i
 	@echo ... 4.2.1_Index.s
+	@echo ... 4.2.3_Index_KMP.obj
+	@echo ... 4.2.3_Index_KMP.i
+	@echo ... 4.2.3_Index_KMP.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
