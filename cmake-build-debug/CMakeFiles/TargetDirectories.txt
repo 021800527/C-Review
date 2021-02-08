@@ -88,5 +88,9 @@ F:/C-Review/cmake-build-debug/CMakeFiles/3.3.3_Clion.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/4.1.2_StringNode.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/4.2.1_Index.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/4.2.3_Index_KMP.dir
+F:/C-Review/cmake-build-debug/CMakeFiles/5.3.1_PreOrder.dir
+F:/C-Review/cmake-build-debug/CMakeFiles/P71_2.3.2.dir
+F:/C-Review/cmake-build-debug/CMakeFiles/P71_2.4.dir
+F:/C-Review/cmake-build-debug/CMakeFiles/P71_2.5.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/edit_cache.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/rebuild_cache.dir

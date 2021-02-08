@@ -1284,6 +1284,58 @@ P4387\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.3_Index_KMP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.3_Index_KMP.dir\build
 .PHONY : 4.2.3_Index_KMP\fast
 
+#=============================================================================
+# Target rules for targets named 5.3.1_PreOrder
+
+# Build rule for target.
+5.3.1_PreOrder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 5.3.1_PreOrder
+.PHONY : 5.3.1_PreOrder
+
+# fast build rule for target.
+5.3.1_PreOrder\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.3.1_PreOrder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.3.1_PreOrder.dir\build
+.PHONY : 5.3.1_PreOrder\fast
+
+#=============================================================================
+# Target rules for targets named P71_2.3.2
+
+# Build rule for target.
+P71_2.3.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P71_2.3.2
+.PHONY : P71_2.3.2
+
+# fast build rule for target.
+P71_2.3.2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.3.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.3.2.dir\build
+.PHONY : P71_2.3.2\fast
+
+#=============================================================================
+# Target rules for targets named P71_2.4
+
+# Build rule for target.
+P71_2.4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P71_2.4
+.PHONY : P71_2.4
+
+# fast build rule for target.
+P71_2.4\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.4.dir\build
+.PHONY : P71_2.4\fast
+
+#=============================================================================
+# Target rules for targets named P71_2.5
+
+# Build rule for target.
+P71_2.5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P71_2.5
+.PHONY : P71_2.5
+
+# fast build rule for target.
+P71_2.5\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.5.dir\build
+.PHONY : P71_2.5\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1526,6 +1578,33 @@ P4387\fast:
 4.2.3_Index_KMP.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.3_Index_KMP.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.3_Index_KMP.dir\4.2.3_Index_KMP.cpp.s
 .PHONY : 4.2.3_Index_KMP.cpp.s
+
+5.3.1_PreOrder.obj: 5.3.1_PreOrder.cpp.obj
+
+.PHONY : 5.3.1_PreOrder.obj
+
+# target to build an object file
+5.3.1_PreOrder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.3.1_PreOrder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.3.1_PreOrder.dir\5.3.1_PreOrder.cpp.obj
+.PHONY : 5.3.1_PreOrder.cpp.obj
+
+5.3.1_PreOrder.i: 5.3.1_PreOrder.cpp.i
+
+.PHONY : 5.3.1_PreOrder.i
+
+# target to preprocess a source file
+5.3.1_PreOrder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.3.1_PreOrder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.3.1_PreOrder.dir\5.3.1_PreOrder.cpp.i
+.PHONY : 5.3.1_PreOrder.cpp.i
+
+5.3.1_PreOrder.s: 5.3.1_PreOrder.cpp.s
+
+.PHONY : 5.3.1_PreOrder.s
+
+# target to generate assembly for a file
+5.3.1_PreOrder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.3.1_PreOrder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.3.1_PreOrder.dir\5.3.1_PreOrder.cpp.s
+.PHONY : 5.3.1_PreOrder.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -3690,6 +3769,87 @@ wangdao\P40_2.9.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.9.dir\wangdao\P40_2.9.cpp.s
 .PHONY : wangdao\P40_2.9.cpp.s
 
+wangdao\P71_2.3.2.obj: wangdao\P71_2.3.2.cpp.obj
+
+.PHONY : wangdao\P71_2.3.2.obj
+
+# target to build an object file
+wangdao\P71_2.3.2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.3.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.3.2.dir\wangdao\P71_2.3.2.cpp.obj
+.PHONY : wangdao\P71_2.3.2.cpp.obj
+
+wangdao\P71_2.3.2.i: wangdao\P71_2.3.2.cpp.i
+
+.PHONY : wangdao\P71_2.3.2.i
+
+# target to preprocess a source file
+wangdao\P71_2.3.2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.3.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.3.2.dir\wangdao\P71_2.3.2.cpp.i
+.PHONY : wangdao\P71_2.3.2.cpp.i
+
+wangdao\P71_2.3.2.s: wangdao\P71_2.3.2.cpp.s
+
+.PHONY : wangdao\P71_2.3.2.s
+
+# target to generate assembly for a file
+wangdao\P71_2.3.2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.3.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.3.2.dir\wangdao\P71_2.3.2.cpp.s
+.PHONY : wangdao\P71_2.3.2.cpp.s
+
+wangdao\P71_2.4.obj: wangdao\P71_2.4.cpp.obj
+
+.PHONY : wangdao\P71_2.4.obj
+
+# target to build an object file
+wangdao\P71_2.4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.4.dir\wangdao\P71_2.4.cpp.obj
+.PHONY : wangdao\P71_2.4.cpp.obj
+
+wangdao\P71_2.4.i: wangdao\P71_2.4.cpp.i
+
+.PHONY : wangdao\P71_2.4.i
+
+# target to preprocess a source file
+wangdao\P71_2.4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.4.dir\wangdao\P71_2.4.cpp.i
+.PHONY : wangdao\P71_2.4.cpp.i
+
+wangdao\P71_2.4.s: wangdao\P71_2.4.cpp.s
+
+.PHONY : wangdao\P71_2.4.s
+
+# target to generate assembly for a file
+wangdao\P71_2.4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.4.dir\wangdao\P71_2.4.cpp.s
+.PHONY : wangdao\P71_2.4.cpp.s
+
+wangdao\P71_2.5.obj: wangdao\P71_2.5.cpp.obj
+
+.PHONY : wangdao\P71_2.5.obj
+
+# target to build an object file
+wangdao\P71_2.5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.5.dir\wangdao\P71_2.5.cpp.obj
+.PHONY : wangdao\P71_2.5.cpp.obj
+
+wangdao\P71_2.5.i: wangdao\P71_2.5.cpp.i
+
+.PHONY : wangdao\P71_2.5.i
+
+# target to preprocess a source file
+wangdao\P71_2.5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.5.dir\wangdao\P71_2.5.cpp.i
+.PHONY : wangdao\P71_2.5.cpp.i
+
+wangdao\P71_2.5.s: wangdao\P71_2.5.cpp.s
+
+.PHONY : wangdao\P71_2.5.s
+
+# target to generate assembly for a file
+wangdao\P71_2.5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.5.dir\wangdao\P71_2.5.cpp.s
+.PHONY : wangdao\P71_2.5.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -3707,6 +3867,7 @@ help:
 	@echo ... 4.1.2_StringNode
 	@echo ... 4.2.1_Index
 	@echo ... 4.2.3_Index_KMP
+	@echo ... 5.3.1_PreOrder
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -3787,6 +3948,9 @@ help:
 	@echo ... P5705
 	@echo ... P5706
 	@echo ... P5788
+	@echo ... P71_2.3.2
+	@echo ... P71_2.4
+	@echo ... P71_2.5
 	@echo ... StaticLinkList
 	@echo ... 3.1.2_ShStack.obj
 	@echo ... 3.1.2_ShStack.i
@@ -3815,6 +3979,9 @@ help:
 	@echo ... 4.2.3_Index_KMP.obj
 	@echo ... 4.2.3_Index_KMP.i
 	@echo ... 4.2.3_Index_KMP.s
+	@echo ... 5.3.1_PreOrder.obj
+	@echo ... 5.3.1_PreOrder.i
+	@echo ... 5.3.1_PreOrder.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
@@ -4055,6 +4222,15 @@ help:
 	@echo ... wangdao/P40_2.9.obj
 	@echo ... wangdao/P40_2.9.i
 	@echo ... wangdao/P40_2.9.s
+	@echo ... wangdao/P71_2.3.2.obj
+	@echo ... wangdao/P71_2.3.2.i
+	@echo ... wangdao/P71_2.3.2.s
+	@echo ... wangdao/P71_2.4.obj
+	@echo ... wangdao/P71_2.4.i
+	@echo ... wangdao/P71_2.4.s
+	@echo ... wangdao/P71_2.5.obj
+	@echo ... wangdao/P71_2.5.i
+	@echo ... wangdao/P71_2.5.s
 .PHONY : help
 
 
