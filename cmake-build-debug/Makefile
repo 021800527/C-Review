@@ -778,6 +778,19 @@ P19_2.6\fast:
 .PHONY : P19_2.6\fast
 
 #=============================================================================
+# Target rules for targets named P96_2.1
+
+# Build rule for target.
+P96_2.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P96_2.1
+.PHONY : P96_2.1
+
+# fast build rule for target.
+P96_2.1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.1.dir\build
+.PHONY : P96_2.1\fast
+
+#=============================================================================
 # Target rules for targets named 3.1.2_Sqstack
 
 # Build rule for target.
@@ -4010,6 +4023,33 @@ wangdao\P85_2.5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.5.dir\wangdao\P85_2.5.cpp.s
 .PHONY : wangdao\P85_2.5.cpp.s
 
+wangdao\P96_2.1.obj: wangdao\P96_2.1.cpp.obj
+
+.PHONY : wangdao\P96_2.1.obj
+
+# target to build an object file
+wangdao\P96_2.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.1.dir\wangdao\P96_2.1.cpp.obj
+.PHONY : wangdao\P96_2.1.cpp.obj
+
+wangdao\P96_2.1.i: wangdao\P96_2.1.cpp.i
+
+.PHONY : wangdao\P96_2.1.i
+
+# target to preprocess a source file
+wangdao\P96_2.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.1.dir\wangdao\P96_2.1.cpp.i
+.PHONY : wangdao\P96_2.1.cpp.i
+
+wangdao\P96_2.1.s: wangdao\P96_2.1.cpp.s
+
+.PHONY : wangdao\P96_2.1.s
+
+# target to generate assembly for a file
+wangdao\P96_2.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.1.dir\wangdao\P96_2.1.cpp.s
+.PHONY : wangdao\P96_2.1.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -4115,6 +4155,7 @@ help:
 	@echo ... P85_2.2
 	@echo ... P85_2.3
 	@echo ... P85_2.5
+	@echo ... P96_2.1
 	@echo ... StaticLinkList
 	@echo ... 3.1.2_ShStack.obj
 	@echo ... 3.1.2_ShStack.i
@@ -4407,6 +4448,9 @@ help:
 	@echo ... wangdao/P85_2.5.obj
 	@echo ... wangdao/P85_2.5.i
 	@echo ... wangdao/P85_2.5.s
+	@echo ... wangdao/P96_2.1.obj
+	@echo ... wangdao/P96_2.1.i
+	@echo ... wangdao/P96_2.1.s
 .PHONY : help
 
 

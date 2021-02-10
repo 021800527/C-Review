@@ -98,6 +98,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/OddList.dir/DependInfo.cmake"
   "CMakeFiles/StaticLinkList.dir/DependInfo.cmake"
   "CMakeFiles/P19_2.6.dir/DependInfo.cmake"
+  "CMakeFiles/P96_2.1.dir/DependInfo.cmake"
   "CMakeFiles/3.1.2_Sqstack.dir/DependInfo.cmake"
   "CMakeFiles/P5704.dir/DependInfo.cmake"
   "CMakeFiles/P3156.dir/DependInfo.cmake"
