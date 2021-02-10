@@ -1362,6 +1362,32 @@ P85_2.1\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.1.dir\build
 .PHONY : P85_2.1\fast
 
+#=============================================================================
+# Target rules for targets named P85_2.3
+
+# Build rule for target.
+P85_2.3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P85_2.3
+.PHONY : P85_2.3
+
+# fast build rule for target.
+P85_2.3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.3.dir\build
+.PHONY : P85_2.3\fast
+
+#=============================================================================
+# Target rules for targets named P85_2.5
+
+# Build rule for target.
+P85_2.5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P85_2.5
+.PHONY : P85_2.5
+
+# fast build rule for target.
+P85_2.5\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.5.dir\build
+.PHONY : P85_2.5\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3930,6 +3956,60 @@ wangdao\P85_2.2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.2.dir\wangdao\P85_2.2.cpp.s
 .PHONY : wangdao\P85_2.2.cpp.s
 
+wangdao\P85_2.3.obj: wangdao\P85_2.3.cpp.obj
+
+.PHONY : wangdao\P85_2.3.obj
+
+# target to build an object file
+wangdao\P85_2.3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.3.dir\wangdao\P85_2.3.cpp.obj
+.PHONY : wangdao\P85_2.3.cpp.obj
+
+wangdao\P85_2.3.i: wangdao\P85_2.3.cpp.i
+
+.PHONY : wangdao\P85_2.3.i
+
+# target to preprocess a source file
+wangdao\P85_2.3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.3.dir\wangdao\P85_2.3.cpp.i
+.PHONY : wangdao\P85_2.3.cpp.i
+
+wangdao\P85_2.3.s: wangdao\P85_2.3.cpp.s
+
+.PHONY : wangdao\P85_2.3.s
+
+# target to generate assembly for a file
+wangdao\P85_2.3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.3.dir\wangdao\P85_2.3.cpp.s
+.PHONY : wangdao\P85_2.3.cpp.s
+
+wangdao\P85_2.5.obj: wangdao\P85_2.5.cpp.obj
+
+.PHONY : wangdao\P85_2.5.obj
+
+# target to build an object file
+wangdao\P85_2.5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.5.dir\wangdao\P85_2.5.cpp.obj
+.PHONY : wangdao\P85_2.5.cpp.obj
+
+wangdao\P85_2.5.i: wangdao\P85_2.5.cpp.i
+
+.PHONY : wangdao\P85_2.5.i
+
+# target to preprocess a source file
+wangdao\P85_2.5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.5.dir\wangdao\P85_2.5.cpp.i
+.PHONY : wangdao\P85_2.5.cpp.i
+
+wangdao\P85_2.5.s: wangdao\P85_2.5.cpp.s
+
+.PHONY : wangdao\P85_2.5.s
+
+# target to generate assembly for a file
+wangdao\P85_2.5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.5.dir\wangdao\P85_2.5.cpp.s
+.PHONY : wangdao\P85_2.5.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -4033,6 +4113,8 @@ help:
 	@echo ... P71_2.5
 	@echo ... P85_2.1
 	@echo ... P85_2.2
+	@echo ... P85_2.3
+	@echo ... P85_2.5
 	@echo ... StaticLinkList
 	@echo ... 3.1.2_ShStack.obj
 	@echo ... 3.1.2_ShStack.i
@@ -4319,6 +4401,12 @@ help:
 	@echo ... wangdao/P85_2.2.obj
 	@echo ... wangdao/P85_2.2.i
 	@echo ... wangdao/P85_2.2.s
+	@echo ... wangdao/P85_2.3.obj
+	@echo ... wangdao/P85_2.3.i
+	@echo ... wangdao/P85_2.3.s
+	@echo ... wangdao/P85_2.5.obj
+	@echo ... wangdao/P85_2.5.i
+	@echo ... wangdao/P85_2.5.s
 .PHONY : help
 
 
