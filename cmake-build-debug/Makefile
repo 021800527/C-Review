@@ -1401,6 +1401,45 @@ P85_2.5\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.5.dir\build
 .PHONY : P85_2.5\fast
 
+#=============================================================================
+# Target rules for targets named P96_2.2
+
+# Build rule for target.
+P96_2.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P96_2.2
+.PHONY : P96_2.2
+
+# fast build rule for target.
+P96_2.2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.2.dir\build
+.PHONY : P96_2.2\fast
+
+#=============================================================================
+# Target rules for targets named P96_2.3
+
+# Build rule for target.
+P96_2.3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P96_2.3
+.PHONY : P96_2.3
+
+# fast build rule for target.
+P96_2.3\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.3.dir\build
+.PHONY : P96_2.3\fast
+
+#=============================================================================
+# Target rules for targets named P96_2.4
+
+# Build rule for target.
+P96_2.4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P96_2.4
+.PHONY : P96_2.4
+
+# fast build rule for target.
+P96_2.4\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.4.dir\build
+.PHONY : P96_2.4\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -4050,6 +4089,87 @@ wangdao\P96_2.1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.1.dir\wangdao\P96_2.1.cpp.s
 .PHONY : wangdao\P96_2.1.cpp.s
 
+wangdao\P96_2.2.obj: wangdao\P96_2.2.cpp.obj
+
+.PHONY : wangdao\P96_2.2.obj
+
+# target to build an object file
+wangdao\P96_2.2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.2.dir\wangdao\P96_2.2.cpp.obj
+.PHONY : wangdao\P96_2.2.cpp.obj
+
+wangdao\P96_2.2.i: wangdao\P96_2.2.cpp.i
+
+.PHONY : wangdao\P96_2.2.i
+
+# target to preprocess a source file
+wangdao\P96_2.2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.2.dir\wangdao\P96_2.2.cpp.i
+.PHONY : wangdao\P96_2.2.cpp.i
+
+wangdao\P96_2.2.s: wangdao\P96_2.2.cpp.s
+
+.PHONY : wangdao\P96_2.2.s
+
+# target to generate assembly for a file
+wangdao\P96_2.2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.2.dir\wangdao\P96_2.2.cpp.s
+.PHONY : wangdao\P96_2.2.cpp.s
+
+wangdao\P96_2.3.obj: wangdao\P96_2.3.cpp.obj
+
+.PHONY : wangdao\P96_2.3.obj
+
+# target to build an object file
+wangdao\P96_2.3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.3.dir\wangdao\P96_2.3.cpp.obj
+.PHONY : wangdao\P96_2.3.cpp.obj
+
+wangdao\P96_2.3.i: wangdao\P96_2.3.cpp.i
+
+.PHONY : wangdao\P96_2.3.i
+
+# target to preprocess a source file
+wangdao\P96_2.3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.3.dir\wangdao\P96_2.3.cpp.i
+.PHONY : wangdao\P96_2.3.cpp.i
+
+wangdao\P96_2.3.s: wangdao\P96_2.3.cpp.s
+
+.PHONY : wangdao\P96_2.3.s
+
+# target to generate assembly for a file
+wangdao\P96_2.3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.3.dir\wangdao\P96_2.3.cpp.s
+.PHONY : wangdao\P96_2.3.cpp.s
+
+wangdao\P96_2.4.obj: wangdao\P96_2.4.cpp.obj
+
+.PHONY : wangdao\P96_2.4.obj
+
+# target to build an object file
+wangdao\P96_2.4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.4.dir\wangdao\P96_2.4.cpp.obj
+.PHONY : wangdao\P96_2.4.cpp.obj
+
+wangdao\P96_2.4.i: wangdao\P96_2.4.cpp.i
+
+.PHONY : wangdao\P96_2.4.i
+
+# target to preprocess a source file
+wangdao\P96_2.4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.4.dir\wangdao\P96_2.4.cpp.i
+.PHONY : wangdao\P96_2.4.cpp.i
+
+wangdao\P96_2.4.s: wangdao\P96_2.4.cpp.s
+
+.PHONY : wangdao\P96_2.4.s
+
+# target to generate assembly for a file
+wangdao\P96_2.4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.4.dir\wangdao\P96_2.4.cpp.s
+.PHONY : wangdao\P96_2.4.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -4156,6 +4276,9 @@ help:
 	@echo ... P85_2.3
 	@echo ... P85_2.5
 	@echo ... P96_2.1
+	@echo ... P96_2.2
+	@echo ... P96_2.3
+	@echo ... P96_2.4
 	@echo ... StaticLinkList
 	@echo ... 3.1.2_ShStack.obj
 	@echo ... 3.1.2_ShStack.i
@@ -4451,6 +4574,15 @@ help:
 	@echo ... wangdao/P96_2.1.obj
 	@echo ... wangdao/P96_2.1.i
 	@echo ... wangdao/P96_2.1.s
+	@echo ... wangdao/P96_2.2.obj
+	@echo ... wangdao/P96_2.2.i
+	@echo ... wangdao/P96_2.2.s
+	@echo ... wangdao/P96_2.3.obj
+	@echo ... wangdao/P96_2.3.i
+	@echo ... wangdao/P96_2.3.s
+	@echo ... wangdao/P96_2.4.obj
+	@echo ... wangdao/P96_2.4.i
+	@echo ... wangdao/P96_2.4.s
 .PHONY : help
 
 
