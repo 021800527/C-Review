@@ -1336,6 +1336,19 @@ P71_2.5\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.5.dir\build
 .PHONY : P71_2.5\fast
 
+#=============================================================================
+# Target rules for targets named P85_2.1
+
+# Build rule for target.
+P85_2.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P85_2.1
+.PHONY : P85_2.1
+
+# fast build rule for target.
+P85_2.1\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.1.dir\build
+.PHONY : P85_2.1\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3850,6 +3863,33 @@ wangdao\P71_2.5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P71_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P71_2.5.dir\wangdao\P71_2.5.cpp.s
 .PHONY : wangdao\P71_2.5.cpp.s
 
+wangdao\P85_2.1.obj: wangdao\P85_2.1.cpp.obj
+
+.PHONY : wangdao\P85_2.1.obj
+
+# target to build an object file
+wangdao\P85_2.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.1.dir\wangdao\P85_2.1.cpp.obj
+.PHONY : wangdao\P85_2.1.cpp.obj
+
+wangdao\P85_2.1.i: wangdao\P85_2.1.cpp.i
+
+.PHONY : wangdao\P85_2.1.i
+
+# target to preprocess a source file
+wangdao\P85_2.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.1.dir\wangdao\P85_2.1.cpp.i
+.PHONY : wangdao\P85_2.1.cpp.i
+
+wangdao\P85_2.1.s: wangdao\P85_2.1.cpp.s
+
+.PHONY : wangdao\P85_2.1.s
+
+# target to generate assembly for a file
+wangdao\P85_2.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.1.dir\wangdao\P85_2.1.cpp.s
+.PHONY : wangdao\P85_2.1.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -3951,6 +3991,7 @@ help:
 	@echo ... P71_2.3.2
 	@echo ... P71_2.4
 	@echo ... P71_2.5
+	@echo ... P85_2.1
 	@echo ... StaticLinkList
 	@echo ... 3.1.2_ShStack.obj
 	@echo ... 3.1.2_ShStack.i
@@ -4231,6 +4272,9 @@ help:
 	@echo ... wangdao/P71_2.5.obj
 	@echo ... wangdao/P71_2.5.i
 	@echo ... wangdao/P71_2.5.s
+	@echo ... wangdao/P85_2.1.obj
+	@echo ... wangdao/P85_2.1.i
+	@echo ... wangdao/P85_2.1.s
 .PHONY : help
 
 
