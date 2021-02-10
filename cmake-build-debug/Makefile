@@ -661,6 +661,19 @@ Facial02.05_addTwoNumbers\fast:
 .PHONY : 3.2.3_LinkQueue\fast
 
 #=============================================================================
+# Target rules for targets named P85_2.2
+
+# Build rule for target.
+P85_2.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P85_2.2
+.PHONY : P85_2.2
+
+# fast build rule for target.
+P85_2.2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.2.dir\build
+.PHONY : P85_2.2\fast
+
+#=============================================================================
 # Target rules for targets named Num237_deleteNode
 
 # Build rule for target.
@@ -3890,6 +3903,33 @@ wangdao\P85_2.1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.1.dir\wangdao\P85_2.1.cpp.s
 .PHONY : wangdao\P85_2.1.cpp.s
 
+wangdao\P85_2.2.obj: wangdao\P85_2.2.cpp.obj
+
+.PHONY : wangdao\P85_2.2.obj
+
+# target to build an object file
+wangdao\P85_2.2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.2.dir\wangdao\P85_2.2.cpp.obj
+.PHONY : wangdao\P85_2.2.cpp.obj
+
+wangdao\P85_2.2.i: wangdao\P85_2.2.cpp.i
+
+.PHONY : wangdao\P85_2.2.i
+
+# target to preprocess a source file
+wangdao\P85_2.2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.2.dir\wangdao\P85_2.2.cpp.i
+.PHONY : wangdao\P85_2.2.cpp.i
+
+wangdao\P85_2.2.s: wangdao\P85_2.2.cpp.s
+
+.PHONY : wangdao\P85_2.2.s
+
+# target to generate assembly for a file
+wangdao\P85_2.2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P85_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P85_2.2.dir\wangdao\P85_2.2.cpp.s
+.PHONY : wangdao\P85_2.2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -3992,6 +4032,7 @@ help:
 	@echo ... P71_2.4
 	@echo ... P71_2.5
 	@echo ... P85_2.1
+	@echo ... P85_2.2
 	@echo ... StaticLinkList
 	@echo ... 3.1.2_ShStack.obj
 	@echo ... 3.1.2_ShStack.i
@@ -4275,6 +4316,9 @@ help:
 	@echo ... wangdao/P85_2.1.obj
 	@echo ... wangdao/P85_2.1.i
 	@echo ... wangdao/P85_2.1.s
+	@echo ... wangdao/P85_2.2.obj
+	@echo ... wangdao/P85_2.2.i
+	@echo ... wangdao/P85_2.2.s
 .PHONY : help
 
 
