@@ -1440,6 +1440,19 @@ P96_2.4\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P96_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P96_2.4.dir\build
 .PHONY : P96_2.4\fast
 
+#=============================================================================
+# Target rules for targets named Num150_evalRPN
+
+# Build rule for target.
+Num150_evalRPN: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num150_evalRPN
+.PHONY : Num150_evalRPN
+
+# fast build rule for target.
+Num150_evalRPN\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num150_evalRPN.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num150_evalRPN.dir\build
+.PHONY : Num150_evalRPN\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1874,6 +1887,33 @@ LeetCode\Num141_hasCycle.s: LeetCode\Num141_hasCycle.cpp.s
 LeetCode\Num141_hasCycle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num141_hasCycle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num141_hasCycle.dir\LeetCode\Num141_hasCycle.cpp.s
 .PHONY : LeetCode\Num141_hasCycle.cpp.s
+
+LeetCode\Num150_evalRPN.obj: LeetCode\Num150_evalRPN.cpp.obj
+
+.PHONY : LeetCode\Num150_evalRPN.obj
+
+# target to build an object file
+LeetCode\Num150_evalRPN.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num150_evalRPN.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num150_evalRPN.dir\LeetCode\Num150_evalRPN.cpp.obj
+.PHONY : LeetCode\Num150_evalRPN.cpp.obj
+
+LeetCode\Num150_evalRPN.i: LeetCode\Num150_evalRPN.cpp.i
+
+.PHONY : LeetCode\Num150_evalRPN.i
+
+# target to preprocess a source file
+LeetCode\Num150_evalRPN.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num150_evalRPN.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num150_evalRPN.dir\LeetCode\Num150_evalRPN.cpp.i
+.PHONY : LeetCode\Num150_evalRPN.cpp.i
+
+LeetCode\Num150_evalRPN.s: LeetCode\Num150_evalRPN.cpp.s
+
+.PHONY : LeetCode\Num150_evalRPN.s
+
+# target to generate assembly for a file
+LeetCode\Num150_evalRPN.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num150_evalRPN.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num150_evalRPN.dir\LeetCode\Num150_evalRPN.cpp.s
+.PHONY : LeetCode\Num150_evalRPN.cpp.s
 
 LeetCode\Num203_removeElements.obj: LeetCode\Num203_removeElements.cpp.obj
 
@@ -4208,6 +4248,7 @@ help:
 	@echo ... List_insert
 	@echo ... Num1290_getDecimalValue
 	@echo ... Num141_hasCycle
+	@echo ... Num150_evalRPN
 	@echo ... Num203_removeElements
 	@echo ... Num21_mergeTwoLists
 	@echo ... Num234_isPalindrome
@@ -4328,6 +4369,9 @@ help:
 	@echo ... LeetCode/Num141_hasCycle.obj
 	@echo ... LeetCode/Num141_hasCycle.i
 	@echo ... LeetCode/Num141_hasCycle.s
+	@echo ... LeetCode/Num150_evalRPN.obj
+	@echo ... LeetCode/Num150_evalRPN.i
+	@echo ... LeetCode/Num150_evalRPN.s
 	@echo ... LeetCode/Num203_removeElements.obj
 	@echo ... LeetCode/Num203_removeElements.i
 	@echo ... LeetCode/Num203_removeElements.s
