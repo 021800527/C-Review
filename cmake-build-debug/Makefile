@@ -999,6 +999,19 @@ P40_2.6\fast:
 .PHONY : P40_2.6\fast
 
 #=============================================================================
+# Target rules for targets named 5.3.2_ThreadNode
+
+# Build rule for target.
+5.3.2_ThreadNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 5.3.2_ThreadNode
+.PHONY : 5.3.2_ThreadNode
+
+# fast build rule for target.
+5.3.2_ThreadNode\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.3.2_ThreadNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.3.2_ThreadNode.dir\build
+.PHONY : 5.3.2_ThreadNode\fast
+
+#=============================================================================
 # Target rules for targets named P40_2.8
 
 # Build rule for target.
@@ -1722,6 +1735,33 @@ Num150_evalRPN\fast:
 5.3.1_PreOrder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.3.1_PreOrder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.3.1_PreOrder.dir\5.3.1_PreOrder.cpp.s
 .PHONY : 5.3.1_PreOrder.cpp.s
+
+5.3.2_ThreadNode.obj: 5.3.2_ThreadNode.cpp.obj
+
+.PHONY : 5.3.2_ThreadNode.obj
+
+# target to build an object file
+5.3.2_ThreadNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.3.2_ThreadNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.3.2_ThreadNode.dir\5.3.2_ThreadNode.cpp.obj
+.PHONY : 5.3.2_ThreadNode.cpp.obj
+
+5.3.2_ThreadNode.i: 5.3.2_ThreadNode.cpp.i
+
+.PHONY : 5.3.2_ThreadNode.i
+
+# target to preprocess a source file
+5.3.2_ThreadNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.3.2_ThreadNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.3.2_ThreadNode.dir\5.3.2_ThreadNode.cpp.i
+.PHONY : 5.3.2_ThreadNode.cpp.i
+
+5.3.2_ThreadNode.s: 5.3.2_ThreadNode.cpp.s
+
+.PHONY : 5.3.2_ThreadNode.s
+
+# target to generate assembly for a file
+5.3.2_ThreadNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.3.2_ThreadNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.3.2_ThreadNode.dir\5.3.2_ThreadNode.cpp.s
+.PHONY : 5.3.2_ThreadNode.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -4228,6 +4268,7 @@ help:
 	@echo ... 4.2.1_Index
 	@echo ... 4.2.3_Index_KMP
 	@echo ... 5.3.1_PreOrder
+	@echo ... 5.3.2_ThreadNode
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -4351,6 +4392,9 @@ help:
 	@echo ... 5.3.1_PreOrder.obj
 	@echo ... 5.3.1_PreOrder.i
 	@echo ... 5.3.1_PreOrder.s
+	@echo ... 5.3.2_ThreadNode.obj
+	@echo ... 5.3.2_ThreadNode.i
+	@echo ... 5.3.2_ThreadNode.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
