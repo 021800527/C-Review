@@ -1479,6 +1479,32 @@ Num150_evalRPN\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.4.1._PTNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.4.1._PTNode.dir\build
 .PHONY : 5.4.1._PTNode\fast
 
+#=============================================================================
+# Target rules for targets named Offer09_CQueue
+
+# Build rule for target.
+Offer09_CQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer09_CQueue
+.PHONY : Offer09_CQueue
+
+# fast build rule for target.
+Offer09_CQueue\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer09_CQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer09_CQueue.dir\build
+.PHONY : Offer09_CQueue\fast
+
+#=============================================================================
+# Target rules for targets named 5.4.4_UFSets
+
+# Build rule for target.
+5.4.4_UFSets: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 5.4.4_UFSets
+.PHONY : 5.4.4_UFSets
+
+# fast build rule for target.
+5.4.4_UFSets\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.4.4_UFSets.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.4.4_UFSets.dir\build
+.PHONY : 5.4.4_UFSets\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1802,6 +1828,33 @@ Num150_evalRPN\fast:
 5.4.1._PTNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.4.1._PTNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.4.1._PTNode.dir\5.4.1._PTNode.cpp.s
 .PHONY : 5.4.1._PTNode.cpp.s
+
+5.4.4_UFSets.obj: 5.4.4_UFSets.cpp.obj
+
+.PHONY : 5.4.4_UFSets.obj
+
+# target to build an object file
+5.4.4_UFSets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.4.4_UFSets.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.4.4_UFSets.dir\5.4.4_UFSets.cpp.obj
+.PHONY : 5.4.4_UFSets.cpp.obj
+
+5.4.4_UFSets.i: 5.4.4_UFSets.cpp.i
+
+.PHONY : 5.4.4_UFSets.i
+
+# target to preprocess a source file
+5.4.4_UFSets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.4.4_UFSets.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.4.4_UFSets.dir\5.4.4_UFSets.cpp.i
+.PHONY : 5.4.4_UFSets.cpp.i
+
+5.4.4_UFSets.s: 5.4.4_UFSets.cpp.s
+
+.PHONY : 5.4.4_UFSets.s
+
+# target to generate assembly for a file
+5.4.4_UFSets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.4.4_UFSets.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.4.4_UFSets.dir\5.4.4_UFSets.cpp.s
+.PHONY : 5.4.4_UFSets.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -2156,6 +2209,33 @@ LeetCode\Offer06_reversePrint.s: LeetCode\Offer06_reversePrint.cpp.s
 LeetCode\Offer06_reversePrint.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\LeetCode\Offer06_reversePrint.cpp.s
 .PHONY : LeetCode\Offer06_reversePrint.cpp.s
+
+LeetCode\Offer09_CQueue.obj: LeetCode\Offer09_CQueue.cpp.obj
+
+.PHONY : LeetCode\Offer09_CQueue.obj
+
+# target to build an object file
+LeetCode\Offer09_CQueue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer09_CQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer09_CQueue.dir\LeetCode\Offer09_CQueue.cpp.obj
+.PHONY : LeetCode\Offer09_CQueue.cpp.obj
+
+LeetCode\Offer09_CQueue.i: LeetCode\Offer09_CQueue.cpp.i
+
+.PHONY : LeetCode\Offer09_CQueue.i
+
+# target to preprocess a source file
+LeetCode\Offer09_CQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer09_CQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer09_CQueue.dir\LeetCode\Offer09_CQueue.cpp.i
+.PHONY : LeetCode\Offer09_CQueue.cpp.i
+
+LeetCode\Offer09_CQueue.s: LeetCode\Offer09_CQueue.cpp.s
+
+.PHONY : LeetCode\Offer09_CQueue.s
+
+# target to generate assembly for a file
+LeetCode\Offer09_CQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer09_CQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer09_CQueue.dir\LeetCode\Offer09_CQueue.cpp.s
+.PHONY : LeetCode\Offer09_CQueue.cpp.s
 
 LeetCode\Offer18_deleteNode.obj: LeetCode\Offer18_deleteNode.cpp.obj
 
@@ -4310,6 +4390,7 @@ help:
 	@echo ... 5.3.1_PreOrder
 	@echo ... 5.3.2_ThreadNode
 	@echo ... 5.4.1._PTNode
+	@echo ... 5.4.4_UFSets
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -4339,6 +4420,7 @@ help:
 	@echo ... OddDlinkList
 	@echo ... OddList
 	@echo ... Offer06_reversePrint
+	@echo ... Offer09_CQueue
 	@echo ... Offer18_deleteNode
 	@echo ... Offer22_getKthFromEnd
 	@echo ... Offer24
@@ -4439,6 +4521,9 @@ help:
 	@echo ... 5.4.1._PTNode.obj
 	@echo ... 5.4.1._PTNode.i
 	@echo ... 5.4.1._PTNode.s
+	@echo ... 5.4.4_UFSets.obj
+	@echo ... 5.4.4_UFSets.i
+	@echo ... 5.4.4_UFSets.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
@@ -4478,6 +4563,9 @@ help:
 	@echo ... LeetCode/Offer06_reversePrint.obj
 	@echo ... LeetCode/Offer06_reversePrint.i
 	@echo ... LeetCode/Offer06_reversePrint.s
+	@echo ... LeetCode/Offer09_CQueue.obj
+	@echo ... LeetCode/Offer09_CQueue.i
+	@echo ... LeetCode/Offer09_CQueue.s
 	@echo ... LeetCode/Offer18_deleteNode.obj
 	@echo ... LeetCode/Offer18_deleteNode.i
 	@echo ... LeetCode/Offer18_deleteNode.s
