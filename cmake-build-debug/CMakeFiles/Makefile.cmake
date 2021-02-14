@@ -92,6 +92,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/P85_2.2.dir/DependInfo.cmake"
   "CMakeFiles/Num237_deleteNode.dir/DependInfo.cmake"
   "CMakeFiles/Num21_mergeTwoLists.dir/DependInfo.cmake"
+  "CMakeFiles/Offer31_validateStackSequences.dir/DependInfo.cmake"
   "CMakeFiles/Num203_removeElements.dir/DependInfo.cmake"
   "CMakeFiles/P5703.dir/DependInfo.cmake"
   "CMakeFiles/Num1290_getDecimalValue.dir/DependInfo.cmake"

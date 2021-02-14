@@ -700,6 +700,19 @@ Num21_mergeTwoLists\fast:
 .PHONY : Num21_mergeTwoLists\fast
 
 #=============================================================================
+# Target rules for targets named Offer31_validateStackSequences
+
+# Build rule for target.
+Offer31_validateStackSequences: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer31_validateStackSequences
+.PHONY : Offer31_validateStackSequences
+
+# fast build rule for target.
+Offer31_validateStackSequences\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer31_validateStackSequences.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer31_validateStackSequences.dir\build
+.PHONY : Offer31_validateStackSequences\fast
+
+#=============================================================================
 # Target rules for targets named Num203_removeElements
 
 # Build rule for target.
@@ -2398,6 +2411,33 @@ LeetCode\Offer30_MinStack.s: LeetCode\Offer30_MinStack.cpp.s
 LeetCode\Offer30_MinStack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer30_MinStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer30_MinStack.dir\LeetCode\Offer30_MinStack.cpp.s
 .PHONY : LeetCode\Offer30_MinStack.cpp.s
+
+LeetCode\Offer31_validateStackSequences.obj: LeetCode\Offer31_validateStackSequences.cpp.obj
+
+.PHONY : LeetCode\Offer31_validateStackSequences.obj
+
+# target to build an object file
+LeetCode\Offer31_validateStackSequences.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer31_validateStackSequences.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer31_validateStackSequences.dir\LeetCode\Offer31_validateStackSequences.cpp.obj
+.PHONY : LeetCode\Offer31_validateStackSequences.cpp.obj
+
+LeetCode\Offer31_validateStackSequences.i: LeetCode\Offer31_validateStackSequences.cpp.i
+
+.PHONY : LeetCode\Offer31_validateStackSequences.i
+
+# target to preprocess a source file
+LeetCode\Offer31_validateStackSequences.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer31_validateStackSequences.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer31_validateStackSequences.dir\LeetCode\Offer31_validateStackSequences.cpp.i
+.PHONY : LeetCode\Offer31_validateStackSequences.cpp.i
+
+LeetCode\Offer31_validateStackSequences.s: LeetCode\Offer31_validateStackSequences.cpp.s
+
+.PHONY : LeetCode\Offer31_validateStackSequences.s
+
+# target to generate assembly for a file
+LeetCode\Offer31_validateStackSequences.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer31_validateStackSequences.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer31_validateStackSequences.dir\LeetCode\Offer31_validateStackSequences.cpp.s
+.PHONY : LeetCode\Offer31_validateStackSequences.cpp.s
 
 LeetCode\Offer52_getIntersectionNode.obj: LeetCode\Offer52_getIntersectionNode.cpp.obj
 
@@ -4427,6 +4467,7 @@ help:
 	@echo ... Offer24-Solution
 	@echo ... Offer25_mergeTwoLists
 	@echo ... Offer30_MinStack
+	@echo ... Offer31_validateStackSequences
 	@echo ... Offer52_getIntersectionNode
 	@echo ... P19_2.1
 	@echo ... P19_2.10
@@ -4584,6 +4625,9 @@ help:
 	@echo ... LeetCode/Offer30_MinStack.obj
 	@echo ... LeetCode/Offer30_MinStack.i
 	@echo ... LeetCode/Offer30_MinStack.s
+	@echo ... LeetCode/Offer31_validateStackSequences.obj
+	@echo ... LeetCode/Offer31_validateStackSequences.i
+	@echo ... LeetCode/Offer31_validateStackSequences.s
 	@echo ... LeetCode/Offer52_getIntersectionNode.obj
 	@echo ... LeetCode/Offer52_getIntersectionNode.i
 	@echo ... LeetCode/Offer52_getIntersectionNode.s
