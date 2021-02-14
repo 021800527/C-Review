@@ -1518,6 +1518,19 @@ Offer09_CQueue\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.4.4_UFSets.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.4.4_UFSets.dir\build
 .PHONY : 5.4.4_UFSets\fast
 
+#=============================================================================
+# Target rules for targets named Num1172_DinnerPlates
+
+# Build rule for target.
+Num1172_DinnerPlates: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num1172_DinnerPlates
+.PHONY : Num1172_DinnerPlates
+
+# fast build rule for target.
+Num1172_DinnerPlates\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1172_DinnerPlates.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1172_DinnerPlates.dir\build
+.PHONY : Num1172_DinnerPlates\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1979,6 +1992,33 @@ LeetCode\Facial02.05_addTwoNumbers.s: LeetCode\Facial02.05_addTwoNumbers.cpp.s
 LeetCode\Facial02.05_addTwoNumbers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial02.05_addTwoNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial02.05_addTwoNumbers.dir\LeetCode\Facial02.05_addTwoNumbers.cpp.s
 .PHONY : LeetCode\Facial02.05_addTwoNumbers.cpp.s
+
+LeetCode\Num1172_DinnerPlates.obj: LeetCode\Num1172_DinnerPlates.cpp.obj
+
+.PHONY : LeetCode\Num1172_DinnerPlates.obj
+
+# target to build an object file
+LeetCode\Num1172_DinnerPlates.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1172_DinnerPlates.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1172_DinnerPlates.dir\LeetCode\Num1172_DinnerPlates.cpp.obj
+.PHONY : LeetCode\Num1172_DinnerPlates.cpp.obj
+
+LeetCode\Num1172_DinnerPlates.i: LeetCode\Num1172_DinnerPlates.cpp.i
+
+.PHONY : LeetCode\Num1172_DinnerPlates.i
+
+# target to preprocess a source file
+LeetCode\Num1172_DinnerPlates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1172_DinnerPlates.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1172_DinnerPlates.dir\LeetCode\Num1172_DinnerPlates.cpp.i
+.PHONY : LeetCode\Num1172_DinnerPlates.cpp.i
+
+LeetCode\Num1172_DinnerPlates.s: LeetCode\Num1172_DinnerPlates.cpp.s
+
+.PHONY : LeetCode\Num1172_DinnerPlates.s
+
+# target to generate assembly for a file
+LeetCode\Num1172_DinnerPlates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1172_DinnerPlates.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1172_DinnerPlates.dir\LeetCode\Num1172_DinnerPlates.cpp.s
+.PHONY : LeetCode\Num1172_DinnerPlates.cpp.s
 
 LeetCode\Num1290_getDecimalValue.obj: LeetCode\Num1290_getDecimalValue.cpp.obj
 
@@ -4449,6 +4489,7 @@ help:
 	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
+	@echo ... Num1172_DinnerPlates
 	@echo ... Num1290_getDecimalValue
 	@echo ... Num141_hasCycle
 	@echo ... Num150_evalRPN
@@ -4577,6 +4618,9 @@ help:
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.obj
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.i
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.s
+	@echo ... LeetCode/Num1172_DinnerPlates.obj
+	@echo ... LeetCode/Num1172_DinnerPlates.i
+	@echo ... LeetCode/Num1172_DinnerPlates.s
 	@echo ... LeetCode/Num1290_getDecimalValue.obj
 	@echo ... LeetCode/Num1290_getDecimalValue.i
 	@echo ... LeetCode/Num1290_getDecimalValue.s
