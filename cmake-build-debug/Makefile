@@ -1531,6 +1531,19 @@ Num1172_DinnerPlates\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1172_DinnerPlates.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1172_DinnerPlates.dir\build
 .PHONY : Num1172_DinnerPlates\fast
 
+#=============================================================================
+# Target rules for targets named Facial03.05_SortedStack
+
+# Build rule for target.
+Facial03.05_SortedStack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Facial03.05_SortedStack
+.PHONY : Facial03.05_SortedStack
+
+# fast build rule for target.
+Facial03.05_SortedStack\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.05_SortedStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.05_SortedStack.dir\build
+.PHONY : Facial03.05_SortedStack\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1992,6 +2005,33 @@ LeetCode\Facial02.05_addTwoNumbers.s: LeetCode\Facial02.05_addTwoNumbers.cpp.s
 LeetCode\Facial02.05_addTwoNumbers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial02.05_addTwoNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial02.05_addTwoNumbers.dir\LeetCode\Facial02.05_addTwoNumbers.cpp.s
 .PHONY : LeetCode\Facial02.05_addTwoNumbers.cpp.s
+
+LeetCode\Facial03.05_SortedStack.obj: LeetCode\Facial03.05_SortedStack.cpp.obj
+
+.PHONY : LeetCode\Facial03.05_SortedStack.obj
+
+# target to build an object file
+LeetCode\Facial03.05_SortedStack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.05_SortedStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.05_SortedStack.dir\LeetCode\Facial03.05_SortedStack.cpp.obj
+.PHONY : LeetCode\Facial03.05_SortedStack.cpp.obj
+
+LeetCode\Facial03.05_SortedStack.i: LeetCode\Facial03.05_SortedStack.cpp.i
+
+.PHONY : LeetCode\Facial03.05_SortedStack.i
+
+# target to preprocess a source file
+LeetCode\Facial03.05_SortedStack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.05_SortedStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.05_SortedStack.dir\LeetCode\Facial03.05_SortedStack.cpp.i
+.PHONY : LeetCode\Facial03.05_SortedStack.cpp.i
+
+LeetCode\Facial03.05_SortedStack.s: LeetCode\Facial03.05_SortedStack.cpp.s
+
+.PHONY : LeetCode\Facial03.05_SortedStack.s
+
+# target to generate assembly for a file
+LeetCode\Facial03.05_SortedStack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.05_SortedStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.05_SortedStack.dir\LeetCode\Facial03.05_SortedStack.cpp.s
+.PHONY : LeetCode\Facial03.05_SortedStack.cpp.s
 
 LeetCode\Num1172_DinnerPlates.obj: LeetCode\Num1172_DinnerPlates.cpp.obj
 
@@ -4477,6 +4517,7 @@ help:
 	@echo ... DLink_DestoryList
 	@echo ... DLink_delete
 	@echo ... Facial02.05_addTwoNumbers
+	@echo ... Facial03.05_SortedStack
 	@echo ... LikList_behindInsert
 	@echo ... LinkLList_frontinsert
 	@echo ... LinkList_GetElem
@@ -4618,6 +4659,9 @@ help:
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.obj
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.i
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.s
+	@echo ... LeetCode/Facial03.05_SortedStack.obj
+	@echo ... LeetCode/Facial03.05_SortedStack.i
+	@echo ... LeetCode/Facial03.05_SortedStack.s
 	@echo ... LeetCode/Num1172_DinnerPlates.obj
 	@echo ... LeetCode/Num1172_DinnerPlates.i
 	@echo ... LeetCode/Num1172_DinnerPlates.s

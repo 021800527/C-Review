@@ -156,4 +156,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Offer09_CQueue.dir/DependInfo.cmake"
   "CMakeFiles/5.4.4_UFSets.dir/DependInfo.cmake"
   "CMakeFiles/Num1172_DinnerPlates.dir/DependInfo.cmake"
+  "CMakeFiles/Facial03.05_SortedStack.dir/DependInfo.cmake"
   )

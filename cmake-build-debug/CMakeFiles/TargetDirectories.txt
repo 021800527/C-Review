@@ -107,5 +107,6 @@ F:/C-Review/cmake-build-debug/CMakeFiles/5.4.1._PTNode.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/Offer09_CQueue.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/5.4.4_UFSets.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/Num1172_DinnerPlates.dir
+F:/C-Review/cmake-build-debug/CMakeFiles/Facial03.05_SortedStack.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/edit_cache.dir
 F:/C-Review/cmake-build-debug/CMakeFiles/rebuild_cache.dir
