@@ -1233,6 +1233,19 @@ P40_2.23\fast:
 .PHONY : P40_2.23\fast
 
 #=============================================================================
+# Target rules for targets named 5.5.1_BST
+
+# Build rule for target.
+5.5.1_BST: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 5.5.1_BST
+.PHONY : 5.5.1_BST
+
+# fast build rule for target.
+5.5.1_BST\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.1_BST.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.1_BST.dir\build
+.PHONY : 5.5.1_BST\fast
+
+#=============================================================================
 # Target rules for targets named P40_2.24
 
 # Build rule for target.
@@ -1322,6 +1335,19 @@ P4387\fast:
 4.2.1_Index\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4.2.1_Index.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\4.2.1_Index.dir\build
 .PHONY : 4.2.1_Index\fast
+
+#=============================================================================
+# Target rules for targets named Facial03.04_MyQueue
+
+# Build rule for target.
+Facial03.04_MyQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Facial03.04_MyQueue
+.PHONY : Facial03.04_MyQueue
+
+# fast build rule for target.
+Facial03.04_MyQueue\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.04_MyQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.04_MyQueue.dir\build
+.PHONY : Facial03.04_MyQueue\fast
 
 #=============================================================================
 # Target rules for targets named 4.2.3_Index_KMP
@@ -1543,6 +1569,19 @@ Facial03.05_SortedStack: cmake_check_build_system
 Facial03.05_SortedStack\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.05_SortedStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.05_SortedStack.dir\build
 .PHONY : Facial03.05_SortedStack\fast
+
+#=============================================================================
+# Target rules for targets named Num225_MyStack
+
+# Build rule for target.
+Num225_MyStack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num225_MyStack
+.PHONY : Num225_MyStack
+
+# fast build rule for target.
+Num225_MyStack\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num225_MyStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num225_MyStack.dir\build
+.PHONY : Num225_MyStack\fast
 
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
@@ -1895,6 +1934,33 @@ Facial03.05_SortedStack\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.4.4_UFSets.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.4.4_UFSets.dir\5.4.4_UFSets.cpp.s
 .PHONY : 5.4.4_UFSets.cpp.s
 
+5.5.1_BST.obj: 5.5.1_BST.cpp.obj
+
+.PHONY : 5.5.1_BST.obj
+
+# target to build an object file
+5.5.1_BST.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.1_BST.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.1_BST.dir\5.5.1_BST.cpp.obj
+.PHONY : 5.5.1_BST.cpp.obj
+
+5.5.1_BST.i: 5.5.1_BST.cpp.i
+
+.PHONY : 5.5.1_BST.i
+
+# target to preprocess a source file
+5.5.1_BST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.1_BST.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.1_BST.dir\5.5.1_BST.cpp.i
+.PHONY : 5.5.1_BST.cpp.i
+
+5.5.1_BST.s: 5.5.1_BST.cpp.s
+
+.PHONY : 5.5.1_BST.s
+
+# target to generate assembly for a file
+5.5.1_BST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.1_BST.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.1_BST.dir\5.5.1_BST.cpp.s
+.PHONY : 5.5.1_BST.cpp.s
+
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
 .PHONY : DLinkList_Init.obj
@@ -2005,6 +2071,33 @@ LeetCode\Facial02.05_addTwoNumbers.s: LeetCode\Facial02.05_addTwoNumbers.cpp.s
 LeetCode\Facial02.05_addTwoNumbers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial02.05_addTwoNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial02.05_addTwoNumbers.dir\LeetCode\Facial02.05_addTwoNumbers.cpp.s
 .PHONY : LeetCode\Facial02.05_addTwoNumbers.cpp.s
+
+LeetCode\Facial03.04_MyQueue.obj: LeetCode\Facial03.04_MyQueue.cpp.obj
+
+.PHONY : LeetCode\Facial03.04_MyQueue.obj
+
+# target to build an object file
+LeetCode\Facial03.04_MyQueue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.04_MyQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.04_MyQueue.dir\LeetCode\Facial03.04_MyQueue.cpp.obj
+.PHONY : LeetCode\Facial03.04_MyQueue.cpp.obj
+
+LeetCode\Facial03.04_MyQueue.i: LeetCode\Facial03.04_MyQueue.cpp.i
+
+.PHONY : LeetCode\Facial03.04_MyQueue.i
+
+# target to preprocess a source file
+LeetCode\Facial03.04_MyQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.04_MyQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.04_MyQueue.dir\LeetCode\Facial03.04_MyQueue.cpp.i
+.PHONY : LeetCode\Facial03.04_MyQueue.cpp.i
+
+LeetCode\Facial03.04_MyQueue.s: LeetCode\Facial03.04_MyQueue.cpp.s
+
+.PHONY : LeetCode\Facial03.04_MyQueue.s
+
+# target to generate assembly for a file
+LeetCode\Facial03.04_MyQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.04_MyQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.04_MyQueue.dir\LeetCode\Facial03.04_MyQueue.cpp.s
+.PHONY : LeetCode\Facial03.04_MyQueue.cpp.s
 
 LeetCode\Facial03.05_SortedStack.obj: LeetCode\Facial03.05_SortedStack.cpp.obj
 
@@ -2194,6 +2287,33 @@ LeetCode\Num21_mergeTwoLists.s: LeetCode\Num21_mergeTwoLists.cpp.s
 LeetCode\Num21_mergeTwoLists.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num21_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num21_mergeTwoLists.dir\LeetCode\Num21_mergeTwoLists.cpp.s
 .PHONY : LeetCode\Num21_mergeTwoLists.cpp.s
+
+LeetCode\Num225_MyStack.obj: LeetCode\Num225_MyStack.cpp.obj
+
+.PHONY : LeetCode\Num225_MyStack.obj
+
+# target to build an object file
+LeetCode\Num225_MyStack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num225_MyStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num225_MyStack.dir\LeetCode\Num225_MyStack.cpp.obj
+.PHONY : LeetCode\Num225_MyStack.cpp.obj
+
+LeetCode\Num225_MyStack.i: LeetCode\Num225_MyStack.cpp.i
+
+.PHONY : LeetCode\Num225_MyStack.i
+
+# target to preprocess a source file
+LeetCode\Num225_MyStack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num225_MyStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num225_MyStack.dir\LeetCode\Num225_MyStack.cpp.i
+.PHONY : LeetCode\Num225_MyStack.cpp.i
+
+LeetCode\Num225_MyStack.s: LeetCode\Num225_MyStack.cpp.s
+
+.PHONY : LeetCode\Num225_MyStack.s
+
+# target to generate assembly for a file
+LeetCode\Num225_MyStack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num225_MyStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num225_MyStack.dir\LeetCode\Num225_MyStack.cpp.s
+.PHONY : LeetCode\Num225_MyStack.cpp.s
 
 LeetCode\Num234_isPalindrome.obj: LeetCode\Num234_isPalindrome.cpp.obj
 
@@ -4511,12 +4631,14 @@ help:
 	@echo ... 5.3.2_ThreadNode
 	@echo ... 5.4.1._PTNode
 	@echo ... 5.4.4_UFSets
+	@echo ... 5.5.1_BST
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
 	@echo ... DLink_DestoryList
 	@echo ... DLink_delete
 	@echo ... Facial02.05_addTwoNumbers
+	@echo ... Facial03.04_MyQueue
 	@echo ... Facial03.05_SortedStack
 	@echo ... LikList_behindInsert
 	@echo ... LinkLList_frontinsert
@@ -4536,6 +4658,7 @@ help:
 	@echo ... Num150_evalRPN
 	@echo ... Num203_removeElements
 	@echo ... Num21_mergeTwoLists
+	@echo ... Num225_MyStack
 	@echo ... Num234_isPalindrome
 	@echo ... Num237_deleteNode
 	@echo ... Num876_middleNode
@@ -4647,6 +4770,9 @@ help:
 	@echo ... 5.4.4_UFSets.obj
 	@echo ... 5.4.4_UFSets.i
 	@echo ... 5.4.4_UFSets.s
+	@echo ... 5.5.1_BST.obj
+	@echo ... 5.5.1_BST.i
+	@echo ... 5.5.1_BST.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
@@ -4659,6 +4785,9 @@ help:
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.obj
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.i
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.s
+	@echo ... LeetCode/Facial03.04_MyQueue.obj
+	@echo ... LeetCode/Facial03.04_MyQueue.i
+	@echo ... LeetCode/Facial03.04_MyQueue.s
 	@echo ... LeetCode/Facial03.05_SortedStack.obj
 	@echo ... LeetCode/Facial03.05_SortedStack.i
 	@echo ... LeetCode/Facial03.05_SortedStack.s
@@ -4680,6 +4809,9 @@ help:
 	@echo ... LeetCode/Num21_mergeTwoLists.obj
 	@echo ... LeetCode/Num21_mergeTwoLists.i
 	@echo ... LeetCode/Num21_mergeTwoLists.s
+	@echo ... LeetCode/Num225_MyStack.obj
+	@echo ... LeetCode/Num225_MyStack.i
+	@echo ... LeetCode/Num225_MyStack.s
 	@echo ... LeetCode/Num234_isPalindrome.obj
 	@echo ... LeetCode/Num234_isPalindrome.i
 	@echo ... LeetCode/Num234_isPalindrome.s

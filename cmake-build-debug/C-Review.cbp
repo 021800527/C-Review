@@ -3629,6 +3629,48 @@
 					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="5.5.1_BST">
+				<Option output="F:/C-Review/cmake-build-debug/5.5.1_BST.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 5.5.1_BST"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5.5.1_BST/fast">
+				<Option output="F:/C-Review/cmake-build-debug/5.5.1_BST.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 5.5.1_BST/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="P40_2.24">
 				<Option output="F:/C-Review/cmake-build-debug/P40_2.24.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/C-Review/cmake-build-debug"/>
@@ -3918,6 +3960,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 4.2.1_Index/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Facial03.04_MyQueue">
+				<Option output="F:/C-Review/cmake-build-debug/Facial03.04_MyQueue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Facial03.04_MyQueue"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Facial03.04_MyQueue/fast">
+				<Option output="F:/C-Review/cmake-build-debug/Facial03.04_MyQueue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Facial03.04_MyQueue/fast"/>
 					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
@@ -4637,6 +4721,48 @@
 					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Num225_MyStack">
+				<Option output="F:/C-Review/cmake-build-debug/Num225_MyStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num225_MyStack"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Num225_MyStack/fast">
+				<Option output="F:/C-Review/cmake-build-debug/Num225_MyStack.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Num225_MyStack/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option type="4"/>
@@ -4697,6 +4823,9 @@
 		<Unit filename="F:/C-Review/5.4.4_UFSets.cpp">
 			<Option target="5.4.4_UFSets"/>
 		</Unit>
+		<Unit filename="F:/C-Review/5.5.1_BST.cpp">
+			<Option target="5.5.1_BST"/>
+		</Unit>
 		<Unit filename="F:/C-Review/DLinkList_Init.cpp">
 			<Option target="DLinkList_Init.cpp"/>
 			<Option target="DLinkList_Init"/>
@@ -4709,6 +4838,9 @@
 		</Unit>
 		<Unit filename="F:/C-Review/LeetCode/Facial02.05_addTwoNumbers.cpp">
 			<Option target="Facial02.05_addTwoNumbers"/>
+		</Unit>
+		<Unit filename="F:/C-Review/LeetCode/Facial03.04_MyQueue.cpp">
+			<Option target="Facial03.04_MyQueue"/>
 		</Unit>
 		<Unit filename="F:/C-Review/LeetCode/Facial03.05_SortedStack.cpp">
 			<Option target="Facial03.05_SortedStack"/>
@@ -4730,6 +4862,9 @@
 		</Unit>
 		<Unit filename="F:/C-Review/LeetCode/Num21_mergeTwoLists.cpp">
 			<Option target="Num21_mergeTwoLists"/>
+		</Unit>
+		<Unit filename="F:/C-Review/LeetCode/Num225_MyStack.cpp">
+			<Option target="Num225_MyStack"/>
 		</Unit>
 		<Unit filename="F:/C-Review/LeetCode/Num234_isPalindrome.cpp">
 			<Option target="Num234_isPalindrome"/>
