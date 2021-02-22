@@ -1596,6 +1596,19 @@ Num225_MyStack\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.2_Judge_AVL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.2_Judge_AVL.dir\build
 .PHONY : 5.5.2_Judge_AVL\fast
 
+#=============================================================================
+# Target rules for targets named P134_2.5
+
+# Build rule for target.
+P134_2.5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P134_2.5
+.PHONY : P134_2.5
+
+# fast build rule for target.
+P134_2.5\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P134_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P134_2.5.dir\build
+.PHONY : P134_2.5\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3354,6 +3367,33 @@ luogu\P5788.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5788.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5788.dir\luogu\P5788.cpp.s
 .PHONY : luogu\P5788.cpp.s
 
+wangdao\P134_2.5.obj: wangdao\P134_2.5.cpp.obj
+
+.PHONY : wangdao\P134_2.5.obj
+
+# target to build an object file
+wangdao\P134_2.5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P134_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P134_2.5.dir\wangdao\P134_2.5.cpp.obj
+.PHONY : wangdao\P134_2.5.cpp.obj
+
+wangdao\P134_2.5.i: wangdao\P134_2.5.cpp.i
+
+.PHONY : wangdao\P134_2.5.i
+
+# target to preprocess a source file
+wangdao\P134_2.5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P134_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P134_2.5.dir\wangdao\P134_2.5.cpp.i
+.PHONY : wangdao\P134_2.5.cpp.i
+
+wangdao\P134_2.5.s: wangdao\P134_2.5.cpp.s
+
+.PHONY : wangdao\P134_2.5.s
+
+# target to generate assembly for a file
+wangdao\P134_2.5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P134_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P134_2.5.dir\wangdao\P134_2.5.cpp.s
+.PHONY : wangdao\P134_2.5.cpp.s
+
 wangdao\P19_2.1.obj: wangdao\P19_2.1.cpp.obj
 
 .PHONY : wangdao\P19_2.1.obj
@@ -4715,6 +4755,7 @@ help:
 	@echo ... Offer30_MinStack
 	@echo ... Offer31_validateStackSequences
 	@echo ... Offer52_getIntersectionNode
+	@echo ... P134_2.5
 	@echo ... P19_2.1
 	@echo ... P19_2.10
 	@echo ... P19_2.11
@@ -4967,6 +5008,9 @@ help:
 	@echo ... luogu/P5788.obj
 	@echo ... luogu/P5788.i
 	@echo ... luogu/P5788.s
+	@echo ... wangdao/P134_2.5.obj
+	@echo ... wangdao/P134_2.5.i
+	@echo ... wangdao/P134_2.5.s
 	@echo ... wangdao/P19_2.1.obj
 	@echo ... wangdao/P19_2.1.i
 	@echo ... wangdao/P19_2.1.s
