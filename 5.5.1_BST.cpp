@@ -35,3 +35,14 @@ int BST_Insert(BiTree &T , int k){
     else
         return BST_Insert(T -> rchild,k);
 }
+/*
+ *  构造
+ */
+void Create_BST(BiTree &T, int str[] ,int n){
+    T = NULL;
+    int i = 0;
+    while (i<n){
+        BST_Insert(T,str[i]);
+        i++;
+    }
+}

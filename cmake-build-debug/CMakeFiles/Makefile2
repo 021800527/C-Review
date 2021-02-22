@@ -170,6 +170,7 @@ all: CMakeFiles\5.4.4_UFSets.dir\all
 all: CMakeFiles\Num1172_DinnerPlates.dir\all
 all: CMakeFiles\Facial03.05_SortedStack.dir\all
 all: CMakeFiles\Num225_MyStack.dir\all
+all: CMakeFiles\5.5.2_Judge_AVL.dir\all
 
 .PHONY : all
 
@@ -292,6 +293,7 @@ clean: CMakeFiles\5.4.4_UFSets.dir\clean
 clean: CMakeFiles\Num1172_DinnerPlates.dir\clean
 clean: CMakeFiles\Facial03.05_SortedStack.dir\clean
 clean: CMakeFiles\Num225_MyStack.dir\clean
+clean: CMakeFiles\5.5.2_Judge_AVL.dir\clean
 
 .PHONY : clean
 
@@ -302,7 +304,7 @@ clean: CMakeFiles\Num225_MyStack.dir\clean
 CMakeFiles\OddDlinkList.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddDlinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OddDlinkList.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddDlinkList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OddDlinkList.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=39 "Built target OddDlinkList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=40 "Built target OddDlinkList"
 .PHONY : CMakeFiles\OddDlinkList.dir\all
 
 # Build rule for subdir invocation for target.
@@ -356,7 +358,7 @@ CMakeFiles\Offer18_deleteNode.dir\clean:
 CMakeFiles\C.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\C.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=13 "Built target C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=14 "Built target C"
 .PHONY : CMakeFiles\C.dir\all
 
 # Build rule for subdir invocation for target.
@@ -464,7 +466,7 @@ CMakeFiles\P5706.dir\clean:
 CMakeFiles\Offer06_reversePrint.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=41 "Built target Offer06_reversePrint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=42 "Built target Offer06_reversePrint"
 .PHONY : CMakeFiles\Offer06_reversePrint.dir\all
 
 # Build rule for subdir invocation for target.
@@ -545,7 +547,7 @@ CMakeFiles\3.1.2_ShStack.dir\clean:
 CMakeFiles\LikList_behindInsert.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LikList_behindInsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LikList_behindInsert.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LikList_behindInsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LikList_behindInsert.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=20 "Built target LikList_behindInsert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=21 "Built target LikList_behindInsert"
 .PHONY : CMakeFiles\LikList_behindInsert.dir\all
 
 # Build rule for subdir invocation for target.
@@ -599,7 +601,7 @@ CMakeFiles\P40_2.7.dir\clean:
 CMakeFiles\List_GetElem.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_GetElem.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_GetElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_GetElem.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=27 "Built target List_GetElem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=28 "Built target List_GetElem"
 .PHONY : CMakeFiles\List_GetElem.dir\all
 
 # Build rule for subdir invocation for target.
@@ -626,7 +628,7 @@ CMakeFiles\List_GetElem.dir\clean:
 CMakeFiles\LinkList_insert.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_insert.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_insert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_insert.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=24 "Built target LinkList_insert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=25 "Built target LinkList_insert"
 .PHONY : CMakeFiles\LinkList_insert.dir\all
 
 # Build rule for subdir invocation for target.
@@ -653,7 +655,7 @@ CMakeFiles\LinkList_insert.dir\clean:
 CMakeFiles\Offer30_MinStack.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer30_MinStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer30_MinStack.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer30_MinStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer30_MinStack.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=47 "Built target Offer30_MinStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=48 "Built target Offer30_MinStack"
 .PHONY : CMakeFiles\Offer30_MinStack.dir\all
 
 # Build rule for subdir invocation for target.
@@ -680,12 +682,12 @@ CMakeFiles\Offer30_MinStack.dir\clean:
 CMakeFiles\List_LocateElem.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\List_LocateElem.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=28 "Built target List_LocateElem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target List_LocateElem"
 .PHONY : CMakeFiles\List_LocateElem.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\List_LocateElem.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\List_LocateElem.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\List_LocateElem.dir\rule
@@ -707,12 +709,12 @@ CMakeFiles\List_LocateElem.dir\clean:
 CMakeFiles\P19_2.13.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.13.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.13.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.13.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.13.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target P19_2.13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=54 "Built target P19_2.13"
 .PHONY : CMakeFiles\P19_2.13.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\P19_2.13.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.13.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\P19_2.13.dir\rule
@@ -734,12 +736,12 @@ CMakeFiles\P19_2.13.dir\clean:
 CMakeFiles\LinkLList_frontinsert.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkLList_frontinsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=21 "Built target LinkLList_frontinsert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target LinkLList_frontinsert"
 .PHONY : CMakeFiles\LinkLList_frontinsert.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\LinkLList_frontinsert.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\LinkLList_frontinsert.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\LinkLList_frontinsert.dir\rule
@@ -815,7 +817,7 @@ CMakeFiles\Num234_isPalindrome.dir\clean:
 CMakeFiles\ListDelete.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListDelete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ListDelete.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ListDelete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ListDelete.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=26 "Built target ListDelete"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=27 "Built target ListDelete"
 .PHONY : CMakeFiles\ListDelete.dir\all
 
 # Build rule for subdir invocation for target.
@@ -950,7 +952,7 @@ CMakeFiles\LinkList_LocateElem.dir\clean:
 CMakeFiles\LinkList_length.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_length.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_length.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_length.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_length.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=25 "Built target LinkList_length"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=26 "Built target LinkList_length"
 .PHONY : CMakeFiles\LinkList_length.dir\all
 
 # Build rule for subdir invocation for target.
@@ -977,7 +979,7 @@ CMakeFiles\LinkList_length.dir\clean:
 CMakeFiles\P19_2.2.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.2.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.2.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=54 "Built target P19_2.2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=55 "Built target P19_2.2"
 .PHONY : CMakeFiles\P19_2.2.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1004,12 +1006,12 @@ CMakeFiles\P19_2.2.dir\clean:
 CMakeFiles\LinkList_Taillnsert.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_Taillnsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_Taillnsert.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LinkList_Taillnsert.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_Taillnsert.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target LinkList_Taillnsert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=24 "Built target LinkList_Taillnsert"
 .PHONY : CMakeFiles\LinkList_Taillnsert.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\LinkList_Taillnsert.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\LinkList_Taillnsert.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\LinkList_Taillnsert.dir\rule
@@ -1058,7 +1060,7 @@ CMakeFiles\P19_2.10.dir\clean:
 CMakeFiles\DLink_delete.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_delete.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_delete.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_delete.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=16 "Built target DLink_delete"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=17 "Built target DLink_delete"
 .PHONY : CMakeFiles\DLink_delete.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1085,12 +1087,12 @@ CMakeFiles\DLink_delete.dir\clean:
 CMakeFiles\DLinkList_Init.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLinkList_Init.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=14 "Built target DLinkList_Init"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target DLinkList_Init"
 .PHONY : CMakeFiles\DLinkList_Init.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\DLinkList_Init.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\DLinkList_Init.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\DLinkList_Init.dir\rule
@@ -1112,7 +1114,7 @@ CMakeFiles\DLinkList_Init.dir\clean:
 CMakeFiles\Num141_hasCycle.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num141_hasCycle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num141_hasCycle.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num141_hasCycle.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num141_hasCycle.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=32 "Built target Num141_hasCycle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=33 "Built target Num141_hasCycle"
 .PHONY : CMakeFiles\Num141_hasCycle.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1139,12 +1141,12 @@ CMakeFiles\Num141_hasCycle.dir\clean:
 CMakeFiles\DLink_DestoryList.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_DestoryList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_DestoryList.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DLink_DestoryList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\DLink_DestoryList.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target DLink_DestoryList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=16 "Built target DLink_DestoryList"
 .PHONY : CMakeFiles\DLink_DestoryList.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\DLink_DestoryList.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\DLink_DestoryList.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\DLink_DestoryList.dir\rule
@@ -1247,12 +1249,12 @@ CMakeFiles\P5705.dir\clean:
 CMakeFiles\Offer25_mergeTwoLists.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer25_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer25_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target Offer25_mergeTwoLists"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=47 "Built target Offer25_mergeTwoLists"
 .PHONY : CMakeFiles\Offer25_mergeTwoLists.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Offer25_mergeTwoLists.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\Offer25_mergeTwoLists.dir\rule
@@ -1328,12 +1330,12 @@ CMakeFiles\P40_2.4.dir\clean:
 CMakeFiles\Num876_middleNode.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num876_middleNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num876_middleNode.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num876_middleNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num876_middleNode.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target Num876_middleNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=39 "Built target Num876_middleNode"
 .PHONY : CMakeFiles\Num876_middleNode.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Num876_middleNode.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Num876_middleNode.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\Num876_middleNode.dir\rule
@@ -1355,7 +1357,7 @@ CMakeFiles\Num876_middleNode.dir\clean:
 CMakeFiles\Offer52_getIntersectionNode.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=49 "Built target Offer52_getIntersectionNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=50 "Built target Offer52_getIntersectionNode"
 .PHONY : CMakeFiles\Offer52_getIntersectionNode.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1382,7 +1384,7 @@ CMakeFiles\Offer52_getIntersectionNode.dir\clean:
 CMakeFiles\Facial02.05_addTwoNumbers.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial02.05_addTwoNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial02.05_addTwoNumbers.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial02.05_addTwoNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial02.05_addTwoNumbers.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=17 "Built target Facial02.05_addTwoNumbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=18 "Built target Facial02.05_addTwoNumbers"
 .PHONY : CMakeFiles\Facial02.05_addTwoNumbers.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1490,12 +1492,12 @@ CMakeFiles\Num237_deleteNode.dir\clean:
 CMakeFiles\Num21_mergeTwoLists.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num21_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num21_mergeTwoLists.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num21_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num21_mergeTwoLists.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=35 "Built target Num21_mergeTwoLists"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target Num21_mergeTwoLists"
 .PHONY : CMakeFiles\Num21_mergeTwoLists.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Num21_mergeTwoLists.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Num21_mergeTwoLists.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\Num21_mergeTwoLists.dir\rule
@@ -1517,7 +1519,7 @@ CMakeFiles\Num21_mergeTwoLists.dir\clean:
 CMakeFiles\Offer31_validateStackSequences.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer31_validateStackSequences.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer31_validateStackSequences.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer31_validateStackSequences.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer31_validateStackSequences.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=48 "Built target Offer31_validateStackSequences"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=49 "Built target Offer31_validateStackSequences"
 .PHONY : CMakeFiles\Offer31_validateStackSequences.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1544,7 +1546,7 @@ CMakeFiles\Offer31_validateStackSequences.dir\clean:
 CMakeFiles\Num203_removeElements.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num203_removeElements.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num203_removeElements.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num203_removeElements.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num203_removeElements.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=34 "Built target Num203_removeElements"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=35 "Built target Num203_removeElements"
 .PHONY : CMakeFiles\Num203_removeElements.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1571,12 +1573,12 @@ CMakeFiles\Num203_removeElements.dir\clean:
 CMakeFiles\P5703.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5703.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5703.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P5703.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P5703.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=85 "Built target P5703"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target P5703"
 .PHONY : CMakeFiles\P5703.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\P5703.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P5703.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\P5703.dir\rule
@@ -1598,7 +1600,7 @@ CMakeFiles\P5703.dir\clean:
 CMakeFiles\Num1290_getDecimalValue.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1290_getDecimalValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1290_getDecimalValue.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1290_getDecimalValue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1290_getDecimalValue.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=31 "Built target Num1290_getDecimalValue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=32 "Built target Num1290_getDecimalValue"
 .PHONY : CMakeFiles\Num1290_getDecimalValue.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1625,7 +1627,7 @@ CMakeFiles\Num1290_getDecimalValue.dir\clean:
 CMakeFiles\OddList.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OddList.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OddList.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OddList.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=40 "Built target OddList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=41 "Built target OddList"
 .PHONY : CMakeFiles\OddList.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1787,12 +1789,12 @@ CMakeFiles\P5704.dir\clean:
 CMakeFiles\P3156.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3156.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P3156.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target P3156"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=62 "Built target P3156"
 .PHONY : CMakeFiles\P3156.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\P3156.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P3156.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\P3156.dir\rule
@@ -1814,12 +1816,12 @@ CMakeFiles\P3156.dir\clean:
 CMakeFiles\P19_2.1.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.1.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.1.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=50 "Built target P19_2.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target P19_2.1"
 .PHONY : CMakeFiles\P19_2.1.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\P19_2.1.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.1.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\P19_2.1.dir\rule
@@ -1841,7 +1843,7 @@ CMakeFiles\P19_2.1.dir\clean:
 CMakeFiles\P19_2.3.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.3.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.3.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=55 "Built target P19_2.3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=56 "Built target P19_2.3"
 .PHONY : CMakeFiles\P19_2.3.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1868,7 +1870,7 @@ CMakeFiles\P19_2.3.dir\clean:
 CMakeFiles\P19_2.4.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.4.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.4.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=56 "Built target P19_2.4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=57 "Built target P19_2.4"
 .PHONY : CMakeFiles\P19_2.4.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1895,12 +1897,12 @@ CMakeFiles\P19_2.4.dir\clean:
 CMakeFiles\P19_2.5.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.5.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.5.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=57 "Built target P19_2.5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target P19_2.5"
 .PHONY : CMakeFiles\P19_2.5.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\P19_2.5.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.5.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\P19_2.5.dir\rule
@@ -2003,7 +2005,7 @@ CMakeFiles\P19_2.12.dir\clean:
 CMakeFiles\P40_2.1.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.1.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.1.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=62 "Built target P40_2.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=63 "Built target P40_2.1"
 .PHONY : CMakeFiles\P40_2.1.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2057,12 +2059,12 @@ CMakeFiles\P40_2.2.dir\clean:
 CMakeFiles\P40_2.3.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.3.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.3.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=78 "Built target P40_2.3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target P40_2.3"
 .PHONY : CMakeFiles\P40_2.3.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\P40_2.3.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.3.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\P40_2.3.dir\rule
@@ -2246,7 +2248,7 @@ CMakeFiles\P40_2.9.dir\clean:
 CMakeFiles\P40_2.10.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.10.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.10.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=63 "Built target P40_2.10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=64 "Built target P40_2.10"
 .PHONY : CMakeFiles\P40_2.10.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2273,12 +2275,12 @@ CMakeFiles\P40_2.10.dir\clean:
 CMakeFiles\P40_2.11.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.11.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.11.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=64 "Built target P40_2.11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target P40_2.11"
 .PHONY : CMakeFiles\P40_2.11.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\P40_2.11.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.11.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\P40_2.11.dir\rule
@@ -2435,12 +2437,12 @@ CMakeFiles\P40_2.16.dir\clean:
 CMakeFiles\P40_2.17.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.17.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.17.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.17.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.17.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target P40_2.17"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=70 "Built target P40_2.17"
 .PHONY : CMakeFiles\P40_2.17.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\P40_2.17.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.17.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\P40_2.17.dir\rule
@@ -2462,7 +2464,7 @@ CMakeFiles\P40_2.17.dir\clean:
 CMakeFiles\P40_2.18.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.18.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.18.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.18.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.18.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=70 "Built target P40_2.18"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=71 "Built target P40_2.18"
 .PHONY : CMakeFiles\P40_2.18.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2489,12 +2491,12 @@ CMakeFiles\P40_2.18.dir\clean:
 CMakeFiles\P40_2.19.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.19.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.19.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.19.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.19.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=71 "Built target P40_2.19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target P40_2.19"
 .PHONY : CMakeFiles\P40_2.19.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\P40_2.19.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.19.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\P40_2.19.dir\rule
@@ -2651,12 +2653,12 @@ CMakeFiles\5.5.1_BST.dir\clean:
 CMakeFiles\P40_2.24.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.24.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.24.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.24.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target P40_2.24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=77 "Built target P40_2.24"
 .PHONY : CMakeFiles\P40_2.24.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\P40_2.24.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.24.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\P40_2.24.dir\rule
@@ -2678,7 +2680,7 @@ CMakeFiles\P40_2.24.dir\clean:
 CMakeFiles\P40_2.25.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.25.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.25.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.25.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.25.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=77 "Built target P40_2.25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=78 "Built target P40_2.25"
 .PHONY : CMakeFiles\P40_2.25.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2705,12 +2707,12 @@ CMakeFiles\P40_2.25.dir\clean:
 CMakeFiles\P4387.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P4387.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P4387.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P4387.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P4387.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target P4387"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=85 "Built target P4387"
 .PHONY : CMakeFiles\P4387.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\P4387.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\P4387.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\P4387.dir\rule
@@ -2840,7 +2842,7 @@ CMakeFiles\4.2.1_Index.dir\clean:
 CMakeFiles\Facial03.04_MyQueue.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.04_MyQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.04_MyQueue.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.04_MyQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.04_MyQueue.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=18 "Built target Facial03.04_MyQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=19 "Built target Facial03.04_MyQueue"
 .PHONY : CMakeFiles\Facial03.04_MyQueue.dir\all
 
 # Build rule for subdir invocation for target.
@@ -3164,7 +3166,7 @@ CMakeFiles\P96_2.4.dir\clean:
 CMakeFiles\Num150_evalRPN.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num150_evalRPN.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num150_evalRPN.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num150_evalRPN.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num150_evalRPN.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=33 "Built target Num150_evalRPN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=34 "Built target Num150_evalRPN"
 .PHONY : CMakeFiles\Num150_evalRPN.dir\all
 
 # Build rule for subdir invocation for target.
@@ -3218,12 +3220,12 @@ CMakeFiles\5.4.1._PTNode.dir\clean:
 CMakeFiles\Offer09_CQueue.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer09_CQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer09_CQueue.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer09_CQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer09_CQueue.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=42 "Built target Offer09_CQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target Offer09_CQueue"
 .PHONY : CMakeFiles\Offer09_CQueue.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Offer09_CQueue.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Offer09_CQueue.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\Offer09_CQueue.dir\rule
@@ -3272,12 +3274,12 @@ CMakeFiles\5.4.4_UFSets.dir\clean:
 CMakeFiles\Num1172_DinnerPlates.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1172_DinnerPlates.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1172_DinnerPlates.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1172_DinnerPlates.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1172_DinnerPlates.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num= "Built target Num1172_DinnerPlates"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=31 "Built target Num1172_DinnerPlates"
 .PHONY : CMakeFiles\Num1172_DinnerPlates.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Num1172_DinnerPlates.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Num1172_DinnerPlates.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\Num1172_DinnerPlates.dir\rule
@@ -3299,7 +3301,7 @@ CMakeFiles\Num1172_DinnerPlates.dir\clean:
 CMakeFiles\Facial03.05_SortedStack.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.05_SortedStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.05_SortedStack.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.05_SortedStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.05_SortedStack.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=19 "Built target Facial03.05_SortedStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=20 "Built target Facial03.05_SortedStack"
 .PHONY : CMakeFiles\Facial03.05_SortedStack.dir\all
 
 # Build rule for subdir invocation for target.
@@ -3345,6 +3347,33 @@ Num225_MyStack: CMakeFiles\Num225_MyStack.dir\rule
 CMakeFiles\Num225_MyStack.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num225_MyStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num225_MyStack.dir\clean
 .PHONY : CMakeFiles\Num225_MyStack.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/5.5.2_Judge_AVL.dir
+
+# All Build rule for target.
+CMakeFiles\5.5.2_Judge_AVL.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.2_Judge_AVL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.2_Judge_AVL.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.2_Judge_AVL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.2_Judge_AVL.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\C-Review\cmake-build-debug\CMakeFiles --progress-num=13 "Built target 5.5.2_Judge_AVL"
+.PHONY : CMakeFiles\5.5.2_Judge_AVL.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\5.5.2_Judge_AVL.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\5.5.2_Judge_AVL.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\5.5.2_Judge_AVL.dir\rule
+
+# Convenience name for target.
+5.5.2_Judge_AVL: CMakeFiles\5.5.2_Judge_AVL.dir\rule
+
+.PHONY : 5.5.2_Judge_AVL
+
+# clean rule for target.
+CMakeFiles\5.5.2_Judge_AVL.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.2_Judge_AVL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.2_Judge_AVL.dir\clean
+.PHONY : CMakeFiles\5.5.2_Judge_AVL.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

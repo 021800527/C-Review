@@ -1583,6 +1583,19 @@ Num225_MyStack\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num225_MyStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num225_MyStack.dir\build
 .PHONY : Num225_MyStack\fast
 
+#=============================================================================
+# Target rules for targets named 5.5.2_Judge_AVL
+
+# Build rule for target.
+5.5.2_Judge_AVL: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 5.5.2_Judge_AVL
+.PHONY : 5.5.2_Judge_AVL
+
+# fast build rule for target.
+5.5.2_Judge_AVL\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.2_Judge_AVL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.2_Judge_AVL.dir\build
+.PHONY : 5.5.2_Judge_AVL\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -1960,6 +1973,33 @@ Num225_MyStack\fast:
 5.5.1_BST.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.1_BST.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.1_BST.dir\5.5.1_BST.cpp.s
 .PHONY : 5.5.1_BST.cpp.s
+
+5.5.2_Judge_AVL.obj: 5.5.2_Judge_AVL.cpp.obj
+
+.PHONY : 5.5.2_Judge_AVL.obj
+
+# target to build an object file
+5.5.2_Judge_AVL.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.2_Judge_AVL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.2_Judge_AVL.dir\5.5.2_Judge_AVL.cpp.obj
+.PHONY : 5.5.2_Judge_AVL.cpp.obj
+
+5.5.2_Judge_AVL.i: 5.5.2_Judge_AVL.cpp.i
+
+.PHONY : 5.5.2_Judge_AVL.i
+
+# target to preprocess a source file
+5.5.2_Judge_AVL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.2_Judge_AVL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.2_Judge_AVL.dir\5.5.2_Judge_AVL.cpp.i
+.PHONY : 5.5.2_Judge_AVL.cpp.i
+
+5.5.2_Judge_AVL.s: 5.5.2_Judge_AVL.cpp.s
+
+.PHONY : 5.5.2_Judge_AVL.s
+
+# target to generate assembly for a file
+5.5.2_Judge_AVL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\5.5.2_Judge_AVL.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\5.5.2_Judge_AVL.dir\5.5.2_Judge_AVL.cpp.s
+.PHONY : 5.5.2_Judge_AVL.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -4632,6 +4672,7 @@ help:
 	@echo ... 5.4.1._PTNode
 	@echo ... 5.4.4_UFSets
 	@echo ... 5.5.1_BST
+	@echo ... 5.5.2_Judge_AVL
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -4773,6 +4814,9 @@ help:
 	@echo ... 5.5.1_BST.obj
 	@echo ... 5.5.1_BST.i
 	@echo ... 5.5.1_BST.s
+	@echo ... 5.5.2_Judge_AVL.obj
+	@echo ... 5.5.2_Judge_AVL.i
+	@echo ... 5.5.2_Judge_AVL.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
