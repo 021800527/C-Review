@@ -1609,6 +1609,32 @@ P134_2.5\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P134_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P134_2.5.dir\build
 .PHONY : P134_2.5\fast
 
+#=============================================================================
+# Target rules for targets named Offer55_isBalanced
+
+# Build rule for target.
+Offer55_isBalanced: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer55_isBalanced
+.PHONY : Offer55_isBalanced
+
+# fast build rule for target.
+Offer55_isBalanced\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer55_isBalanced.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer55_isBalanced.dir\build
+.PHONY : Offer55_isBalanced\fast
+
+#=============================================================================
+# Target rules for targets named Num232_MyQueue
+
+# Build rule for target.
+Num232_MyQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num232_MyQueue
+.PHONY : Num232_MyQueue
+
+# fast build rule for target.
+Num232_MyQueue\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num232_MyQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num232_MyQueue.dir\build
+.PHONY : Num232_MyQueue\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -2368,6 +2394,33 @@ LeetCode\Num225_MyStack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num225_MyStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num225_MyStack.dir\LeetCode\Num225_MyStack.cpp.s
 .PHONY : LeetCode\Num225_MyStack.cpp.s
 
+LeetCode\Num232_MyQueue.obj: LeetCode\Num232_MyQueue.cpp.obj
+
+.PHONY : LeetCode\Num232_MyQueue.obj
+
+# target to build an object file
+LeetCode\Num232_MyQueue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num232_MyQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num232_MyQueue.dir\LeetCode\Num232_MyQueue.cpp.obj
+.PHONY : LeetCode\Num232_MyQueue.cpp.obj
+
+LeetCode\Num232_MyQueue.i: LeetCode\Num232_MyQueue.cpp.i
+
+.PHONY : LeetCode\Num232_MyQueue.i
+
+# target to preprocess a source file
+LeetCode\Num232_MyQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num232_MyQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num232_MyQueue.dir\LeetCode\Num232_MyQueue.cpp.i
+.PHONY : LeetCode\Num232_MyQueue.cpp.i
+
+LeetCode\Num232_MyQueue.s: LeetCode\Num232_MyQueue.cpp.s
+
+.PHONY : LeetCode\Num232_MyQueue.s
+
+# target to generate assembly for a file
+LeetCode\Num232_MyQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num232_MyQueue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num232_MyQueue.dir\LeetCode\Num232_MyQueue.cpp.s
+.PHONY : LeetCode\Num232_MyQueue.cpp.s
+
 LeetCode\Num234_isPalindrome.obj: LeetCode\Num234_isPalindrome.cpp.obj
 
 .PHONY : LeetCode\Num234_isPalindrome.obj
@@ -2718,6 +2771,33 @@ LeetCode\Offer52_getIntersectionNode.s: LeetCode\Offer52_getIntersectionNode.cpp
 LeetCode\Offer52_getIntersectionNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\LeetCode\Offer52_getIntersectionNode.cpp.s
 .PHONY : LeetCode\Offer52_getIntersectionNode.cpp.s
+
+LeetCode\Offer55_isBalanced.obj: LeetCode\Offer55_isBalanced.cpp.obj
+
+.PHONY : LeetCode\Offer55_isBalanced.obj
+
+# target to build an object file
+LeetCode\Offer55_isBalanced.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer55_isBalanced.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer55_isBalanced.dir\LeetCode\Offer55_isBalanced.cpp.obj
+.PHONY : LeetCode\Offer55_isBalanced.cpp.obj
+
+LeetCode\Offer55_isBalanced.i: LeetCode\Offer55_isBalanced.cpp.i
+
+.PHONY : LeetCode\Offer55_isBalanced.i
+
+# target to preprocess a source file
+LeetCode\Offer55_isBalanced.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer55_isBalanced.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer55_isBalanced.dir\LeetCode\Offer55_isBalanced.cpp.i
+.PHONY : LeetCode\Offer55_isBalanced.cpp.i
+
+LeetCode\Offer55_isBalanced.s: LeetCode\Offer55_isBalanced.cpp.s
+
+.PHONY : LeetCode\Offer55_isBalanced.s
+
+# target to generate assembly for a file
+LeetCode\Offer55_isBalanced.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer55_isBalanced.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer55_isBalanced.dir\LeetCode\Offer55_isBalanced.cpp.s
+.PHONY : LeetCode\Offer55_isBalanced.cpp.s
 
 LikList_behindInsert.obj: LikList_behindInsert.cpp.obj
 
@@ -4740,6 +4820,7 @@ help:
 	@echo ... Num203_removeElements
 	@echo ... Num21_mergeTwoLists
 	@echo ... Num225_MyStack
+	@echo ... Num232_MyQueue
 	@echo ... Num234_isPalindrome
 	@echo ... Num237_deleteNode
 	@echo ... Num876_middleNode
@@ -4755,6 +4836,7 @@ help:
 	@echo ... Offer30_MinStack
 	@echo ... Offer31_validateStackSequences
 	@echo ... Offer52_getIntersectionNode
+	@echo ... Offer55_isBalanced
 	@echo ... P134_2.5
 	@echo ... P19_2.1
 	@echo ... P19_2.10
@@ -4897,6 +4979,9 @@ help:
 	@echo ... LeetCode/Num225_MyStack.obj
 	@echo ... LeetCode/Num225_MyStack.i
 	@echo ... LeetCode/Num225_MyStack.s
+	@echo ... LeetCode/Num232_MyQueue.obj
+	@echo ... LeetCode/Num232_MyQueue.i
+	@echo ... LeetCode/Num232_MyQueue.s
 	@echo ... LeetCode/Num234_isPalindrome.obj
 	@echo ... LeetCode/Num234_isPalindrome.i
 	@echo ... LeetCode/Num234_isPalindrome.s
@@ -4936,6 +5021,9 @@ help:
 	@echo ... LeetCode/Offer52_getIntersectionNode.obj
 	@echo ... LeetCode/Offer52_getIntersectionNode.i
 	@echo ... LeetCode/Offer52_getIntersectionNode.s
+	@echo ... LeetCode/Offer55_isBalanced.obj
+	@echo ... LeetCode/Offer55_isBalanced.i
+	@echo ... LeetCode/Offer55_isBalanced.s
 	@echo ... LikList_behindInsert.obj
 	@echo ... LikList_behindInsert.i
 	@echo ... LikList_behindInsert.s

@@ -162,4 +162,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Num225_MyStack.dir/DependInfo.cmake"
   "CMakeFiles/5.5.2_Judge_AVL.dir/DependInfo.cmake"
   "CMakeFiles/P134_2.5.dir/DependInfo.cmake"
+  "CMakeFiles/Offer55_isBalanced.dir/DependInfo.cmake"
+  "CMakeFiles/Num232_MyQueue.dir/DependInfo.cmake"
   )
