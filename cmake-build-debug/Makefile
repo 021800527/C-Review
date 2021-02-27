@@ -1220,6 +1220,19 @@ P40_2.22\fast:
 .PHONY : P40_2.22\fast
 
 #=============================================================================
+# Target rules for targets named Num1700_countStudents
+
+# Build rule for target.
+Num1700_countStudents: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num1700_countStudents
+.PHONY : Num1700_countStudents
+
+# fast build rule for target.
+Num1700_countStudents\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1700_countStudents.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1700_countStudents.dir\build
+.PHONY : Num1700_countStudents\fast
+
+#=============================================================================
 # Target rules for targets named P40_2.23
 
 # Build rule for target.
@@ -2405,6 +2418,33 @@ LeetCode\Num150_evalRPN.s: LeetCode\Num150_evalRPN.cpp.s
 LeetCode\Num150_evalRPN.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num150_evalRPN.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num150_evalRPN.dir\LeetCode\Num150_evalRPN.cpp.s
 .PHONY : LeetCode\Num150_evalRPN.cpp.s
+
+LeetCode\Num1700_countStudents.obj: LeetCode\Num1700_countStudents.cpp.obj
+
+.PHONY : LeetCode\Num1700_countStudents.obj
+
+# target to build an object file
+LeetCode\Num1700_countStudents.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1700_countStudents.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1700_countStudents.dir\LeetCode\Num1700_countStudents.cpp.obj
+.PHONY : LeetCode\Num1700_countStudents.cpp.obj
+
+LeetCode\Num1700_countStudents.i: LeetCode\Num1700_countStudents.cpp.i
+
+.PHONY : LeetCode\Num1700_countStudents.i
+
+# target to preprocess a source file
+LeetCode\Num1700_countStudents.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1700_countStudents.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1700_countStudents.dir\LeetCode\Num1700_countStudents.cpp.i
+.PHONY : LeetCode\Num1700_countStudents.cpp.i
+
+LeetCode\Num1700_countStudents.s: LeetCode\Num1700_countStudents.cpp.s
+
+.PHONY : LeetCode\Num1700_countStudents.s
+
+# target to generate assembly for a file
+LeetCode\Num1700_countStudents.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1700_countStudents.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1700_countStudents.dir\LeetCode\Num1700_countStudents.cpp.s
+.PHONY : LeetCode\Num1700_countStudents.cpp.s
 
 LeetCode\Num203_removeElements.obj: LeetCode\Num203_removeElements.cpp.obj
 
@@ -4939,6 +4979,7 @@ help:
 	@echo ... Num141_hasCycle
 	@echo ... Num1441_buildArray
 	@echo ... Num150_evalRPN
+	@echo ... Num1700_countStudents
 	@echo ... Num203_removeElements
 	@echo ... Num21_mergeTwoLists
 	@echo ... Num225_MyStack
@@ -5099,6 +5140,9 @@ help:
 	@echo ... LeetCode/Num150_evalRPN.obj
 	@echo ... LeetCode/Num150_evalRPN.i
 	@echo ... LeetCode/Num150_evalRPN.s
+	@echo ... LeetCode/Num1700_countStudents.obj
+	@echo ... LeetCode/Num1700_countStudents.i
+	@echo ... LeetCode/Num1700_countStudents.s
 	@echo ... LeetCode/Num203_removeElements.obj
 	@echo ... LeetCode/Num203_removeElements.i
 	@echo ... LeetCode/Num203_removeElements.s
