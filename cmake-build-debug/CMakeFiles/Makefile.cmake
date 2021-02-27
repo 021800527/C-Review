@@ -166,4 +166,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Num232_MyQueue.dir/DependInfo.cmake"
   "CMakeFiles/P149_2.3.dir/DependInfo.cmake"
   "CMakeFiles/Num1441_buildArray.dir/DependInfo.cmake"
+  "CMakeFiles/Facial03.01_TripleInOne.dir/DependInfo.cmake"
   )

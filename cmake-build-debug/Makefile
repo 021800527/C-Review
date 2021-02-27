@@ -1661,6 +1661,19 @@ Num1441_buildArray\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num1441_buildArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num1441_buildArray.dir\build
 .PHONY : Num1441_buildArray\fast
 
+#=============================================================================
+# Target rules for targets named Facial03.01_TripleInOne
+
+# Build rule for target.
+Facial03.01_TripleInOne: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Facial03.01_TripleInOne
+.PHONY : Facial03.01_TripleInOne
+
+# fast build rule for target.
+Facial03.01_TripleInOne\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.01_TripleInOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.01_TripleInOne.dir\build
+.PHONY : Facial03.01_TripleInOne\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -2176,6 +2189,33 @@ LeetCode\Facial02.05_addTwoNumbers.s: LeetCode\Facial02.05_addTwoNumbers.cpp.s
 LeetCode\Facial02.05_addTwoNumbers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial02.05_addTwoNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial02.05_addTwoNumbers.dir\LeetCode\Facial02.05_addTwoNumbers.cpp.s
 .PHONY : LeetCode\Facial02.05_addTwoNumbers.cpp.s
+
+LeetCode\Facial03.01_TripleInOne.obj: LeetCode\Facial03.01_TripleInOne.cpp.obj
+
+.PHONY : LeetCode\Facial03.01_TripleInOne.obj
+
+# target to build an object file
+LeetCode\Facial03.01_TripleInOne.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.01_TripleInOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.01_TripleInOne.dir\LeetCode\Facial03.01_TripleInOne.cpp.obj
+.PHONY : LeetCode\Facial03.01_TripleInOne.cpp.obj
+
+LeetCode\Facial03.01_TripleInOne.i: LeetCode\Facial03.01_TripleInOne.cpp.i
+
+.PHONY : LeetCode\Facial03.01_TripleInOne.i
+
+# target to preprocess a source file
+LeetCode\Facial03.01_TripleInOne.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.01_TripleInOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.01_TripleInOne.dir\LeetCode\Facial03.01_TripleInOne.cpp.i
+.PHONY : LeetCode\Facial03.01_TripleInOne.cpp.i
+
+LeetCode\Facial03.01_TripleInOne.s: LeetCode\Facial03.01_TripleInOne.cpp.s
+
+.PHONY : LeetCode\Facial03.01_TripleInOne.s
+
+# target to generate assembly for a file
+LeetCode\Facial03.01_TripleInOne.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.01_TripleInOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.01_TripleInOne.dir\LeetCode\Facial03.01_TripleInOne.cpp.s
+.PHONY : LeetCode\Facial03.01_TripleInOne.cpp.s
 
 LeetCode\Facial03.04_MyQueue.obj: LeetCode\Facial03.04_MyQueue.cpp.obj
 
@@ -4879,6 +4919,7 @@ help:
 	@echo ... DLink_DestoryList
 	@echo ... DLink_delete
 	@echo ... Facial02.05_addTwoNumbers
+	@echo ... Facial03.01_TripleInOne
 	@echo ... Facial03.04_MyQueue
 	@echo ... Facial03.05_SortedStack
 	@echo ... LikList_behindInsert
@@ -5034,6 +5075,9 @@ help:
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.obj
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.i
 	@echo ... LeetCode/Facial02.05_addTwoNumbers.s
+	@echo ... LeetCode/Facial03.01_TripleInOne.obj
+	@echo ... LeetCode/Facial03.01_TripleInOne.i
+	@echo ... LeetCode/Facial03.01_TripleInOne.s
 	@echo ... LeetCode/Facial03.04_MyQueue.obj
 	@echo ... LeetCode/Facial03.04_MyQueue.i
 	@echo ... LeetCode/Facial03.04_MyQueue.s
