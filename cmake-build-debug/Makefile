@@ -1687,6 +1687,19 @@ Facial03.01_TripleInOne\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.01_TripleInOne.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.01_TripleInOne.dir\build
 .PHONY : Facial03.01_TripleInOne\fast
 
+#=============================================================================
+# Target rules for targets named Facial08.06_hanota
+
+# Build rule for target.
+Facial08.06_hanota: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Facial08.06_hanota
+.PHONY : Facial08.06_hanota
+
+# fast build rule for target.
+Facial08.06_hanota\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial08.06_hanota.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial08.06_hanota.dir\build
+.PHONY : Facial08.06_hanota\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -2283,6 +2296,33 @@ LeetCode\Facial03.05_SortedStack.s: LeetCode\Facial03.05_SortedStack.cpp.s
 LeetCode\Facial03.05_SortedStack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial03.05_SortedStack.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial03.05_SortedStack.dir\LeetCode\Facial03.05_SortedStack.cpp.s
 .PHONY : LeetCode\Facial03.05_SortedStack.cpp.s
+
+LeetCode\Facial08.06_hanota.obj: LeetCode\Facial08.06_hanota.cpp.obj
+
+.PHONY : LeetCode\Facial08.06_hanota.obj
+
+# target to build an object file
+LeetCode\Facial08.06_hanota.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial08.06_hanota.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial08.06_hanota.dir\LeetCode\Facial08.06_hanota.cpp.obj
+.PHONY : LeetCode\Facial08.06_hanota.cpp.obj
+
+LeetCode\Facial08.06_hanota.i: LeetCode\Facial08.06_hanota.cpp.i
+
+.PHONY : LeetCode\Facial08.06_hanota.i
+
+# target to preprocess a source file
+LeetCode\Facial08.06_hanota.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial08.06_hanota.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial08.06_hanota.dir\LeetCode\Facial08.06_hanota.cpp.i
+.PHONY : LeetCode\Facial08.06_hanota.cpp.i
+
+LeetCode\Facial08.06_hanota.s: LeetCode\Facial08.06_hanota.cpp.s
+
+.PHONY : LeetCode\Facial08.06_hanota.s
+
+# target to generate assembly for a file
+LeetCode\Facial08.06_hanota.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial08.06_hanota.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial08.06_hanota.dir\LeetCode\Facial08.06_hanota.cpp.s
+.PHONY : LeetCode\Facial08.06_hanota.cpp.s
 
 LeetCode\Num1172_DinnerPlates.obj: LeetCode\Num1172_DinnerPlates.cpp.obj
 
@@ -4962,6 +5002,7 @@ help:
 	@echo ... Facial03.01_TripleInOne
 	@echo ... Facial03.04_MyQueue
 	@echo ... Facial03.05_SortedStack
+	@echo ... Facial08.06_hanota
 	@echo ... LikList_behindInsert
 	@echo ... LinkLList_frontinsert
 	@echo ... LinkList_GetElem
@@ -5125,6 +5166,9 @@ help:
 	@echo ... LeetCode/Facial03.05_SortedStack.obj
 	@echo ... LeetCode/Facial03.05_SortedStack.i
 	@echo ... LeetCode/Facial03.05_SortedStack.s
+	@echo ... LeetCode/Facial08.06_hanota.obj
+	@echo ... LeetCode/Facial08.06_hanota.i
+	@echo ... LeetCode/Facial08.06_hanota.s
 	@echo ... LeetCode/Num1172_DinnerPlates.obj
 	@echo ... LeetCode/Num1172_DinnerPlates.i
 	@echo ... LeetCode/Num1172_DinnerPlates.s
