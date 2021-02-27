@@ -375,6 +375,19 @@ ListDelete\fast:
 .PHONY : ListDelete\fast
 
 #=============================================================================
+# Target rules for targets named Offer55-1_maxDepth
+
+# Build rule for target.
+Offer55-1_maxDepth: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer55-1_maxDepth
+.PHONY : Offer55-1_maxDepth
+
+# fast build rule for target.
+Offer55-1_maxDepth\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer55-1_maxDepth.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer55-1_maxDepth.dir\build
+.PHONY : Offer55-1_maxDepth\fast
+
+#=============================================================================
 # Target rules for targets named P2181
 
 # Build rule for target.
@@ -2945,6 +2958,33 @@ LeetCode\Offer52_getIntersectionNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer52_getIntersectionNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer52_getIntersectionNode.dir\LeetCode\Offer52_getIntersectionNode.cpp.s
 .PHONY : LeetCode\Offer52_getIntersectionNode.cpp.s
 
+LeetCode\Offer55-1_maxDepth.obj: LeetCode\Offer55-1_maxDepth.cpp.obj
+
+.PHONY : LeetCode\Offer55-1_maxDepth.obj
+
+# target to build an object file
+LeetCode\Offer55-1_maxDepth.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer55-1_maxDepth.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer55-1_maxDepth.dir\LeetCode\Offer55-1_maxDepth.cpp.obj
+.PHONY : LeetCode\Offer55-1_maxDepth.cpp.obj
+
+LeetCode\Offer55-1_maxDepth.i: LeetCode\Offer55-1_maxDepth.cpp.i
+
+.PHONY : LeetCode\Offer55-1_maxDepth.i
+
+# target to preprocess a source file
+LeetCode\Offer55-1_maxDepth.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer55-1_maxDepth.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer55-1_maxDepth.dir\LeetCode\Offer55-1_maxDepth.cpp.i
+.PHONY : LeetCode\Offer55-1_maxDepth.cpp.i
+
+LeetCode\Offer55-1_maxDepth.s: LeetCode\Offer55-1_maxDepth.cpp.s
+
+.PHONY : LeetCode\Offer55-1_maxDepth.s
+
+# target to generate assembly for a file
+LeetCode\Offer55-1_maxDepth.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer55-1_maxDepth.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer55-1_maxDepth.dir\LeetCode\Offer55-1_maxDepth.cpp.s
+.PHONY : LeetCode\Offer55-1_maxDepth.cpp.s
+
 LeetCode\Offer55_isBalanced.obj: LeetCode\Offer55_isBalanced.cpp.obj
 
 .PHONY : LeetCode\Offer55_isBalanced.obj
@@ -5040,6 +5080,7 @@ help:
 	@echo ... Offer30_MinStack
 	@echo ... Offer31_validateStackSequences
 	@echo ... Offer52_getIntersectionNode
+	@echo ... Offer55-1_maxDepth
 	@echo ... Offer55_isBalanced
 	@echo ... P134_2.5
 	@echo ... P149_2.3
@@ -5238,6 +5279,9 @@ help:
 	@echo ... LeetCode/Offer52_getIntersectionNode.obj
 	@echo ... LeetCode/Offer52_getIntersectionNode.i
 	@echo ... LeetCode/Offer52_getIntersectionNode.s
+	@echo ... LeetCode/Offer55-1_maxDepth.obj
+	@echo ... LeetCode/Offer55-1_maxDepth.i
+	@echo ... LeetCode/Offer55-1_maxDepth.s
 	@echo ... LeetCode/Offer55_isBalanced.obj
 	@echo ... LeetCode/Offer55_isBalanced.i
 	@echo ... LeetCode/Offer55_isBalanced.s
