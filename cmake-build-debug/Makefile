@@ -1739,6 +1739,19 @@ P149_2.4\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.4.dir\build
 .PHONY : P149_2.4\fast
 
+#=============================================================================
+# Target rules for targets named Num102_levelOrder
+
+# Build rule for target.
+Num102_levelOrder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num102_levelOrder
+.PHONY : Num102_levelOrder
+
+# fast build rule for target.
+Num102_levelOrder\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num102_levelOrder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num102_levelOrder.dir\build
+.PHONY : Num102_levelOrder\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -2362,6 +2375,33 @@ LeetCode\Facial08.06_hanota.s: LeetCode\Facial08.06_hanota.cpp.s
 LeetCode\Facial08.06_hanota.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial08.06_hanota.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial08.06_hanota.dir\LeetCode\Facial08.06_hanota.cpp.s
 .PHONY : LeetCode\Facial08.06_hanota.cpp.s
+
+LeetCode\Num102_levelOrder.obj: LeetCode\Num102_levelOrder.cpp.obj
+
+.PHONY : LeetCode\Num102_levelOrder.obj
+
+# target to build an object file
+LeetCode\Num102_levelOrder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num102_levelOrder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num102_levelOrder.dir\LeetCode\Num102_levelOrder.cpp.obj
+.PHONY : LeetCode\Num102_levelOrder.cpp.obj
+
+LeetCode\Num102_levelOrder.i: LeetCode\Num102_levelOrder.cpp.i
+
+.PHONY : LeetCode\Num102_levelOrder.i
+
+# target to preprocess a source file
+LeetCode\Num102_levelOrder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num102_levelOrder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num102_levelOrder.dir\LeetCode\Num102_levelOrder.cpp.i
+.PHONY : LeetCode\Num102_levelOrder.cpp.i
+
+LeetCode\Num102_levelOrder.s: LeetCode\Num102_levelOrder.cpp.s
+
+.PHONY : LeetCode\Num102_levelOrder.s
+
+# target to generate assembly for a file
+LeetCode\Num102_levelOrder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num102_levelOrder.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num102_levelOrder.dir\LeetCode\Num102_levelOrder.cpp.s
+.PHONY : LeetCode\Num102_levelOrder.cpp.s
 
 LeetCode\Num1172_DinnerPlates.obj: LeetCode\Num1172_DinnerPlates.cpp.obj
 
@@ -5135,6 +5175,7 @@ help:
 	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
+	@echo ... Num102_levelOrder
 	@echo ... Num1172_DinnerPlates
 	@echo ... Num1290_getDecimalValue
 	@echo ... Num141_hasCycle
@@ -5292,6 +5333,9 @@ help:
 	@echo ... LeetCode/Facial08.06_hanota.obj
 	@echo ... LeetCode/Facial08.06_hanota.i
 	@echo ... LeetCode/Facial08.06_hanota.s
+	@echo ... LeetCode/Num102_levelOrder.obj
+	@echo ... LeetCode/Num102_levelOrder.i
+	@echo ... LeetCode/Num102_levelOrder.s
 	@echo ... LeetCode/Num1172_DinnerPlates.obj
 	@echo ... LeetCode/Num1172_DinnerPlates.i
 	@echo ... LeetCode/Num1172_DinnerPlates.s
