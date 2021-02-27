@@ -1713,6 +1713,19 @@ Facial08.06_hanota\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial08.06_hanota.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial08.06_hanota.dir\build
 .PHONY : Facial08.06_hanota\fast
 
+#=============================================================================
+# Target rules for targets named Offer57_findContinuousSequence
+
+# Build rule for target.
+Offer57_findContinuousSequence: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer57_findContinuousSequence
+.PHONY : Offer57_findContinuousSequence
+
+# fast build rule for target.
+Offer57_findContinuousSequence\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer57_findContinuousSequence.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer57_findContinuousSequence.dir\build
+.PHONY : Offer57_findContinuousSequence\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3011,6 +3024,33 @@ LeetCode\Offer55_isBalanced.s: LeetCode\Offer55_isBalanced.cpp.s
 LeetCode\Offer55_isBalanced.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer55_isBalanced.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer55_isBalanced.dir\LeetCode\Offer55_isBalanced.cpp.s
 .PHONY : LeetCode\Offer55_isBalanced.cpp.s
+
+LeetCode\Offer57_findContinuousSequence.obj: LeetCode\Offer57_findContinuousSequence.cpp.obj
+
+.PHONY : LeetCode\Offer57_findContinuousSequence.obj
+
+# target to build an object file
+LeetCode\Offer57_findContinuousSequence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer57_findContinuousSequence.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer57_findContinuousSequence.dir\LeetCode\Offer57_findContinuousSequence.cpp.obj
+.PHONY : LeetCode\Offer57_findContinuousSequence.cpp.obj
+
+LeetCode\Offer57_findContinuousSequence.i: LeetCode\Offer57_findContinuousSequence.cpp.i
+
+.PHONY : LeetCode\Offer57_findContinuousSequence.i
+
+# target to preprocess a source file
+LeetCode\Offer57_findContinuousSequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer57_findContinuousSequence.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer57_findContinuousSequence.dir\LeetCode\Offer57_findContinuousSequence.cpp.i
+.PHONY : LeetCode\Offer57_findContinuousSequence.cpp.i
+
+LeetCode\Offer57_findContinuousSequence.s: LeetCode\Offer57_findContinuousSequence.cpp.s
+
+.PHONY : LeetCode\Offer57_findContinuousSequence.s
+
+# target to generate assembly for a file
+LeetCode\Offer57_findContinuousSequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer57_findContinuousSequence.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer57_findContinuousSequence.dir\LeetCode\Offer57_findContinuousSequence.cpp.s
+.PHONY : LeetCode\Offer57_findContinuousSequence.cpp.s
 
 LikList_behindInsert.obj: LikList_behindInsert.cpp.obj
 
@@ -5082,6 +5122,7 @@ help:
 	@echo ... Offer52_getIntersectionNode
 	@echo ... Offer55-1_maxDepth
 	@echo ... Offer55_isBalanced
+	@echo ... Offer57_findContinuousSequence
 	@echo ... P134_2.5
 	@echo ... P149_2.3
 	@echo ... P19_2.1
@@ -5285,6 +5326,9 @@ help:
 	@echo ... LeetCode/Offer55_isBalanced.obj
 	@echo ... LeetCode/Offer55_isBalanced.i
 	@echo ... LeetCode/Offer55_isBalanced.s
+	@echo ... LeetCode/Offer57_findContinuousSequence.obj
+	@echo ... LeetCode/Offer57_findContinuousSequence.i
+	@echo ... LeetCode/Offer57_findContinuousSequence.s
 	@echo ... LikList_behindInsert.obj
 	@echo ... LikList_behindInsert.i
 	@echo ... LikList_behindInsert.s
