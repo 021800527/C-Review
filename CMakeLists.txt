@@ -131,3 +131,4 @@ add_executable(Offer57_findContinuousSequence LeetCode/Offer57_findContinuousSeq
 add_executable(P149_2.4 wangdao/P149_2.4.cpp)
 add_executable(Num102_levelOrder LeetCode/Num102_levelOrder.cpp)
 add_executable(P149_2.5 wangdao/P149_2.5.cpp)
+add_executable(P149_2.6 wangdao/P149_2.6.cpp)
