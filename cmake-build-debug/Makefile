@@ -1778,6 +1778,19 @@ P149_2.6\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.6.dir\build
 .PHONY : P149_2.6\fast
 
+#=============================================================================
+# Target rules for targets named Offer07_buildTree
+
+# Build rule for target.
+Offer07_buildTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer07_buildTree
+.PHONY : Offer07_buildTree
+
+# fast build rule for target.
+Offer07_buildTree\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer07_buildTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer07_buildTree.dir\build
+.PHONY : Offer07_buildTree\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -2806,6 +2819,33 @@ LeetCode\Offer06_reversePrint.s: LeetCode\Offer06_reversePrint.cpp.s
 LeetCode\Offer06_reversePrint.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer06_reversePrint.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer06_reversePrint.dir\LeetCode\Offer06_reversePrint.cpp.s
 .PHONY : LeetCode\Offer06_reversePrint.cpp.s
+
+LeetCode\Offer07_buildTree.obj: LeetCode\Offer07_buildTree.cpp.obj
+
+.PHONY : LeetCode\Offer07_buildTree.obj
+
+# target to build an object file
+LeetCode\Offer07_buildTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer07_buildTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer07_buildTree.dir\LeetCode\Offer07_buildTree.cpp.obj
+.PHONY : LeetCode\Offer07_buildTree.cpp.obj
+
+LeetCode\Offer07_buildTree.i: LeetCode\Offer07_buildTree.cpp.i
+
+.PHONY : LeetCode\Offer07_buildTree.i
+
+# target to preprocess a source file
+LeetCode\Offer07_buildTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer07_buildTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer07_buildTree.dir\LeetCode\Offer07_buildTree.cpp.i
+.PHONY : LeetCode\Offer07_buildTree.cpp.i
+
+LeetCode\Offer07_buildTree.s: LeetCode\Offer07_buildTree.cpp.s
+
+.PHONY : LeetCode\Offer07_buildTree.s
+
+# target to generate assembly for a file
+LeetCode\Offer07_buildTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer07_buildTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer07_buildTree.dir\LeetCode\Offer07_buildTree.cpp.s
+.PHONY : LeetCode\Offer07_buildTree.cpp.s
 
 LeetCode\Offer09_CQueue.obj: LeetCode\Offer09_CQueue.cpp.obj
 
@@ -5272,6 +5312,7 @@ help:
 	@echo ... OddDlinkList
 	@echo ... OddList
 	@echo ... Offer06_reversePrint
+	@echo ... Offer07_buildTree
 	@echo ... Offer09_CQueue
 	@echo ... Offer18_deleteNode
 	@echo ... Offer22_getKthFromEnd
@@ -5460,6 +5501,9 @@ help:
 	@echo ... LeetCode/Offer06_reversePrint.obj
 	@echo ... LeetCode/Offer06_reversePrint.i
 	@echo ... LeetCode/Offer06_reversePrint.s
+	@echo ... LeetCode/Offer07_buildTree.obj
+	@echo ... LeetCode/Offer07_buildTree.i
+	@echo ... LeetCode/Offer07_buildTree.s
 	@echo ... LeetCode/Offer09_CQueue.obj
 	@echo ... LeetCode/Offer09_CQueue.i
 	@echo ... LeetCode/Offer09_CQueue.s
