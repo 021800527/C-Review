@@ -1830,6 +1830,19 @@ P149_2.9\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.9.dir\build
 .PHONY : P149_2.9\fast
 
+#=============================================================================
+# Target rules for targets named Offer27_mirrorTree
+
+# Build rule for target.
+Offer27_mirrorTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer27_mirrorTree
+.PHONY : Offer27_mirrorTree
+
+# fast build rule for target.
+Offer27_mirrorTree\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer27_mirrorTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer27_mirrorTree.dir\build
+.PHONY : Offer27_mirrorTree\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3047,6 +3060,33 @@ LeetCode\Offer25_mergeTwoLists.s: LeetCode\Offer25_mergeTwoLists.cpp.s
 LeetCode\Offer25_mergeTwoLists.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer25_mergeTwoLists.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer25_mergeTwoLists.dir\LeetCode\Offer25_mergeTwoLists.cpp.s
 .PHONY : LeetCode\Offer25_mergeTwoLists.cpp.s
+
+LeetCode\Offer27_mirrorTree.obj: LeetCode\Offer27_mirrorTree.cpp.obj
+
+.PHONY : LeetCode\Offer27_mirrorTree.obj
+
+# target to build an object file
+LeetCode\Offer27_mirrorTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer27_mirrorTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer27_mirrorTree.dir\LeetCode\Offer27_mirrorTree.cpp.obj
+.PHONY : LeetCode\Offer27_mirrorTree.cpp.obj
+
+LeetCode\Offer27_mirrorTree.i: LeetCode\Offer27_mirrorTree.cpp.i
+
+.PHONY : LeetCode\Offer27_mirrorTree.i
+
+# target to preprocess a source file
+LeetCode\Offer27_mirrorTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer27_mirrorTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer27_mirrorTree.dir\LeetCode\Offer27_mirrorTree.cpp.i
+.PHONY : LeetCode\Offer27_mirrorTree.cpp.i
+
+LeetCode\Offer27_mirrorTree.s: LeetCode\Offer27_mirrorTree.cpp.s
+
+.PHONY : LeetCode\Offer27_mirrorTree.s
+
+# target to generate assembly for a file
+LeetCode\Offer27_mirrorTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer27_mirrorTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer27_mirrorTree.dir\LeetCode\Offer27_mirrorTree.cpp.s
+.PHONY : LeetCode\Offer27_mirrorTree.cpp.s
 
 LeetCode\Offer30_MinStack.obj: LeetCode\Offer30_MinStack.cpp.obj
 
@@ -5439,6 +5479,7 @@ help:
 	@echo ... Offer24
 	@echo ... Offer24-Solution
 	@echo ... Offer25_mergeTwoLists
+	@echo ... Offer27_mirrorTree
 	@echo ... Offer30_MinStack
 	@echo ... Offer31_validateStackSequences
 	@echo ... Offer52_getIntersectionNode
@@ -5645,6 +5686,9 @@ help:
 	@echo ... LeetCode/Offer25_mergeTwoLists.obj
 	@echo ... LeetCode/Offer25_mergeTwoLists.i
 	@echo ... LeetCode/Offer25_mergeTwoLists.s
+	@echo ... LeetCode/Offer27_mirrorTree.obj
+	@echo ... LeetCode/Offer27_mirrorTree.i
+	@echo ... LeetCode/Offer27_mirrorTree.s
 	@echo ... LeetCode/Offer30_MinStack.obj
 	@echo ... LeetCode/Offer30_MinStack.i
 	@echo ... LeetCode/Offer30_MinStack.s
