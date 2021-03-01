@@ -1804,6 +1804,32 @@ P149_2.7\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.7.dir\build
 .PHONY : P149_2.7\fast
 
+#=============================================================================
+# Target rules for targets named P149_2.8
+
+# Build rule for target.
+P149_2.8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P149_2.8
+.PHONY : P149_2.8
+
+# fast build rule for target.
+P149_2.8\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.8.dir\build
+.PHONY : P149_2.8\fast
+
+#=============================================================================
+# Target rules for targets named P149_2.9
+
+# Build rule for target.
+P149_2.9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P149_2.9
+.PHONY : P149_2.9
+
+# fast build rule for target.
+P149_2.9\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.9.dir\build
+.PHONY : P149_2.9\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3994,6 +4020,60 @@ wangdao\P149_2.7.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.7.dir\wangdao\P149_2.7.cpp.s
 .PHONY : wangdao\P149_2.7.cpp.s
 
+wangdao\P149_2.8.obj: wangdao\P149_2.8.cpp.obj
+
+.PHONY : wangdao\P149_2.8.obj
+
+# target to build an object file
+wangdao\P149_2.8.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.8.dir\wangdao\P149_2.8.cpp.obj
+.PHONY : wangdao\P149_2.8.cpp.obj
+
+wangdao\P149_2.8.i: wangdao\P149_2.8.cpp.i
+
+.PHONY : wangdao\P149_2.8.i
+
+# target to preprocess a source file
+wangdao\P149_2.8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.8.dir\wangdao\P149_2.8.cpp.i
+.PHONY : wangdao\P149_2.8.cpp.i
+
+wangdao\P149_2.8.s: wangdao\P149_2.8.cpp.s
+
+.PHONY : wangdao\P149_2.8.s
+
+# target to generate assembly for a file
+wangdao\P149_2.8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.8.dir\wangdao\P149_2.8.cpp.s
+.PHONY : wangdao\P149_2.8.cpp.s
+
+wangdao\P149_2.9.obj: wangdao\P149_2.9.cpp.obj
+
+.PHONY : wangdao\P149_2.9.obj
+
+# target to build an object file
+wangdao\P149_2.9.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.9.dir\wangdao\P149_2.9.cpp.obj
+.PHONY : wangdao\P149_2.9.cpp.obj
+
+wangdao\P149_2.9.i: wangdao\P149_2.9.cpp.i
+
+.PHONY : wangdao\P149_2.9.i
+
+# target to preprocess a source file
+wangdao\P149_2.9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.9.dir\wangdao\P149_2.9.cpp.i
+.PHONY : wangdao\P149_2.9.cpp.i
+
+wangdao\P149_2.9.s: wangdao\P149_2.9.cpp.s
+
+.PHONY : wangdao\P149_2.9.s
+
+# target to generate assembly for a file
+wangdao\P149_2.9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.9.dir\wangdao\P149_2.9.cpp.s
+.PHONY : wangdao\P149_2.9.cpp.s
+
 wangdao\P19_2.1.obj: wangdao\P19_2.1.cpp.obj
 
 .PHONY : wangdao\P19_2.1.obj
@@ -5371,6 +5451,8 @@ help:
 	@echo ... P149_2.5
 	@echo ... P149_2.6
 	@echo ... P149_2.7
+	@echo ... P149_2.8
+	@echo ... P149_2.9
 	@echo ... P19_2.1
 	@echo ... P19_2.10
 	@echo ... P19_2.11
@@ -5671,6 +5753,12 @@ help:
 	@echo ... wangdao/P149_2.7.obj
 	@echo ... wangdao/P149_2.7.i
 	@echo ... wangdao/P149_2.7.s
+	@echo ... wangdao/P149_2.8.obj
+	@echo ... wangdao/P149_2.8.i
+	@echo ... wangdao/P149_2.8.s
+	@echo ... wangdao/P149_2.9.obj
+	@echo ... wangdao/P149_2.9.i
+	@echo ... wangdao/P149_2.9.s
 	@echo ... wangdao/P19_2.1.obj
 	@echo ... wangdao/P19_2.1.i
 	@echo ... wangdao/P19_2.1.s
