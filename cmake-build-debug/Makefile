@@ -1856,6 +1856,19 @@ P149_2.10\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.10.dir\build
 .PHONY : P149_2.10\fast
 
+#=============================================================================
+# Target rules for targets named P149_2.11
+
+# Build rule for target.
+P149_2.11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P149_2.11
+.PHONY : P149_2.11
+
+# fast build rule for target.
+P149_2.11\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.11.dir\build
+.PHONY : P149_2.11\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3965,6 +3978,33 @@ wangdao\P149_2.10.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.10.dir\wangdao\P149_2.10.cpp.s
 .PHONY : wangdao\P149_2.10.cpp.s
 
+wangdao\P149_2.11.obj: wangdao\P149_2.11.cpp.obj
+
+.PHONY : wangdao\P149_2.11.obj
+
+# target to build an object file
+wangdao\P149_2.11.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.11.dir\wangdao\P149_2.11.cpp.obj
+.PHONY : wangdao\P149_2.11.cpp.obj
+
+wangdao\P149_2.11.i: wangdao\P149_2.11.cpp.i
+
+.PHONY : wangdao\P149_2.11.i
+
+# target to preprocess a source file
+wangdao\P149_2.11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.11.dir\wangdao\P149_2.11.cpp.i
+.PHONY : wangdao\P149_2.11.cpp.i
+
+wangdao\P149_2.11.s: wangdao\P149_2.11.cpp.s
+
+.PHONY : wangdao\P149_2.11.s
+
+# target to generate assembly for a file
+wangdao\P149_2.11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.11.dir\wangdao\P149_2.11.cpp.s
+.PHONY : wangdao\P149_2.11.cpp.s
+
 wangdao\P149_2.3.obj: wangdao\P149_2.3.cpp.obj
 
 .PHONY : wangdao\P149_2.3.obj
@@ -5528,6 +5568,7 @@ help:
 	@echo ... Offer57_findContinuousSequence
 	@echo ... P134_2.5
 	@echo ... P149_2.10
+	@echo ... P149_2.11
 	@echo ... P149_2.3
 	@echo ... P149_2.4
 	@echo ... P149_2.5
@@ -5826,6 +5867,9 @@ help:
 	@echo ... wangdao/P149_2.10.obj
 	@echo ... wangdao/P149_2.10.i
 	@echo ... wangdao/P149_2.10.s
+	@echo ... wangdao/P149_2.11.obj
+	@echo ... wangdao/P149_2.11.i
+	@echo ... wangdao/P149_2.11.s
 	@echo ... wangdao/P149_2.3.obj
 	@echo ... wangdao/P149_2.3.i
 	@echo ... wangdao/P149_2.3.s
