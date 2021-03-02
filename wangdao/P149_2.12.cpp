@@ -1,17 +1,6 @@
 /**
  * 在二叉树中查找值为x的结点，试编写算法（用C语言）打印值为x的结点的所有祖先，假设值为x的结点不多于一个
  */
-#include <iostream>
-#include <stack>
-using namespace std;
-typedef struct BiTNode{
-    int val;
-    struct BiTNode *left,*right;
-    /*
-     * tag=0表示左子女被访问，tag =1 表示右子女被访问
-     */
-    int tag ;
-}BiTNode,*BiTree;
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
