@@ -1869,6 +1869,32 @@ P149_2.11\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.11.dir\build
 .PHONY : P149_2.11\fast
 
+#=============================================================================
+# Target rules for targets named P149_2.12
+
+# Build rule for target.
+P149_2.12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P149_2.12
+.PHONY : P149_2.12
+
+# fast build rule for target.
+P149_2.12\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.12.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.12.dir\build
+.PHONY : P149_2.12\fast
+
+#=============================================================================
+# Target rules for targets named Offer68_lowestCommonAncestor
+
+# Build rule for target.
+Offer68_lowestCommonAncestor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer68_lowestCommonAncestor
+.PHONY : Offer68_lowestCommonAncestor
+
+# fast build rule for target.
+Offer68_lowestCommonAncestor\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer68_lowestCommonAncestor.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer68_lowestCommonAncestor.dir\build
+.PHONY : Offer68_lowestCommonAncestor\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3276,6 +3302,33 @@ LeetCode\Offer57_findContinuousSequence.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer57_findContinuousSequence.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer57_findContinuousSequence.dir\LeetCode\Offer57_findContinuousSequence.cpp.s
 .PHONY : LeetCode\Offer57_findContinuousSequence.cpp.s
 
+LeetCode\Offer68_lowestCommonAncestor.obj: LeetCode\Offer68_lowestCommonAncestor.cpp.obj
+
+.PHONY : LeetCode\Offer68_lowestCommonAncestor.obj
+
+# target to build an object file
+LeetCode\Offer68_lowestCommonAncestor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer68_lowestCommonAncestor.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer68_lowestCommonAncestor.dir\LeetCode\Offer68_lowestCommonAncestor.cpp.obj
+.PHONY : LeetCode\Offer68_lowestCommonAncestor.cpp.obj
+
+LeetCode\Offer68_lowestCommonAncestor.i: LeetCode\Offer68_lowestCommonAncestor.cpp.i
+
+.PHONY : LeetCode\Offer68_lowestCommonAncestor.i
+
+# target to preprocess a source file
+LeetCode\Offer68_lowestCommonAncestor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer68_lowestCommonAncestor.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer68_lowestCommonAncestor.dir\LeetCode\Offer68_lowestCommonAncestor.cpp.i
+.PHONY : LeetCode\Offer68_lowestCommonAncestor.cpp.i
+
+LeetCode\Offer68_lowestCommonAncestor.s: LeetCode\Offer68_lowestCommonAncestor.cpp.s
+
+.PHONY : LeetCode\Offer68_lowestCommonAncestor.s
+
+# target to generate assembly for a file
+LeetCode\Offer68_lowestCommonAncestor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer68_lowestCommonAncestor.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer68_lowestCommonAncestor.dir\LeetCode\Offer68_lowestCommonAncestor.cpp.s
+.PHONY : LeetCode\Offer68_lowestCommonAncestor.cpp.s
+
 LikList_behindInsert.obj: LikList_behindInsert.cpp.obj
 
 .PHONY : LikList_behindInsert.obj
@@ -4004,6 +4057,33 @@ wangdao\P149_2.11.s: wangdao\P149_2.11.cpp.s
 wangdao\P149_2.11.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.11.dir\wangdao\P149_2.11.cpp.s
 .PHONY : wangdao\P149_2.11.cpp.s
+
+wangdao\P149_2.12.obj: wangdao\P149_2.12.cpp.obj
+
+.PHONY : wangdao\P149_2.12.obj
+
+# target to build an object file
+wangdao\P149_2.12.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.12.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.12.dir\wangdao\P149_2.12.cpp.obj
+.PHONY : wangdao\P149_2.12.cpp.obj
+
+wangdao\P149_2.12.i: wangdao\P149_2.12.cpp.i
+
+.PHONY : wangdao\P149_2.12.i
+
+# target to preprocess a source file
+wangdao\P149_2.12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.12.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.12.dir\wangdao\P149_2.12.cpp.i
+.PHONY : wangdao\P149_2.12.cpp.i
+
+wangdao\P149_2.12.s: wangdao\P149_2.12.cpp.s
+
+.PHONY : wangdao\P149_2.12.s
+
+# target to generate assembly for a file
+wangdao\P149_2.12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.12.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.12.dir\wangdao\P149_2.12.cpp.s
+.PHONY : wangdao\P149_2.12.cpp.s
 
 wangdao\P149_2.3.obj: wangdao\P149_2.3.cpp.obj
 
@@ -5566,9 +5646,11 @@ help:
 	@echo ... Offer55-1_maxDepth
 	@echo ... Offer55_isBalanced
 	@echo ... Offer57_findContinuousSequence
+	@echo ... Offer68_lowestCommonAncestor
 	@echo ... P134_2.5
 	@echo ... P149_2.10
 	@echo ... P149_2.11
+	@echo ... P149_2.12
 	@echo ... P149_2.3
 	@echo ... P149_2.4
 	@echo ... P149_2.5
@@ -5789,6 +5871,9 @@ help:
 	@echo ... LeetCode/Offer57_findContinuousSequence.obj
 	@echo ... LeetCode/Offer57_findContinuousSequence.i
 	@echo ... LeetCode/Offer57_findContinuousSequence.s
+	@echo ... LeetCode/Offer68_lowestCommonAncestor.obj
+	@echo ... LeetCode/Offer68_lowestCommonAncestor.i
+	@echo ... LeetCode/Offer68_lowestCommonAncestor.s
 	@echo ... LikList_behindInsert.obj
 	@echo ... LikList_behindInsert.i
 	@echo ... LikList_behindInsert.s
@@ -5870,6 +5955,9 @@ help:
 	@echo ... wangdao/P149_2.11.obj
 	@echo ... wangdao/P149_2.11.i
 	@echo ... wangdao/P149_2.11.s
+	@echo ... wangdao/P149_2.12.obj
+	@echo ... wangdao/P149_2.12.i
+	@echo ... wangdao/P149_2.12.s
 	@echo ... wangdao/P149_2.3.obj
 	@echo ... wangdao/P149_2.3.i
 	@echo ... wangdao/P149_2.3.s
