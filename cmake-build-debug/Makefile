@@ -1155,6 +1155,19 @@ P40_2.15\fast:
 .PHONY : P40_2.15\fast
 
 #=============================================================================
+# Target rules for targets named P149_2.18
+
+# Build rule for target.
+P149_2.18: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P149_2.18
+.PHONY : P149_2.18
+
+# fast build rule for target.
+P149_2.18\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.18.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.18.dir\build
+.PHONY : P149_2.18\fast
+
+#=============================================================================
 # Target rules for targets named P40_2.16
 
 # Build rule for target.
@@ -4325,6 +4338,33 @@ wangdao\P149_2.17.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.17.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.17.dir\wangdao\P149_2.17.cpp.s
 .PHONY : wangdao\P149_2.17.cpp.s
 
+wangdao\P149_2.18.obj: wangdao\P149_2.18.cpp.obj
+
+.PHONY : wangdao\P149_2.18.obj
+
+# target to build an object file
+wangdao\P149_2.18.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.18.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.18.dir\wangdao\P149_2.18.cpp.obj
+.PHONY : wangdao\P149_2.18.cpp.obj
+
+wangdao\P149_2.18.i: wangdao\P149_2.18.cpp.i
+
+.PHONY : wangdao\P149_2.18.i
+
+# target to preprocess a source file
+wangdao\P149_2.18.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.18.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.18.dir\wangdao\P149_2.18.cpp.i
+.PHONY : wangdao\P149_2.18.cpp.i
+
+wangdao\P149_2.18.s: wangdao\P149_2.18.cpp.s
+
+.PHONY : wangdao\P149_2.18.s
+
+# target to generate assembly for a file
+wangdao\P149_2.18.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.18.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.18.dir\wangdao\P149_2.18.cpp.s
+.PHONY : wangdao\P149_2.18.cpp.s
+
 wangdao\P149_2.3.obj: wangdao\P149_2.3.cpp.obj
 
 .PHONY : wangdao\P149_2.3.obj
@@ -5897,6 +5937,7 @@ help:
 	@echo ... P149_2.15
 	@echo ... P149_2.16
 	@echo ... P149_2.17
+	@echo ... P149_2.18
 	@echo ... P149_2.3
 	@echo ... P149_2.4
 	@echo ... P149_2.5
@@ -6222,6 +6263,9 @@ help:
 	@echo ... wangdao/P149_2.17.obj
 	@echo ... wangdao/P149_2.17.i
 	@echo ... wangdao/P149_2.17.s
+	@echo ... wangdao/P149_2.18.obj
+	@echo ... wangdao/P149_2.18.i
+	@echo ... wangdao/P149_2.18.s
 	@echo ... wangdao/P149_2.3.obj
 	@echo ... wangdao/P149_2.3.i
 	@echo ... wangdao/P149_2.3.s
