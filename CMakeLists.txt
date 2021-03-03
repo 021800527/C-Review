@@ -142,3 +142,6 @@ add_executable(P149_2.11 wangdao/P149_2.11.cpp)
 add_executable(P149_2.12 wangdao/P149_2.12.cpp)
 add_executable(Offer68_lowestCommonAncestor LeetCode/Offer68_lowestCommonAncestor.cpp)
 add_executable(P149_2.13 wangdao/P149_2.13.cpp)
+add_executable(P149_2.14 wangdao/P149_2.14.cpp)
+
+add_executable(P149_2.15 wangdao/P149_2.15.cpp)

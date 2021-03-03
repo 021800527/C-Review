@@ -1,7 +1,4 @@
 /**
- * 假设二叉树采用二叉链表存储结构，设计一个算法，求非空二叉树b的宽度（即具有结点数最多的你那一层的结点个数）
- */
-/**
  * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
@@ -11,45 +8,76 @@
  * };
  */
 #include <iostream>
+#include <stack>
 #include <vector>
-#include <queue>
 using namespace std;
 typedef struct TreeNode{
     int val;
-    struct TreeNode *left;
-    struct TreeNode *right;
+    struct TreeNode *left,*right;
+    /*
+     * tag=0表示左子女被访问，tag =1 表示右子女被访问
+     */
+    int tag ;
 }TreeNode,*BiTree;
 class Solution {
 public:
-    TreeNode* mirrorTree(TreeNode* root) {
-        cout<<Nums(root);
-        return NULL;
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        return Choose(Search(root,p->val),Search(root,q->val));
     }
-    int Nums(TreeNode *root) {
-        queue<TreeNode *> Q;
-        vector<int> res;
-        TreeNode *p;
-        int max = 0;
-        int num = -1;
-        if (root == NULL)
-            return max;
-        Q.push(root);
-        while (!Q.empty()) {
-            int size = Q.size();
-            if (size > max)
-            {
-                max = size;
-                num++;
+    vector<TreeNode*>Search(TreeNode* root,int x){
+        stack<TreeNode*>S;
+        vector<TreeNode*>V;
+        TreeNode *p = root;
+        TreeNode *r = NULL;
+        while (p||!S.empty()){
+            if (p){
+                S.push(p);
+                p = S.top();
+                p = p -> left;
             }
-            for (int i = 0; i <size; ++i) {
-                p = Q.front();
-                Q.pop();
-                if (p->left != NULL)
-                    Q.push(p->left);
-                if (p->right != NULL)
-                    Q.push(p->right);
+            else
+            {
+                p = S.top();
+                if (p->right && p->right!=r){
+                    p = p ->right;
+                    S.push(p);
+                    p = p -> left;
+                }
+                else
+                {
+                    p = S.top();
+                    S.pop();
+                    if (p->val ==x) {
+                        V.push_back(p);
+                        while (!S.empty()) {
+                            V.push_back(S.top());
+                            S.pop();
+                        }
+                    }
+                    r = p;
+                    p = NULL;
+                }
             }
         }
-        return num;
+        return V;
+    }
+    TreeNode* Choose(vector<TreeNode*>V1, vector<TreeNode*>V2){
+        int Size1 = V1.size();
+        int Size2 = V2.size();
+        int i ;
+        int j ;
+        int flag = 0;
+        for (i = 0; i < Size1; ++i) {
+            for (j = 0; j < Size2; ++j) {
+                if (V1[i]->val==V2[j]->val)
+                {
+                    flag = 1;
+                    break;
+                }
+            }
+            if (flag==1)
+                break;
+        }
+        return V1[i];
     }
 };
