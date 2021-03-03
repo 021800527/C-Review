@@ -1116,6 +1116,19 @@ P40_2.13\fast:
 .PHONY : P40_2.13\fast
 
 #=============================================================================
+# Target rules for targets named Num100_isSameTree
+
+# Build rule for target.
+Num100_isSameTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num100_isSameTree
+.PHONY : Num100_isSameTree
+
+# fast build rule for target.
+Num100_isSameTree\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num100_isSameTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num100_isSameTree.dir\build
+.PHONY : Num100_isSameTree\fast
+
+#=============================================================================
 # Target rules for targets named P40_2.14
 
 # Build rule for target.
@@ -1192,6 +1205,19 @@ P40_2.18: cmake_check_build_system
 P40_2.18\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P40_2.18.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P40_2.18.dir\build
 .PHONY : P40_2.18\fast
+
+#=============================================================================
+# Target rules for targets named P149_2.17
+
+# Build rule for target.
+P149_2.17: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P149_2.17
+.PHONY : P149_2.17
+
+# fast build rule for target.
+P149_2.17\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.17.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.17.dir\build
+.PHONY : P149_2.17\fast
 
 #=============================================================================
 # Target rules for targets named P40_2.19
@@ -2570,6 +2596,33 @@ LeetCode\Facial08.06_hanota.s: LeetCode\Facial08.06_hanota.cpp.s
 LeetCode\Facial08.06_hanota.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Facial08.06_hanota.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Facial08.06_hanota.dir\LeetCode\Facial08.06_hanota.cpp.s
 .PHONY : LeetCode\Facial08.06_hanota.cpp.s
+
+LeetCode\Num100_isSameTree.obj: LeetCode\Num100_isSameTree.cpp.obj
+
+.PHONY : LeetCode\Num100_isSameTree.obj
+
+# target to build an object file
+LeetCode\Num100_isSameTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num100_isSameTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num100_isSameTree.dir\LeetCode\Num100_isSameTree.cpp.obj
+.PHONY : LeetCode\Num100_isSameTree.cpp.obj
+
+LeetCode\Num100_isSameTree.i: LeetCode\Num100_isSameTree.cpp.i
+
+.PHONY : LeetCode\Num100_isSameTree.i
+
+# target to preprocess a source file
+LeetCode\Num100_isSameTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num100_isSameTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num100_isSameTree.dir\LeetCode\Num100_isSameTree.cpp.i
+.PHONY : LeetCode\Num100_isSameTree.cpp.i
+
+LeetCode\Num100_isSameTree.s: LeetCode\Num100_isSameTree.cpp.s
+
+.PHONY : LeetCode\Num100_isSameTree.s
+
+# target to generate assembly for a file
+LeetCode\Num100_isSameTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num100_isSameTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num100_isSameTree.dir\LeetCode\Num100_isSameTree.cpp.s
+.PHONY : LeetCode\Num100_isSameTree.cpp.s
 
 LeetCode\Num102_levelOrder.obj: LeetCode\Num102_levelOrder.cpp.obj
 
@@ -4245,6 +4298,33 @@ wangdao\P149_2.16.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.16.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.16.dir\wangdao\P149_2.16.cpp.s
 .PHONY : wangdao\P149_2.16.cpp.s
 
+wangdao\P149_2.17.obj: wangdao\P149_2.17.cpp.obj
+
+.PHONY : wangdao\P149_2.17.obj
+
+# target to build an object file
+wangdao\P149_2.17.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.17.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.17.dir\wangdao\P149_2.17.cpp.obj
+.PHONY : wangdao\P149_2.17.cpp.obj
+
+wangdao\P149_2.17.i: wangdao\P149_2.17.cpp.i
+
+.PHONY : wangdao\P149_2.17.i
+
+# target to preprocess a source file
+wangdao\P149_2.17.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.17.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.17.dir\wangdao\P149_2.17.cpp.i
+.PHONY : wangdao\P149_2.17.cpp.i
+
+wangdao\P149_2.17.s: wangdao\P149_2.17.cpp.s
+
+.PHONY : wangdao\P149_2.17.s
+
+# target to generate assembly for a file
+wangdao\P149_2.17.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P149_2.17.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P149_2.17.dir\wangdao\P149_2.17.cpp.s
+.PHONY : wangdao\P149_2.17.cpp.s
+
 wangdao\P149_2.3.obj: wangdao\P149_2.3.cpp.obj
 
 .PHONY : wangdao\P149_2.3.obj
@@ -5775,6 +5855,7 @@ help:
 	@echo ... List_LocateElem
 	@echo ... List_delete
 	@echo ... List_insert
+	@echo ... Num100_isSameTree
 	@echo ... Num102_levelOrder
 	@echo ... Num1172_DinnerPlates
 	@echo ... Num1290_getDecimalValue
@@ -5815,6 +5896,7 @@ help:
 	@echo ... P149_2.14
 	@echo ... P149_2.15
 	@echo ... P149_2.16
+	@echo ... P149_2.17
 	@echo ... P149_2.3
 	@echo ... P149_2.4
 	@echo ... P149_2.5
@@ -5948,6 +6030,9 @@ help:
 	@echo ... LeetCode/Facial08.06_hanota.obj
 	@echo ... LeetCode/Facial08.06_hanota.i
 	@echo ... LeetCode/Facial08.06_hanota.s
+	@echo ... LeetCode/Num100_isSameTree.obj
+	@echo ... LeetCode/Num100_isSameTree.i
+	@echo ... LeetCode/Num100_isSameTree.s
 	@echo ... LeetCode/Num102_levelOrder.obj
 	@echo ... LeetCode/Num102_levelOrder.i
 	@echo ... LeetCode/Num102_levelOrder.s
@@ -6134,6 +6219,9 @@ help:
 	@echo ... wangdao/P149_2.16.obj
 	@echo ... wangdao/P149_2.16.i
 	@echo ... wangdao/P149_2.16.s
+	@echo ... wangdao/P149_2.17.obj
+	@echo ... wangdao/P149_2.17.i
+	@echo ... wangdao/P149_2.17.s
 	@echo ... wangdao/P149_2.3.obj
 	@echo ... wangdao/P149_2.3.i
 	@echo ... wangdao/P149_2.3.s
