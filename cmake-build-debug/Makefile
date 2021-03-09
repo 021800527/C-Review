@@ -1688,6 +1688,19 @@ Num225_MyStack\fast:
 .PHONY : Num225_MyStack\fast
 
 #=============================================================================
+# Target rules for targets named P195_2.11
+
+# Build rule for target.
+P195_2.11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P195_2.11
+.PHONY : P195_2.11
+
+# fast build rule for target.
+P195_2.11\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.11.dir\build
+.PHONY : P195_2.11\fast
+
+#=============================================================================
 # Target rules for targets named 5.5.2_Judge_AVL
 
 # Build rule for target.
@@ -2102,6 +2115,32 @@ P195_2.8: cmake_check_build_system
 P195_2.8\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.8.dir\build
 .PHONY : P195_2.8\fast
+
+#=============================================================================
+# Target rules for targets named P195_2.9
+
+# Build rule for target.
+P195_2.9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P195_2.9
+.PHONY : P195_2.9
+
+# fast build rule for target.
+P195_2.9\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.9.dir\build
+.PHONY : P195_2.9\fast
+
+#=============================================================================
+# Target rules for targets named P195_2.10
+
+# Build rule for target.
+P195_2.10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P195_2.10
+.PHONY : P195_2.10
+
+# fast build rule for target.
+P195_2.10\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.10.dir\build
+.PHONY : P195_2.10\fast
 
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
@@ -4833,6 +4872,60 @@ wangdao\P177_2.7.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P177_2.7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P177_2.7.dir\wangdao\P177_2.7.cpp.s
 .PHONY : wangdao\P177_2.7.cpp.s
 
+wangdao\P195_2.10.obj: wangdao\P195_2.10.cpp.obj
+
+.PHONY : wangdao\P195_2.10.obj
+
+# target to build an object file
+wangdao\P195_2.10.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.10.dir\wangdao\P195_2.10.cpp.obj
+.PHONY : wangdao\P195_2.10.cpp.obj
+
+wangdao\P195_2.10.i: wangdao\P195_2.10.cpp.i
+
+.PHONY : wangdao\P195_2.10.i
+
+# target to preprocess a source file
+wangdao\P195_2.10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.10.dir\wangdao\P195_2.10.cpp.i
+.PHONY : wangdao\P195_2.10.cpp.i
+
+wangdao\P195_2.10.s: wangdao\P195_2.10.cpp.s
+
+.PHONY : wangdao\P195_2.10.s
+
+# target to generate assembly for a file
+wangdao\P195_2.10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.10.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.10.dir\wangdao\P195_2.10.cpp.s
+.PHONY : wangdao\P195_2.10.cpp.s
+
+wangdao\P195_2.11.obj: wangdao\P195_2.11.cpp.obj
+
+.PHONY : wangdao\P195_2.11.obj
+
+# target to build an object file
+wangdao\P195_2.11.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.11.dir\wangdao\P195_2.11.cpp.obj
+.PHONY : wangdao\P195_2.11.cpp.obj
+
+wangdao\P195_2.11.i: wangdao\P195_2.11.cpp.i
+
+.PHONY : wangdao\P195_2.11.i
+
+# target to preprocess a source file
+wangdao\P195_2.11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.11.dir\wangdao\P195_2.11.cpp.i
+.PHONY : wangdao\P195_2.11.cpp.i
+
+wangdao\P195_2.11.s: wangdao\P195_2.11.cpp.s
+
+.PHONY : wangdao\P195_2.11.s
+
+# target to generate assembly for a file
+wangdao\P195_2.11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.11.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.11.dir\wangdao\P195_2.11.cpp.s
+.PHONY : wangdao\P195_2.11.cpp.s
+
 wangdao\P195_2.6.obj: wangdao\P195_2.6.cpp.obj
 
 .PHONY : wangdao\P195_2.6.obj
@@ -4913,6 +5006,33 @@ wangdao\P195_2.8.s: wangdao\P195_2.8.cpp.s
 wangdao\P195_2.8.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.8.dir\wangdao\P195_2.8.cpp.s
 .PHONY : wangdao\P195_2.8.cpp.s
+
+wangdao\P195_2.9.obj: wangdao\P195_2.9.cpp.obj
+
+.PHONY : wangdao\P195_2.9.obj
+
+# target to build an object file
+wangdao\P195_2.9.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.9.dir\wangdao\P195_2.9.cpp.obj
+.PHONY : wangdao\P195_2.9.cpp.obj
+
+wangdao\P195_2.9.i: wangdao\P195_2.9.cpp.i
+
+.PHONY : wangdao\P195_2.9.i
+
+# target to preprocess a source file
+wangdao\P195_2.9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.9.dir\wangdao\P195_2.9.cpp.i
+.PHONY : wangdao\P195_2.9.cpp.i
+
+wangdao\P195_2.9.s: wangdao\P195_2.9.cpp.s
+
+.PHONY : wangdao\P195_2.9.s
+
+# target to generate assembly for a file
+wangdao\P195_2.9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P195_2.9.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P195_2.9.dir\wangdao\P195_2.9.cpp.s
+.PHONY : wangdao\P195_2.9.cpp.s
 
 wangdao\P19_2.1.obj: wangdao\P19_2.1.cpp.obj
 
@@ -6310,9 +6430,12 @@ help:
 	@echo ... P177_2.5
 	@echo ... P177_2.6
 	@echo ... P177_2.7
+	@echo ... P195_2.10
+	@echo ... P195_2.11
 	@echo ... P195_2.6
 	@echo ... P195_2.7
 	@echo ... P195_2.8
+	@echo ... P195_2.9
 	@echo ... P19_2.1
 	@echo ... P19_2.10
 	@echo ... P19_2.11
@@ -6674,6 +6797,12 @@ help:
 	@echo ... wangdao/P177_2.7.obj
 	@echo ... wangdao/P177_2.7.i
 	@echo ... wangdao/P177_2.7.s
+	@echo ... wangdao/P195_2.10.obj
+	@echo ... wangdao/P195_2.10.i
+	@echo ... wangdao/P195_2.10.s
+	@echo ... wangdao/P195_2.11.obj
+	@echo ... wangdao/P195_2.11.i
+	@echo ... wangdao/P195_2.11.s
 	@echo ... wangdao/P195_2.6.obj
 	@echo ... wangdao/P195_2.6.i
 	@echo ... wangdao/P195_2.6.s
@@ -6683,6 +6812,9 @@ help:
 	@echo ... wangdao/P195_2.8.obj
 	@echo ... wangdao/P195_2.8.i
 	@echo ... wangdao/P195_2.8.s
+	@echo ... wangdao/P195_2.9.obj
+	@echo ... wangdao/P195_2.9.i
+	@echo ... wangdao/P195_2.9.s
 	@echo ... wangdao/P19_2.1.obj
 	@echo ... wangdao/P19_2.1.i
 	@echo ... wangdao/P19_2.1.s
