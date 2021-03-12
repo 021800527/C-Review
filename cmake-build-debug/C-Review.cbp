@@ -6653,6 +6653,132 @@
 					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="6.2.4_ArcNode">
+				<Option output="F:/C-Review/cmake-build-debug/6.2.4_ArcNode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 6.2.4_ArcNode"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6.2.4_ArcNode/fast">
+				<Option output="F:/C-Review/cmake-build-debug/6.2.4_ArcNode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 6.2.4_ArcNode/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6.3.1_BFS">
+				<Option output="F:/C-Review/cmake-build-debug/6.3.1_BFS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 6.3.1_BFS"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6.3.1_BFS/fast">
+				<Option output="F:/C-Review/cmake-build-debug/6.3.1_BFS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 6.3.1_BFS/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6.3.2_DFS">
+				<Option output="F:/C-Review/cmake-build-debug/6.3.2_DFS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 6.3.2_DFS"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6.3.2_DFS/fast">
+				<Option output="F:/C-Review/cmake-build-debug/6.3.2_DFS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 6.3.2_DFS/fast"/>
+					<CompileFile command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f F:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="F:/C-Review/cmake-build-debug"/>
 				<Option type="4"/>
@@ -6724,6 +6850,15 @@
 		</Unit>
 		<Unit filename="F:/C-Review/6.2.3_ARcNode.cpp">
 			<Option target="6.2.3_ARcNode"/>
+		</Unit>
+		<Unit filename="F:/C-Review/6.2.4_ArcNode.cpp">
+			<Option target="6.2.4_ArcNode"/>
+		</Unit>
+		<Unit filename="F:/C-Review/6.3.1_BFS.cpp">
+			<Option target="6.3.1_BFS"/>
+		</Unit>
+		<Unit filename="F:/C-Review/6.3.2_DFS.cpp">
+			<Option target="6.3.2_DFS"/>
 		</Unit>
 		<Unit filename="F:/C-Review/DLinkList_Init.cpp">
 			<Option target="DLinkList_Init.cpp"/>

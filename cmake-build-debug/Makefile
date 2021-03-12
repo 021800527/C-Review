@@ -2168,6 +2168,45 @@ P195_2.10\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.2.3_ARcNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.2.3_ARcNode.dir\build
 .PHONY : 6.2.3_ARcNode\fast
 
+#=============================================================================
+# Target rules for targets named 6.2.4_ArcNode
+
+# Build rule for target.
+6.2.4_ArcNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 6.2.4_ArcNode
+.PHONY : 6.2.4_ArcNode
+
+# fast build rule for target.
+6.2.4_ArcNode\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.2.4_ArcNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.2.4_ArcNode.dir\build
+.PHONY : 6.2.4_ArcNode\fast
+
+#=============================================================================
+# Target rules for targets named 6.3.1_BFS
+
+# Build rule for target.
+6.3.1_BFS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 6.3.1_BFS
+.PHONY : 6.3.1_BFS
+
+# fast build rule for target.
+6.3.1_BFS\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.3.1_BFS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.3.1_BFS.dir\build
+.PHONY : 6.3.1_BFS\fast
+
+#=============================================================================
+# Target rules for targets named 6.3.2_DFS
+
+# Build rule for target.
+6.3.2_DFS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 6.3.2_DFS
+.PHONY : 6.3.2_DFS
+
+# fast build rule for target.
+6.3.2_DFS\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.3.2_DFS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.3.2_DFS.dir\build
+.PHONY : 6.3.2_DFS\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -2626,6 +2665,87 @@ P195_2.10\fast:
 6.2.3_ARcNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.2.3_ARcNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.2.3_ARcNode.dir\6.2.3_ARcNode.cpp.s
 .PHONY : 6.2.3_ARcNode.cpp.s
+
+6.2.4_ArcNode.obj: 6.2.4_ArcNode.cpp.obj
+
+.PHONY : 6.2.4_ArcNode.obj
+
+# target to build an object file
+6.2.4_ArcNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.2.4_ArcNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.2.4_ArcNode.dir\6.2.4_ArcNode.cpp.obj
+.PHONY : 6.2.4_ArcNode.cpp.obj
+
+6.2.4_ArcNode.i: 6.2.4_ArcNode.cpp.i
+
+.PHONY : 6.2.4_ArcNode.i
+
+# target to preprocess a source file
+6.2.4_ArcNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.2.4_ArcNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.2.4_ArcNode.dir\6.2.4_ArcNode.cpp.i
+.PHONY : 6.2.4_ArcNode.cpp.i
+
+6.2.4_ArcNode.s: 6.2.4_ArcNode.cpp.s
+
+.PHONY : 6.2.4_ArcNode.s
+
+# target to generate assembly for a file
+6.2.4_ArcNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.2.4_ArcNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.2.4_ArcNode.dir\6.2.4_ArcNode.cpp.s
+.PHONY : 6.2.4_ArcNode.cpp.s
+
+6.3.1_BFS.obj: 6.3.1_BFS.cpp.obj
+
+.PHONY : 6.3.1_BFS.obj
+
+# target to build an object file
+6.3.1_BFS.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.3.1_BFS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.3.1_BFS.dir\6.3.1_BFS.cpp.obj
+.PHONY : 6.3.1_BFS.cpp.obj
+
+6.3.1_BFS.i: 6.3.1_BFS.cpp.i
+
+.PHONY : 6.3.1_BFS.i
+
+# target to preprocess a source file
+6.3.1_BFS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.3.1_BFS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.3.1_BFS.dir\6.3.1_BFS.cpp.i
+.PHONY : 6.3.1_BFS.cpp.i
+
+6.3.1_BFS.s: 6.3.1_BFS.cpp.s
+
+.PHONY : 6.3.1_BFS.s
+
+# target to generate assembly for a file
+6.3.1_BFS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.3.1_BFS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.3.1_BFS.dir\6.3.1_BFS.cpp.s
+.PHONY : 6.3.1_BFS.cpp.s
+
+6.3.2_DFS.obj: 6.3.2_DFS.cpp.obj
+
+.PHONY : 6.3.2_DFS.obj
+
+# target to build an object file
+6.3.2_DFS.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.3.2_DFS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.3.2_DFS.dir\6.3.2_DFS.cpp.obj
+.PHONY : 6.3.2_DFS.cpp.obj
+
+6.3.2_DFS.i: 6.3.2_DFS.cpp.i
+
+.PHONY : 6.3.2_DFS.i
+
+# target to preprocess a source file
+6.3.2_DFS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.3.2_DFS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.3.2_DFS.dir\6.3.2_DFS.cpp.i
+.PHONY : 6.3.2_DFS.cpp.i
+
+6.3.2_DFS.s: 6.3.2_DFS.cpp.s
+
+.PHONY : 6.3.2_DFS.s
+
+# target to generate assembly for a file
+6.3.2_DFS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.3.2_DFS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.3.2_DFS.dir\6.3.2_DFS.cpp.s
+.PHONY : 6.3.2_DFS.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -6435,6 +6555,9 @@ help:
 	@echo ... 5.5.2_Judge_AVL
 	@echo ... 6.2.2_ArcNode
 	@echo ... 6.2.3_ARcNode
+	@echo ... 6.2.4_ArcNode
+	@echo ... 6.3.1_BFS
+	@echo ... 6.3.2_DFS
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -6627,6 +6750,15 @@ help:
 	@echo ... 6.2.3_ARcNode.obj
 	@echo ... 6.2.3_ARcNode.i
 	@echo ... 6.2.3_ARcNode.s
+	@echo ... 6.2.4_ArcNode.obj
+	@echo ... 6.2.4_ArcNode.i
+	@echo ... 6.2.4_ArcNode.s
+	@echo ... 6.3.1_BFS.obj
+	@echo ... 6.3.1_BFS.i
+	@echo ... 6.3.1_BFS.s
+	@echo ... 6.3.2_DFS.obj
+	@echo ... 6.3.2_DFS.i
+	@echo ... 6.3.2_DFS.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
