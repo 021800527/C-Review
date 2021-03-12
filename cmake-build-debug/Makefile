@@ -323,6 +323,19 @@ P19_2.13\fast:
 .PHONY : P19_2.13\fast
 
 #=============================================================================
+# Target rules for targets named 6.4.1_MST_Prim
+
+# Build rule for target.
+6.4.1_MST_Prim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 6.4.1_MST_Prim
+.PHONY : 6.4.1_MST_Prim
+
+# fast build rule for target.
+6.4.1_MST_Prim\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.4.1_MST_Prim.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.4.1_MST_Prim.dir\build
+.PHONY : 6.4.1_MST_Prim\fast
+
+#=============================================================================
 # Target rules for targets named LinkLList_frontinsert
 
 # Build rule for target.
@@ -2746,6 +2759,33 @@ P195_2.10\fast:
 6.3.2_DFS.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.3.2_DFS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.3.2_DFS.dir\6.3.2_DFS.cpp.s
 .PHONY : 6.3.2_DFS.cpp.s
+
+6.4.1_MST_Prim.obj: 6.4.1_MST_Prim.cpp.obj
+
+.PHONY : 6.4.1_MST_Prim.obj
+
+# target to build an object file
+6.4.1_MST_Prim.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.4.1_MST_Prim.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.4.1_MST_Prim.dir\6.4.1_MST_Prim.cpp.obj
+.PHONY : 6.4.1_MST_Prim.cpp.obj
+
+6.4.1_MST_Prim.i: 6.4.1_MST_Prim.cpp.i
+
+.PHONY : 6.4.1_MST_Prim.i
+
+# target to preprocess a source file
+6.4.1_MST_Prim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.4.1_MST_Prim.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.4.1_MST_Prim.dir\6.4.1_MST_Prim.cpp.i
+.PHONY : 6.4.1_MST_Prim.cpp.i
+
+6.4.1_MST_Prim.s: 6.4.1_MST_Prim.cpp.s
+
+.PHONY : 6.4.1_MST_Prim.s
+
+# target to generate assembly for a file
+6.4.1_MST_Prim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.4.1_MST_Prim.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.4.1_MST_Prim.dir\6.4.1_MST_Prim.cpp.s
+.PHONY : 6.4.1_MST_Prim.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -6558,6 +6598,7 @@ help:
 	@echo ... 6.2.4_ArcNode
 	@echo ... 6.3.1_BFS
 	@echo ... 6.3.2_DFS
+	@echo ... 6.4.1_MST_Prim
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -6759,6 +6800,9 @@ help:
 	@echo ... 6.3.2_DFS.obj
 	@echo ... 6.3.2_DFS.i
 	@echo ... 6.3.2_DFS.s
+	@echo ... 6.4.1_MST_Prim.obj
+	@echo ... 6.4.1_MST_Prim.i
+	@echo ... 6.4.1_MST_Prim.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
