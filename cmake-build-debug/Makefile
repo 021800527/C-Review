@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\C-Review
+CMAKE_SOURCE_DIR = E:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -2219,6 +2219,19 @@ P195_2.10\fast:
 6.3.2_DFS\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6.3.2_DFS.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\6.3.2_DFS.dir\build
 .PHONY : 6.3.2_DFS\fast
+
+#=============================================================================
+# Target rules for targets named P232_2.2
+
+# Build rule for target.
+P232_2.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P232_2.2
+.PHONY : P232_2.2
+
+# fast build rule for target.
+P232_2.2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P232_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P232_2.2.dir\build
+.PHONY : P232_2.2\fast
 
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
@@ -5598,6 +5611,33 @@ wangdao\P19_2.8.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P19_2.8.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P19_2.8.dir\wangdao\P19_2.8.cpp.s
 .PHONY : wangdao\P19_2.8.cpp.s
 
+wangdao\P232_2.2.obj: wangdao\P232_2.2.cpp.obj
+
+.PHONY : wangdao\P232_2.2.obj
+
+# target to build an object file
+wangdao\P232_2.2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P232_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P232_2.2.dir\wangdao\P232_2.2.cpp.obj
+.PHONY : wangdao\P232_2.2.cpp.obj
+
+wangdao\P232_2.2.i: wangdao\P232_2.2.cpp.i
+
+.PHONY : wangdao\P232_2.2.i
+
+# target to preprocess a source file
+wangdao\P232_2.2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P232_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P232_2.2.dir\wangdao\P232_2.2.cpp.i
+.PHONY : wangdao\P232_2.2.cpp.i
+
+wangdao\P232_2.2.s: wangdao\P232_2.2.cpp.s
+
+.PHONY : wangdao\P232_2.2.s
+
+# target to generate assembly for a file
+wangdao\P232_2.2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P232_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P232_2.2.dir\wangdao\P232_2.2.cpp.s
+.PHONY : wangdao\P232_2.2.cpp.s
+
 wangdao\P40_2.1.obj: wangdao\P40_2.1.cpp.obj
 
 .PHONY : wangdao\P40_2.1.obj
@@ -6695,6 +6735,7 @@ help:
 	@echo ... P19_2.7
 	@echo ... P19_2.8
 	@echo ... P2181
+	@echo ... P232_2.2
 	@echo ... P3156
 	@echo ... P3367
 	@echo ... P40_2.1
@@ -7115,6 +7156,9 @@ help:
 	@echo ... wangdao/P19_2.8.obj
 	@echo ... wangdao/P19_2.8.i
 	@echo ... wangdao/P19_2.8.s
+	@echo ... wangdao/P232_2.2.obj
+	@echo ... wangdao/P232_2.2.i
+	@echo ... wangdao/P232_2.2.s
 	@echo ... wangdao/P40_2.1.obj
 	@echo ... wangdao/P40_2.1.i
 	@echo ... wangdao/P40_2.1.s
