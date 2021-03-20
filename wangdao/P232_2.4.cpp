@@ -21,7 +21,7 @@ int NextNeighbor(Graph G ,int v , int w){
  * 访问标记数组
  */
 bool visited[Max_Tree_SIZE];
-int EXist_Path_DFS(Graph G,int i ,int j){
+int Exist_Path_DFS(Graph G,int i ,int j){
     /*
      * 顶点序号
      */
@@ -44,7 +44,7 @@ int EXist_Path_DFS(Graph G,int i ,int j){
             /*
              * 递归检测邻接点
              */
-            if (!visited[p]&&EXist_Path_DFS(G,p,j))
+            if (!visited[p]&&Exist_Path_DFS(G,p,j))
                 /*
                  * i下游的顶点到j有路径
                  */
