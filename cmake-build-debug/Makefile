@@ -2298,6 +2298,19 @@ P232_2.5\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7.2.2_Binary_Search.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\7.2.2_Binary_Search.dir\build
 .PHONY : 7.2.2_Binary_Search\fast
 
+#=============================================================================
+# Target rules for targets named P278_2.6
+
+# Build rule for target.
+P278_2.6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P278_2.6
+.PHONY : P278_2.6
+
+# fast build rule for target.
+P278_2.6\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P278_2.6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P278_2.6.dir\build
+.PHONY : P278_2.6\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -5838,6 +5851,33 @@ wangdao\P232_2.5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P232_2.5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P232_2.5.dir\wangdao\P232_2.5.cpp.s
 .PHONY : wangdao\P232_2.5.cpp.s
 
+wangdao\P278_2.6.obj: wangdao\P278_2.6.cpp.obj
+
+.PHONY : wangdao\P278_2.6.obj
+
+# target to build an object file
+wangdao\P278_2.6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P278_2.6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P278_2.6.dir\wangdao\P278_2.6.cpp.obj
+.PHONY : wangdao\P278_2.6.cpp.obj
+
+wangdao\P278_2.6.i: wangdao\P278_2.6.cpp.i
+
+.PHONY : wangdao\P278_2.6.i
+
+# target to preprocess a source file
+wangdao\P278_2.6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P278_2.6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P278_2.6.dir\wangdao\P278_2.6.cpp.i
+.PHONY : wangdao\P278_2.6.cpp.i
+
+wangdao\P278_2.6.s: wangdao\P278_2.6.cpp.s
+
+.PHONY : wangdao\P278_2.6.s
+
+# target to generate assembly for a file
+wangdao\P278_2.6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P278_2.6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P278_2.6.dir\wangdao\P278_2.6.cpp.s
+.PHONY : wangdao\P278_2.6.cpp.s
+
 wangdao\P40_2.1.obj: wangdao\P40_2.1.cpp.obj
 
 .PHONY : wangdao\P40_2.1.obj
@@ -6941,6 +6981,7 @@ help:
 	@echo ... P232_2.3
 	@echo ... P232_2.4
 	@echo ... P232_2.5
+	@echo ... P278_2.6
 	@echo ... P3156
 	@echo ... P3367
 	@echo ... P40_2.1
@@ -7379,6 +7420,9 @@ help:
 	@echo ... wangdao/P232_2.5.obj
 	@echo ... wangdao/P232_2.5.i
 	@echo ... wangdao/P232_2.5.s
+	@echo ... wangdao/P278_2.6.obj
+	@echo ... wangdao/P278_2.6.i
+	@echo ... wangdao/P278_2.6.s
 	@echo ... wangdao/P40_2.1.obj
 	@echo ... wangdao/P40_2.1.i
 	@echo ... wangdao/P40_2.1.s
