@@ -20,7 +20,7 @@ typedef struct {
  * 在有序表中递归折半查找其关键字为key的元素，返回其在表中序号
  */
 int BinSearchRec(SSTable ST,int key,int low,int high){
-    if(low<high)
+    if(low>high)
         return 0;
     /*
      * 取中间位置
