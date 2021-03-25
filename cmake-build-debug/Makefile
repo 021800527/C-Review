@@ -1584,6 +1584,19 @@ P96_2.2\fast:
 .PHONY : P96_2.2\fast
 
 #=============================================================================
+# Target rules for targets named Num704_search_test
+
+# Build rule for target.
+Num704_search_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num704_search_test
+.PHONY : Num704_search_test
+
+# fast build rule for target.
+Num704_search_test\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num704_search_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num704_search_test.dir\build
+.PHONY : Num704_search_test\fast
+
+#=============================================================================
 # Target rules for targets named P96_2.3
 
 # Build rule for target.
@@ -3568,6 +3581,33 @@ LeetCode\Num704_search.s: LeetCode\Num704_search.cpp.s
 LeetCode\Num704_search.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num704_search.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num704_search.dir\LeetCode\Num704_search.cpp.s
 .PHONY : LeetCode\Num704_search.cpp.s
+
+LeetCode\Num704_search_test.obj: LeetCode\Num704_search_test.cpp.obj
+
+.PHONY : LeetCode\Num704_search_test.obj
+
+# target to build an object file
+LeetCode\Num704_search_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num704_search_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num704_search_test.dir\LeetCode\Num704_search_test.cpp.obj
+.PHONY : LeetCode\Num704_search_test.cpp.obj
+
+LeetCode\Num704_search_test.i: LeetCode\Num704_search_test.cpp.i
+
+.PHONY : LeetCode\Num704_search_test.i
+
+# target to preprocess a source file
+LeetCode\Num704_search_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num704_search_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num704_search_test.dir\LeetCode\Num704_search_test.cpp.i
+.PHONY : LeetCode\Num704_search_test.cpp.i
+
+LeetCode\Num704_search_test.s: LeetCode\Num704_search_test.cpp.s
+
+.PHONY : LeetCode\Num704_search_test.s
+
+# target to generate assembly for a file
+LeetCode\Num704_search_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num704_search_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num704_search_test.dir\LeetCode\Num704_search_test.cpp.s
+.PHONY : LeetCode\Num704_search_test.cpp.s
 
 LeetCode\Num876_middleNode.obj: LeetCode\Num876_middleNode.cpp.obj
 
@@ -6958,6 +6998,7 @@ help:
 	@echo ... Num234_isPalindrome
 	@echo ... Num237_deleteNode
 	@echo ... Num704_search
+	@echo ... Num704_search_test
 	@echo ... Num876_middleNode
 	@echo ... OddDlinkList
 	@echo ... OddList
@@ -7206,6 +7247,9 @@ help:
 	@echo ... LeetCode/Num704_search.obj
 	@echo ... LeetCode/Num704_search.i
 	@echo ... LeetCode/Num704_search.s
+	@echo ... LeetCode/Num704_search_test.obj
+	@echo ... LeetCode/Num704_search_test.i
+	@echo ... LeetCode/Num704_search_test.s
 	@echo ... LeetCode/Num876_middleNode.obj
 	@echo ... LeetCode/Num876_middleNode.i
 	@echo ... LeetCode/Num876_middleNode.s
