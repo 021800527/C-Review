@@ -2311,6 +2311,19 @@ P278_2.6\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P278_2.6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P278_2.6.dir\build
 .PHONY : P278_2.6\fast
 
+#=============================================================================
+# Target rules for targets named Num704_search
+
+# Build rule for target.
+Num704_search: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num704_search
+.PHONY : Num704_search
+
+# fast build rule for target.
+Num704_search\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num704_search.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num704_search.dir\build
+.PHONY : Num704_search\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3528,6 +3541,33 @@ LeetCode\Num237_deleteNode.s: LeetCode\Num237_deleteNode.cpp.s
 LeetCode\Num237_deleteNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num237_deleteNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num237_deleteNode.dir\LeetCode\Num237_deleteNode.cpp.s
 .PHONY : LeetCode\Num237_deleteNode.cpp.s
+
+LeetCode\Num704_search.obj: LeetCode\Num704_search.cpp.obj
+
+.PHONY : LeetCode\Num704_search.obj
+
+# target to build an object file
+LeetCode\Num704_search.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num704_search.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num704_search.dir\LeetCode\Num704_search.cpp.obj
+.PHONY : LeetCode\Num704_search.cpp.obj
+
+LeetCode\Num704_search.i: LeetCode\Num704_search.cpp.i
+
+.PHONY : LeetCode\Num704_search.i
+
+# target to preprocess a source file
+LeetCode\Num704_search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num704_search.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num704_search.dir\LeetCode\Num704_search.cpp.i
+.PHONY : LeetCode\Num704_search.cpp.i
+
+LeetCode\Num704_search.s: LeetCode\Num704_search.cpp.s
+
+.PHONY : LeetCode\Num704_search.s
+
+# target to generate assembly for a file
+LeetCode\Num704_search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num704_search.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num704_search.dir\LeetCode\Num704_search.cpp.s
+.PHONY : LeetCode\Num704_search.cpp.s
 
 LeetCode\Num876_middleNode.obj: LeetCode\Num876_middleNode.cpp.obj
 
@@ -6917,6 +6957,7 @@ help:
 	@echo ... Num232_MyQueue
 	@echo ... Num234_isPalindrome
 	@echo ... Num237_deleteNode
+	@echo ... Num704_search
 	@echo ... Num876_middleNode
 	@echo ... OddDlinkList
 	@echo ... OddList
@@ -7162,6 +7203,9 @@ help:
 	@echo ... LeetCode/Num237_deleteNode.obj
 	@echo ... LeetCode/Num237_deleteNode.i
 	@echo ... LeetCode/Num237_deleteNode.s
+	@echo ... LeetCode/Num704_search.obj
+	@echo ... LeetCode/Num704_search.i
+	@echo ... LeetCode/Num704_search.s
 	@echo ... LeetCode/Num876_middleNode.obj
 	@echo ... LeetCode/Num876_middleNode.i
 	@echo ... LeetCode/Num876_middleNode.s
