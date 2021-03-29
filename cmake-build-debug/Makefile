@@ -2363,6 +2363,19 @@ Num704_search\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.2.2_BInsertSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.2.2_BInsertSort.dir\build
 .PHONY : 8.2.2_BInsertSort\fast
 
+#=============================================================================
+# Target rules for targets named 8.2.3_ShellSort
+
+# Build rule for target.
+8.2.3_ShellSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 8.2.3_ShellSort
+.PHONY : 8.2.3_ShellSort
+
+# fast build rule for target.
+8.2.3_ShellSort\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.2.3_ShellSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.2.3_ShellSort.dir\build
+.PHONY : 8.2.3_ShellSort\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3037,6 +3050,33 @@ Num704_search\fast:
 8.2.2_BInsertSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.2.2_BInsertSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.2.2_BInsertSort.dir\8.2.2_BInsertSort.cpp.s
 .PHONY : 8.2.2_BInsertSort.cpp.s
+
+8.2.3_ShellSort.obj: 8.2.3_ShellSort.cpp.obj
+
+.PHONY : 8.2.3_ShellSort.obj
+
+# target to build an object file
+8.2.3_ShellSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.2.3_ShellSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.2.3_ShellSort.dir\8.2.3_ShellSort.cpp.obj
+.PHONY : 8.2.3_ShellSort.cpp.obj
+
+8.2.3_ShellSort.i: 8.2.3_ShellSort.cpp.i
+
+.PHONY : 8.2.3_ShellSort.i
+
+# target to preprocess a source file
+8.2.3_ShellSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.2.3_ShellSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.2.3_ShellSort.dir\8.2.3_ShellSort.cpp.i
+.PHONY : 8.2.3_ShellSort.cpp.i
+
+8.2.3_ShellSort.s: 8.2.3_ShellSort.cpp.s
+
+.PHONY : 8.2.3_ShellSort.s
+
+# target to generate assembly for a file
+8.2.3_ShellSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.2.3_ShellSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.2.3_ShellSort.dir\8.2.3_ShellSort.cpp.s
+.PHONY : 8.2.3_ShellSort.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -7043,6 +7083,7 @@ help:
 	@echo ... 7.2.2_Binary_Search
 	@echo ... 8.2.1_InsertSort
 	@echo ... 8.2.2_BInsertSort
+	@echo ... 8.2.3_ShellSort
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -7266,6 +7307,9 @@ help:
 	@echo ... 8.2.2_BInsertSort.obj
 	@echo ... 8.2.2_BInsertSort.i
 	@echo ... 8.2.2_BInsertSort.s
+	@echo ... 8.2.3_ShellSort.obj
+	@echo ... 8.2.3_ShellSort.i
+	@echo ... 8.2.3_ShellSort.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
