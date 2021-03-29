@@ -2389,6 +2389,19 @@ Num704_search\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.3.1_BubbleSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.3.1_BubbleSort.dir\build
 .PHONY : 8.3.1_BubbleSort\fast
 
+#=============================================================================
+# Target rules for targets named Num912_sortArray
+
+# Build rule for target.
+Num912_sortArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Num912_sortArray
+.PHONY : Num912_sortArray
+
+# fast build rule for target.
+Num912_sortArray\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num912_sortArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num912_sortArray.dir\build
+.PHONY : Num912_sortArray\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3795,6 +3808,33 @@ LeetCode\Num876_middleNode.s: LeetCode\Num876_middleNode.cpp.s
 LeetCode\Num876_middleNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num876_middleNode.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num876_middleNode.dir\LeetCode\Num876_middleNode.cpp.s
 .PHONY : LeetCode\Num876_middleNode.cpp.s
+
+LeetCode\Num912_sortArray.obj: LeetCode\Num912_sortArray.cpp.obj
+
+.PHONY : LeetCode\Num912_sortArray.obj
+
+# target to build an object file
+LeetCode\Num912_sortArray.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num912_sortArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num912_sortArray.dir\LeetCode\Num912_sortArray.cpp.obj
+.PHONY : LeetCode\Num912_sortArray.cpp.obj
+
+LeetCode\Num912_sortArray.i: LeetCode\Num912_sortArray.cpp.i
+
+.PHONY : LeetCode\Num912_sortArray.i
+
+# target to preprocess a source file
+LeetCode\Num912_sortArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num912_sortArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num912_sortArray.dir\LeetCode\Num912_sortArray.cpp.i
+.PHONY : LeetCode\Num912_sortArray.cpp.i
+
+LeetCode\Num912_sortArray.s: LeetCode\Num912_sortArray.cpp.s
+
+.PHONY : LeetCode\Num912_sortArray.s
+
+# target to generate assembly for a file
+LeetCode\Num912_sortArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num912_sortArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num912_sortArray.dir\LeetCode\Num912_sortArray.cpp.s
+.PHONY : LeetCode\Num912_sortArray.cpp.s
 
 LeetCode\Offer06_reversePrint.obj: LeetCode\Offer06_reversePrint.cpp.obj
 
@@ -7164,6 +7204,7 @@ help:
 	@echo ... Num704_search
 	@echo ... Num704_search_test
 	@echo ... Num876_middleNode
+	@echo ... Num912_sortArray
 	@echo ... OddDlinkList
 	@echo ... OddList
 	@echo ... Offer06_reversePrint
@@ -7429,6 +7470,9 @@ help:
 	@echo ... LeetCode/Num876_middleNode.obj
 	@echo ... LeetCode/Num876_middleNode.i
 	@echo ... LeetCode/Num876_middleNode.s
+	@echo ... LeetCode/Num912_sortArray.obj
+	@echo ... LeetCode/Num912_sortArray.i
+	@echo ... LeetCode/Num912_sortArray.s
 	@echo ... LeetCode/Offer06_reversePrint.obj
 	@echo ... LeetCode/Offer06_reversePrint.i
 	@echo ... LeetCode/Offer06_reversePrint.s

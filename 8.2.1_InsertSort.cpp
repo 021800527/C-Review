@@ -6,7 +6,7 @@ typedef struct ElemType{
 };
 void InsertSort(ElemType A[],int n){
     int i ,j;
-    for ( i = 0; i < ; ++i) {
+    for ( i = 2; i <=n ; ++i) {
         A[0] = A[i];
         for (j = i-1;  A[0].key<A[j].key ;j--) {
             A[j+1] = A[j];
