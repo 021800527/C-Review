@@ -2376,6 +2376,19 @@ Num704_search\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.2.3_ShellSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.2.3_ShellSort.dir\build
 .PHONY : 8.2.3_ShellSort\fast
 
+#=============================================================================
+# Target rules for targets named 8.3.1_BubbleSort
+
+# Build rule for target.
+8.3.1_BubbleSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 8.3.1_BubbleSort
+.PHONY : 8.3.1_BubbleSort
+
+# fast build rule for target.
+8.3.1_BubbleSort\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.3.1_BubbleSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.3.1_BubbleSort.dir\build
+.PHONY : 8.3.1_BubbleSort\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3077,6 +3090,33 @@ Num704_search\fast:
 8.2.3_ShellSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.2.3_ShellSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.2.3_ShellSort.dir\8.2.3_ShellSort.cpp.s
 .PHONY : 8.2.3_ShellSort.cpp.s
+
+8.3.1_BubbleSort.obj: 8.3.1_BubbleSort.cpp.obj
+
+.PHONY : 8.3.1_BubbleSort.obj
+
+# target to build an object file
+8.3.1_BubbleSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.3.1_BubbleSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.3.1_BubbleSort.dir\8.3.1_BubbleSort.cpp.obj
+.PHONY : 8.3.1_BubbleSort.cpp.obj
+
+8.3.1_BubbleSort.i: 8.3.1_BubbleSort.cpp.i
+
+.PHONY : 8.3.1_BubbleSort.i
+
+# target to preprocess a source file
+8.3.1_BubbleSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.3.1_BubbleSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.3.1_BubbleSort.dir\8.3.1_BubbleSort.cpp.i
+.PHONY : 8.3.1_BubbleSort.cpp.i
+
+8.3.1_BubbleSort.s: 8.3.1_BubbleSort.cpp.s
+
+.PHONY : 8.3.1_BubbleSort.s
+
+# target to generate assembly for a file
+8.3.1_BubbleSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.3.1_BubbleSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.3.1_BubbleSort.dir\8.3.1_BubbleSort.cpp.s
+.PHONY : 8.3.1_BubbleSort.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -7084,6 +7124,7 @@ help:
 	@echo ... 8.2.1_InsertSort
 	@echo ... 8.2.2_BInsertSort
 	@echo ... 8.2.3_ShellSort
+	@echo ... 8.3.1_BubbleSort
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -7310,6 +7351,9 @@ help:
 	@echo ... 8.2.3_ShellSort.obj
 	@echo ... 8.2.3_ShellSort.i
 	@echo ... 8.2.3_ShellSort.s
+	@echo ... 8.3.1_BubbleSort.obj
+	@echo ... 8.3.1_BubbleSort.i
+	@echo ... 8.3.1_BubbleSort.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
