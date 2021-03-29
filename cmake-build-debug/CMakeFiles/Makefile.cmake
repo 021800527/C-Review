@@ -219,4 +219,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/7.2.2_Binary_Search.dir/DependInfo.cmake"
   "CMakeFiles/P278_2.6.dir/DependInfo.cmake"
   "CMakeFiles/Num704_search.dir/DependInfo.cmake"
+  "CMakeFiles/8.2.2_BInsertSort.dir/DependInfo.cmake"
   )
