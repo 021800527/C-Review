@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\C-Review
+CMAKE_SOURCE_DIR = F:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -373,6 +373,19 @@ Num234_isPalindrome: cmake_check_build_system
 Num234_isPalindrome\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num234_isPalindrome.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num234_isPalindrome.dir\build
 .PHONY : Num234_isPalindrome\fast
+
+#=============================================================================
+# Target rules for targets named 8.2.1_InsertSort
+
+# Build rule for target.
+8.2.1_InsertSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 8.2.1_InsertSort
+.PHONY : 8.2.1_InsertSort
+
+# fast build rule for target.
+8.2.1_InsertSort\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.2.1_InsertSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.2.1_InsertSort.dir\build
+.PHONY : 8.2.1_InsertSort\fast
 
 #=============================================================================
 # Target rules for targets named ListDelete
@@ -2957,6 +2970,33 @@ Num704_search\fast:
 7.2.2_Binary_Search.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7.2.2_Binary_Search.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\7.2.2_Binary_Search.dir\7.2.2_Binary_Search.cpp.s
 .PHONY : 7.2.2_Binary_Search.cpp.s
+
+8.2.1_InsertSort.obj: 8.2.1_InsertSort.cpp.obj
+
+.PHONY : 8.2.1_InsertSort.obj
+
+# target to build an object file
+8.2.1_InsertSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.2.1_InsertSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.2.1_InsertSort.dir\8.2.1_InsertSort.cpp.obj
+.PHONY : 8.2.1_InsertSort.cpp.obj
+
+8.2.1_InsertSort.i: 8.2.1_InsertSort.cpp.i
+
+.PHONY : 8.2.1_InsertSort.i
+
+# target to preprocess a source file
+8.2.1_InsertSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.2.1_InsertSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.2.1_InsertSort.dir\8.2.1_InsertSort.cpp.i
+.PHONY : 8.2.1_InsertSort.cpp.i
+
+8.2.1_InsertSort.s: 8.2.1_InsertSort.cpp.s
+
+.PHONY : 8.2.1_InsertSort.s
+
+# target to generate assembly for a file
+8.2.1_InsertSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.2.1_InsertSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.2.1_InsertSort.dir\8.2.1_InsertSort.cpp.s
+.PHONY : 8.2.1_InsertSort.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -6961,6 +7001,7 @@ help:
 	@echo ... 6.4.1_MST_Prim
 	@echo ... 7.2.1_Search_Seq
 	@echo ... 7.2.2_Binary_Search
+	@echo ... 8.2.1_InsertSort
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -7178,6 +7219,9 @@ help:
 	@echo ... 7.2.2_Binary_Search.obj
 	@echo ... 7.2.2_Binary_Search.i
 	@echo ... 7.2.2_Binary_Search.s
+	@echo ... 8.2.1_InsertSort.obj
+	@echo ... 8.2.1_InsertSort.i
+	@echo ... 8.2.1_InsertSort.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
