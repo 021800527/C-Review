@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\C-Review
+CMAKE_SOURCE_DIR = E:\C-Review
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\C-Review\cmake-build-debug
+CMAKE_BINARY_DIR = E:\C-Review\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles F:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles E:\C-Review\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\C-Review\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C-Review\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -2402,6 +2402,19 @@ Num912_sortArray\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Num912_sortArray.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Num912_sortArray.dir\build
 .PHONY : Num912_sortArray\fast
 
+#=============================================================================
+# Target rules for targets named 8.3.2_Partition
+
+# Build rule for target.
+8.3.2_Partition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 8.3.2_Partition
+.PHONY : 8.3.2_Partition
+
+# fast build rule for target.
+8.3.2_Partition\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.3.2_Partition.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.3.2_Partition.dir\build
+.PHONY : 8.3.2_Partition\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3130,6 +3143,33 @@ Num912_sortArray\fast:
 8.3.1_BubbleSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.3.1_BubbleSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.3.1_BubbleSort.dir\8.3.1_BubbleSort.cpp.s
 .PHONY : 8.3.1_BubbleSort.cpp.s
+
+8.3.2_Partition.obj: 8.3.2_Partition.cpp.obj
+
+.PHONY : 8.3.2_Partition.obj
+
+# target to build an object file
+8.3.2_Partition.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.3.2_Partition.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.3.2_Partition.dir\8.3.2_Partition.cpp.obj
+.PHONY : 8.3.2_Partition.cpp.obj
+
+8.3.2_Partition.i: 8.3.2_Partition.cpp.i
+
+.PHONY : 8.3.2_Partition.i
+
+# target to preprocess a source file
+8.3.2_Partition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.3.2_Partition.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.3.2_Partition.dir\8.3.2_Partition.cpp.i
+.PHONY : 8.3.2_Partition.cpp.i
+
+8.3.2_Partition.s: 8.3.2_Partition.cpp.s
+
+.PHONY : 8.3.2_Partition.s
+
+# target to generate assembly for a file
+8.3.2_Partition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.3.2_Partition.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.3.2_Partition.dir\8.3.2_Partition.cpp.s
+.PHONY : 8.3.2_Partition.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -7165,6 +7205,7 @@ help:
 	@echo ... 8.2.2_BInsertSort
 	@echo ... 8.2.3_ShellSort
 	@echo ... 8.3.1_BubbleSort
+	@echo ... 8.3.2_Partition
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -7395,6 +7436,9 @@ help:
 	@echo ... 8.3.1_BubbleSort.obj
 	@echo ... 8.3.1_BubbleSort.i
 	@echo ... 8.3.1_BubbleSort.s
+	@echo ... 8.3.2_Partition.obj
+	@echo ... 8.3.2_Partition.i
+	@echo ... 8.3.2_Partition.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s

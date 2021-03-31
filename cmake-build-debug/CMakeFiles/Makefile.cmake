@@ -223,4 +223,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/8.2.3_ShellSort.dir/DependInfo.cmake"
   "CMakeFiles/8.3.1_BubbleSort.dir/DependInfo.cmake"
   "CMakeFiles/Num912_sortArray.dir/DependInfo.cmake"
+  "CMakeFiles/8.3.2_Partition.dir/DependInfo.cmake"
   )
