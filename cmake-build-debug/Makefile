@@ -2428,6 +2428,19 @@ P323_2.1\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P323_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P323_2.1.dir\build
 .PHONY : P323_2.1\fast
 
+#=============================================================================
+# Target rules for targets named P323_2.2
+
+# Build rule for target.
+P323_2.2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) P323_2.2
+.PHONY : P323_2.2
+
+# fast build rule for target.
+P323_2.2\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P323_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P323_2.2.dir\build
+.PHONY : P323_2.2\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -6238,6 +6251,33 @@ wangdao\P323_2.1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P323_2.1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P323_2.1.dir\wangdao\P323_2.1.cpp.s
 .PHONY : wangdao\P323_2.1.cpp.s
 
+wangdao\P323_2.2.obj: wangdao\P323_2.2.cpp.obj
+
+.PHONY : wangdao\P323_2.2.obj
+
+# target to build an object file
+wangdao\P323_2.2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P323_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P323_2.2.dir\wangdao\P323_2.2.cpp.obj
+.PHONY : wangdao\P323_2.2.cpp.obj
+
+wangdao\P323_2.2.i: wangdao\P323_2.2.cpp.i
+
+.PHONY : wangdao\P323_2.2.i
+
+# target to preprocess a source file
+wangdao\P323_2.2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P323_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P323_2.2.dir\wangdao\P323_2.2.cpp.i
+.PHONY : wangdao\P323_2.2.cpp.i
+
+wangdao\P323_2.2.s: wangdao\P323_2.2.cpp.s
+
+.PHONY : wangdao\P323_2.2.s
+
+# target to generate assembly for a file
+wangdao\P323_2.2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\P323_2.2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P323_2.2.dir\wangdao\P323_2.2.cpp.s
+.PHONY : wangdao\P323_2.2.cpp.s
+
 wangdao\P40_2.1.obj: wangdao\P40_2.1.cpp.obj
 
 .PHONY : wangdao\P40_2.1.obj
@@ -7352,6 +7392,7 @@ help:
 	@echo ... P278_2.6
 	@echo ... P3156
 	@echo ... P323_2.1
+	@echo ... P323_2.2
 	@echo ... P3367
 	@echo ... P40_2.1
 	@echo ... P40_2.10
@@ -7819,6 +7860,9 @@ help:
 	@echo ... wangdao/P323_2.1.obj
 	@echo ... wangdao/P323_2.1.i
 	@echo ... wangdao/P323_2.1.s
+	@echo ... wangdao/P323_2.2.obj
+	@echo ... wangdao/P323_2.2.i
+	@echo ... wangdao/P323_2.2.s
 	@echo ... wangdao/P40_2.1.obj
 	@echo ... wangdao/P40_2.1.i
 	@echo ... wangdao/P40_2.1.s
