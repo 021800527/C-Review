@@ -66,6 +66,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/6.4.1_MST_Prim.dir/DependInfo.cmake"
   "CMakeFiles/LinkLList_frontinsert.dir/DependInfo.cmake"
   "CMakeFiles/P19_2.8.dir/DependInfo.cmake"
+  "CMakeFiles/P323_2.6.dir/DependInfo.cmake"
   "CMakeFiles/Num234_isPalindrome.dir/DependInfo.cmake"
   "CMakeFiles/8.2.1_InsertSort.dir/DependInfo.cmake"
   "CMakeFiles/ListDelete.dir/DependInfo.cmake"
@@ -229,4 +230,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/P323_2.2.dir/DependInfo.cmake"
   "CMakeFiles/P323_2.3.dir/DependInfo.cmake"
   "CMakeFiles/P323_2.5.dir/DependInfo.cmake"
+  "CMakeFiles/P323_2.7.dir/DependInfo.cmake"
   )
