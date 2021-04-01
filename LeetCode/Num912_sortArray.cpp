@@ -3,6 +3,25 @@
 using namespace std;
 class Solution {
 public:
+    vector<int> ShellSortArray(vector<int> &nums){
+    int i;
+    int j ;
+    int flag;
+    int n = nums.size();
+        for (int dk = n/2; dk >=1; dk=dk/2) {
+            for (i = dk;  i<=n ; i++) {
+                if (nums[i]<nums[i-dk]){
+                    flag = nums[i];
+                    for (j = i-dk;  j>=0 && flag <nums[j] ; j=j-dk) {
+                        nums[j+dk] = nums[j];
+                    }
+                    nums[j+dk] = nums[j];
+                }
+            }
+        }
+        return nums;
+    }
+
     vector<int> BinInsertSortArray(vector<int>& nums) {
         int i,j;
         int low,high,mid;
