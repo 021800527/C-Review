@@ -999,6 +999,19 @@ P19_2.12\fast:
 .PHONY : P19_2.12\fast
 
 #=============================================================================
+# Target rules for targets named Offer40_getLeastNumbers
+
+# Build rule for target.
+Offer40_getLeastNumbers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Offer40_getLeastNumbers
+.PHONY : Offer40_getLeastNumbers
+
+# fast build rule for target.
+Offer40_getLeastNumbers\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer40_getLeastNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer40_getLeastNumbers.dir\build
+.PHONY : Offer40_getLeastNumbers\fast
+
+#=============================================================================
 # Target rules for targets named P40_2.1
 
 # Build rule for target.
@@ -4304,6 +4317,33 @@ LeetCode\Offer31_validateStackSequences.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer31_validateStackSequences.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer31_validateStackSequences.dir\LeetCode\Offer31_validateStackSequences.cpp.s
 .PHONY : LeetCode\Offer31_validateStackSequences.cpp.s
 
+LeetCode\Offer40_getLeastNumbers.obj: LeetCode\Offer40_getLeastNumbers.cpp.obj
+
+.PHONY : LeetCode\Offer40_getLeastNumbers.obj
+
+# target to build an object file
+LeetCode\Offer40_getLeastNumbers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer40_getLeastNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer40_getLeastNumbers.dir\LeetCode\Offer40_getLeastNumbers.cpp.obj
+.PHONY : LeetCode\Offer40_getLeastNumbers.cpp.obj
+
+LeetCode\Offer40_getLeastNumbers.i: LeetCode\Offer40_getLeastNumbers.cpp.i
+
+.PHONY : LeetCode\Offer40_getLeastNumbers.i
+
+# target to preprocess a source file
+LeetCode\Offer40_getLeastNumbers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer40_getLeastNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer40_getLeastNumbers.dir\LeetCode\Offer40_getLeastNumbers.cpp.i
+.PHONY : LeetCode\Offer40_getLeastNumbers.cpp.i
+
+LeetCode\Offer40_getLeastNumbers.s: LeetCode\Offer40_getLeastNumbers.cpp.s
+
+.PHONY : LeetCode\Offer40_getLeastNumbers.s
+
+# target to generate assembly for a file
+LeetCode\Offer40_getLeastNumbers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Offer40_getLeastNumbers.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Offer40_getLeastNumbers.dir\LeetCode\Offer40_getLeastNumbers.cpp.s
+.PHONY : LeetCode\Offer40_getLeastNumbers.cpp.s
+
 LeetCode\Offer52_getIntersectionNode.obj: LeetCode\Offer52_getIntersectionNode.cpp.obj
 
 .PHONY : LeetCode\Offer52_getIntersectionNode.obj
@@ -7580,6 +7620,7 @@ help:
 	@echo ... Offer27_mirrorTree
 	@echo ... Offer30_MinStack
 	@echo ... Offer31_validateStackSequences
+	@echo ... Offer40_getLeastNumbers
 	@echo ... Offer52_getIntersectionNode
 	@echo ... Offer55-1_maxDepth
 	@echo ... Offer55_isBalanced
@@ -7881,6 +7922,9 @@ help:
 	@echo ... LeetCode/Offer31_validateStackSequences.obj
 	@echo ... LeetCode/Offer31_validateStackSequences.i
 	@echo ... LeetCode/Offer31_validateStackSequences.s
+	@echo ... LeetCode/Offer40_getLeastNumbers.obj
+	@echo ... LeetCode/Offer40_getLeastNumbers.i
+	@echo ... LeetCode/Offer40_getLeastNumbers.s
 	@echo ... LeetCode/Offer52_getIntersectionNode.obj
 	@echo ... LeetCode/Offer52_getIntersectionNode.i
 	@echo ... LeetCode/Offer52_getIntersectionNode.s

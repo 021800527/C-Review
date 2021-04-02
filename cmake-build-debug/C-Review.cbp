@@ -2873,6 +2873,48 @@
 					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Offer40_getLeastNumbers">
+				<Option output="E:/C-Review/cmake-build-debug/Offer40_getLeastNumbers.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer40_getLeastNumbers"/>
+					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Offer40_getLeastNumbers/fast">
+				<Option output="E:/C-Review/cmake-build-debug/Offer40_getLeastNumbers.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/C-Review/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 Offer40_getLeastNumbers/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\C-Review\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="P40_2.1">
 				<Option output="E:/C-Review/cmake-build-debug/P40_2.1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/C-Review/cmake-build-debug"/>
@@ -8006,6 +8048,9 @@
 		</Unit>
 		<Unit filename="E:/C-Review/LeetCode/Offer31_validateStackSequences.cpp">
 			<Option target="Offer31_validateStackSequences"/>
+		</Unit>
+		<Unit filename="E:/C-Review/LeetCode/Offer40_getLeastNumbers.cpp">
+			<Option target="Offer40_getLeastNumbers"/>
 		</Unit>
 		<Unit filename="E:/C-Review/LeetCode/Offer52_getIntersectionNode.cpp">
 			<Option target="Offer52_getIntersectionNode"/>
