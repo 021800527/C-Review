@@ -2532,6 +2532,19 @@ P323_2.7\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.4.1_SelectSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.4.1_SelectSort.dir\build
 .PHONY : 8.4.1_SelectSort\fast
 
+#=============================================================================
+# Target rules for targets named 8.4.2_BuildMaxHeap
+
+# Build rule for target.
+8.4.2_BuildMaxHeap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 8.4.2_BuildMaxHeap
+.PHONY : 8.4.2_BuildMaxHeap
+
+# fast build rule for target.
+8.4.2_BuildMaxHeap\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.4.2_BuildMaxHeap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.4.2_BuildMaxHeap.dir\build
+.PHONY : 8.4.2_BuildMaxHeap\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3314,6 +3327,33 @@ P323_2.7\fast:
 8.4.1_SelectSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.4.1_SelectSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.4.1_SelectSort.dir\8.4.1_SelectSort.cpp.s
 .PHONY : 8.4.1_SelectSort.cpp.s
+
+8.4.2_BuildMaxHeap.obj: 8.4.2_BuildMaxHeap.cpp.obj
+
+.PHONY : 8.4.2_BuildMaxHeap.obj
+
+# target to build an object file
+8.4.2_BuildMaxHeap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.4.2_BuildMaxHeap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.4.2_BuildMaxHeap.dir\8.4.2_BuildMaxHeap.cpp.obj
+.PHONY : 8.4.2_BuildMaxHeap.cpp.obj
+
+8.4.2_BuildMaxHeap.i: 8.4.2_BuildMaxHeap.cpp.i
+
+.PHONY : 8.4.2_BuildMaxHeap.i
+
+# target to preprocess a source file
+8.4.2_BuildMaxHeap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.4.2_BuildMaxHeap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.4.2_BuildMaxHeap.dir\8.4.2_BuildMaxHeap.cpp.i
+.PHONY : 8.4.2_BuildMaxHeap.cpp.i
+
+8.4.2_BuildMaxHeap.s: 8.4.2_BuildMaxHeap.cpp.s
+
+.PHONY : 8.4.2_BuildMaxHeap.s
+
+# target to generate assembly for a file
+8.4.2_BuildMaxHeap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.4.2_BuildMaxHeap.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.4.2_BuildMaxHeap.dir\8.4.2_BuildMaxHeap.cpp.s
+.PHONY : 8.4.2_BuildMaxHeap.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -7567,6 +7607,7 @@ help:
 	@echo ... 8.3.1_BubbleSort
 	@echo ... 8.3.2_Partition
 	@echo ... 8.4.1_SelectSort
+	@echo ... 8.4.2_BuildMaxHeap
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -7811,6 +7852,9 @@ help:
 	@echo ... 8.4.1_SelectSort.obj
 	@echo ... 8.4.1_SelectSort.i
 	@echo ... 8.4.1_SelectSort.s
+	@echo ... 8.4.2_BuildMaxHeap.obj
+	@echo ... 8.4.2_BuildMaxHeap.i
+	@echo ... 8.4.2_BuildMaxHeap.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s
