@@ -2506,6 +2506,19 @@ P323_2.7\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\P323_2.7.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\P323_2.7.dir\build
 .PHONY : P323_2.7\fast
 
+#=============================================================================
+# Target rules for targets named 8.4.1_SelectSort
+
+# Build rule for target.
+8.4.1_SelectSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 8.4.1_SelectSort
+.PHONY : 8.4.1_SelectSort
+
+# fast build rule for target.
+8.4.1_SelectSort\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.4.1_SelectSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.4.1_SelectSort.dir\build
+.PHONY : 8.4.1_SelectSort\fast
+
 3.1.2_ShStack.obj: 3.1.2_ShStack.cpp.obj
 
 .PHONY : 3.1.2_ShStack.obj
@@ -3261,6 +3274,33 @@ P323_2.7\fast:
 8.3.2_Partition.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.3.2_Partition.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.3.2_Partition.dir\8.3.2_Partition.cpp.s
 .PHONY : 8.3.2_Partition.cpp.s
+
+8.4.1_SelectSort.obj: 8.4.1_SelectSort.cpp.obj
+
+.PHONY : 8.4.1_SelectSort.obj
+
+# target to build an object file
+8.4.1_SelectSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.4.1_SelectSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.4.1_SelectSort.dir\8.4.1_SelectSort.cpp.obj
+.PHONY : 8.4.1_SelectSort.cpp.obj
+
+8.4.1_SelectSort.i: 8.4.1_SelectSort.cpp.i
+
+.PHONY : 8.4.1_SelectSort.i
+
+# target to preprocess a source file
+8.4.1_SelectSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.4.1_SelectSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.4.1_SelectSort.dir\8.4.1_SelectSort.cpp.i
+.PHONY : 8.4.1_SelectSort.cpp.i
+
+8.4.1_SelectSort.s: 8.4.1_SelectSort.cpp.s
+
+.PHONY : 8.4.1_SelectSort.s
+
+# target to generate assembly for a file
+8.4.1_SelectSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.4.1_SelectSort.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\8.4.1_SelectSort.dir\8.4.1_SelectSort.cpp.s
+.PHONY : 8.4.1_SelectSort.cpp.s
 
 DLinkList_Init.obj: DLinkList_Init.cpp.obj
 
@@ -7486,6 +7526,7 @@ help:
 	@echo ... 8.2.3_ShellSort
 	@echo ... 8.3.1_BubbleSort
 	@echo ... 8.3.2_Partition
+	@echo ... 8.4.1_SelectSort
 	@echo ... C
 	@echo ... DLinkList_Init
 	@echo ... DLinkList_Init.cpp
@@ -7726,6 +7767,9 @@ help:
 	@echo ... 8.3.2_Partition.obj
 	@echo ... 8.3.2_Partition.i
 	@echo ... 8.3.2_Partition.s
+	@echo ... 8.4.1_SelectSort.obj
+	@echo ... 8.4.1_SelectSort.i
+	@echo ... 8.4.1_SelectSort.s
 	@echo ... DLinkList_Init.obj
 	@echo ... DLinkList_Init.i
 	@echo ... DLinkList_Init.s

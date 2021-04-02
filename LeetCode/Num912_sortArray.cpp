@@ -1,8 +1,52 @@
 #include<iostream>
 #include<vector>
+#include <algorithm>
 using namespace std;
 class Solution {
 public:
+    vector<int>sortArray(vector<int> &nums){
+        sort(nums.begin(),nums.end());
+        return nums;
+    }
+    vector<int> PartitionSortArray(vector<int> &nums){
+        int high = nums.size()-1;
+        int low = 0;
+        QuickSort(nums,low,high);
+    }
+    void QuickSort(vector<int> &num,int low, int high){
+        if (low<high){
+            int pivotpos = Partition(num,low,high);
+            QuickSort(num,low,pivotpos-1);
+            QuickSort(num,pivotpos+1,high);
+        }
+    }
+    int Partition(vector<int>&nums,int low,int high){
+        int flag = nums[low];
+        while (low<high){
+            while (low<high && nums[high]>flag) high--;
+            nums[low] = nums[high];
+            while (low<high && nums[low]<flag) low++;
+            nums[high] = nums[low];
+        }
+        nums[low] = flag;
+        return low;
+    }
+    vector<int> BubbleSortArray(vector<int> &nums){
+        int i ,j;
+        bool flag = false;
+        for (i = 0;  i<nums.size() ; i++) {
+            for (j = nums.size()-1 ; j>i ; j--) {
+                if (nums[j-1]>nums[j]){
+                    swap(nums[j-1],nums[j]);
+                    flag = true;
+                }
+            }
+            if (flag== false)
+                break;
+        }
+        return nums;
+    }
+
     vector<int> ShellSortArray(vector<int> &nums){
     int i;
     int j ;
